@@ -67,16 +67,24 @@
             "id": "e7e2a071ddcd26b7",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "22ea1e2d0bdb4123",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Information Hiding.md",
+                "file": "SOLID Design Principles.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Information Hiding.md",
+                "file": "SOLID Design Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Information Hiding.md",
+                "file": "SOLID Design Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Information Hiding.md"
+                "file": "SOLID Design Principles.md"
               }
             }
           }
@@ -203,17 +211,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7e2a071ddcd26b7",
+  "active": "22ea1e2d0bdb4123",
   "lastOpenFiles": [
-    "Dependency Inversion Principle.md",
-    "Information Hiding.md",
+    "README.md",
     "Pasted image 20231110030504.png",
-    "Pasted image 20231110030241.png",
     "Pasted image 20231110030149.png",
+    "Law of Demeter.md",
+    "Dependency Inversion Principle.md",
+    "SOLID Design Principles.md",
+    "Information Hiding.md",
+    "Pasted image 20231110030241.png",
     "Interface Segregation Principle.md",
     "Liskov Substitution Principle.md",
     "Open Closed Principle.md",
-    "SOLID Design Principles.md",
     "sources/LiskofHappySad_ICSE-SEET_2018.pdf",
     "sources/Pasted image 20231110025542.png",
     "sources",

@@ -4,6 +4,8 @@ tags:
   - ocp
   - solid
   - srp
+  - isp
+  - dip
 ---
 
 ## [Single Responsibility Principle](#srp)
