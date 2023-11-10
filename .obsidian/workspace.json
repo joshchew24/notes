@@ -14,8 +14,69 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "a8409938d196d2a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SOLID Design Principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1f32fbb1468d350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open Closed Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28bbdea646b57f1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interface Segregation Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "876b4f3b27a0a328",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dependency Inversion Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e7e2a071ddcd26b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Information Hiding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -81,6 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Information Hiding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Information Hiding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Information Hiding.md"
+              }
             }
           }
         ]
@@ -138,10 +203,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9a6d27eedd07e078",
+  "active": "e7e2a071ddcd26b7",
   "lastOpenFiles": [
+    "Dependency Inversion Principle.md",
+    "Information Hiding.md",
+    "Pasted image 20231110030504.png",
+    "Pasted image 20231110030241.png",
+    "Pasted image 20231110030149.png",
+    "Interface Segregation Principle.md",
     "Liskov Substitution Principle.md",
-    "LiskofHappySad_ICSE-SEET_2018.pdf",
+    "Open Closed Principle.md",
+    "SOLID Design Principles.md",
+    "sources/LiskofHappySad_ICSE-SEET_2018.pdf",
+    "sources/Pasted image 20231110025542.png",
+    "sources",
+    "sources/Pasted image 20231110025647.png",
+    "sources/Pasted image 20231110025610.png",
     "Unconfirmed 972378.crdownload"
   ]
 }

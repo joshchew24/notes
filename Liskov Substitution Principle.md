@@ -1,3 +1,9 @@
+---
+tags:
+  - lsp
+  - solid
+---
+
 Post-Conditions can widen (loosen) but cannot narrow (strengthen)
 i.e. the subclass can accept a wider range of inputs than the superclass.
 i.e. if the subclass accepts a narrower range of inputs, then it violates LSP
