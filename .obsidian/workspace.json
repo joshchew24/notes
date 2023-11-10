@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID Design Principles.md",
+                "file": "CPSC 310/SOLID Design Principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Open Closed Principle.md",
+                "file": "CPSC 310/Open Closed Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interface Segregation Principle.md",
+                "file": "CPSC 310/Interface Segregation Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dependency Inversion Principle.md",
+                "file": "CPSC 310/Dependency Inversion Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,14 +77,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLID Design Principles.md",
+                "file": "CPSC 310/Dependency Inversion Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6927e0176a305181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 310/SOLID Design Principles.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -150,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SOLID Design Principles.md",
+                "file": "CPSC 310/SOLID Design Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SOLID Design Principles.md",
+                "file": "CPSC 310/SOLID Design Principles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SOLID Design Principles.md"
+                "file": "CPSC 310/SOLID Design Principles.md"
               }
             }
           }
@@ -211,19 +223,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22ea1e2d0bdb4123",
+  "active": "a20870317b93f75a",
   "lastOpenFiles": [
+    "CPSC 313",
+    "CPSC 310/Open Closed Principle.md",
+    "CPSC 310/Liskov Substitution Principle.md",
+    "CPSC 310/Law of Demeter.md",
+    "CPSC 310/Dependency Inversion Principle.md",
+    "CPSC 310/Information Hiding.md",
+    "CPSC 310/Interface Segregation Principle.md",
+    "CPSC 310/SOLID Design Principles.md",
     "README.md",
-    "Pasted image 20231110030504.png",
-    "Pasted image 20231110030149.png",
-    "Law of Demeter.md",
-    "Dependency Inversion Principle.md",
-    "SOLID Design Principles.md",
-    "Information Hiding.md",
-    "Pasted image 20231110030241.png",
-    "Interface Segregation Principle.md",
-    "Liskov Substitution Principle.md",
-    "Open Closed Principle.md",
+    "sources/Pasted image 20231110030149.png",
+    "CPSC 310",
+    "sources/Pasted image 20231110030504.png",
+    "sources/Pasted image 20231110030241.png",
     "sources/LiskofHappySad_ICSE-SEET_2018.pdf",
     "sources/Pasted image 20231110025542.png",
     "sources",

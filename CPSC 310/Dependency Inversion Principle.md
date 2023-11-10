@@ -2,6 +2,7 @@
 tags:
   - dip
   - solid
+  - cpsc310
 ---
 high-level modules should NOT depend on low-level modules. Both should depend on abstractions
 ![[Pasted image 20231110030149.png]]

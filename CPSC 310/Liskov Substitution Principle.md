@@ -2,6 +2,7 @@
 tags:
   - lsp
   - solid
+  - cpsc310
 ---
 
 Post-Conditions can widen (loosen) but cannot narrow (strengthen)

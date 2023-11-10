@@ -6,6 +6,7 @@ tags:
   - srp
   - isp
   - dip
+  - cpsc310
 ---
 
 ## [Single Responsibility Principle](#srp)

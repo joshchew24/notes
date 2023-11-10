@@ -3,6 +3,7 @@ tags:
   - isp
   - solid
   - todo
+  - cpsc310
 ---
 clients should not be required to depend on methods they do not need
 no implementation should be forced to provide methods that do not fit into their abstractions

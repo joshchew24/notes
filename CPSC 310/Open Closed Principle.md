@@ -1,3 +1,10 @@
+---
+tags:
+  - cpsc310
+  - ocp
+  - solid
+---
+
 class must be closed for internal change, but open to extension
 
 superclass should not require modification when new specialized behaviour is desired
