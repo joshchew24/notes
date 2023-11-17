@@ -1,5 +1,7 @@
 ---
-ta: index
+tags:
+  - index
+  - cpsc313
 ---
 # File Representation (Index Types)
 # Flat Index

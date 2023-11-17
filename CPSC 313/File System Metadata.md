@@ -1,6 +1,11 @@
+---
+tags:
+  - cpsc313
+---
+
 # File System Metadata
 - POSIX provides two APIs to obtain information about a (mounted) system
-	- via the passed structure, returns metadata about the file system in which the object represented by path/fd appears
+	- via the passed `struct statfs`, returns metadata about the file system in which the object represented by path/fd appears
 		- filesystem type
 		- optimal transfer block size
 		- total number of blocks
@@ -25,6 +30,3 @@ If given an unmounted file system, we don't know how to interpret it. The first 
 	- number of inodes
 	- number of blocks
 	- number of free inodes/blocks
-
-# File Metadata
-- POSIX provides two APIs to obtain information about a (mounted) system

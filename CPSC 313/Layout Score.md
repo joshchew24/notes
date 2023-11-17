@@ -1,3 +1,8 @@
+---
+tags:
+  - cpsc313
+---
+
 # Layout Score
 Undefined for 1-block files
 `layout_score = num_contiguous_blocks/(num_total_blocks - 1)`

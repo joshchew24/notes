@@ -1,3 +1,8 @@
+---
+tags:
+  - cpsc313
+---
+
 # Data Structures
 # Single Extent
 - 2 IOs/Reads to get any disk data

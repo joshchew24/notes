@@ -4,171 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a373eb3a3b449416",
+        "id": "c74fcc16e3eeeac2",
         "type": "tabs",
         "children": [
           {
-            "id": "9a6d27eedd07e078",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "a8409938d196d2a9",
+            "id": "1b5e1c741cceabc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPSC 310/SOLID Design Principles.md",
+                "file": "CPSC 313/File Metadata.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a1f32fbb1468d350",
+            "id": "f0d78b86ecb6ff7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPSC 310/Open Closed Principle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28bbdea646b57f1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 310/Interface Segregation Principle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "876b4f3b27a0a328",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 310/Dependency Inversion Principle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7e2a071ddcd26b7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "22ea1e2d0bdb4123",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 310/Dependency Inversion Principle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6927e0176a305181",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 310/SOLID Design Principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9008d640065233a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 313/Access Times.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3a3bcebf5e6b138",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 313/Layout Score.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "992068f9e26d1b95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 313/Data Structures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b11b2d664ba8ad67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 313/File Representation (Index Types).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0c19997e42d0057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File System Metadata.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "476d51cc2f0a8003",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CPSC 310/Dependency Inversion Principle.md",
+                "file": "CPSC 313/Reading Directories.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -234,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC 310/Dependency Inversion Principle.md",
+                "file": "CPSC 313/Reading Directories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC 310/Dependency Inversion Principle.md",
+                "file": "CPSC 313/Reading Directories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPSC 310/Dependency Inversion Principle.md"
+                "file": "CPSC 313/Reading Directories.md"
               }
             }
           }
@@ -295,22 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "476d51cc2f0a8003",
+  "active": "f0d78b86ecb6ff7d",
   "lastOpenFiles": [
-    "CPSC 310/Information Hiding.md",
-    "CPSC 310/Interface Segregation Principle.md",
-    "CPSC 310/Liskov Substitution Principle.md",
-    "CPSC 310/Law of Demeter.md",
-    "CPSC 310/Open Closed Principle.md",
-    "CPSC 310/SOLID Design Principles.md",
-    "CPSC 313/File Representation (Index Types).md",
-    "CPSC 313/Data Structures.md",
-    "CPSC 313/Access Times.md",
     "CPSC 313/Layout Score.md",
+    "CPSC 313/File System Metadata.md",
+    "CPSC 313/File Representation (Index Types).md",
+    "CPSC 313/File Metadata.md",
+    "CPSC 313/Data Structures.md",
+    "CPSC 313/Cache Speedup.md",
+    "CPSC 313/Access Times.md",
+    "CPSC 313/Reading Directories.md",
+    "CPSC 310/Liskov Substitution Principle.md",
     "CPSC 310/Dependency Inversion Principle.md",
-    "File Metadata.md",
+    "CPSC 310/SOLID Design Principles.md",
+    "CPSC 310/Interface Segregation Principle.md",
+    "CPSC 310/Open Closed Principle.md",
+    "CPSC 310/Information Hiding.md",
+    "CPSC 310/Law of Demeter.md",
     "Templates",
-    "File System Metadata.md",
     "CPSC 313",
     "README.md",
     "sources/Pasted image 20231110030149.png",
