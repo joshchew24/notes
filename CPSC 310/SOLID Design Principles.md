@@ -8,6 +8,7 @@ tags:
   - dip
   - cpsc310
 ---
+# SOLID Design Principles
 
 ## [Single Responsibility Principle](#srp)
 ## Open/Closed Principle 

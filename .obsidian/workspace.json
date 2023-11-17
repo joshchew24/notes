@@ -94,9 +94,81 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9008d640065233a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 313/Access Times.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3a3bcebf5e6b138",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 313/Layout Score.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "992068f9e26d1b95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 313/Data Structures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b11b2d664ba8ad67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 313/File Representation (Index Types).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0c19997e42d0057",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "File System Metadata.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "476d51cc2f0a8003",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 310/Dependency Inversion Principle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -162,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC 310/SOLID Design Principles.md",
+                "file": "CPSC 310/Dependency Inversion Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC 310/SOLID Design Principles.md",
+                "file": "CPSC 310/Dependency Inversion Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPSC 310/SOLID Design Principles.md"
+                "file": "CPSC 310/Dependency Inversion Principle.md"
               }
             }
           }
@@ -223,16 +295,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a20870317b93f75a",
+  "active": "476d51cc2f0a8003",
   "lastOpenFiles": [
-    "CPSC 313",
-    "CPSC 310/Open Closed Principle.md",
-    "CPSC 310/Liskov Substitution Principle.md",
-    "CPSC 310/Law of Demeter.md",
-    "CPSC 310/Dependency Inversion Principle.md",
     "CPSC 310/Information Hiding.md",
     "CPSC 310/Interface Segregation Principle.md",
+    "CPSC 310/Liskov Substitution Principle.md",
+    "CPSC 310/Law of Demeter.md",
+    "CPSC 310/Open Closed Principle.md",
     "CPSC 310/SOLID Design Principles.md",
+    "CPSC 313/File Representation (Index Types).md",
+    "CPSC 313/Data Structures.md",
+    "CPSC 313/Access Times.md",
+    "CPSC 313/Layout Score.md",
+    "CPSC 310/Dependency Inversion Principle.md",
+    "File Metadata.md",
+    "Templates",
+    "File System Metadata.md",
+    "CPSC 313",
     "README.md",
     "sources/Pasted image 20231110030149.png",
     "CPSC 310",

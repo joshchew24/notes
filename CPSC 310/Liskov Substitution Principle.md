@@ -4,6 +4,7 @@ tags:
   - solid
   - cpsc310
 ---
+# Liskov Substitution Principle
 
 Post-Conditions can widen (loosen) but cannot narrow (strengthen)
 i.e. the subclass can accept a wider range of inputs than the superclass.

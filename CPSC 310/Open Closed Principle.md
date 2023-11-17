@@ -4,6 +4,7 @@ tags:
   - ocp
   - solid
 ---
+# Open Closed Principle
 
 class must be closed for internal change, but open to extension
 
