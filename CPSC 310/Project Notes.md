@@ -1,0 +1,55 @@
+# Project Notes
+
+## Refactoring Add Dataset
+- Persistent Files:
+	- `dataset_index.json`
+		- the metadata file has an underscore to prevent collisions with possible dataset IDs
+		- contains array of InsightDatasets that have been successfully added
+	- `<dataset ID>.json`
+- InsightFacade addDataset will attempt to construct an instance of InsightDataset
+	- if no errors are caught, then we return `DiskUtil.retrieveAllDatasetIds`
+- InsightDataset Class:
+	- implements InsightDataset Interface
+	- private fields: id, kind, numRows, data (optional)
+		- id
+		- kind
+		- numRows
+		- data
+			- array of InsightData objects
+				- InsightData is an interface
+					- Implemented by SectionData and RoomData
+					- typescript cannot enforce all elements of the array being of the same child type
+						- i.e. we cannot have a sections dataset that contains roomData
+						- thus, when adding dataset, we use the "kind" parameter to ensure all data follows the correct schema
+	- `constructor(id, kind, numRows?, data?)`
+		- validate ID
+			- should invalidate:
+				- contains underscore, whitespace only, empty, already exists
+			- valid
+				- characters only, characters and whitespace, numbers only
+		- this.id = id
+		- this.kind = kind
+		- could use a discriminated union, but this seems cleaner... i think
+			- if numRows == undefined 
+				- if data == undefined, throw InsightError
+				- else process data
+					- data = return value from this.processRawData(data)
+					- numRows = data.length
+			- else this.numRows = numRows
+	- all fields have public getters
+		- `getData`
+			- if data is null, use `DiskUtil.retrieveDataset(id)`
+			- otherwise return data
+	- public function `writeToDisk`
+		- append `this.toListEntry()` to `dataset_index.json`
+		- write data (with header) to `<id>.json`
+			- id
+			- kind
+			- numRows
+			- data
+		- we store redundant copies of the metadata
+			- maintaining `dataset_index.json` is simpler and more efficient than constructing a list by parsing each file and extracting the metadata from the header
+	- private function `toListEntry`
+		- returns an object to be used as an entry for `dataset_index.json`
+- Retrieve Dataset takes a dataset ID and attempts to read it from disk. it returns a Dataset object
+- [ ] make DIskUtil async!!!
