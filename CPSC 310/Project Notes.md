@@ -15,7 +15,6 @@
 		- kind
 		- numRows
 	- private fields:
-		- \_rawContent?: string
 		- \_data?: InsightData\[ \]
 			- array of InsightData objects
 				- InsightData is an interface
@@ -23,7 +22,7 @@
 					- typescript cannot enforce all elements of the array being of the same child type
 						- i.e. we cannot have a sections dataset that contains roomData
 						- thus, when adding dataset, we use the "kind" parameter to ensure all data follows the correct schema
-	- `constructor(id, kind, numRows=0, content?)`
+	- `constructor(id, kind, numRows=0)`
 		- validate ID
 			- should invalidate:
 				- contains underscore, whitespace only, empty, already exists
@@ -32,10 +31,9 @@
 		- this.id = id
 		- this.kind = kind
 		- this.numRows == numRows
-		- this.rawContent = content
-	- `getData`
+	- `getData(content?: string)`
 		- if this.numRows == 0
-			- if this.RawContent == null
+			- if content == null
 				- throw new InsightError("Cannot add dataset with no valid sections")
 			- processRawContent()
 		- if this.numRows > 0
