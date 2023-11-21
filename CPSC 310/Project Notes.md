@@ -10,18 +10,20 @@
 	- if no errors are caught, then we return `DiskUtil.retrieveAllDatasetIds`
 - InsightDataset Class:
 	- implements InsightDataset Interface
-	- private fields: id, kind, numRows, data (optional)
+	- public fields:
 		- id
 		- kind
 		- numRows
-		- data
+	- private fields:
+		- \_rawContent?: string
+		- \_data?: InsightData\[ \]
 			- array of InsightData objects
 				- InsightData is an interface
 					- Implemented by SectionData and RoomData
 					- typescript cannot enforce all elements of the array being of the same child type
 						- i.e. we cannot have a sections dataset that contains roomData
 						- thus, when adding dataset, we use the "kind" parameter to ensure all data follows the correct schema
-	- `constructor(id, kind, numRows?, data?)`
+	- `constructor(id, kind, numRows=0, content?)`
 		- validate ID
 			- should invalidate:
 				- contains underscore, whitespace only, empty, already exists
@@ -29,17 +31,20 @@
 				- characters only, characters and whitespace, numbers only
 		- this.id = id
 		- this.kind = kind
-		- could use a discriminated union, but this seems cleaner... i think
-			- if numRows == undefined 
-				- if data == undefined, throw InsightError
-				- else process data
-					- data = return value from this.processRawData(data)
-					- numRows = data.length
-			- else this.numRows = numRows
-	- all fields have public getters
-		- `getData`
-			- if data is null, use `DiskUtil.retrieveDataset(id)`
-			- otherwise return data
+		- this.numRows == numRows
+		- this.rawContent = content
+	- `getData`
+		- if this.numRows == 0
+			- if this.RawContent == null
+				- throw new InsightError("Cannot add dataset with no valid sections")
+			- processRawContent()
+		- if this.numRows > 0
+			- if (data == null)
+				- try DiskUtil.retrieveDataset(id)
+			- else
+				- return data
+		- if data is null, use `DiskUtil.retrieveDataset(id)`
+		- otherwise return data
 	- public function `writeToDisk`
 		- append `this.toListEntry()` to `dataset_index.json`
 		- write data (with header) to `<id>.json`
@@ -53,3 +58,4 @@
 		- returns an object to be used as an entry for `dataset_index.json`
 - Retrieve Dataset takes a dataset ID and attempts to read it from disk. it returns a Dataset object
 - [ ] make DIskUtil async!!!
+- [ ] is it possible to have filenames that include `/`?
