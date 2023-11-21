@@ -4,6 +4,7 @@ tags:
 ---
 # Reading Directories
 directories (folders) as structured files: we impose structure on top of the byte-stream abstraction that files provide
+i.e. collection of file system objects 
 ### opendir
 `DIR *opendir(const char *name);`
 opens a directory, returning a handle
