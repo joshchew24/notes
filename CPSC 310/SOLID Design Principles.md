@@ -10,6 +10,8 @@ tags:
 ---
 # SOLID Design Principles
 
-## [Single Responsibility Principle](#srp)
-## Open/Closed Principle 
-## Liskov Substitution Principle 
+## [[Single Responsibility Principle]]
+## [[Open Closed Principle]] 
+## [[Liskov Substitution Principle]] 
+## [[Interface Segregation Principle]]
+## [[Dependency Inversion Principle]]
