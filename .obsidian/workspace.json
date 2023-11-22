@@ -23,8 +23,12 @@
             "id": "24aa3bcca655bd29",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 313/tutorials/Tutorial 6 Caching.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -33,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPSC 313/tutorials/Tutorial 6 - Caching.md",
+                "file": "CPSC 313/tutorials/Tutorial 7 Cache wrapup.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#isp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +102,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CPSC 313/tutorials/Tutorial 7 Cache wrapup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CPSC 313/tutorials/Tutorial 7 Cache wrapup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CPSC 313/tutorials/Tutorial 7 Cache wrapup.md"
+              }
             }
           }
         ]
@@ -176,30 +183,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63b6dda9ae0ae077",
+  "active": "4f41f7bd682769b9",
   "lastOpenFiles": [
-    "CPSC 310/SOLID Design Principles.md",
-    "Single Responsibility Principle.md",
-    "CPSC 310/Interface Segregation Principle.md",
-    "CPSC 310/Information Hiding.md",
-    "CPSC 310/Dependency Inversion Principle.md",
-    "Untitled.canvas",
-    "CPSC 313/tutorials/Tutorial 6 - Caching.md",
-    "CPSC 313/Access Times.md",
+    "CPSC 313/tutorials/Tutorial 6 Caching.md",
+    "CPSC 313/tutorials/Tutorial 7 Cache wrapup.md",
     "CPSC 313/System Calls.md",
-    "CPSC 313/Data Structures.md",
     "CPSC 313/Reading Directories.md",
-    "CPSC 313/tutorials",
-    "CPSC 313/lec 11-17.md",
     "CPSC 313/Mapping Filename to Metadata.md",
+    "CPSC 313/lec 11-17.md",
     "CPSC 313/Layout Score.md",
     "CPSC 313/File System Metadata.md",
     "CPSC 313/File Representation (Index Types).md",
     "CPSC 313/File Metadata.md",
-    "CPSC 313/Cache Speedup.md",
-    "CPSC 310/Liskov Substitution Principle.md",
-    "CPSC 310/Open Closed Principle.md",
     "CPSC 310/Law of Demeter.md",
+    "CPSC 310/Interface Segregation Principle.md",
+    "CPSC 310/Liskov Substitution Principle.md",
+    "CPSC 313/Access Times.md",
+    "CPSC 310/SOLID Design Principles.md",
+    "Single Responsibility Principle.md",
+    "CPSC 310/Information Hiding.md",
+    "CPSC 310/Dependency Inversion Principle.md",
+    "Untitled.canvas",
+    "CPSC 313/Data Structures.md",
+    "CPSC 313/tutorials",
+    "CPSC 313/Cache Speedup.md",
+    "CPSC 310/Open Closed Principle.md",
     "Templates",
     "CPSC 313",
     "README.md",

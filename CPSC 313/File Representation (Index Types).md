@@ -9,7 +9,7 @@ tags:
 LBN is the index number
 # Multi-Level Index
 ### LBN to PBN
-*the explanation in I23.4 does this differently*
+*the explanation in I23.4 does this differently* 
 let $n$ = number of addresses able to be stored per block
 let $h$ = height of index tree
 let $k$ = number of levels in the index (root has k = h)
