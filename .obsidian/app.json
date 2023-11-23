@@ -1,5 +1,6 @@
 {
   "propertiesInDocument": "visible",
   "showLineNumber": false,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "newFileLocation": "current"
 }
