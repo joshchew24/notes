@@ -31,18 +31,21 @@
 		- this.id = id
 		- this.kind = kind
 		- this.numRows == numRows
-	- `getData(content?: string)`
+	- `getData()`
 		- if this.numRows == 0
-			- if content == null
-				- throw new InsightError("Cannot add dataset with no valid sections")
-			- processRawContent()
-		- if this.numRows > 0
-			- if (data == null)
-				- try DiskUtil.retrieveDataset(id)
-			- else
-				- return data
-		- if data is null, use `DiskUtil.retrieveDataset(id)`
-		- otherwise return data
+			-  throw new InsightError("Cannot add dataset with no valid sections")
+		- if this.\_data == null
+			- try DiskUtil.retrieveDataset(id)
+		- return data
+	- `addData(content: string)`
+		- if this.\_data != null
+			- error: can't overwrite data
+		- if content param == null
+			- error: need to provide content to be added to dataset
+		- if kind == rooms
+			- processRoomsData
+		- else
+			- processSectionsData
 	- public function `writeToDisk`
 		- append `this.toListEntry()` to `dataset_index.json`
 		- write data (with header) to `<id>.json`

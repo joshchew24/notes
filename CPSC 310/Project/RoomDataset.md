@@ -1,0 +1,29 @@
+# RoomDataset
+- geolocation?
+	- processFileContents(content)
+		- read index.htm from zip
+		- parse index.htm to AST
+		- find buildings table (contains one of the valid classes)
+			- buildingTableSearchStack = \[root\]
+			- while buildingTableSearchStack.length != 0
+				- currnode = stack.pop()
+				- if currNode has nodename table and attr class = "views-table", break loop
+				- else, push child nodes to buildingTableSearchStack
+					- using DFS arbitrarily
+					- can change this to check performance times but queues have a dequeue time complexity of O(n))
+		- simultaneously validate table and generate list of bulilding paths
+			- validate header classes
+			- iterate through TR nodes(?)
+				- validate classes
+				- save code (shortname), long name, address, href as objects in array
+		- iterate through buliding list
+			- if href link DNE, skip
+			- find room table
+				- validate header classes
+				- iterate through TR
+					- validate classes
+					- get room number, seats, room type, furniture type
+				- construct name (room id = shortname + number)
+				- return list of valid rooms
+			- if valid room list is empty, skip this building
+			- else, GET geolocation and populate lat and lon
