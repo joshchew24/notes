@@ -29,4 +29,4 @@ $index_{1} = \frac{58 \bmod 4^{1}}{4^{0}} = \frac{2}{1} = 2$
 if LBN maps to a direct pointer, simply use LBN as lookup into index
 if LBN maps to an indirect pointer:
 - let $X$ = number of pointers/addresses in the index before the entry we are searching in
-- when calculating indices within the appropriate tree, use $lookup = LBN - X$ 
+- when calculating indices within the appropriate tree, use $lookup = LBN - X$ as the LBN
