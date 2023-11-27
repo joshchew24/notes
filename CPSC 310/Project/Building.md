@@ -4,7 +4,18 @@
 	- if this.rooms != null
 		- return this.rooms
 	- this.zip.file(this.buildingFile)
+	- getFileFromZip(zip, this.buildingFile);
 
+for all cells in a buildingCellArr
+	does it have a class attribute?
+		if yes, does it match one of our required fields?
+			if yes, populate that field
+		else, continue
+	else continue
+
+if the fields are not all populated, return null or error?
+
+if this node has classes, retrieve the corresponding value
 BuildingTable:
 ```
 {
@@ -416,4 +427,4 @@ BuldingRow:
 	in child text node
 4: href
 	in child A node
-		in child text node
+		in attributes
