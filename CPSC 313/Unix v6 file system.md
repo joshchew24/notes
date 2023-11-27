@@ -3,7 +3,7 @@ tags:
   - cpsc313
   - 11-19
 ---
-# V6 file system
+# Unix v6 file system
 
 - ancestor of most modern file systems
 
@@ -92,7 +92,7 @@ struct ino {
 - Huge files
 	- 1 in i_mode's file size bit
 	- 7 indirect blocks in daddr
-	- daddr\[7\] contains double indirect block
+	- daddr\[7\] contains [[File Representation (Index Types) | double indirect]] block
 		- reaches 256 indirect blocks * 128 KB / indirect block == 32 MB
 	- Max Size:
 		- 896 KB + 32 MB
