@@ -59,4 +59,66 @@ struct	filsys
 		- set s_free\[0\] to the address of the newly freed block
 - [v7 man reference](https://www.unix.com/man-page/v7/5/filsys/#:~:text=The%20%20free%20%20list,and%20%20increment%0A%20%20%20%20%20%20%20s_nfree.)
 
-## inode: Per-file Metadata (on-disk)
+# Per-file Metadata
+NOTE: int is 2 bytes
+## inode: (on-disk)
+```
+struct ino {
+	int i_mode;     /* File type, size, permissions */
+	char i_nlink;   /* Link count */
+	char i_uid;     /* Owner user id */
+	char i_gid;     /* Group id */
+	char i_size0;   /* most significant bits of size */
+	int i_size1;    /* least sig */
+	int i_addr[8];  /* Disk addresses of blocks */
+	int i_atime[2]; /* Access time */
+	int i_mtime[2]; /* Modified time */
+}
+```
+
+- Small Files
+	- 0 in i_mode's file size bit indicates "small" file
+	- **Eight or fewer blocks**
+	- i_addr (daddr on slides?) contains address of data blocks
+	- max size
+		- 8 blocks * 512 bytes per block == 4KB
+- Large files
+	- 1 in i_mode's file size bit
+	- first seven entries contain address of indirect blocks
+	- disk addresses are 2 bytes, so 256 addresses per block
+		- i.e. one indirect block can access 256 addresses of data blocks * 512 bytes per data block == 128 KB of data
+	- Max Size:
+		- 7 entries * 128 KB / indirect block == 896 KB
+- Huge files
+	- 1 in i_mode's file size bit
+	- 7 indirect blocks in daddr
+	- daddr\[7\] contains double indirect block
+		- reaches 256 indirect blocks * 128 KB / indirect block == 32 MB
+	- Max Size:
+		- 896 KB + 32 MB
+
+## vnode: (in-memory)
+```
+struct inode {
+	char i_flag;
+	char i_count;   /* reference count */
+	int i_dev;      /* device where inode resides */
+	int i_number;   /* i number 1:1 w/device addr */
+	int i_mode;
+	char i_nlink;   /* directory entries*/
+	char i_uid;     /* owner */
+	char i_gid;     /* group of owner */
+	char i_size0;   /* most significant of size */
+	int i_size1;    /* least sig */
+	int i_addr[8];  /* device addresses constituting file */
+	int i_lastr;    /* last logical block read */
+}
+```
+in-memory abstraction of actual inodes
+
+# Directory Entries
+- hierarchical data structure
+- directory entries are 16 bytes
+	- 14 bytes (right padded) of human readable name
+	- 2 bytes of mapped inode number
+- directory entry with inode = 0 means it is unused
