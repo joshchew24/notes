@@ -41,9 +41,16 @@ generally use these two foundational technologies
 #### Structural
 - ease design by identifying simple way to realize relationships between entities
 - [[Composite]]
+- [[Adapter]]
+- [[Decorator]]
+- [[Facade]]
 #### Behavioural
 - identify common communication patterns between objects, and realize these patterns
 - [[Observer]]
 - [[Strategy]]
 - [[State]]
 - 
+## Compound
+- [[MVC (Model View Controller)]]
+- [[MVP (Model View Presenter)]]
+- [[MVVM (Model View ViewModel)]]
