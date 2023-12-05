@@ -34,3 +34,17 @@ tags:
 	- inode table
 		- contains number of entries allowed per group, dictated by superblock
 	- data blocks (rest of the block group)
+
+## Directory Entries
+```
+struct ext2_dir_entry {  
+__le32 inode; /* Inode number */  
+__le16 rec_len; /* Directory entry length */  
+__le16 name_len; /* Name length */  
+char name[256]; /* File name */  
+}
+```
+- min dirent size: 4 + 2 + 2 = 8 bytes
+	- cannot actually be 8 bytes, filenames can't be nothing (0 bytes)
+- dirents are 4-byte aligned
+	- e.g. 13-bytes gets rounded up to 16
