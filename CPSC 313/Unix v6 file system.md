@@ -118,7 +118,7 @@ in-memory abstraction of actual inodes
 
 # Directory Entries
 - hierarchical data structure
-- directory entries are 16 bytes
+- directory entries are fixed size 16 bytes
 	- 14 bytes (right padded) of human readable name
 	- 2 bytes of mapped inode number
 - directory entry with inode = 0 means it is unused

@@ -2,5 +2,7 @@
   "propertiesInDocument": "visible",
   "showLineNumber": false,
   "strictLineBreaks": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "autoPairMarkdown": false,
+  "alwaysUpdateLinks": true
 }
