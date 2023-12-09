@@ -1,4 +1,6 @@
 # Black Box Testing
+validate program without any knowledge of how the system is implemented
+
 - test against specification 
 	- testing based on contracts
 - can be written prior to implementation
