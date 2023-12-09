@@ -1,4 +1,6 @@
 # Coverage
+- measure how much of our code is executed by the test suite
+	- does not evalutte the correctness of the CUT
 ## Line
 - *executable* lines
 	- function definitions (for parameter assignment)

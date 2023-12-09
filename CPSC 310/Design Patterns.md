@@ -37,7 +37,6 @@ generally use these two foundational technologies
 - trying to create objects in a manner suitable to the situation
 - [[Factory]]
 - [[Singleton]]
-- 
 #### Structural
 - ease design by identifying simple way to realize relationships between entities
 - [[Composite]]
@@ -49,7 +48,6 @@ generally use these two foundational technologies
 - [[Observer]]
 - [[Strategy]]
 - [[State]]
-- 
 ## Compound
 - [[MVC (Model View Controller)]]
 - [[MVP (Model View Presenter)]]
