@@ -4,5 +4,6 @@
   "strictLineBreaks": false,
   "newFileLocation": "current",
   "autoPairMarkdown": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "sources"
 }
