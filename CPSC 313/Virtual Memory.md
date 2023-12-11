@@ -8,7 +8,7 @@
 - machine can have less physical memory than the size of the virtual address space
 
 ## Mapping
-- [[Privilege Modes | OS]] should have access to things that are inaccessible to regular processes
+- [[Privilege Modes|OS]] should have access to things that are inaccessible to regular processes
 - our mapping has to distinguish between mapping user processes and the OS
 - read-only
 	- mappings should disallow writes to some parts of memory
