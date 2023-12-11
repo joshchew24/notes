@@ -58,5 +58,74 @@ mrmovq 0xFEED(%rax), %rbx
 7. What is the PA for the data?
 	- 0x24680EED
 
+## OS Page Fault Handling
+*Context: Process requests a virtual address, but the mapping is not found in the TLB (there is no PTE). The TLB traps into the OS, and the OS executes the following trap handler*
+1. interpret the PTE to determine if the virtual address has a backing page
+	- case 1: PTE indicates that the address is invalid (validity bit)
+		- segfaults
+	- case 2: PTE indicates that the address is within the address space
+		- continue
+2. check PTE to determine if the page present is in memory (presence bit)
+	- case 1: page is present in memory
+		- load it into TLB
+	- case 2: page is not present
+		- PTE indicates where to find the page
+			- which disk, which disk block, etc.
+		- or, we can 0-fill the page
+3. *assume page is not present*: find a free physical page in memory
+4. fill the page with data
+	- either from disk or with zeroes
+5. update PTE with physical page number
+	- PPN is where the data physically exists in memory
+6. restart instruction
 
+## Implementation
+### Considerations
+- there is one page table per process
+- the OS must keep track of all page tables for all processes
+	- can be very large
+		- e.g. Intel x86-64
+			- 4 KB pages
+				- 12 bit offset
+			- 48-bit address space
+				- 36 bits remaining = $2^{35}$ = 64 G pages (64 billion)
+			- one PTE per page, 8 bytes per PTE
+				- 512 GB per page table
+- ***page tables (virtual address spaces) are sparse***
+	- most processes won't use most of the address space
+		- most only need a few, e.g. hello world program
+			- 1 page each for text, data, stack
+			- space for shared libraries (code/data)
+			- total number of required pages is only a few hundred, not 64 billion
+- similar problem to [[File Representation (Index Types)]]
+### Requirements
+- simple enough data structure to work with in hardware (at least for x86)
+- efficient for small address space
+- supports a large address space
 ## x86 Page Tables
+- uses the same tree structure as a file index
+- instead of inode/index, hardware register ***CR3***
+- indirect blocks are now called page tables
+	- page tables contain PTEs
+		- can reference other in-memory physical pages
+		- sometimes disk blocks
+	- 4 KB
+- x86-64 has 4 levels of page tables
+	- L1 Page Table is quadruple indirect
+	- L2 Page Table is triple indirect
+	- L3 Page Table is double indirect
+	- L4 Page Table is indirect
+- all page tables are indexed by bits in the virtual address
+- PTEs are 8 bytes
+
+### Address Translation
+- 64 bit address
+- page table is 4KB: need 12 bits of offset within (0-11)
+- first 16 bits are unused (48-63)
+- middle 36 bits are VPN (12-47)
+	- total VPN is 2^36
+	- each PTE within a table is numbered 0-511
+	- L1 index bits (39-47)
+	- L2 index bits (30-38)
+	- L3 index bits (21-29)
+	- L4 index bits (12-20)
