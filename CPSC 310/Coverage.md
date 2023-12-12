@@ -23,7 +23,7 @@
 	- i.e. all possible combinations of all conditional paths
 
 For example, given the test and code snippet below:
-```
+```js
 1: eval(x: number, c1: boolean, c2: boolean): number {
 2:  if (c1)
 3:    x++;
@@ -33,11 +33,11 @@ For example, given the test and code snippet below:
 7: }
 ```
 And the following test:
-```
+```js
 1:	eval(0, false, false);
 ```
 The code has 67% line and statement coverage (lines 1, 2, 4, 6 are covered while lines 3 and 5 are not), 50% branch coverage (only the false branches of the if statements on lines 2 and 4 are covered), and only 25% of possible program paths are covered. The following suites would provide 100% coverage for each of the different coverage criteria:
-```
+```js
 // 100% line coverage
 eval(0, true, true);
 

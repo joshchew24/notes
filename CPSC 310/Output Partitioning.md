@@ -2,7 +2,7 @@
 - like [[Input Partitioning]], but partitioning is driven by function outputs
 - allows tester to analyze the function from a different perspective
 e.g. 
-```
+```ts
 /**
  * Turns a number of seconds into a 24 hour time format.
  *
@@ -22,7 +22,7 @@ function timeAfterSeconds(seconds: number): string {
 	- Output string has format "SS"
 
 e.g. 
-```
+```ts
 /**
  * Given a start time and a finish time (both in seconds), return the speed of a 100 meter short distance run. Throw an exception if startTime < finishTime.
  *

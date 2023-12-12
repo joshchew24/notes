@@ -2,7 +2,7 @@
 ## [[Group By]]
 ## [[Having]]
 
-```
+```sql
 SELECT [DISTINCT] target-list
 FROM relation-list
 WHERE qualification

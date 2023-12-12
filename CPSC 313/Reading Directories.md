@@ -13,7 +13,7 @@ opens a directory, returning a handle
 reads a directory entry from given directory handle
 
 ### `struct dirent`
-```
+```c
 struct dirent {  
 	ino_t d_ino; /* file number of entry */  
 	__uint16_t d_reclen; /* length of this record */  

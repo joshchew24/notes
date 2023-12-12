@@ -21,7 +21,7 @@ tags:
 		- e.g. if controller detects bad block, forwards the data request to a spare
 
 ## Superblock
-```
+```c
 struct	filsys
 {
 	int	s_isize;	    /* size in blocks of I list */
@@ -62,7 +62,7 @@ struct	filsys
 # Per-file Metadata
 NOTE: int is 2 bytes
 ## inode: (on-disk)
-```
+```c
 struct ino {
 	int i_mode;     /* File type, size, permissions */
 	char i_nlink;   /* Link count */
@@ -98,7 +98,7 @@ struct ino {
 		- 896 KB + 32 MB
 
 ## vnode: (in-memory)
-```
+```c
 struct inode {
 	char i_flag;
 	char i_count;   /* reference count */

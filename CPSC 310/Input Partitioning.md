@@ -2,7 +2,7 @@
 - partition input space into equivalence classes
 
 e.g. equivalence classes: 0-4, 5-18, 19-64, 65+
-```
+```ts
 /**
  * Returns the PNE ticket price for the corresponding age.
  * 
@@ -18,7 +18,7 @@ function getTicketPrice(age: number): number {
 ```
 
 e.g. equivalence classes: positive perfect squares, positive imperfect squares, negative numbers
-```
+```ts
 /**
  * Returns the square root if the input number is a perfect square. 
  * Throws a NotPerfectSquareError if input number is negative or is not a perfect square.
@@ -29,7 +29,7 @@ function getPerfectSquareRoot(input: number): number {
 ```
 
 e.g. equivalence classes: (A, positive), (A, negative), (B positive), (B negative)
-```
+```ts
 enum Player {
     A, B
 }

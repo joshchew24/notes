@@ -1,5 +1,7 @@
 {
   "accentColor": "",
   "baseFontSize": 15,
-  "translucency": false
+  "translucency": false,
+  "cssTheme": "Atom",
+  "theme": "obsidian"
 }

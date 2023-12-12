@@ -61,12 +61,12 @@ tags:
 	- 1 indirect, 1 double, 1 triple
 
 ## Directory Entries
-```
+```c
 struct ext2_dir_entry {  
-__le32 inode; /* Inode number */  
-__le16 rec_len; /* Directory entry length */  
-__le16 name_len; /* Name length */  
-char name[256]; /* File name */  
+	__le32 inode; /* Inode number */  
+	__le16 rec_len; /* Directory entry length */  
+	__le16 name_len; /* Name length */  
+	char name[256]; /* File name */  
 }
 ```
 - min dirent size: 4 + 2 + 2 = 8 bytes

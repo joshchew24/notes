@@ -17,7 +17,7 @@ if the fields are not all populated, return null or error?
 
 if this node has classes, retrieve the corresponding value
 BuildingTable:
-```
+```json
 {
   nodeName: 'table',
   tagName: 'table',
@@ -67,7 +67,7 @@ BuildingTable:
 ```
 
 buildingTableBody:
-```
+```json
 {
   nodeName: 'tbody',
   tagName: 'tbody',
@@ -174,7 +174,7 @@ buildingTableBody:
 ```
 
 BuildingRows:
-```
+```json
 [
   {
     nodeName: 'tr',
@@ -312,7 +312,7 @@ BuildingRows:
 ```
 
 BuldingRow:
-```
+```json
 {
   nodeName: 'tr',
   tagName: 'tr',
