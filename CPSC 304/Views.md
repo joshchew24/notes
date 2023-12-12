@@ -7,6 +7,10 @@ CREATE VIEW <view name> <attributes in view> AS <view definition>
 - views can be used as if they were regular tables
 	- they exist for as long as you allow them to
 	- if you want to use a temporary view, try [[Common Table Expressions (CTE)]]
+- ***Materialized views***
+	- actually exist on disk
+	- normally views are computed whenever their alias is invoked
+	- materialized views will store the tuples
 ## Rationale
 - hide some data from users
 	- e.g. UBC has one table for all students. CS department should only have access to CS students. Can be done using a view
