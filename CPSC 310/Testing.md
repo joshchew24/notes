@@ -32,3 +32,4 @@ Tests can range in size, complexity, execution duration, repeatability, difficul
 
 ## Other Approaches
 ### [[Fuzz Testing]]
+### [[Mutation Testing]]
