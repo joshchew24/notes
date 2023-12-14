@@ -9,6 +9,13 @@ MovieStar(<u>StarID</u>, Name, Gender)
 - $\sigma_p(r)$
 - $p$: selection predicate
 ### Definition
+#### Connectives
+And $\wedge$, Or $\vee$, Not $\neg$
+#### Predicates
+- \<attribute\>$op$\<attribute\> 
+- \<attribute\>$op$\<constant\>
+- $op$ is one of $=, \neq, >, \geq, <, \leq$
+
 
 ## Division
 ### Definition
