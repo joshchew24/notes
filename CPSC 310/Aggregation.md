@@ -18,3 +18,4 @@ ORDER BY target-list
 	2. terms with aggregate operations (e.g. `MIN (S.age)`)
 	- i.e. we can only select attributes that we are either GROUPING BY or AGGREGATING ON
 		- think of 310 query EBNF
+- attributes in `group-qualification` are either in `grouping-list` or are arguments to an aggregate operator
