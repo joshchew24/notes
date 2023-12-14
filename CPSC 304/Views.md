@@ -2,6 +2,7 @@
 - can be thought of as virtual tables created by masking over existing physical tables
 ```sql
 CREATE VIEW <view name> <attributes in view> AS <view definition>
+CREATE VIEW V1 (C1) AS SELECT SIN(C1) FROM T1;
 ```
 - \<view definition\> is defined in SQL
 - views can be used as if they were regular tables

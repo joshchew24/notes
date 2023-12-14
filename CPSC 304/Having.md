@@ -8,6 +8,9 @@
 		- `COUNT(*)` will include NULL values
 - can be used without GROUP BY
 	- treats the entire result as a single group
+- attributes in HAVING (group-qualification) must either be 
+	- in GROUP BY
+	- argument of aggregate operator in SELECT
 ### Example:
 For each course with more than 1 enrolment, find the age of the youngest student who has taken this class.
 *not necessary to add qualifiers to unique attributes, but can do it for clarity*

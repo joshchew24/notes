@@ -1,5 +1,5 @@
 # Group By
-- all non-aggregated columns in SELECT must be in GROUP-BY
+- all non-aggregated columns in SELECT must be in GROUP-BYS
 ### Example 1:
 For each class, find the age of the youngest student who was enrolled in this class.
 ```sql
