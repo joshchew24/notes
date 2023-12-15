@@ -22,3 +22,11 @@
 	- MMU evicts and 
 
 ### Performance
+- clock hand is moving slowly
+	- virtual memory system is working efficiently
+	- memory is plentiful
+	- system is not taking many page faults
+- clock hand is moving quickly
+	- memory is fully in use
+	- system is spending a lot of time moving pages to/from disk
+		- thrashing

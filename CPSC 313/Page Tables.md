@@ -68,6 +68,7 @@ mrmovq 0xFEED(%rax), %rbx
 2. check PTE to determine if the page present is in memory (presence bit)
 	- case 1: page is present in memory
 		- load it into TLB
+			- TLB (MMU) will perform [[Page Replacement|eviction]]
 	- case 2: page is not present
 		- PTE indicates where to find the page
 			- which disk, which disk block, etc.
@@ -105,18 +106,31 @@ mrmovq 0xFEED(%rax), %rbx
 ## x86 Page Tables
 - uses the same tree structure as a file index
 - instead of inode/index, hardware register ***CR3***
+	- contains physical address of L1 Page Table
 - indirect blocks are now called page tables
 	- page tables contain PTEs
 		- can reference other in-memory physical pages
 		- sometimes disk blocks
-	- 4 KB
+	- sizing
+		- 512 PTEs
+		- PTEs are 64-bits/8-bytes
+		- one page table is 4KB
+			- same as page size
 - x86-64 has 4 levels of page tables
 	- L1 Page Table is quadruple indirect
+		- memory: `512 entries * 512 GB = 256 TB`
+		- should have access to entire virtual address space
+			- 48-bit addresses = 256 TB
 	- L2 Page Table is triple indirect
+		- memory: `512 entries * 1 GB = 512 GB`
 	- L3 Page Table is double indirect
+		- memory: `512 entries * 2 MB = 1 GB`
 	- L4 Page Table is indirect
+		- memory: `512 entries * 4 KB = 2 MB`
 - all page tables are indexed by bits in the virtual address
-- PTEs are 8 bytes
+- small processes only need one of each level page table, requiring only 16KB
+	- all processes have 4-levels because virtual memory is inherently sparse
+		- e.g. stack and heap
 
 ### Address Translation
 - 64 bit address
