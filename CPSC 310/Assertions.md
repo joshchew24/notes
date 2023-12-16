@@ -1,3 +1,6 @@
 # Assertions
 - assert a computed value matches its expected value
-## [[Four-Phase Tests]]
+
+## High-Level Test Structure Models
+### [[Four-Phase Tests]]
+### [[Give-When-Then]]

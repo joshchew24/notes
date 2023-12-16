@@ -3,3 +3,4 @@
 - written to check the implementation itself
 - check test suite quality with [[mutation testing]]
 - easy to overfit to the implementation
+- use [[Coverage|coverage]] to evaluate if we test the whole system
