@@ -66,19 +66,21 @@ mrmovq 0xFEED(%rax), %rbx
 	- case 2: PTE indicates that the address is within the address space
 		- continue
 2. check PTE to determine if the page present is in memory (presence bit)
-	- case 1: page is present in memory
+	- if page is present in memory
 		- load it into TLB
 			- TLB (MMU) will perform [[Page Replacement|eviction]]
 	- case 2: page is not present
 		- PTE indicates where to find the page
 			- which disk, which disk block, etc.
 		- or, we can 0-fill the page
-3. *assume page is not present*: find a free physical page in memory
-4. fill the page with data
-	- either from disk or with zeroes
-5. update PTE with physical page number
+3. page is not present
+4. find a free physical page in memory
+6. fill the page with data
+	- PTE indicates where to find the data on disk
+	- or can fill with zeroes
+7. update PTE with physical page number
 	- PPN is where the data physically exists in memory
-6. restart instruction
+8. restart instruction
 
 ## Implementation
 ### Considerations

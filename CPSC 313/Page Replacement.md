@@ -30,3 +30,5 @@
 	- memory is fully in use
 	- system is spending a lot of time moving pages to/from disk
 		- thrashing
+
+## [[Two-handed Clock]]
