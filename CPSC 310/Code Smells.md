@@ -24,8 +24,11 @@
 ### Long Method
 - often indicates [[Single Responsibility Principle|SRP]] violation
 ### Large Class
+- often indicates [[Single Responsibility Principle|SRP]] violation
 ### Long Parameter List
 ### Divergent Change
+- often indicates [[Single Responsibility Principle|SRP]] violation
 ### Shotgun Surgery
+- often indicates [[Single Responsibility Principle|SRP]] violation
 ### Feature Envy
 ### Middle Man
