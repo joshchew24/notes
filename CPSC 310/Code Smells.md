@@ -13,7 +13,16 @@
 ## Types
 ### Duplicated Code
 - code is duplicated throughout the system
+- in same class
+	- *extract method*
+	- all copies within class now use single implementation
+- in related classes
+	- *push up*
+	- classes now use common supertype
+- in unrelated classes
+	- often requires more complex analysis
 ### Long Method
+- often indicates [[Single Responsibility Principle|SRP]] violation
 ### Large Class
 ### Long Parameter List
 ### Divergent Change
