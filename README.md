@@ -1,2 +1,2 @@
 # README
-Obsidian Vault of Computer Science Notes (for now)
+Obsidian Vault of Uni notes

@@ -57,3 +57,4 @@ Assume a 1024-byte virtual page size. Let's say that you have an 8192-byte array
 Ans: pages are 1024 bytes, array is 8192 bytes. Therefore we access 8 pages, and take a fault on each one.
 
 ![[Pasted image 20231215032949.png]]
+1. 
