@@ -1,3 +1,4 @@
+# Memory Management Unit
 1# Memory Management Unit
 - physical hardware component
 - takes a virtual address from CPU and maps to a physical address in DRAM
