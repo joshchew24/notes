@@ -8,6 +8,8 @@
 - on input to the vertex shader, each vertex has associated attributes
 - on output, each vertex has a value for gl_Position
 	- and for its varying variables (in WebGL 2, called "out/in")
+		- e.g. 3 numbers representing RGB
+		- e.g. material properties
 ## Rasterization
 ![[Pasted image 20240110201948.png]]
 - data in gl_Position used to place three vertices on a virtual screen
