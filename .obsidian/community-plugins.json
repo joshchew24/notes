@@ -1,6 +1,6 @@
 [
   "obsidian-filename-heading-sync",
-  "obsidian-git",
   "cm-editor-syntax-highlight-obsidian",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-git"
 ]
