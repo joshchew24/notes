@@ -37,4 +37,3 @@ display_tree(X.columns, model, counts=True)
 - `min_samples_split`
 - `min_samples_leaf`
 - `max_leaf_nodes`
-## [[Decision Boundary]]

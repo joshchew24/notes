@@ -2,5 +2,7 @@
   "obsidian-filename-heading-sync",
   "cm-editor-syntax-highlight-obsidian",
   "url-into-selection",
-  "obsidian-git"
+  "obsidian-git",
+  "callout-manager",
+  "highlightr-plugin"
 ]
