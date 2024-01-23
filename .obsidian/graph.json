@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
   "collapse-filter": false,
   "search": "",
@@ -19,4 +20,27 @@
   "linkDistance": 245,
   "scale": 0.11660891579457344,
   "close": false
+=======
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.270833333333333,
+  "repelStrength": 11.25,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7254281762059056,
+  "close": false
+>>>>>>> Stashed changes
 }
