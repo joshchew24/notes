@@ -28,7 +28,7 @@ dummy_clf.predict(X) # predict using the learner classifier
 	- for classification problems, by default, `score` gives the **accuracy** of the model
 		- i.e. proportion of correctly predicted targets
 		- $accuracy=\frac{correct\;predictions}{total\;examples}$ 
-		- **error** is $1 - accuracy$
+		- **[[Error]]** is $1 - accuracy$
 	- process
 		- calls `predict` on $X$
 		- compares predictions with $y$ (true targets)
