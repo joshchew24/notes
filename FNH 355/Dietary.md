@@ -40,4 +40,11 @@
 - inexpensive
 - may be more representative of usual intake
 ### Limitations
-- may not include foods usualy 
+- may not include foods usually consumed by participants
+- may not include information on portion size
+- typically requires literacy
+- if self-adminstered cannot ask clarifying questions
+## Hybrid
+- 24-hour recall/dietary diversity instrument
+	- local foods
+	- grouped according to key nutrients (e.g. vitamin A)
