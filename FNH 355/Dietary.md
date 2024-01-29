@@ -19,4 +19,5 @@
 - **one recall does not represent individual's typical intake**
 ## Food records
 - person records type and amount of food/beverage consumed for a period of time
-	- typically 1-7 days
+	- typically 1-7 days, commonly 3 days (2 weekdays, 1 weekend)
+### Strengths
