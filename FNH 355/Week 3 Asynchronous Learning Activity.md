@@ -13,3 +13,4 @@
 		- healthcare centres are many hours away, hard to consistently receive treatment and checkups
 		- caste system, lower castes are landless and significantly poorer
 	- B) Of the factors you identified above, which factor do you think is the most important?  (In other words, in your view, what is the _biggest cause of malnutrition_ in Nepal?)  Briefly explain.  _(Limit your response to 2-3 sentences)_
+		- In my opinion, the biggest cause of malnutrition in Nepal is the caste system. While the video doesn't cover this in depth, it sounds like there is a huge wealth disparity in Nepal that, if rebalanced, could help the malnourished population.
