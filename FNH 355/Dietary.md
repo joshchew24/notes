@@ -17,3 +17,6 @@
 - relies on **memory**
 - labour-intensive data entry
 - **one recall does not represent individual's typical intake**
+## Food records
+- person records type and amount of food/beverage consumed for a period of time
+	- typically 1-7 days
