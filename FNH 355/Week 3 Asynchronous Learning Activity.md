@@ -4,5 +4,12 @@
 
 2. 
 	- A) Based on what was shown or described in the video, what are some of the causes of malnutrition in Nepal?  List as many causes as you can, based on the information provided in the video.  _(Simply listing various factors is sufficient at this point; you do not need to explain each factor)_
-		- 
+		- difficult geographical location (steep mountains and valleys isolate communities)
+		- harsh winter weather 
+		- mothers work in the fields during the day, so no one is home to feed the children
+		- poor hygiene and sanitation
+		- not enough food from harvest, need to buy but can't afford
+		- lack of education, some mothers don't even know their children are malnourished
+		- healthcare centres are many hours away, hard to consistently receive treatment and checkups
+		- caste system, lower castes are landless and significantly poorer
 	- B) Of the factors you identified above, which factor do you think is the most important?  (In other words, in your view, what is the _biggest cause of malnutrition_ in Nepal?)  Briefly explain.  _(Limit your response to 2-3 sentences)_
