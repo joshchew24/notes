@@ -1,0 +1,3 @@
+# Week 3 Asynchronous Learning Activity
+1. What are the strengths of MUAC? What are its limitiations? Identify and briefly explain 2 strengths and 2 limitations of using MUAC to assess nutritional status. Given these, do you think it is an effective tool? Explain.
+	- MUAC is easy and quick to perform, thus not requiring special training or education, and is a more sensitive indicator of malnutrition compared to low body weight. However, MUAC is only used for children aged 6-59 months. 
