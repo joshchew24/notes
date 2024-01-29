@@ -21,3 +21,23 @@
 - person records type and amount of food/beverage consumed for a period of time
 	- typically 1-7 days, commonly 3 days (2 weekdays, 1 weekend)
 ### Strengths
+- do not rely on memory
+- can provide great detail
+- can give insight into eating habits/patterns
+- multiple days more representative of individual's usual intake
+### Limitations
+- takes time and effort to complete accurate record
+- requires literacy
+- recording diet alters diet
+- labour-intensive data entry and analysis
+- may not represent usual intake
+## Food Frequency Questionnaires (FFQs)
+- can deterime how often person consumes a limited number of foods
+- usually 150 or fewer items
+### Strengths
+- can be self-administered
+- machine-readable
+- inexpensive
+- may be more representative of usual intake
+### Limitations
+- may not include foods usualy 
