@@ -1,5 +1,5 @@
 # Error
-Given a model $M$, there are usually two kinds of errors
+Given a model $M$, there are usually 2 categories of errors
 ## Training Error
 - error in the training data
 - $error_{training}(M)$
