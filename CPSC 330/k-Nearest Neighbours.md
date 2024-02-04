@@ -25,13 +25,24 @@
   #### [[sklearn]]
   `two_cities`:
   ![[Pasted image 20240204021823.png]]
-```
+- distance between two points
+```python
 from sklearn.metrics.pairwise import euclidean_distances
 
 euclidean_distances(two_cities)
 ```
-- all distances between all vector pairs
-```
+- all distances between all possible point pairs
+```python
 dists = euclidean_distances(X_cities)
 np.fill_diagonal(dists, np.inf)
+```
+- nearest neighbour 
+```python
+print("Feature vector for city 0: \n%s\n" % (X_cities.iloc[0]))
+print("Distances from city 0 to the first 5 cities: \n%s\n" % (dists[0][:5]))
+# We can find the closest city with `np.argmin`:
+print(
+    "The closest city from city 0 is: %d \n\nwith feature vector: \n%s\n"
+    % (np.argmin(dists[0]), X_cities.iloc[np.argmin(dists[0])])
+)
 ```
