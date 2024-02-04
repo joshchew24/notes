@@ -62,3 +62,6 @@ X_cities.join(pd.DataFrame(dists, columns=['dist'])).head(np.argmin(dists) + 3).
 
 ## Choosing `n_neighbors`
 - primary [[Hyperparameters|hyperparameter]] is $k$, the number of neighbours voting during prediction
+- odd numbers don't give ties
+- low $k$ can overfit, high $k$ can underfit
+	- if $k = max$ , it's just a dummy classifier
