@@ -1,2 +1,2 @@
 # Analogy-based Models
-- labelling new examples on **analagous** trainn
+- labelling new examples on **analagous** training examples
