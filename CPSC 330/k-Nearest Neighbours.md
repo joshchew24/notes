@@ -19,4 +19,17 @@
 
   - in two dimensions between $u = <u_1, u_2>$ and $v = <v_1, v_2>$: $$distance(u, v) = \sqrt{(u_1 - v_1)^2 + (u_2 - v_2)^2}$$
 
-  - generally, in higher dimensions between vectors $u = <u_1, u_2, \dots, u_n>$ and $v = <v_1, v_2, \dots, v_n>$ is defined as: $$distance(u, v) = \sqrt{\sum_{i =1}^{n} (u_i - v_i)^2}$$ 
+  - generally, in higher dimensions between vectors $u = <u_1, u_2, \dots, u_n>$ and $v = <v_1, v_2, \dots, v_n>$ is defined as: $$distance(u, v) = \sqrt{\sum_{i =1}^{n} (u_i - v_i)^2}$$
+  #### [[sklearn]]
+  `two_cities`:
+  ![[Pasted image 20240204021823.png]]
+```
+from sklearn.metrics.pairwise import euclidean_distances
+
+euclidean_distances(two_cities)
+```
+- all distances between all vector pairs
+```
+dists = euclidean_distances(X_cities)
+np.fill_diagonal(dists, np.inf)
+```
