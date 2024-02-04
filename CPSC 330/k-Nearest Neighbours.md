@@ -12,6 +12,8 @@
 - composed of feature values associated with an example
 	- correspond to ***rows*** of a dataframe
 	- i.e. each example can be represented by a vector in the k-dimensional space
+- convert row to numpy vector
+	- e.g. `X_spotify.iloc[0].to_numpy()`
 ### Euclidean Distance
 - A common way to calculate the distance between vectors is calculating the **Euclidean distance**. 
 - The Euclidean distance 
