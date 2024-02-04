@@ -1,6 +1,5 @@
 # Overfitting
 - low training error
 	- large gap between this and validation error
-- indicates simple model
-	- doesn't capture useful patterns
-	- mostly built on random quirks
+- very complex model
+	- learn unreliable patterns to get every single training example correct
