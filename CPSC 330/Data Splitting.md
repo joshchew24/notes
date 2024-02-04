@@ -22,4 +22,6 @@
 | Validation |  | x | x |
 | Test |  | once | once |
 | Deployment |  |  | x |
-generally: $E_{train} < E_{validation} < E_{test} < E_{deployment}$
+[[Error|generally:]] $E_{train} < E_{validation} < E_{test} < E_{deployment}$
+
+
