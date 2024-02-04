@@ -16,3 +16,4 @@ Given a model $M$, you can analyze **errors in two ways** #idk
 	- mean validation error
 - $E_{test}$ is test error
 - $E_{best}$ is best possible error you could get for a given problem
+	- similar to generalization error, no access to full distribution to determine best possible error
