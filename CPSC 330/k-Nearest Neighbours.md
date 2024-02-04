@@ -22,7 +22,7 @@
   - in two dimensions between $u = <u_1, u_2>$ and $v = <v_1, v_2>$: $$distance(u, v) = \sqrt{(u_1 - v_1)^2 + (u_2 - v_2)^2}$$
 
   - generally, in higher dimensions between vectors $u = <u_1, u_2, \dots, u_n>$ and $v = <v_1, v_2, \dots, v_n>$ is defined as: $$distance(u, v) = \sqrt{\sum_{i =1}^{n} (u_i - v_i)^2}$$
-  #### [[sklearn]]
+#### [[sklearn]]
   `two_cities`:
   ![[Pasted image 20240204021823.png]]
 - distance between two points
@@ -45,4 +45,17 @@ print(
     "The closest city from city 0 is: %d \n\nwith feature vector: \n%s\n"
     % (np.argmin(dists[0]), X_cities.iloc[np.argmin(dists[0])])
 )
+```
+- new "test" or "query" city
+```python
+query_point = [[-80, 25]]
+
+dists = euclidean_distances(X_cities, query_point)
+print(
+    "The query point %s is closest to the city with index %d \n"
+    "and the distance between them is: %0.4f"
+    % (query_point, np.argmin(dists), dists[np.argmin(dists)])
+)
+# See the closest city (72) among some other cities with thir distances to query point
+X_cities.join(pd.DataFrame(dists, columns=['dist'])).head(np.argmin(dists) + 3).tail()
 ```
