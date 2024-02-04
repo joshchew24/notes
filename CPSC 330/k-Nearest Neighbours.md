@@ -22,7 +22,7 @@
   - in two dimensions between $u = <u_1, u_2>$ and $v = <v_1, v_2>$: $$distance(u, v) = \sqrt{(u_1 - v_1)^2 + (u_2 - v_2)^2}$$
 
   - generally, in higher dimensions between vectors $u = <u_1, u_2, \dots, u_n>$ and $v = <v_1, v_2, \dots, v_n>$ is defined as: $$distance(u, v) = \sqrt{\sum_{i =1}^{n} (u_i - v_i)^2}$$
-#### [[sklearn]]
+  #### Examples
   `two_cities`:
   ![[Pasted image 20240204021823.png]]
 - distance between two points
@@ -65,3 +65,28 @@ X_cities.join(pd.DataFrame(dists, columns=['dist'])).head(np.argmin(dists) + 3).
 - odd numbers don't give ties
 - low $k$ can overfit, high $k$ can underfit
 	- if $k = max$ , it's just a dummy classifier
+### Hyperparameter Optimization
+- cross-validate a bunch of models with different $k$
+- examine graph and select sweet spot
+
+## Example
+```python
+X = cities_df.drop(columns=["country"])
+y = cities_df["country"]
+
+# split into train and test sets
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.1, random_state=123
+)
+
+def f(n_neighbors=1):
+    results = {}
+    knn = KNeighborsClassifier(n_neighbors=n_neighbors)
+    scores = cross_validate(knn, X_train, y_train, return_train_score=True)
+    results["n_neighbours"] = [n_neighbors]
+    results["mean_train_score"] = [round(scores["train_score"].mean(), 3)]
+    results["mean_valid_score"] = [round(scores["test_score"].mean(), 3)]
+    print(pd.DataFrame(results))
+
+
+f(11)
