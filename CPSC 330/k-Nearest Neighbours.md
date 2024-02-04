@@ -59,3 +59,6 @@ print(
 # See the closest city (72) among some other cities with thir distances to query point
 X_cities.join(pd.DataFrame(dists, columns=['dist'])).head(np.argmin(dists) + 3).tail()
 ```
+
+## Choosing `n_neighbors`
+- primary [[Hyperparameters|hyperparameter]] is $k$, the number of neighbours voting during prediction
