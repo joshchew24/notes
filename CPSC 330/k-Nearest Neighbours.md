@@ -115,3 +115,19 @@ def f(n_neighbors=1):
 
 f(11)
 ```
+## Weights
+- when predicting a label, can assign higher weight to examples that are closer to the query example
+## Regression
+- take the average of the k-nearest neighbours
+- can use weighted regression
+![[Pasted image 20240205012928.png]]
+## Pros
+- easy to understand, interpret
+- simple hyperparameter $k$ (`n_neighbors`) controlling the fundamental tradeoff
+- can learn very complex functions given enough data
+- lazy learning: takes no time to `fit`
+## Cons
+- can be potentially **VERY slow during prediction time**, especially when the training set is very large
+- often not great test accuracy compared to modern approaches
+- does not work well on datasets with many features
+	- or where most feature values rae 0 most of the time (sparse)
