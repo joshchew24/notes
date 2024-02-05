@@ -8,6 +8,11 @@
 - $d \approx 20$ is considered low dimensional
 - $d \approx 1000$ is considered medium dimensional 
 - $d \approx 100,000$ is considered high dimensional 
+### Curse
+- affects all learners but especially bad for $k$-NN
+- $k$-NN usually works well for small $d$, but performs poorly for high $d$
+- if there are many irrelevant attributes, $k$-NN gets confused because all of them contribute to finding similarity
+	- i.e. With enough irrelevant attributes the accidental similarity swamps out meaningful similarity and $k$-NN is no better than random guessing.](<i.e. with enough i>)
 ## Feature Vectors
 - composed of feature values associated with an example
 	- correspond to ***rows*** of a dataframe
