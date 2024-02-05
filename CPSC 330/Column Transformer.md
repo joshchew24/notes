@@ -1,4 +1,4 @@
-# ColumnTransformer
+# Column Transformer
 ## `ColumnTransformer`
 Used when we want to apply different transformations on different columns
 - `make_column_transformer`
@@ -63,12 +63,25 @@ Note that the order of the columns in the transformed data depends upon the orde
 
 ![[Pasted image 20240205035048.png]]
 ## Pipeline
+We can use the column transformer in a pipeline:
 ```python
 pipe = make_pipeline(ct, SVC())
 pipe.fit(X, y)
 pipe.predict(X)
 ```
 
+To apply **more than one transformations** we can **define a pipeline inside a column transformer** to **chain different transformations**.
+```python
+ct = make_column_transformer(
+    (
+        make_pipeline(SimpleImputer(), StandardScaler()),
+        numeric_feats,
+    ),  # impuite and scale on numeric features
+    ("passthrough", passthrough_feats),  # no transformations on the binary features    
+    (OneHotEncoder(), categorical_feats),  # OHE on categorical features
+    ("drop", drop_feats),  # drop the drop features
+)
+```
 ## `set_config`
 - With multiple transformations in a column transformer, it can get tricky to keep track of everything happening inside it.  
 - We can use `set_config` to display a diagram of this. 

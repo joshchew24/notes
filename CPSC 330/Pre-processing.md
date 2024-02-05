@@ -41,43 +41,7 @@ scaler.fit(X_train)  # fitting the transformer on the train split
 X_train_scaled = scaler.transform(X_train)  # transforming the train split
 X_test_scaled = scaler.transform(X_test)  # transforming the test split
 ```
-### Encoding
-- transforming categorical features to numerical ones
-#### Ordinal encoding
-- occasionally recommended
-- assign an integer to each unique categorical label
-##### Drawbacks
-- imposes ordinality on categorical data
-- For example, imagine when you are calculating distances. Is it fair to say that French and Hindi are closer than French and Spanish? 
-- In general, label encoding is useful if there is ordinality in your data and capturing it is important for your problem, e.g., `[cold, warm, hot]`. 
-#### One-hot encoding
-- Create new binary columns to represent our categories.
-- If we have $c$ categories in our column.
-    - We create $c$ new binary columns to represent those categories.
-- OHE variables AKA **dummy variables**
-	- `pandas.get_dummies`
-##### `OneHotEncoder`
-```python
-from sklearn.preprocessing import OneHotEncoder
-
-enc = OneHotEncoder(handle_unknown="ignore", sparse_output=False)
-enc.fit(X_toy)
-X_toy_ohe = enc.transform(X_toy)
-pd.DataFrame(
-    data=X_toy_ohe,
-    columns=enc.get_feature_names_out(["language"]),
-    index=X_toy.index,
-)
-# examine new features
-ohe.categories_
-# see dataset with new features
-transformed_ohe = pd.DataFrame(
-    data=X_imp_ohe_train,
-    columns=ohe.get_feature_names_out(["ocean_proximity"]),
-    index=X_train.index,
-)
-transformed_ohe
-```
+### [[examine new features]]
 ## [[Cross Validation]]
 ```python
 knn = KNeighborsRegressor()
@@ -92,4 +56,4 @@ pd.DataFrame(scores)
 > [!danger] Danger
 > by passing `X_train_scaled` to the `cross_validator`, we are creating validation splits from the fitted/transformed data, which violates the golden rule
 - use [[Pipelines]]
-## [[ColumnTransformer]]
+## [[Column Transformer]]
