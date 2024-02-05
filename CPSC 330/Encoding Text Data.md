@@ -45,4 +45,8 @@ Unlike other transformers we are **passing a `Series`** object to `fit_transform
 > - we are actually looking at the document counts (in how many documents it occurs) rather than term count
 
 ### Preprocessing
-- 
+- text is normalized
+	- convert all words to lowercase
+		- `lowercase=True`
+	- remove punctuation and special characters 
+		- `token_pattern ='(?u)\\b\\w\\w+\\b'`
