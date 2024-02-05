@@ -54,9 +54,30 @@ X_test_scaled = scaler.transform(X_test)  # transforming the test split
 - Create new binary columns to represent our categories.
 - If we have $c$ categories in our column.
     - We create $c$ new binary columns to represent those categories.
-- Example: Imagine a language column which has the information on whether you 
+- OHE variables AKA **dummy variables**
+	- `pandas.get_dummies`
+##### `OneHotEncoder`
+```python
+from sklearn.preprocessing import OneHotEncoder
 
-- We can use sklearn's [`OneHotEncoder`](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) to do so.
+enc = OneHotEncoder(handle_unknown="ignore", sparse_output=False)
+enc.fit(X_toy)
+X_toy_ohe = enc.transform(X_toy)
+pd.DataFrame(
+    data=X_toy_ohe,
+    columns=enc.get_feature_names_out(["language"]),
+    index=X_toy.index,
+)
+# examine new features
+ohe.categories_
+# see dataset with new features
+transformed_ohe = pd.DataFrame(
+    data=X_imp_ohe_train,
+    columns=ohe.get_feature_names_out(["ocean_proximity"]),
+    index=X_train.index,
+)
+transformed_ohe
+```
 ## [[Cross Validation]]
 ```python
 knn = KNeighborsRegressor()
