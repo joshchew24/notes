@@ -9,3 +9,4 @@ transforming categorical features to numerical ones
 - Create new binary columns to represent our categories.
 - If we have $c$ categories in our column.
     - We create $c$ new binary columns to represent those categories.
+toy_spasdfoiajsdf

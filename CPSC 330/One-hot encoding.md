@@ -105,3 +105,16 @@ ct = make_column_transformer(
     ),  # OHE on categorical features
 )
 ```
+## Many categories
+- Do we have enough data for rare categories to learn anything meaningful? 
+- How about **grouping them into bigger categories**?
+    - Example: country names into continents such as "South America" or "Asia"
+- Or having **"other" category for rare cases**? 
+## Do we actually want to use certain features for prediction?
+- Do you **want** to use certain features such as **gender** or **race** in prediction?
+- Remember that the systems you build are going to be used in some applications. 
+- It's extremely important to be mindful of the consequences of including certain features in your predictive model. 
+## Preprocessing the targets?
+- Generally no need for this when doing classification. 
+- In regression it makes sense in some cases. More on this later. 
+- `sklearn` is fine with categorical labels ($y$-values) for classification problems. 
