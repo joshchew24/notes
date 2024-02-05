@@ -68,7 +68,31 @@ X_cities.join(pd.DataFrame(dists, columns=['dist'])).head(np.argmin(dists) + 3).
 ### Hyperparameter Optimization
 - cross-validate a bunch of models with different $k$
 - examine graph and select sweet spot
+#### Example
+```python
+results_dict = {
+    "n_neighbors": [],
+    "mean_train_score": [],
+    "mean_cv_score": [],
+    "std_cv_score": [],
+    "std_train_score": [],
+}
+param_grid = {"n_neighbors": np.arange(1, 50, 5)}
 
+for k in param_grid["n_neighbors"]:
+    knn = KNeighborsClassifier(n_neighbors=k)
+    scores = cross_validate(knn, X_train, y_train, return_train_score=True)
+    results_dict["n_neighbors"].append(k)
+
+    results_dict["mean_cv_score"].append(np.mean(scores["test_score"]))
+    results_dict["mean_train_score"].append(np.mean(scores["train_score"]))
+    results_dict["std_cv_score"].append(scores["test_score"].std())
+    results_dict["std_train_score"].append(scores["train_score"].std())
+
+results_df = pd.DataFrame(results_dict)
+results_df = results_df.set_index("n_neighbors")
+results_df
+```
 ## Example
 ```python
 X = cities_df.drop(columns=["country"])
@@ -90,3 +114,4 @@ def f(n_neighbors=1):
 
 
 f(11)
+```
