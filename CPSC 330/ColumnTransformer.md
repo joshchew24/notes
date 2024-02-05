@@ -37,4 +37,43 @@ ct = make_column_transformer(
     (OneHotEncoder(), categorical_feats),  # OHE on categorical features
     ("drop", drop_feats),  # drop the drop features
 )
+
+transformed = ct.fit_transform(X)
+```
+- When we `fit_transform`, each transformer is applied to the specified columns and the result of the transformations are concatenated horizontally. 
+- A big advantage here is that we build all our transformations together into one object, and that way we're sure we do the same operations to all splits of the data.
+- Otherwise we might, for example, do the OHE on both train and test but forget to scale the test data.
+## Convert to Dataframe
+Since we are adding more columns, the original columns don't map directly to the transformed data.
+```python
+ct.named_transformers_
+# E.g., columns preprocessed by StandardScaler
+ct.named_transformers_["standardscaler"].get_feature_names_out()
+# Here are the new columns created by OneHotEncoder
+ct.named_transformers_["onehotencoder"].get_feature_names_out()
+column_names = (
+    numeric_feats
+    + passthrough_feats    
+    + ct.named_transformers_["onehotencoder"].get_feature_names_out().tolist()
+)
+
+pd.DataFrame(transformed, columns=column_names).head()
+```
+Note that the order of the columns in the transformed data depends upon the order of the features we pass to the `ColumnTransformer` and can be different than the order of the features in the original dataframe.  
+
+![[Pasted image 20240205035048.png]]
+## Pipeline
+```python
+pipe = make_pipeline(ct, SVC())
+pipe.fit(X, y)
+pipe.predict(X)
+```
+
+## `set_config`
+- With multiple transformations in a column transformer, it can get tricky to keep track of everything happening inside it.  
+- We can use `set_config` to display a diagram of this. 
+```python
+from sklearn import set_config
+set_config(display="diagram")
+ct
 ```
