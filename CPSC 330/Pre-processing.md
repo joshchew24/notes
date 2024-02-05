@@ -43,3 +43,20 @@ X_test_scaled = scaler.transform(X_test)  # transforming the test split
 ```
 ### One-hot encoding
 - tackling categorical variables
+## [[Cross Validation]]
+```python
+knn = KNeighborsRegressor()
+
+scaler = StandardScaler()
+scaler.fit(X_train_imp)
+X_train_scaled = scaler.transform(X_train_imp)
+X_test_scaled = scaler.transform(X_test_imp)
+scores = cross_validate(knn, X_train_scaled, y_train, return_train_score=True)
+pd.DataFrame(scores)
+```
+> [!danger] Danger
+> by passing `X_train_scaled` to the `cross_validator`, we are creating validation splits from the fitted/transformed data, which violates the golden rule
+- use [[Pipelines]]
+
+
+
