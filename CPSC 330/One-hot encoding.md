@@ -118,3 +118,8 @@ ct = make_column_transformer(
 - Generally no need for this when doing classification. 
 - In regression it makes sense in some cases. More on this later. 
 - `sklearn` is fine with categorical labels ($y$-values) for classification problems. 
+## Sparse Features
+- By default, `OneHotEncoder` also creates sparse features. 
+- You could set `sparse=False` to get a regular `numpy` array. 
+- If there are a huge number of categories, it may be beneficial to keep them sparse.
+- For smaller number of categories, it doesn't matter much.
