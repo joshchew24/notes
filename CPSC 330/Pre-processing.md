@@ -41,7 +41,8 @@ scaler.fit(X_train)  # fitting the transformer on the train split
 X_train_scaled = scaler.transform(X_train)  # transforming the train split
 X_test_scaled = scaler.transform(X_test)  # transforming the test split
 ```
-### [[examine new features]]
+### [[Encoding]]
+- transform categorical features into numeric ones
 ## [[Cross Validation]]
 ```python
 knn = KNeighborsRegressor()
