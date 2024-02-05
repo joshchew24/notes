@@ -17,3 +17,10 @@ X_test_scaled = scaler.transform(X_test)  # transforming the test split
 - We apply the same transformations on the test split
 - You can pass `y_train` in `fit` but it's usually ignored. It allows you to pass it just to be consistent with usual usage of `sklearn`'s `fit` method.   
 - You can also carry out fitting and transforming in one call using `fit_transform`. But be mindful to use it **only** on the **train split** and **not** on the **test split**.
+## Common Techniques
+### Imputation
+- tackling missing values
+### Scaling
+- scaling of numeric features
+### One-hot encoding
+- tackling categorical variables
