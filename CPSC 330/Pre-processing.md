@@ -11,3 +11,9 @@ scaler.fit(X_train)  # fitting the transformer on the train split
 X_train_scaled = scaler.transform(X_train)  # transforming the train split
 X_test_scaled = scaler.transform(X_test)  # transforming the test split
 ```
+### `fit` and `transform` paradigm for transformers
+- `sklearn` uses `fit` and `transform` paradigms for feature transformations
+- We `fit` the transformer on the train split and then transform the train split as well as the test split
+- We apply the same transformations on the test split
+- You can pass `y_train` in `fit` but it's usually ignored. It allows you to pass it just to be consistent with usual usage of `sklearn`'s `fit` method.   
+- You can also carry out fitting and transforming in one call using `fit_transform`. But be mindful to use it **only** on the **train split** and **not** on the **test split**.
