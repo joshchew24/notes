@@ -48,7 +48,7 @@ When you call `predict` on the pipeline, it carries out these steps:
 - Predict using the fit model (`KNeighborsRegressor` in our case) on `X_train_imp_scaled`.
 
 ![[Pasted image 20240205030146.png]]
-
+analagous to training then predicting
 ## [[Cross Validation|Cross-validating]]
 ```python
 results_dict["imp + scaling + knn"] = mean_std_cross_val_scores(
@@ -56,3 +56,4 @@ results_dict["imp + scaling + knn"] = mean_std_cross_val_scores(
 )
 pd.DataFrame(results_dict).T
 ```
+Using a `Pipeline` takes care of applying the `fit_transform` on the train portion and only `transform` on the validation portion in each fold.   

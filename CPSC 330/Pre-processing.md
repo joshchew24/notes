@@ -41,8 +41,22 @@ scaler.fit(X_train)  # fitting the transformer on the train split
 X_train_scaled = scaler.transform(X_train)  # transforming the train split
 X_test_scaled = scaler.transform(X_test)  # transforming the test split
 ```
-### One-hot encoding
-- tackling categorical variables
+### Encoding
+- transforming categorical features to numerical ones
+#### Ordinal encoding
+- occasionally recommended
+- assign an integer to each unique categorical label
+##### Drawbacks
+- imposes ordinality on categorical data
+- For example, imagine when you are calculating distances. Is it fair to say that French and Hindi are closer than French and Spanish? 
+- In general, label encoding is useful if there is ordinality in your data and capturing it is important for your problem, e.g., `[cold, warm, hot]`. 
+#### One-hot encoding
+- Create new binary columns to represent our categories.
+- If we have $c$ categories in our column.
+    - We create $c$ new binary columns to represent those categories.
+- Example: Imagine a language column which has the information on whether you 
+
+- We can use sklearn's [`OneHotEncoder`](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) to do so.
 ## [[Cross Validation]]
 ```python
 knn = KNeighborsRegressor()
