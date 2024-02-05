@@ -34,4 +34,3 @@ for clf, ax in zip([knn, svm], axes):
 - controls the complexity
 	- larger -> more complex
 	- smaller -> less complex
-- 
