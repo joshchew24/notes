@@ -27,6 +27,11 @@ for clf, ax in zip([knn, svm], axes):
 ## Support Vectors
 - each training example either is or isn't a "support vector"
 	- decided during `fit
+	- i.e. only key examples inform the model
 - **decision boundary only depends on support vectors**
-```python
-# see support vectors
+### Hyperparameters
+- `gamma`, `C`
+- controls the complexity
+	- larger -> more complex
+	- smaller -> less complex
+- 
