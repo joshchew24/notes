@@ -1,9 +1,9 @@
 [
   "obsidian-filename-heading-sync",
-  "cm-editor-syntax-highlight-obsidian",
   "url-into-selection",
   "obsidian-git",
   "callout-manager",
   "highlightr-plugin",
-  "mousewheel-image-zoom"
+  "mousewheel-image-zoom",
+  "cm-editor-syntax-highlight-obsidian"
 ]
