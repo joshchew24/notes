@@ -7,7 +7,10 @@
 		- more efficient
 	- SVMs use a different similarity metric called a "kernel"
 		- popular kernel is Radial Based Functions (RBFs)
-	- better performance than $k$-NNs
+	- better performance than $k$-NN
+```python
+svm = SVC(kernel="rbf", C=10, gamma=0.1).fit(X_toy, y_toy)
+```
 ## Decision Boundary
 - think of SVM RBFs as "smooth $k$-NN"
 ```python
