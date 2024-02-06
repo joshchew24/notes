@@ -32,4 +32,6 @@ glAttachShader(shaderProgram, vertexShader);
 glAttachShader(shaderProgram, fragmentShader);
 glLinkProgram(shaderProgram);
 
-// clea
+// clean up
+glDeleteShader(vertexShader);
+glDeleteShader(fragmentShader);
