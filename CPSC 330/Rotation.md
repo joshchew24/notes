@@ -1,5 +1,5 @@
 # Rotation
-Rotation around the Z-axis:
+## Rotation around the Z-axis:
 $$
 \begin{bmatrix}
 cos(\theta) & -sin(\theta) & 0 & 0 \\
@@ -19,3 +19,14 @@ z \\
 1
 \end{pmatrix}
 $$
+
+```cpp
+// matrix rotation (around Z)
+float rotation = 90.0f;
+// start with an identity matrix
+glm::mat4 trans = glm::mat4(1.04f);
+// pass the identity matrix, pass the rotation converted to radians, pass the vector being rotated
+trans = glm::rotate(trans, glm::radians(rotation), glm::vec3(0.0, 0.0, 1.0));
+```
+## Vertex Shader
+We must apply the transformation to the 
