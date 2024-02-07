@@ -29,4 +29,5 @@ glm::mat4 trans = glm::mat4(1.04f);
 trans = glm::rotate(trans, glm::radians(rotation), glm::vec3(0.0, 0.0, 1.0));
 ```
 ## Vertex Shader
-We must apply the transformation to the 
+We must apply the transformation to the positiosn of the vertices
+```clike
