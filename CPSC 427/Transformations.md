@@ -30,3 +30,22 @@ void GLRender::render(GLWindow& window, const glm::mat4& trans) {
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 }
 ```
+
+> [!info] See Also
+> [[Uniform Variables]]
+
+
+## Combining Transformations
+- mathematically, we can combine transformations by using the dot-product of the transformations we wish to apply
+	- order matters
+		- multiplications are applied right to left
+			- i.e. the matrix closest to the target vector gets applied first
+		- **first scale, then rotate, finally translate**
+- with OpenGL, we just subsequently apply transformations to the same matrix
+```cpp
+// matrix rotation, scaling, and translating
+glm::mat4 trans = glm::mat4(1.0f);
+trans = glm::rotate(trans, glm::radians(rotation), glm::vec3(0.0, 0.0, 1.0));
+trans = glm::scale(trans, glm::vec3(0.25, 1.0, 1.0));
+trans = glm::translate(trans, glm::vec3(0.0, -0.5, 0.0));
+```
