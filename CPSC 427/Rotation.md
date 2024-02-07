@@ -31,3 +31,14 @@ trans = glm::rotate(trans, glm::radians(rotation), glm::vec3(0.0, 0.0, 1.0));
 ## Vertex Shader
 We must apply the transformation to the positiosn of the vertices
 ```clike
+# glsl
+# version 330 core
+layout (location = 0) in vec3 pos;
+
+uniform mat4 transform;
+
+void main()
+{
+	gl_Position = transform * vec4(pos.x, pos.y, pos.z, 1.0);
+}
+```
