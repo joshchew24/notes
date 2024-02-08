@@ -39,7 +39,7 @@ void GLRender::render(GLWindow& window, const glm::mat4& trans) {
 - mathematically, we can combine transformations by using the dot-product of the transformations we wish to apply
 	- order matters
 		- multiplications are applied right to left
-			- i.e. the matrix closest to the target vector gets applied first
+			- i.e. the matrix closest to the target vector dgets applied first
 		- **first scale, then rotate, finally translate**
 - with OpenGL, we just subsequently apply transformations to the same matrix
 ```cpp
