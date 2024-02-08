@@ -7,7 +7,10 @@
 	- get a sense of how well the model can generalize
 	- pretend the testing data is representative of the real distribution $D$ of data
 ## [[sklearn]]
-- `sklearn.model_selection.train_test_split`
+- [`sklearn.model_selection.train_test_split`](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+```python
+train_df, test_df = train_test_split(spotify_df, test_size=0.2, random_state=321)
+```
 ## Validation Data
 - additional "test" split taken from the training data
 - score the model against the validation split to tune hyperparameters
