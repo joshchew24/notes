@@ -1,5 +1,5 @@
 # House of Leaves
-
+- may 4, 1989: johnny's mother Pelafina dies
 - opening was shot in April 1990
 - June 1990, Tom goes to Charlotteville (p. 56)
 - august: exploration A (p.63)
