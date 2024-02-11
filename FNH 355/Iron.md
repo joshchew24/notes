@@ -52,3 +52,10 @@ Blood test for:
 - iron-fortified foods
 - dried fruits
 - spinach
+
+### Recommended Daily Intake
+| North American (DRI) Recommendations | Males | Females |
+| ---- | ---- | ---- |
+| 19-50 years old | 8 mg | 18 mg * |
+| Vegatarian: $1.8 \times$ higher | 14 mg | 32 mg |
+*\*14-18 mg of blood is lost during menstruation*
