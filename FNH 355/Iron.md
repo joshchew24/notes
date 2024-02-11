@@ -52,6 +52,9 @@ Blood test for:
 - iron-fortified foods
 - dried fruits
 - spinach
+- [[Lucky Iron Fish]]
+- cooking tools
+	- e.g. cast iron pots and pans
 
 ### Recommended Daily Intake
 | North American (DRI) Recommendations | Males | Females |
@@ -59,3 +62,6 @@ Blood test for:
 | 19-50 years old | 8 mg | 18 mg * |
 | Vegatarian: $1.8 \times$ higher | 14 mg | 32 mg |
 *\*14-18 mg of blood is lost during menstruation*
+> [!info] Average
+> On average, 1000kcal of a mixed diet provides ~6mg of iron. 
+> Therefore, men need 1300 kcal per day, women need 3000 kcal
