@@ -15,3 +15,7 @@
 - data is sporadic and less consistent
 	- generally, not all cases of deficiency result in night blindness
 		- more common in sub-Saharan Africa and South Asia
+- preschool children are most vulnerable
+## Supplementation
+- many countries provide supplements through high-dose capsules
+	- defined as sufficient if a child receives at least two capsules per year

@@ -18,4 +18,6 @@
 ### Fortification
 - small amounts of micronutrients added to common food products
 ### Biofortification
-- agronomic and plant-breeding approaches in agr
+- agronomic and plant-breeding practices increase concentration of particular micronutrients in staple crops
+- e.g. golden rice
+	- high vitamin A concentration
