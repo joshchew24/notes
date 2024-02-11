@@ -83,4 +83,28 @@ Blood test for:
 - eggs, dairy
 #### Other Dietary Factors that Affect Iron Absorption
 
-|Increase|Decrease|
+| Increase | Decrease |
+| ---- | ---- |
+| Vitamin C | phytates, oxalates |
+| MFP Factor (meat, fish, poultry) | polyphenols |
+|  | fibre |
+|  | calcium, zinc |
+|  | antacids |
+|  | EDTA (preservative) |
+### Fortification
+- industrial or household
+- industrial fortification of a staple such as wheat flour
+	- 83 countries do this
+		- cost is only $2/person per lifetime
+		- benefits from increased productivity: ~$15,000 per person per lifetime
+- household: micronutrient powder (MNP) packets
+	- AKA "Sprinkles"
+	- easy to use
+	- highly acceptable
+	- can be added to any cooked food
+	- sprinkles are encapsulated in lipid
+		- prevents transfer of taste to other food
+### Infection Control
+- preventing or treating diseases and infections that can cause anemia
+- e.g. hookworm enters through the foot
+	- distribute footwear
