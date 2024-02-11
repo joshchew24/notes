@@ -65,3 +65,22 @@ Blood test for:
 > [!info] Average
 > On average, 1000kcal of a mixed diet provides ~6mg of iron. 
 > Therefore, men need 1300 kcal per day, women need 3000 kcal
+
+## Improvement Strategies
+### Change Diet
+- dietary diversification
+- increase enhancers and reduce inhibitors of iron absorption/bio-availability
+#### Types of Consumed Iron
+##### Heme Iron
+- part of hemoglobin (red blood cells) and myoglobin (muscles)
+- better bio-availability, more absorbable
+- 40% of animal food, 60% is non-heme
+- ~10% of iron present in mixed diet, but ~25% of iron absorbed
+##### Non-heme iron
+- NOT part of hemoglobin or myoglobin
+- found in both animal and plant foods
+- 100% of plant food
+- eggs, dairy
+#### Other Dietary Factors that Affect Iron Absorption
+
+|Increase|Decrease|
