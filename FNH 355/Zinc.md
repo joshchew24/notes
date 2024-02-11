@@ -1,8 +1,12 @@
 # Zinc
 ## Statistics
 - contributes to growth failure and weakened immunity in children
+	- needed for grwoth and recovery
 - contributes to 800,000 child deaths per year
 	- resulting from diarrhea, pneumonia, malaria
+- deficiency can affect central nervous system, skeleton, digestive system, immune system, and other system
+- globally very common, particularly in lower-income countries
+	- cereal-dominant diets with low protein
 ## Current Action
 - research shows zinc supplements can help treat diarrhea and reduce diarrheal mortality by 50%
 - WHO recommends 10-14 days zinc supplementation for children with acute diarrhea episode

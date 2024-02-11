@@ -1,0 +1,17 @@
+# Vitamin A
+- key nutrient for embryo development
+	- immune system
+	- vision
+- found in many foods
+	- green leafy vegetables
+	- yellow vegetables and fruits
+	- dairy products
+	- fish
+	- eggs
+- leading cause of preventable blindness in children globally
+	- can begin as 'night blindness' and progress to permanent blindness
+- exacerbates serious disease and illness
+	- increased maternal and childhood mortality
+- data is sporadic and less consistent
+	- generally, not all cases of deficiency result in night blindness
+		- more common in sub-Saharan Africa and South Asia
