@@ -3,13 +3,22 @@
 - iron-deficiency affects more than 2 billion people worldwide
 - severe iron deficiency results in death of 50,000 women per year in pregnancy and childbirth
 - iron deficiency lowers productivity of workforces
-	- estimated losses of ___ in worst-affected countries
+	- estimated losses of 2% or more of GDB in worst-affected countries
 - a public health condition of epidemic proportions
 	- WHO
 ## [[Nutrition Assessments]]
 - two components of ABCD are particularly important
-1. Biochemical
-2. Clinical
+### Biochemical
+Blood test for:
+- hemoglobin
+	- i.e. red blood cell count
+	- low levels indicate anemia
+- serum ferritin
+	- low levels indicate iron-deficiency caused the anemia (IDA)
+### Clinical
+- pale eye conjunctiva is indicative of possible IDA
+- fatigue
+![[Pasted image 20240210232320.png]]
 ## Consequences of Iron Deficiency
 ### Children
 - premature birth
@@ -18,13 +27,13 @@
 - death
 - impaired physical growth
 - impaired cognitive development
-- negative impact on ___
+- negative impact on learning
 ### Adults
-- Reduced ___
+- Reduced productivity
 - Increased likelihood of death during childbirth
 	- with good iron status, may lose up to a litre of blood during birth
 		- with iron-deficiency, one cup of blood loss can be fatal
-	- IDA (Iron Deficiency Anemia) contributes to ~20% of maternal deaths
+	- IDA contributes to ~20% of maternal deaths
 ## Causes
 - low dietary intake
 	- what are the [[UNICEF Conceptual Framework on the Determinants of Maternal and Child Nutrition|underlying and basic causes]]?
