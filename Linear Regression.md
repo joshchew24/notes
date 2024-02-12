@@ -41,3 +41,19 @@ Orange line is the learned linear model.
 ## Model
 - learning a line
 	- represented by a **slope** coefficient/weight and an **intercept**
+	- `r.coef_` and `r.intercept_`
+
+> [!important] Given a feature value $x_1$ and learned coefficient $w_1$ and intercept $b$, we can get the prediction $\hat{y}$ with the following formula:
+$$\hat{y} = w_1x_1 + b$$
+> i.e.
+> ` prediction = snake_length * r.coef_ + r.intercept_ `
+> 
+### Generalizing to more features
+For more features, the model is a higher dimensional hyperplane and the general prediction formula looks as follows: 
+$$\hat{y} = w_1x_1 + ... + $$
+$\hat{y} =$ <font color="red">$w_1$</font> <font color="DodgerBlue">$x_1$ </font> $+ \dots +$ <font color="red">$w_d$</font> <font color="DodgerBlue">$x_d$</font> + <font  color="green"> $b$</font>
+
+where, 
+- <font  color="DodgerBlue"> ($x_1, \dots, x_d$) are input features </font>
+- <font  color="red"> ($w_1, \dots, w_d$) are coefficients or weights </font> (learned from the data)
+- <font  color="green"> $b$ is the bias which can be used to offset your hyperplane </font> (learned from the data)
