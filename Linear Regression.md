@@ -118,4 +118,8 @@ results_df.set_index('alpha').head(7).plot(logx=True);
 - **one coefficient per feature** which describes the **role/weight** of the feature in the prediction according to the model
 - **positive coefficient** means the prediction is ***proportional*** to the feature value
 - **negative coefficient** means the prediction is ***inversely proportional*** to the feature value 
-- **bigger magnit
+- **bigger magnitude** means the feature value is more impactful on the prediction
+> [!danger] Scaling
+> If you do not scale the data, features with smaller magnitude are going to get coefficients with bigger magnitude whereas features with bigger scale are going to get coefficients with smaller magnitude.
+#### Intercept
+- we add this amount irrespective ot the feature values

@@ -3,5 +3,5 @@
 - predict using **linear function** of the input features
 ## Types
 ### [[Linear Regression]]
-### Logistic Regression
+### [[Logistic Regression]]
 ### Linear SVM
