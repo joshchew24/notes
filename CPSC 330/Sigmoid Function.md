@@ -12,4 +12,18 @@ plt.xlabel("raw model output, $w^Tx$")
 plt.ylabel("predicted probability")
 plt.title("the sigmoid function");
 ```
-![[Pasted image 20240212014310.png]]
+![[Pasted image 20240212014310.png]
+- Recall our hard predictions that check the sign of $w^Tx$, or, in other words, whether or not it is $\geq 0$.
+	- The threshold $w^Tx=0$ corresponds to $p=0.5$. 
+	- In other words, if our predicted probability is $\geq 0.5$ then our hard prediction is $+1$
+```python
+sigmoid(
+    np.dot(
+        example,
+        lr.coef_.reshape(
+            2,
+        ),
+    )
+    + lr.intercept_
+)
+```
