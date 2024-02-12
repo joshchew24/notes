@@ -66,9 +66,37 @@ results.T
 - `svc__C`: the `C` of the `svc` of the pipeline
 - `columntransformer__countvectorizer__max_features`: the `max_features` hyperparameter of `CountVectorizer` in the column transformer `preprocessor`. 
 #### Range of `C`
-
 - Note the exponential range for `C`. This is quite common. Using this exponential range allows you to explore a wide range of values efficiently.
 - There is no point trying $C=\{1,2,3\ldots,100\}$ because $C=1,2,3$ are too similar to each other.
 - Often we're trying to find an order of magnitude, e.g. $C=\{0.01,0.1,1,10,100\}$. 
 - We can also write that as $C=\{10^{-2},10^{-1},10^0,10^1,10^2\}$. 
 - Or, in other words, $C$ values to try are $10^n$ for $n=-2,-1,0,1,2$ which is basically what we have above.
+#### Visualizing the parameter grid as a heatmap 
+```python
+def display_heatmap(param_grid, pipe, X_train, y_train):
+    grid_search = GridSearchCV(
+        pipe, param_grid, cv=5, n_jobs=-1, return_train_score=True
+    )
+    grid_search.fit(X_train, y_train)
+    results = pd.DataFrame(grid_search.cv_results_)
+    scores = np.array(results.mean_test_score).reshape(6, 6)
+
+    # plot the mean cross-validation scores
+    my_heatmap(
+        scores,
+        xlabel="gamma",
+        xticklabels=param_grid["svc__gamma"],
+        ylabel="C",
+        yticklabels=param_grid["svc__C"],
+        cmap="viridis",
+    );
+```
+#### Problems with exhaustive grid search 
+
+- Required number of models to evaluate grows **exponentially with the dimensionality** of the configuration space. 
+- Example: Suppose you have
+    - 5 hyperparameters 
+    - 10 different values for each hyperparameter
+    - You'll be evaluating $10^5=100,000$ models! That is you'll be calling `cross_validate` $100,000$ times!
+- Exhaustive search may become **infeasible fairly quickly**.
+- Other options?
