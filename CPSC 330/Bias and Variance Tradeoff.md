@@ -1,3 +1,7 @@
+---
+tags:
+  - FundamentalTradeoff
+---
 # Bias and Variance Tradeoff
 > [!important] Fundamental Tradeoff of Supervised Learning
 > As you increase model complexity, $E_{train}$ tends to go down but $E_{valid} - E{train}$ tends to go up

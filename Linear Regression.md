@@ -88,4 +88,34 @@ pd.DataFrame(scores).mean().rename('mean').to_frame().T
 ### Hyperparameters
 #### Alpha
 - this hyperparameter is what makes `Ridge` different from `LinearRegression`
-- controls the fundamental tradeoff
+	- `alpha=0` is the same as using `LinearRegression`
+- controls the #FundamentalTradeoff
+- larger `alpha` -> likely to underfit
+- smaller `alpha` -> likely to overfit
+
+Examining the effect of `alpha` on the #FundamentalTradeoff 
+```python
+scores_dict = {
+    "alpha": 10.0 ** np.arange(-3, 6, 1),
+    "mean_train_scores": list(),
+    "mean_cv_scores": list(),
+}
+for alpha in scores_dict["alpha"]:
+    pipe_ridge = make_pipeline(StandardScaler(), Ridge(alpha=alpha))
+    scores = cross_validate(pipe_ridge, X_train, y_train, return_train_score=True)
+    scores_dict["mean_train_scores"].append(scores["train_score"].mean())
+    scores_dict["mean_cv_scores"].append(scores["test_score"].mean())
+
+results_df = pd.DataFrame(scores_dict)
+results_df.set_index('alpha')
+
+# Plot only the top part of the table for better viewing
+results_df.set_index('alpha').head(7).plot(logx=True);
+```
+![[Pasted image 20240212003917.png|317]]![[Pasted image 20240212003930.png|375]]
+
+#### Coefficients
+- **one coefficient per feature** which describes the **role/weight** of the feature in the prediction according to the model
+- **positive coefficient** means the prediction is ***proportional*** to the feature value
+- **negative coefficient** means the prediction is ***inversely proportional*** to the feature value 
+- **bigger magnit
