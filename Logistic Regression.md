@@ -2,6 +2,8 @@
 - linear **classification** model
 - similar to [[Linear Regression]], learns weights associated with each feature and the bias
 - applies a **threshold** on the raw output to decide whether the class is positive or negative
+	- With logistic regression, the model randomly assigns one of the classes as a positive class and the other as negative. 
+    - Usually it would **alphabetically order the target and pick the first one as negative and second one as the positive class.**
 - prediction based on the weighted sum of the input features
 	- some features either pull prediction towards positive or negative sentiment
 
@@ -71,3 +73,24 @@ y_hat = np.dot(w, x) + b
     + lr.intercept_
 )
 ```
+## Decision Boundary
+- hyperplane that divides the feature space in half
+```python
+lr = LogisticRegression()
+lr.fit(X_train, y_train)
+discrete_scatter(X_train[:, 0], X_train[:, 1], y_train)
+plot_2d_separator(lr, X_train, fill=False, eps=0.5, alpha=0.7)
+plt.title(lr.__class__.__name__)
+plt.xlabel("longitude")
+plt.ylabel("latitude")
+```
+![[Pasted image 20240212012606.png|300]]
+- For $d=2$, the decision boundary is a line (1-dimensional)
+- For $d=3$, the decision boundary is a plane (2-dimensional)
+- For $d\gt 3$, the decision boundary is a $d-1$-dimensional hyperplane
+## Hyperparameters
+### `C`
+- main hyperparameter that controls the fundamental trade-off
+- similar to `C` of [[Support Vector Machines (SVM) with RBF Kernel]]
+	- smaller `C` -> might lead to underfitting
+	- bigger `C` -> might lead to overfitting
