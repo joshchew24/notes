@@ -49,11 +49,43 @@ $$\hat{y} = w_1x_1 + b$$
 > ` prediction = snake_length * r.coef_ + r.intercept_ `
 > 
 ### Generalizing to more features
-For more features, the model is a higher dimensional hyperplane and the general prediction formula looks as follows: 
-$$\hat{y} = w_1x_1 + ... + $$
+> [!important] For more features, the model is a higher dimensional hyperplane and the general prediction formula looks as follows: 
 $\hat{y} =$ <font color="red">$w_1$</font> <font color="DodgerBlue">$x_1$ </font> $+ \dots +$ <font color="red">$w_d$</font> <font color="DodgerBlue">$x_d$</font> + <font  color="green"> $b$</font>
+>
+> where, 
+> - <font  color="DodgerBlue"> ($x_1, \dots, x_d$) are input features </font>
+> - <font  color="red"> ($w_1, \dots, w_d$) are coefficients or weights </font> (learned from the data)
+> - <font  color="green"> $b$ is the bias which can be used to offset your hyperplane </font> (learned from the data)
 
-where, 
-- <font  color="DodgerBlue"> ($x_1, \dots, x_d$) are input features </font>
-- <font  color="red"> ($w_1, \dots, w_d$) are coefficients or weights </font> (learned from the data)
-- <font  color="green"> $b$ is the bias which can be used to offset your hyperplane </font> (learned from the data)
+
+## [[Ridge]]
+- `scikit-learn` has a model called `LinearRegression` for linear regression. 
+- But if we use this "vanilla" version of linear regression, it may result in large coefficients and unexpected results. 
+- So instead of using `LinearRegression`, we will _always use another linear model called `Ridge`_, which is a linear regression model with a complexity **hyperparameter** `alpha`.
+```python
+from sklearn.linear_model import LinearRegression  # DO NOT USE IT IN THIS COURSE
+from sklearn.linear_model import Ridge  # USE THIS INSTEAD
+```
+### Example
+```python
+from sklearn.datasets import fetch_california_housing
+
+
+california = fetch_california_housing()
+X_train, X_test, y_train, y_test = train_test_split(
+    california.data, california.target, test_size=0.2
+)
+pd.DataFrame(X_train, columns=california.feature_names)
+
+print(california.DESCR)
+
+pipe = make_pipeline(StandardScaler(), Ridge())
+scores = cross_validate(pipe, X_train, y_train, return_train_score=True)
+pd.DataFrame(scores)
+
+pd.DataFrame(scores).mean().rename('mean').to_frame().T
+```
+### Hyperparameters
+#### Alpha
+- this hyperparameter is what makes `Ridge` different from `LinearRegression`
+- controls the fundamental tradeoff
