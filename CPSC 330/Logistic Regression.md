@@ -94,3 +94,6 @@ plt.ylabel("latitude")
 - similar to `C` of [[Support Vector Machines (SVM) with RBF Kernel]]
 	- smaller `C` -> might lead to underfitting
 	- bigger `C` -> might lead to overfitting
+## [[Predicting Probability Scores]]
+- The weighted sum $w_1x_1 + \dots + w_dx_d + b$ gives us "raw model output".
+- To convert the raw model output into probabilities, instead of taking the sign, we apply the **[[Sigmoid Function]]**.
