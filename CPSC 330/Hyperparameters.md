@@ -80,7 +80,6 @@ def display_heatmap(param_grid, pipe, X_train, y_train):
     grid_search.fit(X_train, y_train)
     results = pd.DataFrame(grid_search.cv_results_)
     scores = np.array(results.mean_test_score).reshape(6, 6)
-
     # plot the mean cross-validation scores
     my_heatmap(
         scores,
