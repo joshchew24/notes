@@ -1,2 +1,2 @@
-# README
-Obsidian Vault of Uni notes
+# My Notebook
+Obsidian vault of my notes, mostly for school. 
