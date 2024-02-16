@@ -24,3 +24,25 @@ my current idea for how this will work:
 		- use sprites for player and other character models
 	- we may be able to just render lines for each `Boundary` 
 		- good for now, can make it look nicer for the final game. will give the "hand-drawn" aesthetic
+
+## Input system
+- press key
+- InputSystem adds key to set of pressed keys while it is held
+- InputSystem iterates through its set and calls the respective handlers
+- release key
+- InputSystem removes key from set
+- InputSystem iterates calls the respective release handler
+```cpp
+struct input_event {
+	int key;
+	int action;
+	bool hold_to_repeat;
+};
+
+class InputSystem {
+private:
+	std::
+}
+```
+## Movement System
+- MovementSystem remembers most recently pressed keys
