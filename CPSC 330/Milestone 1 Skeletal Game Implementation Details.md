@@ -46,3 +46,7 @@ private:
 ```
 ## Movement System
 - MovementSystem remembers most recently pressed keys
+```cpp
+bool left;
+bool right;
+int last;
