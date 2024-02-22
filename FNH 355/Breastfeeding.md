@@ -1,9 +1,9 @@
 # Breastfeeding
-worldwide, __ of infants are exclusively breastfed for the first 6 months
+worldwide, 42% of infants are exclusively breastfed for the first 6 months 
 ## 1-6-24 model
-- breastfeeding within 1 hour of birth
-- breastfeeding for the first 6 months
-- breastfeeding with [[Complementary Foods|complementary foods]] for 24+ months
+- intiate breastfeeding within 1 hour of birth
+- exclusive breastfeeding for the first 6 months
+- continue breastfeeding with [[Complementary Foods|complementary foods]] for 24+ months
 - see also [[WHO Breastfeeding Recommendations]]
 ## Benefits
 - reduced risk of infant mortality
@@ -17,12 +17,14 @@ worldwide, __ of infants are exclusively breastfed for the first 6 months
 | Predominantly breastfed | **1.5** (1.1-1.9) | **1.7** (1.2-2.5) |
 | Partially breastfed | **2.8** (1.6-5.0) | **4.6** (3.0-7.1) |
 | Not breastfed | **14.4** (6.1-34.0) | **8.7** (3.2-24.0) |
-- reduced risk of postpartum hemorrhage if mother can breastfeed __
+- reduced risk of postpartum hemorrhage if mother can breastfeed shortly after delivery
+	- triggers hormonal response to contract uterus and expel the placenta
 - increased birth spacing
-	- an interval of at least 24 months between a live birth and the next conception reduces risk of negative outcomes for  __
+	- an interval of at least 24 months between a live birth and the next conception reduces risk of negative outcomes for mother and infant
 	- breastfeeding can increase birth spacing by causing "lactational amenorrhea"
-	- exclusive breastfeeding can give a woman __ protection against pregnancy for __
+	- exclusive breastfeeding can give a woman 98% protection against pregnancy for 6 months
 		- if her baby feeds frequently day and night, and is not given any other food, drinks, or a pacifier
+		- important to breastfeed at night
 ## Composition
 |  | Breast Milk (100mL) |
 | ---- | ---- |

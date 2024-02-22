@@ -6,4 +6,5 @@
 - bottles and pacifiers should be avoided
 ## Impact
 - Following the WHO recommendations would save >800,000 child lives (and $300 billion USD) every year
-- 0-5 month old infants who were not breastfed were __ (from any cause) than those who were exclusively breastfed
+	- would prevent ~50% cases of diarrhea, 33% respiratory infections in children
+- 0-5 month old infants who were not breastfed were **14.4 times more likely to die**(from any cause) than those who were exclusively breastfed
