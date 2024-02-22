@@ -23,4 +23,25 @@ worldwide, __ of infants are exclusively breastfed for the first 6 months
 	- breastfeeding can increase birth spacing by causing "lactational amenorrhea"
 	- exclusive breastfeeding can give a woman __ protection against pregnancy for __
 		- if her baby feeds frequently day and night, and is not given any other food, drinks, or a pacifier
-	- 
+## Composition
+|  | Breast Milk (100mL) |
+| ---- | ---- |
+| Energy | 163 - 175 kcal |
+| Protein | 2.25 - 3 g (7% of kcal) |
+| Fat | 8 - 9 g (46% of kcal) |
+| Carbohydrate | 16.8 - 19.5 g (45% of kcal) |
+| Vitamins | Sufficient amounts, except vitamin D (and vitamin K) |
+| Minerals | Low in iron (but bioavailability high, and infant stores will last ~6 months) |
+| Anti-infective factors | Immunoglobulins, white blood cells, lysozyme, lactoferrin, etc. |
+| Other bioactive factors | Lipase, growth factors (e.g., promote growth and development of intestinal tract), laxative factors |
+### Changes over time
+- Colostrum
+	- secreted for first 2-3 days after delivery
+	- Concentrated, very nutritious, mild __ , contains growth factors and __
+	- infant will consume only ~1 tsp of colostrum in a feeding
+- Transitional milk
+	- until infant ~2 weeks old
+- Mature milk
+	- from 2 weeks to ~6 months
+- Extended lactation
+	- beyond 6 months

@@ -1,8 +1,8 @@
 # WHO Breastfeeding Recommendations
-- exclusive breastfeeding recommended up to
-- continued breastfeeding along with appropriate [[Complementary Foods|complementary foods]] up to
+- exclusive breastfeeding recommended up to 6 months
+- continued breastfeeding along with appropriate [[Complementary Foods|complementary foods]] up to 2 years of age or beyond
 - breastfeeding should begin within an hour of birth
-- should be "\_\_\_"
+- should be "on demand"
 - bottles and pacifiers should be avoided
 ## Impact
 - Following the WHO recommendations would save >800,000 child lives (and $300 billion USD) every year
