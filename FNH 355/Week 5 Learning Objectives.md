@@ -1,5 +1,4 @@
 # Week 5 Learning Objectives
-## Big Picture
 1. Clearly describe (with specific examples) the _prevalence_, _causes_, and _consequences_ of the "hidden hunger" of micronutrient malnutrition throughout the world.
 2. Integrate your learning about micronutrient malnutrition with your knowledge of _basic nutrition_ and the _UNICEF Framework_ to identify and evaluate possible solutions to address micronutrient malnutrition.
 3. Describe and evaluate factors related to iron deficiency, including: How much iron do we need? What are dietary sources of iron? Who is at risk or affected? What are the consequences of iron deficiency? How can nutritional assessment detect iron deficiency?
