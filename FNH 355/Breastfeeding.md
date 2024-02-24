@@ -71,9 +71,31 @@ when feeding an infant, the first breast should be "drained" of breast milk befo
 	- high proportion of HIV+ people have access to antiretroviral therapy (ART)
 		- 85% of HIV+ pregnant women
 	- new infections in children are lowering
+	- if a safe alternative is available, use it
+		- commercial infant formula
+			- safe water, sanitation, reliable preparation, sufficient supply
+		- safe donor breast milk
+	- if not available
+		- breastfeed and ARV
+		- exclusive for 6 months
+		- continue with complementary foods for at least 12 months, or 24 months or more
+			- i.e. breastfeeding should only stop once a nutritionally adequate and safe diet without breast milk can be provided
 #### MTCT of HIV
 - mother to child transmission
 - occurs when HIV+ woman transmits virus to children during pregnancy, labour & delivery, or breastfeeding
 	- considered "vertical" transmission
 - children of HIV-infected mothers more likely to be stunted, wasted, or underweight
 	- 28%, 26%, 26% respectively
+	- reasons
+		- reduced breastfeeding
+		- reduced parental care
+		- children may also be HIV+
+
+| Period | Proportion of children that will become infected with HIV, if mother is not on ART |
+| ---- | ---- |
+| Pregnancy | 5-10% |
+| Delivery | 10-20% |
+| Breastfeeding | 10-20% |
+- if child is breastfed for 18-24 months
+- proportion that will NOT become infected with HIV (without ART): ~50-75%
+- transmission risk reduced to ~1% if ART drugs used
