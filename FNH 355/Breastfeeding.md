@@ -42,9 +42,26 @@ worldwide, 42% of infants are exclusively breastfed for the first 6 months
 	- secreted for first 2-3 days after delivery
 	- Concentrated, very nutritious, mild laxative , contains growth factors and antibodies
 	- infant will consume only ~1 tsp of colostrum in a feeding
+	- some communities incorrectly perceive colostrum to be "immature, dirty milk, and therefore harmful to their infants"
 - Transitional milk
 	- until infant ~2 weeks old
 - Mature milk
 	- from 2 weeks to ~6 months
 - Extended lactation
 	- beyond 6 months
+#### Prelacteal feed
+- anything given to infant before initiating breastfeeding
+- believed to be laxatives, cleansing agents, rehydrating agents, a way to clear the meconium
+- 43% of infants given something other than breast milk in first 3 days of life
+#### Changing within a feed
+when feeding an infant, the first breast should be "drained" of breast milk before the other breast is offered
+- foremilk - waterly
+- hindmilk - high fat
+	- primarily in the hindmilk
+	- more energy dense
+- ![[Pasted image 20240223165303.png|250]]
+
+## Factors Affecting if a Woman Breastfeeds
+- opportunity to feed right away
+- supportive sociocultural context
+- direct information and support
