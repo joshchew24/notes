@@ -65,3 +65,9 @@ when feeding an infant, the first breast should be "drained" of breast milk befo
 - opportunity to feed right away
 - supportive sociocultural context
 - direct information and support
+## Breastfeeding in Emergencies
+- should HIV+ women breastfeed their infant?
+	- balance HIV prevention with protection from other risks
+	- high proportion of HIV+ people have access to antiretroviral therapy (ART)
+		- 85% of HIV+ pregnant women
+	- new infections in children are lowering
