@@ -37,9 +37,10 @@ worldwide, 42% of infants are exclusively breastfed for the first 6 months
 | Anti-infective factors | Immunoglobulins, white blood cells, lysozyme, lactoferrin, etc. |
 | Other bioactive factors | Lipase, growth factors (e.g., promote growth and development of intestinal tract), laxative factors |
 ### Changes over time
+- the composition of the breastmilk changes to match the needs of the infant
 - Colostrum
 	- secreted for first 2-3 days after delivery
-	- Concentrated, very nutritious, mild __ , contains growth factors and __
+	- Concentrated, very nutritious, mild laxative , contains growth factors and antibodies
 	- infant will consume only ~1 tsp of colostrum in a feeding
 - Transitional milk
 	- until infant ~2 weeks old
