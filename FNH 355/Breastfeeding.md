@@ -2,7 +2,14 @@
 worldwide, 42% of infants are exclusively breastfed for the first 6 months 
 ## 1-6-24 model
 - intiate breastfeeding within 1 hour of birth
+	- protects newborn from acquiring infection
+	- reduces mortality
+	- facilitates emotional bonding
+	- positive impact on duration of exclusive breastfeeding
+	- stimulates breastmilk production
+	- reduces risk of postpartum hemorrhage (see below)
 - exclusive breastfeeding for the first 6 months
+	- 
 - continue breastfeeding with [[Complementary Foods|complementary foods]] for 24+ months
 - see also [[WHO Breastfeeding Recommendations]]
 ## Benefits
