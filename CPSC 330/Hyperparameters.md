@@ -141,3 +141,7 @@ random_search.fit(X_train, y_train)
 	- during training, search over tons of different decision trees
 	- get lucky and find a tree with low training error
 #### Optimization Bias of Hyper-parameter Learning
+- overfitting of the validation error
+- e.g.
+	- optimize the validation error over 1000 values of `max_depth`
+	- one of the 1000 trees might have low validation error by chance
