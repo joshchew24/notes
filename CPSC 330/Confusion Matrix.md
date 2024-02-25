@@ -1,5 +1,5 @@
 # Confusion Matrix
-## Class Imbalance
+## [[Class Imbalance]]
 - when the dataset classes have a highly disproportional distribution of examples
 - we can obtain very high accuracy scores even if we are frequently mislabelling one class with lower representation
 ## Mispredictions
@@ -49,4 +49,7 @@ ConfusionMatrixDisplay.from_predictions(
 
 ## [[Evaluation Metrics]]
 - more metrics to evaluate a model than just `score`
-## [[Precision-recall curve]]
+## Which Type of Error is More Important?
+- FP and FN have different real-world consequences
+	- e.g. diagnosing illness vs convicting criminals
+- 

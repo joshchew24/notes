@@ -34,3 +34,24 @@ plt.legend(loc="best");
     - Ideally, you want a classifier with high recall while keeping low false positive rate.  
 - The red dot corresponds to the threshold of 0.5, which is used by predict.
 - We see that compared to the default threshold, we can achieve a better recall of around 0.8 without increasing FPR. 
+## Area Under the Curve (AUC)
+```python
+from sklearn.metrics import roc_auc_score
+
+roc_lr = roc_auc_score(y_valid, pipe_lr.predict_proba(X_valid)[:, 1])
+roc_svc = roc_auc_score(y_valid, pipe_svc.decision_function(X_valid))
+print("AUC for LR: {:.3f}".format(roc_lr))
+print("AUC for SVC: {:.3f}".format(roc_svc))
+```
+- AUC of **0.5** means **random chance**.
+- AUC can be interpreted as evaluating the **ranking of positive examples**.
+- What's the probability that a randomly picked positive point has a higher score according to the classifier than a randomly picked point from the negative class. 
+- AUC of **1.0** means **all positive points have a higher score than all negative points**.
+> [!important]
+> For classification problems with imbalanced classes, using AP score or AUC is often much more meaningful than using accuracy. 
+## Display
+```python
+from sklearn.metrics import RocCurveDisplay
+
+RocCurveDisplay.from_estimator(pipe_lr, X_valid, y_valid);
+```

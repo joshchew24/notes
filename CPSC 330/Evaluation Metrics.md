@@ -1,7 +1,14 @@
 # Evaluation Metrics
 - by default, `.score` returns accuracy
 	- accuracy is misleading when there is a class imbalance
-- we use [[Precision]], [[Recall]], and [[F1 Score]]
+- [[Precision]]
+	- [[Precision-recall curve]]
+	- [[Precision-recall curve#AP Score|AP Score]]
+- [[Recall]]
+- [[F1 Score]]
+- [[Receiver Operating Characteristic (ROC) curve]]
+	- [[Receiver Operating Characteristic (ROC) curve#Area Under the Curve (AUC)|AUC]]
+
 ![[Pasted image 20240224225752.png|475]]
 
 Calculate these metrics manually:
