@@ -99,3 +99,30 @@ def display_heatmap(param_grid, pipe, X_train, y_train):
     - You'll be evaluating $10^5=100,000$ models! That is you'll be calling `cross_validate` $100,000$ times!
 - Exhaustive search may become **infeasible fairly quickly**.
 - Other options?
+
+
+### Randomized Hyperparameter Search
+- `sklearn.model-_selection.RandomizedSearchCV`
+- samples configurations at **random until certain budget** (e.g. time) is exhausted
+```python
+from sklearn.model_selection import RandomizedSearchCV
+
+param_grid = {
+    "columntransformer__countvectorizer__max_features": [100, 200, 400, 800, 1000, 2000],
+    "svc__gamma": [0.001, 0.01, 0.1, 1.0, 10, 100],
+    "svc__C": np.linspace(2, 3, 6),
+}
+
+print("Grid size: %d" % (np.prod(list(map(len, param_grid.values())))))
+param_grid
+
+# Create a random search object
+random_search = RandomizedSearchCV(pipe_svm,                                    
+                  param_distributions = param_grid, 
+                  n_iter=100, 
+                  n_jobs=-1, 
+                  return_train_score=True)
+
+# Carry out the search
+random_search.fit(X_train, y_train)
+```
