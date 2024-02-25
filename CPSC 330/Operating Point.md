@@ -31,3 +31,6 @@
 - Increasing the threshold means a higher bar for predicting fraud. 
     - Recall would go down or stay the same but precision is likely to go up 
     - Occasionally, precision may go down if TP decrease but FP do not decrease.
+
+## [[Precision-recall curve]]
+Often, when developing a model, it's not always clear what the operating point will be and to understand the the model better, it's **informative to look at all possible thresholds** and corresponding trade-offs of precision and recall in a plot.  
