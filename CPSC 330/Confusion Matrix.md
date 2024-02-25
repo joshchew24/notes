@@ -52,4 +52,4 @@ ConfusionMatrixDisplay.from_predictions(
 ## Which Type of Error is More Important?
 - FP and FN have different real-world consequences
 	- e.g. diagnosing illness vs convicting criminals
-- 
+- use PR and ROC curves to pick an appropriate threshold
