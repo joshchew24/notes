@@ -131,3 +131,6 @@ random_search.fit(X_train, y_train)
 - faster compared to `GridSearchCV`
 - adding parameters that do not influence performance does not affect efficiency
 - works better when some parameters are more important than others
+### Optimization Bias / Overfitting of the Validation Set
+- why do we need to evaluate the model on the test set in the end?
+- why not just use cross-validation ont he whole dataset
