@@ -47,7 +47,4 @@ ConfusionMatrixDisplay.from_predictions(
 );
 ```
 
-## Metrics
-- by default, `.score` returns accuracy
-	- accuracy is misleading when there is a class imbalance
-- we use [[Precision]], [[Recall]], and [[f1 ]]
+## [[Evaluation Metrics]]
