@@ -48,3 +48,5 @@ ConfusionMatrixDisplay.from_predictions(
 ```
 
 ## [[Evaluation Metrics]]
+- more metrics to evaluate a model than just `score`
+## [[Precision-recall curve]]
