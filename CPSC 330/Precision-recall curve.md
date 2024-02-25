@@ -10,25 +10,4 @@ Now,
     - `predict` returns 1 when `predict_proba`'s probabilities are above 0.5 for the "fraud" class.
 
 **Key idea: what if we _threshold the probability at a smaller value_ so that we identify more examples as "fraud" examples?** 
-## Operating point 
-- Setting a **requirement on a classifier** (e.g., recall of >= 0.75) is called setting the **operating point**. 
-- It's usually driven by **business goals** and is useful to make performance guarantees to customers. 
-### Precision/Recall tradeoff 
-- But there is a trade-off between precision and recall. 
-- If you identify more things as "fraud", 
-    - recall is going to increase but 
-    - there are likely to be more false positives.
-### Decreasing the threshold
-- ***Decreasing the threshold*** means a lower bar for predicting fraud. 
-    - You are willing to risk more false positives FP⬆ in exchange of more true positives TP⬆. 
-      - In general, predicted positives (TP + FP)⬆ go up or stay the same
-      - In general, predicted negatives (TN + FN)⬇ go down or stay the same
-    - Recall is likely to go up or stay the same
-      - TP⬆ / (TP⬆+FN⬇) so generally recall ⬆
-    - Precision is likely to go down or stay the same
-      - TP⬆ / (TP⬆+FP⬆) so generally precision ⬇
-    - Occasionally, precision may increase if all the new examples after decreasing the threshold are TPs. 
-### Increasing the threshold
-- Increasing the threshold means a higher bar for predicting fraud. 
-    - Recall would go down or stay the same but precision is likely to go up 
-    - Occasionally, precision may go down if TP decrease but FP do not decrease.
+## [[Operating Point]]
