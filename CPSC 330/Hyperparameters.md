@@ -133,4 +133,11 @@ random_search.fit(X_train, y_train)
 - works better when some parameters are more important than others
 ### Optimization Bias / Overfitting of the Validation Set
 - why do we need to evaluate the model on the test set in the end?
-- why not just use cross-validation ont he whole dataset
+	- why not just use cross-validation on the whole dataset
+	- because it's possible to overfit
+#### Optimization Bias of Parameter learning
+- overfitting of the training error
+- e.g.
+	- during training, search over tons of different decision trees
+	- get lucky and find a tree with low training error
+#### Optimization Bias of Hyper-parameter Learning
