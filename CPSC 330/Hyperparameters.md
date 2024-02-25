@@ -126,3 +126,8 @@ random_search = RandomizedSearchCV(pipe_svm,
 # Carry out the search
 random_search.fit(X_train, y_train)
 ```
+- can pass a probability distribution to random search
+#### Advantages
+- faster compared to `GridSearchCV`
+- adding parameters that do not influence performance does not affect efficiency
+- works better when some parameters are more important than others
