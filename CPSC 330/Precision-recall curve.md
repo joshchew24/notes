@@ -84,9 +84,25 @@ plt.legend(loc="best");
 ## Comments on PR curve
 - Different classifiers might work well in different parts of the curve, i.e., at different operating points.   
 - We can compare PR curves of different classifiers to understand these differences. 
-
 ## AP Score
 - Often it's useful to have one number summarizing the PR plot (e.g., in hyperparameter optimization)
 - One way to do this is by computing the **area under the PR curve**.
 - This is called **average precision** (AP score)
 - AP score has a value between 0 (worst) and 1 (best). 
+```python
+from sklearn.metrics import average_precision_score
+
+ap_lr = average_precision_score(y_valid, pipe_lr.predict_proba(X_valid)[:, 1])
+print("Average precision of logistic regression: {:.3f}".format(ap_lr))
+```
+You can also use the following handy function of `sklearn` to get the PR curve and the corresponding AP score. 
+```python
+from sklearn.metrics import PrecisionRecallDisplay
+
+PrecisionRecallDisplay.from_estimator(pipe_lr, X_valid, y_valid);
+```
+![[Pasted image 20240225010022.png]]
+### AP vs. F1-score
+It is very important to note this distinction:
+- F1 score is for a given threshold and measures the quality of `predict`.
+- AP score is a summary across thresholds and measures the quality of `predict_proba`.
