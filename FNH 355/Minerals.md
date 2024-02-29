@@ -1,0 +1,11 @@
+# Minerals
+- specific, single atoms of elements that perform particular body functions
+	- e.g. Zinc, Iron, Calcium, etc.
+- human body contains 40+ minerals, but only 15 are essential in diet
+	- others obtained through air, etc.
+- single atom typically carries a charge, so minerals are quite reactive
+	- constantly finding things to be back to neutral
+	- combine with oppositely charged minerals to form stable compounds and become part of tissue
+	- electric charge can stimulate muscle contractions, neurons, nreves
+	- combine with other substances in foods to form stable compounds that are not easily absorbed
+		- e.g. tea consumed with iron-rich meal reduces the bioavailability of the iron

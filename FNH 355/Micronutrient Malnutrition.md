@@ -1,3 +1,7 @@
+---
+aliases:
+  - deficiency diseases
+---
 # Micronutrient Malnutrition
 - also known as "hidden hunger"
 	- not as obvious as other forms of undernutrition such as stunting and wasting

@@ -24,13 +24,6 @@
 	- consider protein deficiency
 - koilonychia (spoon-shaped nails)
 	- consider iron deficiency anemia
-### Edema
-- swelling due to excess fluid accumulation
-- bilateral pitting edema is a sign of [[Wasting|SAM]]
-	- particular protein deficiencies
-	- process to check
-		1. press gently with thumbs and hold for 3 sec
-		2. remove thumbs. if indent remains, pitting edema
-- 
+### [[Nutritional Edema]]
 ## Symptoms
 - subjective, reported by affected person

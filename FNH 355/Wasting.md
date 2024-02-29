@@ -1,3 +1,9 @@
+---
+aliases:
+  - Severe Acute Malnutrition
+  - SAM
+  - Acute Malnutrition
+---
 # Wasting
 > [!Definition] Low weight for height
 > 
@@ -33,3 +39,15 @@
 	- e.g. MUAC <23.5 cm in pregnant women associated with higher risk of having baby born with low birth weight in Guatemala
 - no international cutoffs exist
 - additional research is needed
+## Marasmus
+- severe weight loss
+- body tries to conserve energy
+	- reduced liver, kidney, heart activity
+- use proteins from muscles and other tissues to help meet body's protein need
+	- loss of >30% protein reuslts in
+		- less strength for breathing
+		- susceptibility to infections
+		- abnormal organ function
+		- death
+	- due to energy deficiency, not nutritional diversity
+- treatable and can be improved quickly

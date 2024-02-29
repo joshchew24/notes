@@ -17,3 +17,9 @@
 	- mothers can be overweight while children are malnourished. impactful because why can't the mother share her food with the kids?
 4. How can you connect what you learned in this video with what you learned about basic nutrition (energy, macronutrients, micronutrients)?
 	- caloric intake alone is not sufficient, nutritional balance is key
+## Five Stages
+1. Hunter-gatherer or Paleolithic
+2. Modern agriculture and famine
+3. Receding famine (as incomes grow)
+4. changes in activity levels and diet lead to increased levels of non-communicable diseases (NCD)
+5. behavioural change in which populations reduce their fat, increase fiber intake, and do meaningful physical activity that extends mortality and reduces NCDs
