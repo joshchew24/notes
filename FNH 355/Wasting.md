@@ -39,6 +39,8 @@ aliases:
 	- e.g. MUAC <23.5 cm in pregnant women associated with higher risk of having baby born with low birth weight in Guatemala
 - no international cutoffs exist
 - additional research is needed
+#### Example Instruction
+"**Remove any clothing** from your child's arm, and have their **arm by their side** (not up in the air). Put the band **halfway between your child's shoulder and elbow**, and insert the tip of the long end into the little slit so that it forms a loop around your child's arm.  **Gently tighten the band so that it lies flat on your child's skin** (not too tight, not too loose).  **Look at where the arrow is pointing - if it points to a number in the yellow or red areas of the band, that is a sign of malnutrition and your child should be brought to the clinic for treatment**."
 ## Marasmus
 - severe weight loss
 - body tries to conserve energy
