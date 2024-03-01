@@ -83,14 +83,17 @@ Blood test for:
 - eggs, dairy
 #### Other Dietary Factors that Affect Iron Absorption
 
-| Increase | Decrease |
-| ---- | ---- |
-| Vitamin C | phytates, oxalates |
-| MFP Factor (meat, fish, poultry) | polyphenols |
-|  | fibre |
-|  | calcium, zinc |
-|  | antacids |
-|  | EDTA (preservative) |
+| Increase                         | Decrease                 |
+| -------------------------------- | ------------------------ |
+| Vitamin C                        | phytates, oxalates       |
+| MFP Factor (meat, fish, poultry) | polyphenols              |
+|                                  | fibre                    |
+|                                  | calcium, zinc            |
+|                                  | antacids                 |
+|                                  | EDTA (preservative)      |
+|                                  | tannic acid [[Minerals]] |
+##### MFP Factor
+- heme iron in MFP significantly increases absorption from non-heme sources when consumed together
 ### Fortification
 - industrial or household
 - industrial fortification of a staple such as wheat flour
