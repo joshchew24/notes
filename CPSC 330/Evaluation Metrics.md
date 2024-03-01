@@ -12,7 +12,7 @@
 	- [[Mean Squared Error (MSE)]]
 	- [[R squared $R2$]]
 	- [[Root Mean Squared Error (RMSE)]]
-	- [[MAPE]]
+	- [[Mean Absolute Percentage Error (MAPE)]]
 
 
 ![[Pasted image 20240224225752.png|475]]
