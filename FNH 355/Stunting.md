@@ -8,6 +8,7 @@
 - not just height, has cognitive impacts
 - failing to grow vs failed to grow
 	- stunting vs stunted
+		- 2 year threshold
 	- stunted will never reach their full height potential
 ## Recumbent Length
 - measured if child cannot stand erect without assistance
