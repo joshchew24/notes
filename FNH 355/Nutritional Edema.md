@@ -16,3 +16,4 @@
 - edema can hide growth failure preventing early diagnosis
 - occasionaly observed when parents put children on protein-restricted diet
 	- perceived intolerance to formula or cow's milk
+- moon face, "flaky paint" dermatosis, loss of appetite
