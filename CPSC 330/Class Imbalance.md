@@ -6,6 +6,7 @@
     - Our Credit Card Fraud dataset is imbalanced.
     - Ad clicking data is usually drastically imbalanced. (Only around ~0.01% ads are clicked.)
     - Spam classification datasets are also usually imbalanced.
+- can be thought of as **anomaly detection**
 ## Addressing Imbalance
 - why does it exist?
 	- is one class much rarer than the other?
