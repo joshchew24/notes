@@ -90,3 +90,15 @@ from sklearn import set_config
 set_config(display="diagram")
 ct
 ```
+## Feature Names of Transformed Data
+- If you want to get the column names of newly created columns, you need to fit the transformer.
+```python
+ohe_columns = list(
+    preprocessor.named_transformers_["pipeline-4"]
+    .named_steps["onehotencoder"]
+    .get_feature_names_out(categorical_features)
+)
+new_columns = (
+    numeric_features + ordinal_features_reg + ordinal_features_oth + ohe_columns
+)
+```
