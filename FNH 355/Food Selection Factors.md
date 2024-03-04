@@ -1,5 +1,5 @@
 # Food Selection Factors
-## Culture
+## [[Culture]]
 - acceptable foods
 - customs
 - food symbolism
@@ -14,9 +14,9 @@
 - familiarity
 - sensitivity
 	- some people have more taste buds (i.e. super tasters)
+- primarily learned and informed by culture
 ## Practical Considerations
 - food availability and cost
 - hunger
 - convenience
 - health status
-- 
