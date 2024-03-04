@@ -44,4 +44,33 @@
 	- non-halal (i.e. 'haram' = prohibited) foods
 		- pork, non-halal meats, alcohol
 ## Modernization
-- body functions b
+- body functions best with diet emphasizing lean protein, high fibre, complex carbohydrates, vegetables & fruits, and minimizing sugar and sodium
+- traditional foods are more unpredictable, modern western grocery foods are more reliable
+- how do we know what food was consumed in the past?
+	- study current hunter gatherer groups
+		- e.g. Hadza hunters of Tanzania
+	- coprolite -> fossilized feces
+![[Pasted image 20240303172700.png]]
+### Basis of Modern Dietary Habits
+- Agricultural Revolution
+	- extremely important pivot point
+	- 12,000 years ago, human culture moved from hunter-gatherer to agriculture and settlement
+		- evidenced by Egyptian painting
+- Industrial Revolution
+	- making everything mechanic, reduce manual labour
+	- changed agriculture industry
+	- began in UK ~1750 - 1850
+	- machines allowed less people to harvest more food
+	- new processes
+		- refining whole grains
+			- remove most of the fiber and vitamins
+			- lasts longer
+		- refining sugar
+			- processed sugar cane or sugar beet
+		- pasteurization
+		- refrigeration
+		- canned food
+		- hydrogenation
+			- fat structure is changed
+				- can make the fat less healthy
+	- **industralization increases food processing and consumption of processed foods**
