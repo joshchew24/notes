@@ -1,6 +1,8 @@
 ---
 tags:
   - FundamentalTradeoff
+aliases:
+  - Fundamental Tradeoff
 ---
 # Bias and Variance Tradeoff
 > [!important] Fundamental Tradeoff of Supervised Learning

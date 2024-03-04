@@ -93,3 +93,4 @@ for i, tree in enumerate(
 - `n_estimators`: number of decision trees (higher = more complexity)
 - `max_depth`: max depth of each decision tree (higher = more complexity)
 - `max_features`: the number of features you get to look at each split (higher = more complexity)
+### Number of Trees and [[Bias and Variance Tradeoff|Fundamental Tradeoff]]

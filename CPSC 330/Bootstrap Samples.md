@@ -1,3 +1,7 @@
+---
+aliases:
+  - bootstrap sample
+---
 # Bootstrap Samples
 ## An example of a bootstrap samples
 - Suppose you are training a random forest model with `n_estimators=3`. 

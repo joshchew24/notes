@@ -1,3 +1,7 @@
+---
+aliases:
+  - Supervised Machine Learning
+---
 # Supervised Learning
 - training data comprises a set of observations ($X$) and their corresponding targets ($y$)
 - we wish to find a model function $f$ that relates $X$ to $y$
