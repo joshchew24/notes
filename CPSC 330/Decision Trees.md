@@ -1,4 +1,6 @@
 # Decision Trees
+- [[Tree-based model]]
+
 Learn a binary decision tree to predict the outcome
 ![[Pasted image 20240118223710.png]]
 - note: this example uses discrete/binary features, so the decision threshold is always `0.5`
