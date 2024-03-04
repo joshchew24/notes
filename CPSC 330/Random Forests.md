@@ -94,3 +94,24 @@ for i, tree in enumerate(
 - `max_depth`: max depth of each decision tree (higher = more complexity)
 - `max_features`: the number of features you get to look at each split (higher = more complexity)
 ### Number of Trees and [[Bias and Variance Tradeoff|Fundamental Tradeoff]]
+```python
+make_num_tree_plot(
+    preprocessor, X_train, y_train, X_test, y_test, [1, 5, 10, 25, 50, 100, 200, 500]
+) # function defined in code/plotting_functions.py 
+```
+![[Pasted image 20240304101820.png]]
+- Above: seems like we're beating the fundamental "tradeoff" by **increasing training score** and **not decreasing validation score** much.
+- You'll often see a high training scores for in the context of random forests. That's normal. It doesn't mean that the model is overfitting. 
+- While ensembles often offer improved performance, this benefit isn't always guaranteed.
+- Always opting for more trees in a random forest is preferable, but we sometimes choose fewer trees for faster performance.
+
+## Strengths
+- Usually **one of the best** performing **off-the-shelf** classifiers without heavy tuning of hyperparameters
+- **Don't** require **scaling** of data 
+- **Less** likely to **overfit**
+- Slower than decision trees because we are fitting multiple trees but <br>**can easily parallelize training** because all trees are independent of each other
+- In general, able to capture a much broader picture of the data compared to a single decision tree. 
+## Weaknesses
+- Require more memory 
+- Hard to interpret
+- Tend not to perform well on high dimensional sparse data such as text data
