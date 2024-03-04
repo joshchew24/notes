@@ -29,3 +29,70 @@
     - higher learning rate means each tree can make **stronger corrections**, which means **more complex** model 
 - `max_depth` $\rightarrow$ `max_depth` of trees (similar to decision trees) 
 - `scale_pos_weight` $\rightarrow$ Balancing of positive and negative weights
+## Example
+```python
+ratio = np.bincount(y_train_num)[0] / np.bincount(y_train_num)[1]
+
+from catboost import CatBoostClassifier
+from lightgbm.sklearn import LGBMClassifier
+from sklearn.tree import DecisionTreeClassifier
+from xgboost import XGBClassifier
+from sklearn.ensemble import GradientBoostingClassifier, HistGradientBoostingClassifier
+
+pipe_lr = make_pipeline(
+    preprocessor, LogisticRegression(max_iter=2000, random_state=123)
+)
+pipe_dt = make_pipeline(preprocessor, DecisionTreeClassifier(random_state=123))
+pipe_rf = make_pipeline(
+    preprocessor, RandomForestClassifier(class_weight="balanced", random_state=123)
+)
+pipe_xgb = make_pipeline(
+    preprocessor,
+    XGBClassifier(
+        random_state=123, verbosity=0
+    ),
+)
+pipe_lgbm = make_pipeline(
+    preprocessor, LGBMClassifier(random_state=123, verbose=-1)
+)
+
+pipe_catboost = make_pipeline(
+    preprocessor,
+    CatBoostClassifier(verbose=0, random_state=123),
+)
+
+pipe_sklearn_histGB = make_pipeline(
+    preprocessor,
+    HistGradientBoostingClassifier(random_state=123),
+)
+
+pipe_sklearn_GB = make_pipeline(
+    preprocessor,
+    GradientBoostingClassifier(random_state=123),
+)
+
+classifiers = {
+    "logistic regression": pipe_lr,
+    "decision tree": pipe_dt,
+    "random forest": pipe_rf,
+    "XGBoost": pipe_xgb,
+    "LightGBM": pipe_lgbm,
+    "CatBoost": pipe_catboost,
+    "sklearn_histGB": pipe_sklearn_histGB,
+    "sklearn_GB": pipe_sklearn_GB,
+}
+
+results = {}
+
+dummy = DummyClassifier()
+results["Dummy"] = mean_std_cross_val_scores(
+    dummy, X_train, y_train, return_train_score=True, scoring=scoring_metric
+)
+
+for (name, model) in classifiers.items():
+    results[name] = mean_std_cross_val_scores(
+        model, X_train, y_train_num, return_train_score=True, scoring=scoring_metric
+    )
+
+pd.DataFrame(results).T
+```
