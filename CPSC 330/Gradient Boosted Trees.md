@@ -95,4 +95,23 @@ for (name, model) in classifiers.items():
     )
 
 pd.DataFrame(results).T
+
+# comparison of results (excluding the the 'Dummy' row [1:])
+cv_score_order = pd.DataFrame(results).T[1:].sort_values('test_score').index
+print('\nCV scores:')
+print(*cv_score_order, sep=' < ')
+
+fit_time_order = pd.DataFrame(results).T[1:].sort_values('fit_time').index
+print('\nFitting speeds:')
+print(*fit_time_order, sep=' > ')
 ```
+- Decision trees and random forests overfit
+    - Other models do not seem to overfit much. 
+- Fit times
+    - Decision trees are fast but not very accurate
+    - LightGBM is faster than decision trees and more accurate! 
+    - CatBoost fit time is highest. 
+    - There is not much difference between the validation scores of XGBoost, LightGBM, and CatBoost.
+    - Among the best performing models, LightGBM is the fastest one!
+- Scores times  
+    - Prediction times are much smaller in all cases. 
