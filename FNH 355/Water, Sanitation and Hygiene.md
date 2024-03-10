@@ -11,7 +11,7 @@ ali: WASH
 	- improved WASH can prevent diarrhea (reducing child mortality)
 		- see [[Zinc]]
 - [[Pasted image 20240309221152.png]]
-## Water
+## [[Water]]
 - 663 million people worldwide do not have access to an "improved" source of drinking water
 	- "improved" sources are not necessarily clean water
 		- piped water into dwelling
