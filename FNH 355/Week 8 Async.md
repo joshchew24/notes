@@ -15,5 +15,4 @@ _You may decide to focus on one aspect of WASH (e.g., focus your response on san
 - lack of hygiene increases the spread of disease 
 ## Now what?
 - govenrment programs can establish programs and support people in these areas to build clean water supplies and sanitation facilities
-- education and social pressures on proper sanitation and hygiene 
-- 
+- better education on proper sanitation and hygiene
