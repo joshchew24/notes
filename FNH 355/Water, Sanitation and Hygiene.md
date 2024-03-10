@@ -44,6 +44,6 @@ ali: WASH
 	- encouraged girls' families to demand a latrine of boys' families before marriage
 	- appears to have increased latrine ownership among families with boys of marriage age by ~20% by 2004
 		- ~700000 more toilets in the state in 2008 versus 2004
-## Hygiene
+## [[Hygiene]]
 - i.e. washing hands
 - estimated that only 19% of global population wash their hands after potential contact with excreta (urine/feces)
