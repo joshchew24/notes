@@ -26,7 +26,7 @@ ali: WASH
 	- more than 2 billion people do not have access to safe drinking water
 - worldwide, women and girls spend an estimated 200 million hours every day collecting hours
 	- i.e. 8.3 million (24-hour) days
-## Sanitation
+## [[Sanitation]]
 - i.e. where people excrete
 - 2.4 billion people worldwide do not have access to an "improved" sanitation facility
 	- i.e. 1/3 people with 70% in rural areas
