@@ -33,3 +33,7 @@
 - improved survival, health, physical growth, cognitive development, school readiness and school performance
 ### Adulthood and Society
 - improved survival, health, productivity and wages in adults, and improved prosperity and social cohesion for societies
+
+![[Pasted image 20240229182245.png]]
+![[Pasted image 20240229182256.png]]
+![[Pasted image 20240229182303.png]]

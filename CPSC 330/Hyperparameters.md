@@ -145,3 +145,21 @@ random_search.fit(X_train, y_train)
 - e.g.
 	- optimize the validation error over 1000 values of `max_depth`
 	- one of the 1000 trees might have low validation error by chance
+### Using Multiple Metrics
+- can use multiple metrics with `GridSearchCV` and `RandomizedSearchCV`
+- need to set `refit` to the metric (string) for which the `best_params_` will be found and used to build the `best_estimator_` on the whole dataset
+```python
+search_multi = GridSearchCV(
+    pipe_ridge,
+    param_grid,
+    return_train_score=True,
+    n_jobs=-1,
+    scoring=scoring,
+    refit="sklearn MAPE",
+)
+search_multi.fit(X_train, y_train);
+
+print("Best hyperparameter values: ", search_multi.best_params_)
+print("Best score: %0.3f" % (search_multi.best_score_))
+pd.DataFrame(search_multi.cv_results_).set_index("rank_test_mape_scorer").sort_index()
+```

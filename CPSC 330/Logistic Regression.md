@@ -24,7 +24,6 @@
 ## Word Example
 The model predicts whether a movie review is **positive** or **negative**. It does this by marking the binary presence of certain words (features), and summing the coefficients/weights of the present words. It then classifies the example on whether the sum is positive or negative.
 ## Components of a linear classifier
-
 1. input features ($x_1, \dots, x_d$)
 2. coefficients (weights) ($w_1, \dots, w_d$)
 3. bias ($b$ or $w_0$) (can be used to offset your hyperplane)
@@ -97,3 +96,7 @@ plt.ylabel("latitude")
 ## [[Predicting Probability Scores]]
 - The weighted sum $w_1x_1 + \dots + w_dx_d + b$ gives us "raw model output".
 - To convert the raw model output into probabilities, instead of taking the sign, we apply the **[[Sigmoid Function]]**.
+## See Also
+- https://stats.stackexchange.com/questions/127042/why-isnt-logistic-regression-called-logistic-classification
+	- "Although the variable you are targeting in logistic regression is a classification, logistic regression does not actually individually classify things for you: it just gives you probabilities." We then apply a rule to the probability output to classify things.
+	- This is what a linear classifier is

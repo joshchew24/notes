@@ -1,7 +1,6 @@
 # Macronutrients
 ## [[Fat]]
 > [!important] 9 kcal/g
-
 ## [[Carbohydrates]]
 > [!important] 4 kcal/g
 ## [[Protein]]

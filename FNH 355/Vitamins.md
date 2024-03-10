@@ -13,8 +13,9 @@
 	- e.g. scurvy - lack of vitamin C
 
 ## Water-Soluble Vitamins
+- B, C
+	- B1, B2, B3, B5, B6, B7, B9, B12
 - only small amounts stored in body
-	- e.g. C, B12
 - intake beyond body's needs is excreted in the urine
 	- yellow pee: excess vitamin
 - deficiencies can develop quickly if intake is insufficient
@@ -23,6 +24,7 @@
 		- this vitamin is re-circulated throughout the body
 		- takes 7 years to show
 ## Fat-Soluble Vitamins
+- A, D, E, K
 - stored in body
 	- primarily in fat and liver
 - deficiency symptoms take longer to develop

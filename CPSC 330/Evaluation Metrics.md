@@ -8,6 +8,12 @@
 - [[F1 Score]]
 - [[Receiver Operating Characteristic (ROC) curve]]
 	- [[Receiver Operating Characteristic (ROC) curve#Area Under the Curve (AUC)|AUC]]
+- **for regression**
+	- [[Mean Squared Error (MSE)]]
+	- [[R squared $R2$]]
+	- [[Root Mean Squared Error (RMSE)]]
+	- [[Mean Absolute Percentage Error (MAPE)]]
+
 
 ![[Pasted image 20240224225752.png|475]]
 

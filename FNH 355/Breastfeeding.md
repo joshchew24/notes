@@ -72,6 +72,7 @@ when feeding an infant, the first breast should be "drained" of breast milk befo
 - opportunity to feed right away
 - supportive sociocultural context
 - direct information and support
+- breastfeeding rates go up after a country experiences large-scale humanitarian crisis (e.g. natural disaster)
 ## Breastfeeding in Emergencies
 - should HIV+ women breastfeed their infant?
 	- balance HIV prevention with protection from other risks
