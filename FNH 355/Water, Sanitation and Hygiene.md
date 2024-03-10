@@ -6,7 +6,7 @@ ali: WASH
 - interventions reduce
 	- diarrhea
 	- intestinal parasites
-	- environmental enteropathy
+	- [[Environmental Enteropathy]]
 - see [[Global Causes of Child Deaths]]
 	- improved WASH can prevent diarrhea (reducing child mortality)
 		- see [[Zinc]]
