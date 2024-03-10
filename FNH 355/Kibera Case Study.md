@@ -10,3 +10,10 @@
 	- 52% of deaths among children <5 years were among infants
 - in the two weeks before death, 61% reported cough, fever, diarrhea
 	- infection -> undernourished -> more infection
+## [[Sack Garden]]ing
+- people may spend 80% of income on food
+- sack gardens have positive impact on household food security
+	- extra food and sometimes income
+- strengthens social capital among farmers
+	- 50% of those with sack gardens helped other sack gardeners
+	- 20% belonged to formal or informal gardening group
