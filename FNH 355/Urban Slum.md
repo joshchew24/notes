@@ -1,6 +1,6 @@
 # Urban Slum
-## Overcrowding
-## Inadequate Access to Safe Water
-## Inadequate Access to Sanitation and Infrastructure
-## Housing is of Poor Structural Quality
-## Insecure Residential Status
+1. Overcrowding
+2. Inadequate Access to Safe Water
+3. Inadequate Access to Sanitation and Infrastructure
+4. Housing is of Poor Structural Quality
+5. Insecure Residential Status
