@@ -12,4 +12,4 @@
 - The players are initially met with a screen full of a colourful, diverse spread of various foods, invoking a sense of joy in the beauty of fresh ingredients. However, when they start the game, they find themselves in a monotonous, claustrophobic maze. The game is devoid of music, creating a sense of emptiness and allowing the players to focus on their task, allowing their thoughts to wander and contemplate the underlying meaning of the game. 
 
 5) How have you and/or how will you share your piece with others? Briefly describe the context(s) in which your piece has been viewed by others and/or your plans for its dissemination. Be specific!
-- Scratch games are easily shareable via link, 
+- Scratch games are easily shareable via link, so I will share the game and message with my friends on instagram. 
