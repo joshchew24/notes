@@ -1,4 +1,6 @@
 # Assignment B Artist Statement
+## Preface
+Although not considered a typical artform, video games can be a very effective platform for tackling social justice issues due to their interactive nature. 
 
 1) What are the social justice intentions of your piece? Specifically, what do you want people to **think, feel, and do after seeing (or experiencing) what you created**? Your response should be clear and succinct. You may identify a broad objective in terms of your overall social justice intentions, but your description of what you would like people to think/feel/do as a result of your piece should be very specific.
 - 
