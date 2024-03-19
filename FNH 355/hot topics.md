@@ -16,3 +16,6 @@ paragraph submission
 - the value and impact of politics and government
 - diversity of fod insecurity across different provinces
 - distribution of health conditions for different levels of food insecurity
+
+## Reflection
+As I mentioned in the discussion, I have a fairly pessimistic view on the role played by political leaders, governments, and big corporations, and their impact on food accessibility and prices. 
