@@ -6,5 +6,12 @@
   "autoPairMarkdown": false,
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "sources",
-  "spellcheck": false
+  "spellcheck": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
