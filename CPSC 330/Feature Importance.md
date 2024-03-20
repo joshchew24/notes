@@ -57,6 +57,7 @@ lr_coefs.loc[["ExterQual"]]
 #### Categorical Features
 - each category gets its own column and coefficient (because of [[One-hot encoding]])
 - we can compare categories by picking a "reference" category
+	- If you did `drop='first'` in one hot encoding (we didn't) then you already have a reference class, and all the values are with respect to that one. The interpretation depends on whether we did `drop='first'`, hence the hassle.
 ```python
 lr_coefs_landslope = lr_coefs[lr_coefs.index.str.startswith("LandSlope")]
 lr_coefs_landslope
@@ -70,3 +71,18 @@ lr_coefs_landslope - lr_coefs_landslope.loc["LandSlope_Gtl"]
 - If you change the category from `LandSlope_Gtl` to `LandSlope_Mod` the prediction price goes up by $\sim\$6950$
 - If you change the category from `LandSlope_Gtl` to `LandSlope_Sev` the prediction price goes down by $\sim\$8356$
 - *Note that this might not make sense in the real world but this is what our model decided to learn given this small amount of data.*
+#### Numerical Features
+- can be tricky since numerical features are **scaled**
+	- increasing by **1 scaled unit** affects the prediction by the coefficient
+##### Example
+- What's **one scaled unit** for `LotArea`? 
+- The scaler **subtracted** the mean and **divided** by the standard deviation.
+- The **division** actually **changed the scale**! 
+- For the **unit conversion**, we don't care about the subtraction, but only the scaling (by division).
+```python
+scaler = preprocessor.named_transformers_["pipeline-1"]["standardscaler"]
+scaler.var_
+lr_scales = pd.DataFrame(
+    data=np.sqrt(scaler.var_), index=numeric_features, columns=["Scale"]
+)
+lr_scales.head()
