@@ -35,3 +35,22 @@ sns.heatmap(cor, annot=True, cmap=plt.cm.Blues);
 	- If our model says `1stFlrSF` is very important and `TotalBsmtSF` is very unimportant, do we trust those values?
 	- Maybe `TotalBsmtSF` only "becomes important" if `1stFlrSF` is removed.
 	- Sometimes the opposite happens: a feature only becomes important if another feature is _added_.
+## Linear Models
+- With linear regression we can look at the _coefficients_ for each feature.
+	- Overall idea: predicted price = intercept + $\sum_i$ coefficient i $\times$ feature i.
+### Interpreting Coefficients of Different Types of Features
+```python
+lr = make_pipeline(preprocessor, Ridge())
+lr.fit(X_train, y_train)
+
+lr_coefs = pd.DataFrame(
+    data=lr.named_steps["ridge"].coef_, index=new_columns, columns=["Coefficient"]
+)
+lr_coefs.head(20)
+
+lr_coefs.loc[["ExterQual"]]
+```
+#### Ordinal Features
+- the presence of one category of an ordinal feature directly affects the target by it's coefficient value
+	- **according to the model's learning**
+- 
