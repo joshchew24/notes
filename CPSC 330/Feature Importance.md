@@ -2,6 +2,13 @@
 - how does the output depend on the input
 	- i.e. how do the predictions change as a **function of a particular feature**
 ## Correlations
+- **Correlation** among features might make coefficients completely **uninterpretable**. 
+- Fairly **straightforward** to interpret coefficients of **ordinal** features. 
+- In **categorical** features, it's often helpful to consider **one category as a reference** point and think about relative importance. 
+- For **numeric** features, relative importance is meaningful **after scaling**.
+	- You have to be careful about the scale of the feature when interpreting the coefficients. 
+- Remember that explaining the model $\neq$ explaining the data or explaining how the world works.
+	- The **coefficients** tell us only about the **model** and they might **not** accurately reflect the **data**. 
 ### Simple Interpretation
 - if $Y$ goes up when $X$ goes up, they are **positively correlated**
 - if $Y$ goes down when $X$ goes up, they are **negatively correlated**
@@ -81,8 +88,37 @@ lr_coefs_landslope - lr_coefs_landslope.loc["LandSlope_Gtl"]
 - For the **unit conversion**, we don't care about the subtraction, but only the scaling (by division).
 ```python
 scaler = preprocessor.named_transformers_["pipeline-1"]["standardscaler"]
+
 scaler.var_
+
 lr_scales = pd.DataFrame(
     data=np.sqrt(scaler.var_), index=numeric_features, columns=["Scale"]
 )
 lr_scales.head()
+
+lr_coefs.loc[["LotArea"]]
+
+X_test_enc = pd.DataFrame(
+    preprocessor.transform(X_test), index=X_test.index, columns=new_columns
+)
+
+one_ex_preprocessed = X_test_enc[:1]
+one_ex_preprocessed
+
+orig_pred = lr.named_steps["ridge"].predict(one_ex_preprocessed.values)
+orig_pred
+
+one_ex_preprocessed_perturbed = one_ex_preprocessed.copy()
+one_ex_preprocessed_perturbed["LotArea"] += 1  # we are adding one to the scaled LotArea
+one_ex_preprocessed_perturbed
+
+perturbed_pred = lr.named_steps["ridge"].predict(one_ex_preprocessed_perturbed.values)
+
+perturbed_pred - orig_pred
+```
+- Humans find it easier to think about features in their original scale.  
+- How can we interpret this coefficient in the original scale? 
+- If I increase original `LotArea` by one square foot then the predicted price would go up by $0.57
+```python
+5118.035161 / 8994.471032 # Coefficient learned on the scaled features / the scaling factor for this feature
+```
