@@ -51,6 +51,22 @@ lr_coefs.head(20)
 lr_coefs.loc[["ExterQual"]]
 ```
 #### Ordinal Features
-- the presence of one category of an ordinal feature directly affects the target by it's coefficient value
+- increasing by one category of an ordinal feature increases the prediction by the coefficient value
 	- **according to the model's learning**
-- 
+		- can verify by checking one example, and altering the value of a category to see how it affects the prediction
+#### Categorical Features
+- each category gets its own column and coefficient (because of [[One-hot encoding]])
+- we can compare categories by picking a "reference" category
+```python
+lr_coefs_landslope = lr_coefs[lr_coefs.index.str.startswith("LandSlope")]
+lr_coefs_landslope
+
+lr_coefs_landslope.loc[["LandSlope_Gtl"]]
+# 468.638169
+
+lr_coefs_landslope - lr_coefs_landslope.loc["LandSlope_Gtl"]
+```
+![[Pasted image 20240320161502.png]]
+- If you change the category from `LandSlope_Gtl` to `LandSlope_Mod` the prediction price goes up by $\sim\$6950$
+- If you change the category from `LandSlope_Gtl` to `LandSlope_Sev` the prediction price goes down by $\sim\$8356$
+- *Note that this might not make sense in the real world but this is what our model decided to learn given this small amount of data.*
