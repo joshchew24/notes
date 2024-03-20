@@ -21,4 +21,17 @@ sns.heatmap(cor, annot=True, cmap=plt.cm.Blues);
 	- It only looks at **each feature in isolation**.
 	- It only looks at **linear associations**:
 		- What if `SalePrice` is high when `BsmtFullBath` is 2 or 3, but low when it's 0, 1, or 4? They might seem uncorrelated.
-
+```python
+cor = pd.concat((y_train, X_train_enc), axis=1).iloc[:, 10:15].corr()
+plt.figure(figsize=(4, 4))
+sns.set(font_scale=0.8)
+sns.heatmap(cor, annot=True, cmap=plt.cm.Blues);
+```
+### Feature Interaction
+![[Pasted image 20240320155208.png]]
+- Looking at this diagram also tells us the relationship between features. 
+	- For example, `1stFlrSF` and `TotalBsmtSF` are highly correlated. 
+	- Do we need both of them?
+	- If our model says `1stFlrSF` is very important and `TotalBsmtSF` is very unimportant, do we trust those values?
+	- Maybe `TotalBsmtSF` only "becomes important" if `1stFlrSF` is removed.
+	- Sometimes the opposite happens: a feature only becomes important if another feature is _added_.
