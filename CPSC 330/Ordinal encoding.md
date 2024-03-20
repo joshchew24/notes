@@ -18,6 +18,46 @@ df = pd.DataFrame(
 print(oe.categories_)
 pd.concat([X_toy, df], axis=1).head(10)
 ```
+### Multiple Ordinal Columns
+```python
+# regular ordinal features
+ordinal_features_reg = [
+    "ExterQual",
+    "ExterCond",
+    "BsmtQual",
+    "BsmtCond",
+    "HeatingQC",
+    "KitchenQual",
+    "FireplaceQu",
+    "GarageQual",
+    "GarageCond",
+    "PoolQC",
+]
+ordering = [
+    "Po",
+    "Fa",
+    "TA",
+    "Gd",
+    "Ex",
+]  # if N/A it will just impute something, per below
+ordering_ordinal_reg = [ordering] * len(ordinal_features_reg)
+ordering_ordinal_reg
+
+# other ordinal features
+ordinal_features_oth = [
+    "BsmtExposure",
+    "BsmtFinType1",
+    "BsmtFinType2",
+    "Functional",
+    "Fence",
+]
+ordering_ordinal_oth = [
+    ["NA", "No", "Mn", "Av", "Gd"],
+    ["NA", "Unf", "LwQ", "Rec", "BLQ", "ALQ", "GLQ"],
+    ["NA", "Unf", "LwQ", "Rec", "BLQ", "ALQ", "GLQ"],
+    ["Sal", "Sev", "Maj2", "Maj1", "Mod", "Min2", "Min1", "Typ"],
+    ["NA", "MnWw", "GdWo", "MnPrv", "GdPrv"],
+]```
 ## Drawbacks
 - imposes ordinality on categorical data
 - For example, imagine when you are calculating distances. Is it fair to say that French and Hindi are closer than French and Spanish? 

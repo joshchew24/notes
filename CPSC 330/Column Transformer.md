@@ -102,3 +102,33 @@ new_columns = (
     numeric_features + ordinal_features_reg + ordinal_features_oth + ohe_columns
 )
 ```
+## Another Example
+From Lecture 12. Also see [[Ordinal encoding#Establishing Order#Multiple Ordinal Columns]]
+```python
+from sklearn.compose import ColumnTransformer, make_column_transformer
+
+numeric_transformer = make_pipeline(SimpleImputer(strategy="median"), StandardScaler())
+
+ordinal_transformer_reg = make_pipeline(
+    SimpleImputer(strategy="most_frequent"),
+    OrdinalEncoder(categories=ordering_ordinal_reg),
+)
+
+ordinal_transformer_oth = make_pipeline(
+    SimpleImputer(strategy="most_frequent"),
+    OrdinalEncoder(categories=ordering_ordinal_oth),
+)
+
+categorical_transformer = make_pipeline(
+    SimpleImputer(strategy="constant", fill_value="missing"),
+    OneHotEncoder(handle_unknown="ignore", sparse_output=False),
+)
+
+preprocessor = make_column_transformer(
+    ("drop", drop_features),
+    (numeric_transformer, numeric_features),
+    (ordinal_transformer_reg, ordinal_features_reg),
+    (ordinal_transformer_oth, ordinal_features_oth),
+    (categorical_transformer, categorical_features),
+)
+```
