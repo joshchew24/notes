@@ -1,6 +1,7 @@
 # Seaborn Heatmap
 Install with `conda install -n cpsc330 -c anaconda seaborn`
 
+Lecture 12: SimpleFeature Correlations Heatmap
 ```python
 import seaborn as sns
 
