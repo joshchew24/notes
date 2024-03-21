@@ -85,3 +85,10 @@ shap.dependence_plot("age", train_lgbm_shap_values[1], X_train_enc)
 shap.summary_plot(train_lgbm_shap_values[1], X_train_enc)
 ```
 ![[Pasted image 20240320180828.png]]
+The plot shows the most important features for predicting the class. It also shows the direction of how it's going to drive the prediction.  
+- Presence of the marital status of Married-civ-spouse seems to have bigger SHAP values for class 1 and absence seems to have smaller SHAP values for class 1. 
+- Higher levels of education seem to have bigger SHAP values for class 1 whereas smaller levels of education have smaller SHAP values. 
+```python
+shap.summary_plot(train_lgbm_shap_values[1], X_train_enc, plot_type="bar")
+```
+![[Pasted image 20240320181215.png]]
