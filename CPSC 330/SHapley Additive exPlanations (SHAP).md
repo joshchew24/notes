@@ -55,7 +55,9 @@ shap.force_plot(
     matplotlib=True,
 )
 ```
-![[Pasted image 20240320174407.png]]
+![[Pasted image 20240320174407.png|700]]
 - The raw model score is much smaller than the base value, which is reflected in the prediction of <= 50k class. 
+	- raw model score is the output of a predictive model before it has been transformed to a probability or predicted value
+	- base value is a reference value used for comparing the raw model score
 - sex = 1.0, scaled age = 0.48 are pushing the prediction towards higher score. 
 - education = 8.0, occupation_Other-service = 1.0 and marital.status_Married-civ-spouse = 0.0 are pushing the prediction towards lower score. 
