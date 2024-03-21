@@ -122,3 +122,12 @@ perturbed_pred - orig_pred
 ```python
 5118.035161 / 8994.471032 # Coefficient learned on the scaled features / the scaling factor for this feature
 ```
+
+
+## `feature_importances_` and `permutation_importance`
+- **Feature importance** or **variable importance** is a score associated with a feature which tells us how "important" the feature is to the model.
+- Feature importances can be
+    - algorithm dependent, i.e., calculated based on the information given by the model algorithm (e.g., gini importance)
+    - model agnostic (e.g., by measuring increase in prediction error after permuting feature values).
+- Different measures give insight into different aspects of your data and model.
+> [Here](https://scikit-learn.org/stable/modules/permutation_importance.html#relation-to-impurity-based-importance-in-trees) you will find some drawbacks of using `feature_importances_` attribute in the context of tree-based models.
