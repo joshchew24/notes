@@ -124,10 +124,30 @@ perturbed_pred - orig_pred
 ```
 
 
-## `feature_importances_` and `permutation_importance`
+## `feature_importances_`
 - **Feature importance** or **variable importance** is a score associated with a feature which tells us how "important" the feature is to the model.
 - Feature importances can be
     - algorithm dependent, i.e., calculated based on the information given by the model algorithm (e.g., gini importance)
     - model agnostic (e.g., by measuring increase in prediction error after permuting feature values).
 - Different measures give insight into different aspects of your data and model.
+- Unlike the linear model coefficients, `feature_importances_` **do not have a sign**!
+  - They tell us about **importance**, but ***not*** an "**up** or **down**".
+  - Indeed, increasing a feature may cause the prediction to first go up, and then go down.
+  - This cannot happen in linear models, because they are linear. 
 > [Here](https://scikit-learn.org/stable/modules/permutation_importance.html#relation-to-impurity-based-importance-in-trees) you will find some drawbacks of using `feature_importances_` attribute in the context of tree-based models.
+### `permutation_importance`
+```python
+from sklearn.inspection import permutation_importance
+def get_permutation_importance(model):
+    X_train_perm = X_train.drop(columns=["race", "education.num", "fnlwgt"])
+    result = permutation_importance(model, X_train_perm, y_train_num, n_repeats=10, random_state=123)
+    perm_sorted_idx = result.importances_mean.argsort()
+    plt.boxplot(
+        result.importances[perm_sorted_idx].T,
+        vert=False,
+        labels=X_train_perm.columns[perm_sorted_idx],
+    )
+    plt.xlabel('Permutation feature importance')
+    plt.show()
+```
+![[Pasted image 20240320172124.png]]
