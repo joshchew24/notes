@@ -41,3 +41,21 @@ We can look at `predict_proba` to see model confidence
 ```python
 pipe_lgbm.named_steps["lgbmclassifier"].predict_proba(X_test_enc)[ex_l50k_index]
 ```
+The model is very confident. we can know which feature values are playing a role in this specific prediction using SHAP force plots
+```python
+pd.DataFrame(
+    test_lgbm_shap_values[1][ex_l50k_index, :],
+    index=feature_names,
+    columns=["SHAP values"],
+)
+shap.force_plot(
+    lgbm_explainer.expected_value[1], # expected value for class 1. 
+    test_lgbm_shap_values[1][ex_l50k_index, :], # SHAP values associated with the example we want to explain
+    X_test_enc.iloc[ex_l50k_index, :], # Feature vector of the example 
+    matplotlib=True,
+)
+```
+![[Pasted image 20240320174407.png]]
+- The raw model score is much smaller than the base value, which is reflected in the prediction of <= 50k class. 
+- sex = 1.0, scaled age = 0.48 are pushing the prediction towards higher score. 
+- education = 8.0, occupation_Other-service = 1.0 and marital.status_Married-civ-spouse = 0.0 are pushing the prediction towards lower score. 
