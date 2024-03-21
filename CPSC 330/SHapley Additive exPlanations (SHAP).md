@@ -61,3 +61,27 @@ shap.force_plot(
 	- base value is a reference value used for comparing the raw model score
 - sex = 1.0, scaled age = 0.48 are pushing the prediction towards higher score. 
 - education = 8.0, occupation_Other-service = 1.0 and marital.status_Married-civ-spouse = 0.0 are pushing the prediction towards lower score. 
+## Global Feature Importance
+Examine average SHAP values associated with each feature:
+```python
+values = np.abs(train_lgbm_shap_values[1]).mean(
+    0
+)  # mean of shapely values in each column
+pd.DataFrame(data=values, index=feature_names, columns=["SHAP"]).sort_values(
+    by="SHAP", ascending=False
+)[:10]
+
+shap.dependence_plot("age", train_lgbm_shap_values[1], X_train_enc)
+```
+![[Pasted image 20240320180709.png]]The The plot above shows effect of `age` feature on the prediction. 
+- Each dot is a single prediction for examples above.
+- The x-axis represents values of the feature age (scaled).
+- The y-axis is the SHAP value for that feature, which represents how much knowing that feature's value changes the output of the model for that example's prediction. 
+- Lower values of age have smaller SHAP values for class ">50K".
+- Similarly, higher values of age also have a bit smaller SHAP values for class ">50K", which makes sense.  
+- There is some optimal value of age between scaled age of 1 which gives highest SHAP values for for class ">50K". 
+- Ignore the colour for now. The color corresponds to a second feature (education feature in this case) that may have an interaction effect with the feature we are plotting. 
+```python
+shap.summary_plot(train_lgbm_shap_values[1], X_train_enc)
+```
+![[Pasted image 20240320180828.png]]
