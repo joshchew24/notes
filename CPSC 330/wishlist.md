@@ -9,5 +9,5 @@
 - [ ] chalktopus
 - [ ] belay glasses
 - [ ] personal anchor system
-	- [ ] https://www.mec.ca/en/product/5045-768/link-personal-anchor?queryID=89b8b923b437472671656e7253eea208&colour=Red%2FWhite%2FBlack
+	- [ ] [adjustable lanyard](https://www.mec.ca/en/product/6013-866/connect-adjust-lanyard?queryID=1b2f21c48c6cf14b0cbb1d20c7d74394&colour=Blue)
 	- [ ] https://www.mec.ca/en/product/5035-386/alpine-pas-personal-anchor?queryID=89b8b923b437472671656e7253eea208&colour=Purple%2FSilver
