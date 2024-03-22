@@ -1,0 +1,12 @@
+# wishlist
+- [ ] quickdraws
+	- [ ] https://www.mec.ca/en/product/6005-168/hotforge-hybrid-quickpack-12cm?queryID=4c523750a7b493c68700e7e4222e9e37&colour=Ultra+Pink
+- [ ] crashpad
+- [ ] humidifier
+- [ ] hangboard
+- [ ] brush
+- [ ] chalktopus
+- [ ] belay glasses
+- [ ] personal anchor system
+	- [ ] https://www.mec.ca/en/product/5045-768/link-personal-anchor?queryID=89b8b923b437472671656e7253eea208&colour=Red%2FWhite%2FBlack
+	- [ ] https://www.mec.ca/en/product/5035-386/alpine-pas-personal-anchor?queryID=89b8b923b437472671656e7253eea208&colour=Purple%2FSilver
