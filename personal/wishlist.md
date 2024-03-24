@@ -5,6 +5,7 @@
 - [ ] crashpad
 - [ ] humidifier
 - [ ] hangboard
+	- [ ] [beastmaker 1000](https://climbonequipment.com/products/beastmaker-hangboard-1000-series?_pos=4&_sid=2369d292d&_ss=r)
 - [ ] brush
 - [ ] chalktopus
 - [ ] belay glasses
