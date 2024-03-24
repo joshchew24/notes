@@ -6,9 +6,11 @@
 	- DRC: decreased
 	- myanmar: increased from 3 months ago, slight decrease from 1 month ago
 - **How would you describe regional differences in food insecurity and coping throughout the country?**  _(Hover over different regions of the country on the map, and the proportion/number of people with insufficient food consumption and crisis levels of coping will be shown.)_
-	- DRC: some regions as low as 20%, some regions as bad as 60%
-	- myanmar
+	- DRC: some regions as low as 20%, most regions very high, as bad as 60%
+	- myanmar: most regions moderately high (20-30%), some regions closer to 40%
 - **What proportion of children under the age of 5 years have acute malnutrition?  Chronic malnutrition?**  _**What do**_**es that tell you?**  _(Look at the "Nutrition" section on the left side of the screen.)_
 	- DRC: acute 8.1, chronic 42.7
+	- myanmar: acute 6.6, chronic 29.4
 - **What proportion of staple cereal grains must be imported to meet the needs of the population?** _(Click on the down-arrow beside "Macro-economic" in the upper right corner of the screen; look at the proportion of cereal grains which are imported indicated under "Import dependency" there.)_
 	- DRC: no data
+	- myanmar: 3%
