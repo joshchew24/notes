@@ -46,7 +46,22 @@ plot_dendrogram_clusters(X, linkage_array, hier_labels2, title="flattened with d
 ![[Pasted image 20240325001047.png]]
 ### Linkage Criteria
 - when creating a dendogram, we need to calculate **distance between clusters**
-#### Single Linkage
+#### `single` linkage
 - merges two clusters that have the **smallest minimum distance** between all their point
 - leads to loose clusters
-- use 
+- use `scipy.cluster.hierarchy`'s `single` to get linkage information
+- gives us matrix `Z` with the merging information
+```python
+Z = single(X)
+columns = ["c1", "c2", "distance(c1, c2)", "# observations"]
+pd.DataFrame(Z, columns=columns).head()
+```
+![[Pasted image 20240325001705.png]]
+- The linkage returns a matrix `Z` of shape `n-1` (number of iterations) by 4:
+- The **rows represent iterations**.
+- First and second columns (c1 and c2 above): **indexes of the clusters** being merged.
+- Third column (distance(c1, c2)): the **distance between the clusters** being merged.
+- Fourth column (# observations): the number of **examples in the newly formed cluster**.
+![[Pasted image 20240325001846.png|260]] ![[Pasted image 20240325001850.png|256]]
+#### `complete` linkage
+- merges two clusters that have the **smallest maximum distance** between their points
