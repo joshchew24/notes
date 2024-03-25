@@ -60,3 +60,27 @@ aliases:
 - if yes, spread the colour to its neighbors as well
 	- if not, it is a border point
 - Once there are no more core points left to spread the colour, pick a new unlabeled point $p$ and repeat the process.
+## Evaluating Clusters
+- use the [[Silhouette Method]]
+```python
+X, y = make_blobs(random_state=100, centers=3, n_samples=300)
+dbscan = DBSCAN(eps=2, min_samples=5)
+dbscan.fit(X)
+plot_original_clustered(X, dbscan, dbscan.labels_)
+
+# Yellowbrick is designed to work with K-Means and not with DBSCAN.
+# So it needs the number of clusters stored in n_clusters
+# It also needs `predict` method to be implemented.
+# So I'm implementing it here so that we can use Yellowbrick to show Silhouette plots.
+n_clusters = len(set(dbscan.labels_))
+dbscan.n_clusters = n_clusters
+dbscan.predict = lambda x: dbscan.labels_
+
+visualizer = SilhouetteVisualizer(dbscan, colors="yellowbrick")
+visualizer.fit(X)  # Fit the data to the visualizer
+visualizer.show();
+```
+![[Pasted image 20240324232310.png]]
+## Failure Cases
+clusters with different densities
+![[Pasted image 20240324232620.png]]
