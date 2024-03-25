@@ -65,3 +65,4 @@ pd.DataFrame(Z, columns=columns).head()
 ![[Pasted image 20240325001846.png|260]] ![[Pasted image 20240325001850.png|256]]
 #### `complete` linkage
 - merges two clusters that have the **smallest maximum distance** between their points
+![[Pasted image 20240325003520.png|277]]![[Pasted image 20240325003530.png|286]]
