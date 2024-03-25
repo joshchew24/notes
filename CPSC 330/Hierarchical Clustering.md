@@ -6,7 +6,7 @@
 	1. start with each point in its own cluster
 	2. greedily merge most similar clusters
 	3. repeat step 2 until you obtain only one cluster ($n-1$ times)
-## [[Dendogram]]
+## [[Dendrogram]]
 Used to visualize the clustering
 ```python
 from scipy.cluster.hierarchy import (
@@ -46,6 +46,7 @@ plot_dendrogram_clusters(X, linkage_array, hier_labels2, title="flattened with d
 ![[Pasted image 20240325001047.png]]
 ### Linkage Criteria
 - when creating a dendogram, we need to calculate **distance between clusters**
+![[Pasted image 20240325004024.png|700]]
 #### `single` linkage
 - merges two clusters that have the **smallest minimum distance** between all their point
 - leads to loose clusters
@@ -66,3 +67,26 @@ pd.DataFrame(Z, columns=columns).head()
 #### `complete` linkage
 - merges two clusters that have the **smallest maximum distance** between their points
 ![[Pasted image 20240325003520.png|277]]![[Pasted image 20240325003530.png|286]]
+#### `average` linkage
+- merges two clusters that have the **smallest average distance** between all their points
+#### `ward` linkage
+- picks two clusters to merge such that the **variance within all clusters increases the least**
+- often leads to equally sized clusters
+### Truncation
+- what if we have **thousands of examples**?
+- two strategies:
+	- `level` $\rightarrow$ "Maximum depth" of the tree is $p$
+		- i.e. only $p$ levels of the dendrogram tree are displayed
+			- a “level” includes all nodes within $p$ merges from the final merge.
+	- `lastp` $\rightarrow$ Only $p$ leaves are shown 
+```python
+Z = single(X)
+dendrogram(Z, p=2, truncate_mode="level");
+# p is related to the max depth of the tree
+```
+![[Pasted image 20240325004354.png]]
+```python
+dendrogram(Z, p=5, truncate_mode="lastp");
+# p is the number of leaf nodes
+```
+![[Pasted image 20240325004359.png]]![[Pasted image 20240325004455.png]]

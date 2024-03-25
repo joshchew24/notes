@@ -1,4 +1,4 @@
-# Dendogram
+# Dendrogram
 - tree-like plot
 - data points on x-axis
 - distances between clusters on y-axis
