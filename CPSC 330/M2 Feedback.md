@@ -1,0 +1,14 @@
+# M2 Feedback
+- improved gameplay
+	- player can draw while dying
+	- ~~acceleration does not scale with time~~ DONE
+- sprite sheet animation
+	- sprite sheet animation is not abstract enough. Currently hacked in directly to the key controls and ability to modify/add animations is not there including setting animation speed.
+- tutorial
+	- ~~movement controls somehow got reset, this is fixed~~
+- stability
+	- game crashes if drawing during certain events (death, new level, restart, load checkpoint)
+- bug list
+	- report all known bugs
+- creative
+	- A* pathfinding does not have platforms as collisions (apparently it does?)
