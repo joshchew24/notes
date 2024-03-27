@@ -26,3 +26,46 @@
 ## Numeric Features
 - what happens if we train [[Ridge]] on a dataset without applying transformations to the categorical features?
 	- error! **linear models require all features in numeric form**
+### Discretization
+- bucketing or binning
+	- transforming numeric features into categorical features
+- `KBinsDiscretizer`
+```python
+from sklearn.preprocessing import KBinsDiscretizer
+
+discretization_feats = ["latitude", "longitude"]
+numeric_feats = ["rooms_per_household"]
+
+preprocessor2 = make_column_transformer(
+    (KBinsDiscretizer(n_bins=20, encode="onehot"), discretization_feats),
+    (make_pipeline(SimpleImputer(), StandardScaler()), numeric_feats),
+)
+
+lr_2 = make_pipeline(preprocessor2, Ridge())
+pd.DataFrame(
+    cross_validate(lr_2, X_train_housing, y_train_housing, return_train_score=True)
+)
+
+lr_2.fit(X_train_housing, y_train_housing)
+
+pd.DataFrame(
+    preprocessor2.fit_transform(X_train_housing).todense(),
+    columns=preprocessor2.get_feature_names_out(),
+)
+```
+Discretizing all three features:
+```python
+from sklearn.preprocessing import KBinsDiscretizer
+
+discretization_feats = ["latitude", "longitude", "rooms_per_household"]
+
+preprocessor3 = make_column_transformer(
+    (KBinsDiscretizer(n_bins=20, encode="onehot"), discretization_feats),
+)
+
+lr_3 = make_pipeline(preprocessor3, Ridge())
+pd.DataFrame(
+    cross_validate(lr_3, X_train_housing, y_train_housing, return_train_score=True)
+)
+
+lr_3.fit(X_train_housing, y_train_housing)
