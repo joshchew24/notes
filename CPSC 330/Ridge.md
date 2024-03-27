@@ -65,6 +65,9 @@ results_df.set_index('alpha').head(7).plot(logx=True);
 - **bigger magnitude** means the feature value is more impactful on the prediction
 > [!danger] Scaling
 > If you do not scale the data, features with smaller magnitude are going to get coefficients with bigger magnitude whereas features with bigger scale are going to get coefficients with smaller magnitude.
+
+$$\hat{y}_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \ldots + \beta_n x_{in}$$
+
 ## Intercept
 - we add this amount irrespective ot the feature values
 ## `RidgeCV`
