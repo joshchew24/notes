@@ -67,7 +67,11 @@ results_df.set_index('alpha').head(7).plot(logx=True);
 > If you do not scale the data, features with smaller magnitude are going to get coefficients with bigger magnitude whereas features with bigger scale are going to get coefficients with smaller magnitude.
 
 $$\hat{y}_i = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \ldots + \beta_n x_{in}$$
-
+where:  
+- $\hat{y}_i$ is the predicted value for the target variable for sample $i$, 
+- $x_{i1}, x_{i2}, \ldots, x_{in}$ are the feature values for sample $i$, 
+- $\beta_0$ is the intercept ($\text{bias term}$), 
+- $\beta_1, \beta_2, \ldots, \beta_n$ are the coefficients associated with features $x_1, x_2, \ldots, x_n$ respectively.
 ## Intercept
 - we add this amount irrespective ot the feature values
 ## `RidgeCV`
