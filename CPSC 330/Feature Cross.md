@@ -82,4 +82,13 @@ The interaction feature has the biggest coefficient!
 
 ## [[One-hot encoding|One-hot Encoded]] Features
 - think of it as logical conjunctions
-- 
+### Example
+- predicting parking availability based on two features
+	- **area** (possible categories: UBC campus and Rogers Arena)
+    - **time** of the day (possible categories: 9am and 7pm)
+- A **feature cross** in this case would create **four new features**: 
+    - UBC campus and 9am
+    - UBC campus and 7pm
+    - Rogers Arena and 9am
+    - Rogers Arena and 7pm. 
+- The features UBC campus and 9am on their own are not that informative but the newly created feature UBC campus and 9am or Rogers Arena and 7pm would be quite informative.

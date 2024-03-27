@@ -23,3 +23,4 @@
 - for regression-based methods like linear regressionm we want targets to hvae a linear dependency on features
 ## [[Feature Cross]]
 - synthetic feature formed by multiplying or crossing two or more features
+## Numeric Features
