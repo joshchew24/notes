@@ -24,3 +24,5 @@
 ## [[Feature Cross]]
 - synthetic feature formed by multiplying or crossing two or more features
 ## Numeric Features
+- what happens if we train [[Ridge]] on a dataset without applying transformations to the categorical features?
+	- error! **linear models require all features in numeric form**
