@@ -13,8 +13,13 @@
 	- **complicated features** have higher scores with more risk of overfitting
 ## Model Dependent
 - the best features may depend on what model you use
-- e.g.
-	- for counting-based methods like decision trees, seperate relevant **groups of variable values**
-		- discretization
-			- partitioning and converting continuous attributes into discrete intervals
-			- enables the use of continuous features in algorithms that require discrete features
+- for counting-based methods like decision trees, seperate relevant **groups of variable values**
+	- discretization
+		- partitioning and converting continuous attributes into discrete intervals
+		- enables the use of continuous features in algorithms that require discrete features
+- for distance-based methods like kNN, we want different class labels to be "far"
+	- standardization
+		- avoid dominance of wide-ranging features over other features with smaller ranges
+- for regression-based methods like linear regressionm we want targets to hvae a linear dependency on features
+## [[Feature Cross]]
+- synthetic feature formed by multiplying or crossing two or more features
