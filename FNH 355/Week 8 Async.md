@@ -1,4 +1,4 @@
-# Week 8 Async
+# Week 8 Asyncs
 **Use the _What? So what? Now what?_ framework to organize and communicate your learning regarding water, sanitation, and hygiene (WASH).** 
 
 Use the subheadings "What?", "So what?" and "Now what?" to organize your response and provide **2-3 relevant and informative points for each of the _What_, _So what_, and _Now what_ categories**. 
