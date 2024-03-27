@@ -50,6 +50,7 @@ y_xor = np.logical_xor(X_xor[:, 0] > 0, X_xor[:, 1] > 0)
 # Interaction term
 Z = X_xor[:, 0] * X_xor[:, 1]
 
+# Z == x*y or x1x2
 df = pd.DataFrame({'X': X_xor[:, 0], 'Y': X_xor[:, 1], 'Z': Z, 'Class': y_xor})
 df.head()
 
@@ -76,3 +77,9 @@ pd.DataFrame(
     index=feature_names,
     columns=["Feature coefficient"],
 )
+```
+The interaction feature has the biggest coefficient!
+
+## [[One-hot encoding|One-hot Encoded]] Features
+- think of it as logical conjunctions
+- 
