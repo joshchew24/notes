@@ -22,3 +22,5 @@ df = pd.DataFrame(np.column_stack([X, y]), columns=["X1", "X2", "target"])
 plt.figure(figsize=(4, 4))
 sb.scatterplot(data=df, x="X1", y="X2", style="target", s=200, legend=False);
 ```
+![[Pasted image 20240327060617.png|350]]
+No line can be drawn to separate the target class. If we create a feature crsoss $x1x2$, the data becomes linearly separable.
