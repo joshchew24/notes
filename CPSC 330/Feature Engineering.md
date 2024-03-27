@@ -29,6 +29,8 @@
 ### Discretization
 - bucketing or binning
 	- transforming numeric features into categorical features
+- the model learns how each bin is associated with the target variable
+	- in `Ridge`, the model learns the optimal coefficients (slopes) associated with each bin
 - `KBinsDiscretizer`
 ```python
 from sklearn.preprocessing import KBinsDiscretizer
@@ -69,3 +71,10 @@ pd.DataFrame(
 )
 
 lr_3.fit(X_train_housing, y_train_housing)
+```
+## Text Features
+- extract interesting information from text using pre-trained models
+	- `nltk`
+	- `spaCy`
+	- `spacymoji`
+	- 
