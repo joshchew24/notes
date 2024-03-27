@@ -8,4 +8,8 @@
 - **Fundamental tradeoff**: Can I reduce overfitting by removing useless features?
 ## Methods
 - use **domain knowledge** to **discard** features
-- 
+- **automatic feature selection**
+	- [[Model-Based Selection]]
+	- recursive feature elimination
+	- forward selection
+- looking at [[Feature Importance]]
