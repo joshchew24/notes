@@ -24,3 +24,5 @@ aliases:
 	- combining collaborative filtering with content-based filtering
 ## [[Utility Matrix]]
 - **recommendation systems** will try to **complete the utility matrix** by **predicting missing values**
+## Example
+Using the setup from [[Utility Matrix#Creating a Utility Matrix Example|this example]]

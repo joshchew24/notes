@@ -62,6 +62,8 @@ def create_Y_from_ratings(
         Y[n, m] = val["rating"]
 
     return Y
+Y_mat = create_Y_from_ratings(ratings, N, M, user_mapper, item_mapper)
+pd.DataFrame(Y_mat)
 ```
 - Rows represent users, columns represent items (jokes in our case), each cell gives the rating given by the user to the corresponding joke. 
 - **Users are features for jokes** and **jokes are features for users**.
