@@ -1,0 +1,13 @@
+# wishlist
+- [ ] quickdraws
+	- [ ] [17cm](https://climbonequipment.com/collections/quickdraws/products/mammut-workhorse-keylock-quickdraw-17cm-6-pack)
+	- [ ] [12cm](https://www.mec.ca/en/product/6005-168/hotforge-hybrid-quickpack-12cm?queryID=4c523750a7b493c68700e7e4222e9e37&colour=Ultra+Pink)
+- [ ] crashpad
+- [ ] humidifier
+- [ ] hangboard
+- [ ] brush
+- [ ] chalktopus
+- [ ] belay glasses
+- [ ] personal anchor system
+	- [ ] [adjustable lanyard](https://www.mec.ca/en/product/6013-866/connect-adjust-lanyard?queryID=1b2f21c48c6cf14b0cbb1d20c7d74394&colour=Blue)
+	- [ ] https://www.mec.ca/en/product/5035-386/alpine-pas-personal-anchor?queryID=89b8b923b437472671656e7253eea208&colour=Purple%2FSilver
