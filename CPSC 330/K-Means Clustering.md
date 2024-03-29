@@ -46,6 +46,50 @@ plt.legend();
 mglearn.discrete_scatter(cluster_centers[:, 0], cluster_centers[:, 1], y =[0,1,2], s=15, markers='*');
 ```
 ![[Pasted image 20240329163913.png]]
-
 ## Algorithm
-- represent each cluster by its cluster center and assign a cluster membership to each datapoint
+>[!Goal] 
+> Represent each cluster by its cluster center and assign a cluster membership to each datapoint
+
+**Input**: Data points `X` and the number of clusters `K`
+```python
+n_examples = X.shape[0]
+k = 3
+```
+
+**Initialization**: `K` initial centers for the clusters (random)
+```python
+np.random.seed(seed=3)
+centers_idx = np.random.choice(range(0, n_examples), size=k)
+centers = X[centers_idx]
+```
+![[Pasted image 20240329164637.png]]
+
+**Iterative process**:
+
+repeat 
+- Assign each example to the closest center.
+- Estimate new centers as _average_ of observations in a cluster.
+
+until **centers stop changing** or **maximum iterations have reached**.
+
+1. assign each example to closest center
+```python
+from sklearn.metrics import euclidean_distances
+
+# Distance from each point to each center
+dist = euclidean_distances(X, centers)
+dist_df = pd.DataFrame(dist, columns=["to c0", "to c1", "to c2"]).rename_axis("from p", axis=1)
+Z = np.argmin(dist, axis=1)
+dist_df["closest c to p (Z)"] = Z
+dist_df
+
+# or use a function
+def update_Z(X, centers):
+    """
+    returns distances and updated cluster assignments
+    """
+    dist = euclidean_distances(X, centers)
+    return dist, np.argmin(dist, axis=1)
+```
+2. estimate new centers as average of observations in a cluster
+```python
