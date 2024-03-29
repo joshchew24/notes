@@ -22,12 +22,5 @@ aliases:
 	- apply model to predict for new users/items
 - Hybrid
 	- combining collaborative filtering with content-based filtering
-## Utility Matrix
-- most often, data comes in as ratings for a set of items from a set of users
-- $N$ users and $M$ items
-- **users** are consumers
-- **items** are the products or services offered
-    - e.g. movies (Netflix), books (Amazon), songs (spotify), people (tinder) 
-- a **utility matrix** captures **interactions** between $N$ users and $M$ items
-	- ratings, click, purchases, etc.
-![[Pasted image 20240329005929.png]]
+## [[Utility Matrix]]
+- **recommendation systems** will try to **complete the utility matrix** by **predicting missing values**
