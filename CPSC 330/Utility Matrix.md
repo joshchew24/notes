@@ -67,3 +67,24 @@ pd.DataFrame(Y_mat)
 ```
 - Rows represent users, columns represent items (jokes in our case), each cell gives the rating given by the user to the corresponding joke. 
 - **Users are features for jokes** and **jokes are features for users**.
+### Data Splitting
+- done for prediction evaluation
+- split into train and validation sets
+- easier to **split the ratings data** instead of the utility matrix
+- can pretty much ignore `y`
+```python
+X = ratings.copy()
+y = ratings[user_key]
+X_train, X_valid, y_train, y_valid = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+X_train.shape, X_valid.shape
+
+# create utility matrices for the splits
+train_mat = create_Y_from_ratings(X_train, N, M, user_mapper, item_mapper)
+valid_mat = create_Y_from_ratings(X_valid, N, M, user_mapper, item_mapper)
+
+train_mat.shape, valid_mat.shape
+```
+
