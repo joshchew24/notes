@@ -23,4 +23,19 @@
 		- if performance is lower on a particular cluster, try building a separate model for it
 - customer segmentation
 	- understand landscape of market in businesses
-	- craft targeted 
+	- craft targeted business or marketing strategies tailored for each group
+	- ![[Pasted image 20240329162148.png|175]]
+- document clustering
+	- grouping articles on different topics from different news sources
+- social network analysis
+- medical imaging
+- imputing missing data, data compression, privacy preservation
+
+## Methods
+- [[K-Means Clustering]]
+	- Clustering is based on the notion of **similarity or distances** between points. 
+	- How do we determine similarity between points in a multi-dimensional space?
+	- Can we use something like $k$-neighbours for similarity? 
+	    - Yes! That's a good start!  
+	    - With $k$-neighbours we used Euclidean distances to find nearby points. 
+	    - We can use the same idea for clustering! 
