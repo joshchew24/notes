@@ -63,3 +63,5 @@ def create_Y_from_ratings(
 
     return Y
 ```
+- Rows represent users, columns represent items (jokes in our case), each cell gives the rating given by the user to the corresponding joke. 
+- **Users are features for jokes** and **jokes are features for users**.
