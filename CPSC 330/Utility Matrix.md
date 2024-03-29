@@ -13,7 +13,7 @@
 ![[Pasted image 20240329005929.png]]
 ## Creating a Utility Matrix Example
 ### Loading Dataset
-- We'll use a sample of [Jester 1.7M jokes ratings dataset](https://www.kaggle.com/datasets/vikashrajluhaniwal/jester-17m-jokes-ratings-dataset/data) to demonstrate different recommendation systems.
+- [Jester 1.7M jokes ratings dataset](https://www.kaggle.com/datasets/vikashrajluhaniwal/jester-17m-jokes-ratings-dataset/data)
 	- Download `jester_ratings.csv` and `jester_items.csv`
 		- ratings (-10.0 to +10.0) of 150 jokes from 59,132 users. 
 		- joke IDs and the actual text of jokes. 
