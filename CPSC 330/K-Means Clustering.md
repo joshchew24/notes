@@ -143,3 +143,44 @@ for k in range(1, 100, 10):
     d["inertia"].append(model.inertia_)
 pd.DataFrame(d)
 ```
+- inertia always decreases as K increases
+	- can't just look for K that minimizes inertia
+		- number of clusters = number of examples has inertia = 0
+- must evluate the trade-off: "small k" vs "small inertia"
+```python
+def plot_elbow(w, h, inertia_values):
+    plt.figure(figsize=(w, h))
+    plt.axvline(x=3, linestyle="-.", c="black")
+    plt.plot(range(1, 10), inertia_values, "-o")
+    ax = plt.gca()
+    ax.tick_params("both", labelsize=(w + h))
+    ax.set_xlabel("K", fontsize=w+h)
+    ax.set_ylabel("Inertia", fontsize=w+h)
+
+inertia_values = list()
+for k in range(1, 10):
+    inertia_values.append(KMeans(n_clusters=k, n_init='auto').fit(XX).inertia_)
+plot_elbow(6, 4, inertia_values)
+```
+![[Pasted image 20240329172259.png]]
+- the point of inflection on the curve is our point of diminishing returns on increasing K
+##### Yellowbrick
+Install using: `conda install -n cpsc330 -c districtdatalabs yellowbrick`
+```python
+from yellowbrick.cluster import KElbowVisualizer
+
+model = KMeans(n_init='auto')
+visualizer = KElbowVisualizer(model, k=(1, 10))
+
+visualizer.fit(XX)  # Fit the data to the visualizer
+visualizer.show();
+
+# this makes the optimal number of clusters available in n_clusters
+visualizer.finalize()
+k_optimal = model.n_clusters
+k_optimal
+```
+### Silhouette Method
+- not dependent on cluster centers
+- calculated using the **mean intra-cluster distance** ($a$) and the **mean nearest-cluster distance** ($b$) for each sample
+#### Mean intra-cluster distance ($a$)
