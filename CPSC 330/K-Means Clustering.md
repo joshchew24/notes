@@ -122,3 +122,24 @@ def update_centers(X, Z, old_centers, k):
 - use `n_init` parameter to run the algorithm several times
 - use K-means++
 	- picks **initial centroids which are far away from each other**
+	- `sklearn` does this by default
+## Hyperparameter Tuning (`k`)
+- need to **decide the number of clusters in advance**
+- can't do cross-validation since we don't have target values
+### Elbow Method
+- examines sum of **intra-cluster distances**, AKA **inertia**
+- The intra-cluster distance in the example above is given as   
+$$\sum_{P_i \in C_1}  distance(P_i, C_1)^2 + \sum_{P_i \in C_2}  distance(P_i, C_2)^2 + \sum_{P_i \in C_3} distance(P_i, C_3)^2$$
+Where 
+- $C_1, C_2, C_3$ are centroids 
+- $P_i$s are points within that cluster
+- $distance$ is the usual Euclidean distance. 
+#### Inertia
+```python
+d = {"K": [], "inertia": []}
+for k in range(1, 100, 10):
+    model = KMeans(n_clusters=k, n_init='auto').fit(XX)
+    d["K"].append(k)
+    d["inertia"].append(model.inertia_)
+pd.DataFrame(d)
+```
