@@ -69,6 +69,7 @@ pd.DataFrame(Y_mat)
 - **Users are features for jokes** and **jokes are features for users**.
 ### Data Splitting
 - done for prediction evaluation
+	- allows us to hide some data from training for scoring later on
 - split into train and validation sets
 - easier to **split the ratings data** instead of the utility matrix
 - can pretty much ignore `y`
@@ -87,4 +88,6 @@ valid_mat = create_Y_from_ratings(X_valid, N, M, user_mapper, item_mapper)
 
 train_mat.shape, valid_mat.shape
 ```
-
+- The training matrix `train_mat` is of shape N by M but only has ratings from `X_train` and all other ratings missing. 
+- The validation matrix `valid_mat` is also of shape N by M but it only has ratings `X_valid` and all other ratings missing. 
+- They have the same shape because both have the same number of users and items; that's how we have constructed them. 

@@ -26,3 +26,30 @@ aliases:
 - **recommendation systems** will try to **complete the utility matrix** by **predicting missing values**
 ## Example
 Using the setup from [[Utility Matrix#Creating a Utility Matrix Example|this example]]
+### Evaluation
+- calculate the **error between actual ratings and predicted ratings**
+	- commonly [[Mean Squared Error (MSE)]] or [[Root Mean Squared Error (RMSE)]]
+```python
+# RMSE
+def error(X1, X2):
+    """
+    Returns the root mean squared error.
+    """
+    return np.sqrt(np.nanmean((X1 - X2) ** 2))
+
+def evaluate(pred_X, train_X, valid_X, model_name="Global average"):
+    print("%s train RMSE: %0.2f" % (model_name, error(pred_X, train_X)))
+    print("%s valid RMSE: %0.2f" % (model_name, error(pred_X, valid_X)))
+```
+### Global Average Baseline
+- predict everything as the global average rating
+```python
+avg = np.nanmean(train_mat)
+pred_g = np.zeros(train_mat.shape) + avg
+pd.DataFrame(pred_g).head()
+
+evaluate(pred_g, train_mat, valid_mat, model_name="Global average")
+```
+### [k-nearest neighbours imputation](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html)
+- Impute missing values using the **mean value from $k$ nearest neighbours** found in the training set. 
+- Calculate **distances** between **examples** (users) using **features** (jokes) **where neither value is missing**
