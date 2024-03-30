@@ -136,3 +136,8 @@ pd.DataFrame(pred_lin_reg, columns=item_mapper.keys(), index=user_mapper.keys())
     - Obtaining those features for each item might be very expensive. 
 - Less diversity: hardly recommend an item outside the user's profile. 
 - Cold start: When a new user shows up, you don't have any information about them.
+### Types of data 
+- Explicit data: ratings, thumbs up, etc. 
+- Implicit data: collected from the users' behaviour (e.g., mouse clicks, purchases, time spent doing something)
+- Trust implicit data that costs something, like time or even money. 
+    - this makes it harder to fraud
