@@ -181,3 +181,16 @@ k_optimal = model.n_clusters
 k_optimal
 ```
 ### [[Silhouette Method]]
+
+## Limitations
+- relies on random initialization
+- requires specifying number of clusters in advance
+	- rarely know this in advance, and elbow method and silhouette method can be difficult to interpret
+- each point has to have an assignment
+- clusters are defined solely by its center
+	- can only capture relatively simple shapes
+	- boundaries between clusters are linear
+### Failure Case 1
+- performs poorly if clusters have more complex shapes
+![[Pasted image 20240329182110.png]]
+### Failure Case 2
