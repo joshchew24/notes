@@ -20,6 +20,7 @@
 ```python
 filename = "../data/jester_ratings.csv"
 ratings_full = pd.read_csv(filename)
+# this takes a small sample for speed
 ratings = ratings_full[ratings_full["userId"] <= 4000]
 
 ratings.head()

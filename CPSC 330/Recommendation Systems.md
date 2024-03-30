@@ -15,7 +15,7 @@ aliases:
 	- type of [[Unsupervised Learning]]
 	- only have labels $y_{ij}$ (rating of user $i$ for item $j$)
 	- learned features
-- [[Content-Based Recommenders]]
+- [[Content-Based Filtering]]
 	- type of [[Supervised Learning]]
 	- extract features $x_i$ of users and/or items
 	- build a model to predict rating $y_i$ given $x_i$
