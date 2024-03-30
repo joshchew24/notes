@@ -103,3 +103,36 @@ user_name = "Pat"
 preds = predict_for_usr(pat_model, movies_to_pred)
 pred_df[user_name + "'s predicted ratings"] = preds
 pred_df
+```
+### Completing the [[Utility Matrix]]
+```python
+models = dict()
+pred_lin_reg = np.zeros((N, M))
+
+for n in range(N):
+    models[n] = Ridge()
+    models[n].fit(X_train_usr[n], y_train_usr[n])
+    pred_lin_reg[n] = models[n].predict(Z)
+    
+pd.DataFrame(pred_lin_reg, columns=item_mapper.keys(), index=user_mapper.keys())
+```
+
+## More Comments
+- The feature matrix for movies can contain different types of features.
+    - Example: Plot of the movie (text features), actors (categorical features), year of the movie, budget and revenue of the movie (numerical features). 
+    - apply usual preprocessing techniques to these features. 
+- If you have enough data, you could also carry out hyperparameter tuning with cross-validation for each model.
+- you can use any regression model of your choice
+### Advantage
+- We don't need many users to provide ratings for an item. 
+- Each user is modeled separately, so you might be able to capture uniqueness of taste. 
+- Since you can obtain the features of the items, you can immediately recommend new items. 
+    - This would not have been possible with collaborative filtering. 
+- Recommendations are interpretable.
+    - You can explain to the user why you are recommending an item because you have learned weights. 
+### Disadvantages
+- Feature acquisition and feature engineering
+    - What features should we use to explain the difference in ratings? 
+    - Obtaining those features for each item might be very expensive. 
+- Less diversity: hardly recommend an item outside the user's profile. 
+- Cold start: When a new user shows up, you don't have any information about them.
