@@ -93,3 +93,17 @@ def update_Z(X, centers):
 ```
 2. estimate new centers as average of observations in a cluster
 ```python
+# this tells us all the points with label '0'
+X[Z == 0]
+# this tells us the mean of these points
+np.mean(X[z == 2], axis=0)
+
+def update_centers(X, Z, old_centers, k):
+    """
+    returns new centers
+    """
+    new_centers = old_centers.copy()
+    for kk in range(k):
+        new_centers[kk] = np.mean(X[Z == kk], axis=0)
+    return new_centers
+```
