@@ -24,7 +24,7 @@ aliases:
 	- combining collaborative filtering with content-based filtering
 ## [[Utility Matrix]]
 - **recommendation systems** will try to **complete the utility matrix** by **predicting missing values**
-## Example
+## Simple Example
 Using the setup from [[Utility Matrix#Creating a Utility Matrix Example|this example]]
 ### Evaluation
 - calculate the **error between actual ratings and predicted ratings**
@@ -41,7 +41,8 @@ def evaluate(pred_X, train_X, valid_X, model_name="Global average"):
     print("%s train RMSE: %0.2f" % (model_name, error(pred_X, train_X)))
     print("%s valid RMSE: %0.2f" % (model_name, error(pred_X, valid_X)))
 ```
-### Global Average Baseline
+### Baselines
+#### Global Average
 - predict everything as the global average rating
 ```python
 avg = np.nanmean(train_mat)
@@ -50,6 +51,43 @@ pd.DataFrame(pred_g).head()
 
 evaluate(pred_g, train_mat, valid_mat, model_name="Global average")
 ```
-### [k-nearest neighbours imputation](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html)
+#### [k-nearest neighbours imputation](https://scikit-learn.org/stable/modules/generated/sklearn.impute.KNNImputer.html)
 - Impute missing values using the **mean value from $k$ nearest neighbours** found in the training set. 
 - Calculate **distances** between **examples** (users) using **features** (jokes) **where neither value is missing**
+```python
+from sklearn.impute import KNNImputer
+
+imputer = KNNImputer(n_neighbors=10)
+train_mat_imp = imputer.fit_transform(train_mat)
+
+pd.DataFrame(train_mat_imp)
+```
+
+## Difference to [[Classification]] and [[Regression]]
+### Classification or regression
+- We have $X$ and targets for some rows in $X$. 
+- We want to predict the last column (target column).  
+$$
+\begin{bmatrix} 
+\checkmark & \checkmark & \checkmark  & \checkmark & \checkmark\\
+\checkmark & \checkmark & \checkmark  & \checkmark & \checkmark\\
+\checkmark & \checkmark & \checkmark  & \checkmark & \checkmark\\
+\checkmark & \checkmark & \checkmark  & \checkmark & ?\\
+\checkmark & \checkmark & \checkmark  & \checkmark & ?\\
+\checkmark & \checkmark & \checkmark  & \checkmark & ?\\
+\end{bmatrix}
+$$
+### Rating prediction 
+- Ratings data has many missing values in the utility matrix. There is **no special target column**. We want to predict the missing entries in the matrix. 
+- Since our goal is to **predict ratings**, usually the utility matrix is referred to as $Y$ matrix. 
+$$
+\begin{bmatrix} 
+? & ? & \checkmark  & ? & \checkmark\\
+\checkmark & ? & ?  & ? & ?\\
+? & \checkmark & \checkmark  & ? & \checkmark\\
+? & ? & ?  & ? & ?\\
+? & ? & ? & \checkmark & ?\\
+? & \checkmark & \checkmark  & ? & \checkmark
+\end{bmatrix}
+$$
+
