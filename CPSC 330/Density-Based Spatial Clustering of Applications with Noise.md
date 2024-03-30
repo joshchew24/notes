@@ -16,5 +16,11 @@ aliases:
 ## Hyperparameters
 ### `eps`
 - determines what it means for points to be "close"
+	- i.e. determines cluster density
+- smaller `eps` gives denser clusters
+	- more computationally expensive
+- larger `eps` merges neighbouring clusters
+	- adds more noise points into clusters
+	- fewer clusters
 ### `min_samples`
 - determines the number of **neighbouring points** we require to consider in order for a point to be a part of a cluster
