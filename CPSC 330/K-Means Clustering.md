@@ -190,10 +190,12 @@ k_optimal
 - The worst value is -1 (samples have been assigned to wrong clusters).
 - Value near 0 means overlapping clusters. 
 
-The overall **Silhouette score** is the average of the Silhouette scores for all samples. We can visualize the silhouette score for each example individually in a silhouette plot (hence the name), see below.
+- overall **Silhouette score** is the average of the Silhouette scores for all samples
+- can visualize the silhouette score for each example individually in a silhouette plot
 #### Mean intra-cluster distance ($a$)
 - select a sample within a cluster
 - calculate the average of distances to all other points in the same cluster
 #### Mean nearest-cluster distance ($b$)
 - calculate the average of distances to all other points in each clusters
 - select the cluster that is closest and use its mean distance
+#### Silhouette Plot
