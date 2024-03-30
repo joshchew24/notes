@@ -24,3 +24,7 @@ aliases:
 	- fewer clusters
 ### `min_samples`
 - determines the number of **neighbouring points** we require to consider in order for a point to be a part of a cluster
+	- i.e. minimum number of points required to form a dense region or cluster
+	- determines granularity of the clusters and their resilience to noise
+- smaller `min_samples` give looser clusters that encompass fewer points
+- larger `min_samples` give denser and more compact clusters
