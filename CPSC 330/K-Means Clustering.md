@@ -199,3 +199,32 @@ k_optimal
 - calculate the average of distances to all other points in each clusters
 - select the cluster that is closest and use its mean distance
 #### Silhouette Plot
+- the plots below show the Silhouette scores for each sample in that cluster
+- higher values indicate well-separated clusters.
+- the size of the Silhouette shows the number of samples and hence shows imbalance of data points in clusters
+```python
+from yellowbrick.cluster import SilhouetteVisualizer
+
+model = KMeans(2, n_init='auto', random_state=42)
+visualizer = SilhouetteVisualizer(model, colors="yellowbrick")
+visualizer.fit(XX)  # Fit the data to the visualizer
+visualizer.show();
+# Finalize and render the figure
+```
+![[Pasted image 20240329175701.png|375]]
+```python
+model = KMeans(5, n_init='auto', random_state=42)
+visualizer = SilhouetteVisualizer(model, colors="yellowbrick")
+visualizer.fit(XX)  # Fit the data to the visualizer
+visualizer.show();
+# Finalize and render the figure
+```
+![[Pasted image 20240329175802.png|375]]
+```python
+model = KMeans(3, n_init='auto', random_state=42)
+visualizer = SilhouetteVisualizer(model, colors="yellowbrick")
+visualizer.fit(XX)  # Fit the data to the visualizer
+visualizer.show();
+# Finalize and render the figure
+```
+![[Pasted image 20240329175825.png|375]]
