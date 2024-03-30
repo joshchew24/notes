@@ -48,3 +48,13 @@ aliases:
 	- do not belong to any cluster
 	- have fewer than `min_samples` points within distance `eps` of the starting point
 ## Algorithm
+- Pick a point $p$ at random.
+- Check if $p$ is a core point
+	- look at the number of neighbours within `eps`
+	- core if they are near at least `min_samples` points
+- If $p$ is a core point, give it a colour (label)
+- Spread the colour of $p$ to all of its neighbours
+- Check if any of the neighbours that received the colour is a core point
+- if yes, spread the colour to its neighbors as well
+	- if not, it is a border point
+- Once there are no more core points left to spread the colour, pick a new unlabeled point $p$ and repeat the process.
