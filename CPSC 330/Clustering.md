@@ -39,3 +39,4 @@
 	    - Yes! That's a good start!  
 	    - With $k$-neighbours we used Euclidean distances to find nearby points. 
 	    - We can use the same idea for clustering! 
+- [[Density-Based Spatial Clustering of Applications with Noise|DBSCAN]]

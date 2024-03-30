@@ -190,7 +190,9 @@ k_optimal
 - clusters are defined solely by its center
 	- can only capture relatively simple shapes
 	- boundaries between clusters are linear
-### Failure Case 1
+### Failure Cases
 - performs poorly if clusters have more complex shapes
 ![[Pasted image 20240329182110.png]]
-### Failure Case 2
+![[Pasted image 20240329182126.png]]
+assumes all directions are equally important for each cluster and fails to identify non-spherical clusters
+![[Pasted image 20240329182323.png]]
