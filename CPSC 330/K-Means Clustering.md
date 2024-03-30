@@ -49,6 +49,18 @@ mglearn.discrete_scatter(cluster_centers[:, 0], cluster_centers[:, 1], y =[0,1,2
 ## Algorithm
 >[!Goal] 
 > Represent each cluster by its cluster center and assign a cluster membership to each datapoint
+>
+> **Input**: Data points X and the number of clusters K
+> 
+> **Initialization**: K initial centers for the clusters
+> 
+> **Iterative process**:
+> 
+> repeat 
+> - Assign each example to the closest center.
+> - Estimate new centers as _average_ of observations in a cluster.
+> 
+> until **centers stop changing** or **maximum iterations have reached**.
 
 **Input**: Data points `X` and the number of clusters `K`
 ```python
@@ -64,14 +76,7 @@ centers = X[centers_idx]
 ```
 ![[Pasted image 20240329164637.png]]
 
-**Iterative process**:
-
-repeat 
-- Assign each example to the closest center.
-- Estimate new centers as _average_ of observations in a cluster.
-
-until **centers stop changing** or **maximum iterations have reached**.
-
+**Iterative Process**
 1. assign each example to closest center
 ```python
 from sklearn.metrics import euclidean_distances
@@ -107,3 +112,13 @@ def update_centers(X, Z, old_centers, k):
         new_centers[kk] = np.mean(X[Z == kk], axis=0)
     return new_centers
 ```
+**Stop!**
+- K-means **always converges**
+	- doesn't necessarily find the "right" clusters, can converge on a sub-optimal solution
+- may not converge before `n_iterations`
+## Stochastic Initialization
+- randomness can affect the results
+- e.g. ![[Pasted image 20240329170453.png]]
+- use `n_init` parameter to run the algorithm several times
+- use K-means++
+	- picks **initial centroids which are far away from each other**
