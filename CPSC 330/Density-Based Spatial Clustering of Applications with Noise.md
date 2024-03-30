@@ -7,6 +7,8 @@ aliases:
 - density-based clustering algorithm
 - based on the idea that **clusters form dense regions** in the data
 	- **identifies "crowded" regions** in the feature space
+- there is no `predict` method
+	- only clusters points you have, not "new" or "test" points
 - addresses some limitations of [[K-Means Clustering]]
 	- does not require number of clusters in advance
 	- can identify points that are not part of any clusters
