@@ -13,3 +13,4 @@ Where,
 cosine_similarity = np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 print(f"Cosine Similarity: {cosine_similarity:.4f}")
 ```
+
