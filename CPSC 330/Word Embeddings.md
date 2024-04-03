@@ -14,3 +14,4 @@
 - Item A has the largest norm, and is ranked higher according to the dot-product. Item C has the smallest angle with the query, and is thus ranked first according to the cosine similarity. Item B is physically closest to the query so Euclidean distance favors it.
 ## Representations
 - [[One-Hot Representation]]
+- [[Term-Term Co-occurrence Matrix]]

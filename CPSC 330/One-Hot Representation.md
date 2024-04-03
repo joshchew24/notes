@@ -1,14 +1,21 @@
 # One-Hot Representation
 - see [[One-hot encoding]]
 - simplest word representation
+- each word is has a unique vector where all elements are zero except for one element
+	- represents the index of that word in the vocabulary
+	- each vector is length $V$, i.e. the size of the vocabulary
+- typically wouldn't store all vectors, just a map of words to their indices
+	- generate the word vectors based on the query phrase
+## Problme
+- does not capture similarities between different words
+	- e.g. tall vs height
+	- i.e. the dot product between non-equal words is always zero
 ## Example
 "How tall is Machu_Picchu"
 
 - one-hot representation of the word *tall*:
     * Vocabulary size = 5 and index of the word *tall* = 1
     * One-hot vector for *tall*: $\begin{bmatrix} 0 & 1 & 0 & 0 & 0 \end{bmatrix}$
-* build **vocabulary** containing all unique words in the corpus
-* one-hot representation of a word is a vector of length $V$ such that the value at word index is 1, and all other indices is 0
 ```python
 def get_onehot_encoding(word, vocab):
     onehot = np.zeros(len(vocab), dtype="float64")
@@ -54,4 +61,12 @@ unique_words.sort()
 vocab = {word: index for index, word in enumerate(unique_words)}
 print("Size of the vocabulary: %d" % (len(vocab)))
 print(vocab)
+```
+
+```python
+data = {}
+for word in vocab:
+    data[word] = get_onehot_encoding(word, vocab)
+ohe_df = pd.DataFrame(data).T
+ohe_df
 ```
