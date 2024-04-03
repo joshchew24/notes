@@ -1,3 +1,9 @@
 # Word Embeddings
 - create representations of words so that distances between words in the feature space indicate relationships between them
-- 
+- useful to capture word meaning 
+	- in terms of relationships between words
+	- draw useful inferences to solve meaning-related problems
+	- find relationships between words
+		- which are similar
+		- which have positive/negative connotations
+	- 
