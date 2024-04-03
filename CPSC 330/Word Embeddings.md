@@ -6,4 +6,6 @@
 	- find relationships between words
 		- which are similar
 		- which have positive/negative connotations
-	- 
+- word similarty
+	- numeric features use [[Euclidean Distance]] 
+	- sparse features use [[Dot Product]] or [[Cosine Distance]]
