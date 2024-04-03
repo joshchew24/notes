@@ -9,15 +9,21 @@
 - and the output is 
     1. Topic-words association 
         - For each topic, what words describe that topic? 
+        - a topic is a mixture of words 
+		- ![[Pasted image 20240402211755.png]]
     2. Document-topics association
         - For each document, what topics are expressed by the document? 
-## Examples
-- Topic-words association 
-    - For each topic, what words describe that topic?  
-    - A topic is a mixture of words. 
-	- ![[Pasted image 20240402211755.png]]
-- Document-topics association 
-    - For each document, what topics are expressed by the document?
-    - A document is a mixture of topics. 
-    - ![[Pasted image 20240402211821.png]]
-    - 
+        - a document is a mixture of topics
+        - ![[Pasted image 20240402213425.png]]
+## Example using [[Latent Dirichlet Allocation]] Model
+```python
+# using toy data from cpsc330 repo
+toy_df = pd.read_csv("../data/toy_lda_data.csv")
+toy_df
+
+from sklearn.feature_extraction.text import CountVectorizer
+
+vec = CountVectorizer(stop_words="english")
+toy_X = vec.fit_transform(toy_df["text"])
+toy_X
+```
