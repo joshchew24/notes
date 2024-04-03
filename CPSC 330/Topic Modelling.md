@@ -11,3 +11,13 @@
         - For each topic, what words describe that topic? 
     2. Document-topics association
         - For each document, what topics are expressed by the document? 
+## Examples
+- Topic-words association 
+    - For each topic, what words describe that topic?  
+    - A topic is a mixture of words. 
+	- ![[Pasted image 20240402211755.png]]
+- Document-topics association 
+    - For each document, what topics are expressed by the document?
+    - A document is a mixture of topics. 
+    - ![[Pasted image 20240402211821.png]]
+    - 
