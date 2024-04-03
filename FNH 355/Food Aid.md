@@ -5,5 +5,5 @@
 > 3. Aid as Distortion: Distorts markets and causes dependency
 ## Promoting Dependency?
 - occurs if an intervention intended to meet a receipient's current need results in reduced capacity for receipient to meet needs in the future
-- does prividing aid discourage self reliance
+- does providing aid discourage self reliance
 ![[Pasted image 20240402172229.png]]
