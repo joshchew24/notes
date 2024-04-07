@@ -11,15 +11,31 @@
 - factors for farmers
 	- crop yield and profit
 	- will people accept the rice if it is a GMO
+- politics of regulating GMO has resulted in delay of 20 years of making golden rice available
+	- co-inventor called this a crime against humanity
 ## Benefits
 - reduces vitamin A deficiency
 - one cup of golden rice per day would reduce risk
+- humanitarian intention
+	- it is currently being researched and advocated for by a non-profit group in the Phillipines
+- distributed for free
+	- does not create more debt for poor farmers
+- easy subsitution for regular rice
+- increases beta-carotene in a staple food
+	- already consumed in large quantity
 ## Opposition
 - people are scared GMO will spread uncontrollably
 	- unable to retract
 	- corporate control
 - long term impact, no proof that it is safe
-- profit-driven (it is currently being researched and advocated for by a non-profit group in the Phillipines)
 - you can get vitamin A from non-GMOs
+- profit-driven 
 	- meats and leafy greens (expensive)
 	- black rice (lower vitamin content)
+- emphasizes reliance on cereal grains
+	- dietary diversification would be preferred
+		- i.e. natural sources with higher vitamin A is preferred
+- yellow colour may not be acceptable
+	- consumer/farmers may not want
+	- in-depth research shows that once the nutritional benefits are understood, it will be accepted
+- 
