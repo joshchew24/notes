@@ -10,7 +10,7 @@
 	- i.e. will GMO cause harm?
 - factors for farmers
 	- crop yield and profit
-	- will people accept the rice if it is a
+	- will people accept the rice if it is a GMO
 ## Benefits
 - reduces vitamin A deficiency
 - one cup of golden rice per day would reduce risk
@@ -20,3 +20,6 @@
 	- corporate control
 - long term impact, no proof that it is safe
 - profit-driven (it is currently being researched and advocated for by a non-profit group in the Phillipines)
+- you can get vitamin A from non-GMOs
+	- meats and leafy greens (expensive)
+	- black rice (lower vitamin content)
