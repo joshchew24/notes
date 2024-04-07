@@ -34,8 +34,6 @@ pd.DataFrame(results).T
 		- at each node, select a random subset of features
 			- controlled by `max_features`
 			- look for the **best possible test** involving one of these features
-
-
 ## Process
 ### Training
 - create a collection ([[Ensembles]]) of trees
@@ -104,7 +102,6 @@ make_num_tree_plot(
 - You'll often see a high training scores for in the context of random forests. That's normal. It doesn't mean that the model is overfitting. 
 - While ensembles often offer improved performance, this benefit isn't always guaranteed.
 - Always opting for more trees in a random forest is preferable, but we sometimes choose fewer trees for faster performance.
-
 ## Strengths
 - Usually **one of the best** performing **off-the-shelf** classifiers without heavy tuning of hyperparameters
 - **Don't** require **scaling** of data 
