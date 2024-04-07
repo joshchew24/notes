@@ -22,6 +22,7 @@
 ## Supplementation
 - many countries provide supplements through high-dose capsules
 	- defined as sufficient if a child receives at least two capsules per year
+		- in 2020, only 41% of children in priority countries received these doses
 - huge impact with little cost
 ## Sources
 - variety of plant and animal foods
