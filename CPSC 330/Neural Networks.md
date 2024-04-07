@@ -18,3 +18,7 @@ mglearn.plots.plot_single_hidden_layer_graph()
 mglearn.plots.plot_two_hidden_layer_graph()
 ```
 ![[Pasted image 20240406211157.png|275]]![[Pasted image 20240406211217.png|425]]
+- each node is a **neuron**
+	- small decision-making unit
+	- takes input, processes it, produces an output
+- each connection between neuron has a weight
