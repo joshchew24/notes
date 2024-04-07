@@ -13,7 +13,8 @@
 - build a binary model for each pair of classes
 	- 1v2, 1v3, 2v3
 - trains $\frac{n \times (n-1)}{2}$ binary classifiers
-- trained on **relatively balanced subsets**
+	- $O(n^2)$ with $n$ as the number of classes
+ - trained on **relatively balanced subsets**
 - given a test point, apply all classifiers
 	- count how often each class was predicted
 	- predict class with most votes
