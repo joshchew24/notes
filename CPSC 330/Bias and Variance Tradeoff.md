@@ -1,6 +1,7 @@
 ---
 tags:
   - FundamentalTradeoff
+  - GoldenRule
 aliases:
   - Fundamental Tradeoff
 ---

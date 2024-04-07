@@ -55,6 +55,6 @@ scores = cross_validate(knn, X_train_scaled, y_train, return_train_score=True)
 pd.DataFrame(scores)
 ```
 > [!danger] Danger
-> by passing `X_train_scaled` to the `cross_validator`, we are creating validation splits from the fitted/transformed data, which violates the golden rule
+> by passing `X_train_scaled` to the `cross_validator`, we are creating validation splits from the fitted/transformed data, which violates the #GoldenRule 
 - use [[Pipelines]]
 ## [[Column Transformer]]

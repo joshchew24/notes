@@ -50,7 +50,7 @@ ct = make_column_transformer(
     ("drop", drop_feats),  # drop the drop features
 )
 ```
-### Breaking the Golden Rule
+### Breaking the #GoldenRule 
 If we **know categories beforehand** we can specify them to `OneHotEncoder` to avoid errors during `cross_over` assessments. However, wouldn't that be ***breaking the golden*** rule?
 
 When we know the categories in advance and this is **one of the cases where it might be OK to violate the golden rule** and get a list of all possible values for the categorical variable. 
