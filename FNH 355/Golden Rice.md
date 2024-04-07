@@ -8,8 +8,15 @@
 	- human body convers beta-carotene to vitamin A
 - not currently available due to "extreme interpretation of precautionary principle"
 	- i.e. will GMO cause harm?
+- factors for farmers
+	- crop yield and profit
+	- will people accept the rice if it is a
 ## Benefits
 - reduces vitamin A deficiency
-- 
+- one cup of golden rice per day would reduce risk
 ## Opposition
-- Filipino people went to
+- people are scared GMO will spread uncontrollably
+	- unable to retract
+	- corporate control
+- long term impact, no proof that it is safe
+- profit-driven (it is currently being researched and advocated for by a non-profit group in the Phillipines)
