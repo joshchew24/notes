@@ -5,6 +5,7 @@
 	- energy consumption
 	- social sciences
 	- sports analytics
+- `pd.read_csv("example.csv", parse_dates=["Date"])`
 ## Data Splitting
 - regular `train_test_split` randomly samples
 	- this breaks the sequential order of our data
