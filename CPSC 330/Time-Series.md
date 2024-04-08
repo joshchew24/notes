@@ -252,3 +252,13 @@ scores = cross_validate(
 )
 pd.DataFrame(scores)
 ```
+## Seasonality and Trends
+- how do we capture a trend (e.g. sales increasing over time)?
+- encode additional feature as "days since the start of the dataset"
+	- linear regression learns coefficient
+		- if positive, predicts unlimited growth forever, which is questionabl
+	- random forest just does splits from training set
+		- can't extrapolate
+		- **tree-based models CANNOT model trends**
+- often we **model the trend separately**
+	- use **random forest** to model de-trended time series
