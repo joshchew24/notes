@@ -22,3 +22,26 @@ rentals_lag5
 ![[Pasted image 20240407234226.png]]
 - first 5 rows have NaN because there is nothing to "shift into"
 	- drop or **carefully** impute
+### Imputing
+```python
+imp = SimpleImputer()
+X_lag_features_imp = imp.fit_transform(X_lag_features)
+
+rentals_lag5_X = pd.DataFrame(X_lag_features_imp, columns=rentals_lag5.drop(columns=['n_rentals']).columns)
+rentals_lag5_X.index = rentals_lag5.index
+rentals_lag5_X
+rentals_lag5_y = rentals_lag5['n_rentals']
+```
+### Split and Train
+```python
+# split the given features into a training and a test set
+n_train = 184
+X_train, X_test = rentals_lag5_X[:n_train], rentals_lag5_X[n_train:]
+# also split the target array
+y_train, y_test = rentals_lag5_y[:n_train], rentals_lag5_y[n_train:]
+
+rentals_model = RandomForestRegressor(random_state=42)
+rentals_model.fit(X_train, y_train);
+print("Train-set R^2: {:.2f}".format(rentals_model.score(X_train, y_train)))
+print("Test-set R^2: {:.2f}".format(rentals_model.score(X_test, y_test)))
+```
