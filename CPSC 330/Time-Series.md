@@ -228,3 +228,16 @@ from sklearn.linear_model import Ridge
 lr = Ridge()
 eval_on_features(X_hour_week_onehot_poly, y, lr, feat_names = "hour of day OHE + day of week OHE + interaction feats")
 ```
+## [[Cross Validation]]
+- regular cross-validation trains on future data and predicts past data
+- use `TimeSeriesSplit`
+```python
+from sklearn.model_selection import TimeSeriesSplit
+# Code from sklearn documentation
+X_toy = np.array([[1, 2], [3, 4], [1, 2], [3, 4], [1, 2], [3, 4]])
+y_toy = np.array([1, 2, 3, 4, 5, 6])
+tscv = TimeSeriesSplit(n_splits=3)
+for train, test in tscv.split(X_toy):
+    print("%s %s" % (train, test))
+```
+![[Pasted image 20240407235719.png]]
