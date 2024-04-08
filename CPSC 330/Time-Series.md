@@ -110,6 +110,18 @@ Allow us to see how different times and days interact with each other
 - If it's Saturday 09:00 or Wednesday 06:00, the model is likely to predict bigger number for rentals. 
 - If it's Midnight or 03:00 or Sunday 06:00, the model is likely to predict smaller number for rentals. 
 ### Encoding Time Feature as [[Lagged Feature]]
+```python
+rentals_df = pd.DataFrame(citibike)
+rentals_df = rentals_df.rename(columns={"one":"n_rentals"})
+
+# helper to create lagged features
+def create_lag_df(df, lag, cols):
+    return df.assign(
+        **{f"{col}-{n}": df[col].shift(n) for n in range(1, lag + 1) for col in cols}
+    )
+
+rentals_lag5 = create_lag_df(rentals_df, 5, ['n_rentals'] )
+```
 ### Helper Function
 - Splits the data 
 - Trains the given regressor model on the training data
