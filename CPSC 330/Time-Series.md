@@ -68,8 +68,44 @@ X_test = test_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 - This won't work, because future dates are out of the range of our training data, 
 ### Encoding Time Feature as Time of Day and Day of Week
 ```python
+X_hour_week = np.hstack(
+    [
+        citibike.index.dayofweek.values.reshape(-1, 1),
+        citibike.index.hour.values.reshape(-1, 1),
+    ]
+)
 
+X_hour_week[:5]
 ```
+- Works fine with random forest, but with `Ridge`, cannot capture **periodic pattern**
+	- because **time of day** is encoded as **integers**
+	- linear model can only learn a linear function of the time of day
+### Encoding Time of Day as a Categorical Feature
+```python
+enc = OneHotEncoder()
+X_hour_week_onehot = enc.fit_transform(X_hour_week).toarray()
+# make readable labels:
+hour = ["%02d:00" % i for i in range(0, 24, 3)]
+day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+features = day + hour
+
+pd.DataFrame(X_hour_week_onehot, columns=features)
+```
+### Interaction Features using `PolynomialFeatures` Transformer
+```python
+from sklearn.preprocessing import PolynomialFeatures
+
+poly_transformer = PolynomialFeatures(
+    interaction_only=True, include_bias=False
+)
+X_hour_week_onehot_poly = poly_transformer.fit_transform(X_hour_week_onehot)
+hour = ["%02d:00" % i for i in range(0, 24, 3)]
+day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+features = day + hour
+features_poly = poly_transformer.get_feature_names_out(features)
+features_poly
+```
+
 ### Helper Function
 - Splits the data 
 - Trains the given regressor model on the training data
