@@ -209,13 +209,10 @@ def eval_on_features(features, target, regressor, n_train=184, sales_data=False,
     plt.xlabel("Date")
     plt.ylabel(ylabel)
 ```
-<<<<<<< HEAD
-### Random Forest Regressor:
-=======
+
 ### Train Random Forest Regressor
 - performs decent with time of day and day of week features
 - cannot extrapolate
->>>>>>> origin/main
 ```python
 from sklearn.ensemble import RandomForestRegressor
 
@@ -246,3 +243,12 @@ for train, test in tscv.split(X_toy):
     print("%s %s" % (train, test))
 ```
 ![[Pasted image 20240407235719.png]]
+Using with `Ridge`:
+```python
+lr = Ridge()
+
+scores = cross_validate(
+    lr, X_hour_week_onehot_poly, y, cv=TimeSeriesSplit(), return_train_score=True
+)
+pd.DataFrame(scores)
+```
