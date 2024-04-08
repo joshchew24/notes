@@ -109,6 +109,7 @@ features_poly
 Allow us to see how different times and days interact with each other 
 - If it's Saturday 09:00 or Wednesday 06:00, the model is likely to predict bigger number for rentals. 
 - If it's Midnight or 03:00 or Sunday 06:00, the model is likely to predict smaller number for rentals. 
+### Encoding Time Feature as [[Lagged Feature]]
 ### Helper Function
 - Splits the data 
 - Trains the given regressor model on the training data
