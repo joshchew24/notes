@@ -51,7 +51,7 @@ plt.plot(test_df_sort, "r", label="test")
 plt.xticks(rotation="vertical")
 plt.legend()
 ```
-### Try Encoding the Time Feature as [[POSIX Time]]:
+### Encoding Time Feature as [[POSIX Time]]:
 In pandas, datetime objects are typically represented as Timestamp objects, which internally store time as the number of nanoseconds (1 billionth of a second. 1 second = $10^9$ nanoseconds) since the POSIX epoch (January 1, 1970, 00:00:00 UTC).
 ```python
 X = (
@@ -67,6 +67,62 @@ X_test = test_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 ```
 - assuming we used random forest, this won't work, because future dates are out of the range of our training data
 	- i.e. tree-based models cannot extrapolate to feature ranges outside of the training data
+### Encoding Time Feature as Time of Day and Day of Week
+```python
+X_hour_week = np.hstack(
+    [
+        citibike.index.dayofweek.values.reshape(-1, 1),
+        citibike.index.hour.values.reshape(-1, 1),
+    ]
+)
+
+X_hour_week[:5]
+```
+- Works fine with random forest, but with `Ridge`, cannot capture **periodic pattern**
+	- because **time of day** is encoded as **integers**
+	- linear model can only learn a linear function of the time of day
+### Encoding Time Feature as Categorical
+```python
+enc = OneHotEncoder()
+X_hour_week_onehot = enc.fit_transform(X_hour_week).toarray()
+# make readable labels:
+hour = ["%02d:00" % i for i in range(0, 24, 3)]
+day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+features = day + hour
+
+pd.DataFrame(X_hour_week_onehot, columns=features)
+```
+Coefficient learned on individual times will capture the trends associated with those times
+### Encoding Time Feature as Interaction Features using `PolynomialFeatures` Transformer
+```python
+from sklearn.preprocessing import PolynomialFeatures
+
+poly_transformer = PolynomialFeatures(
+    interaction_only=True, include_bias=False
+)
+X_hour_week_onehot_poly = poly_transformer.fit_transform(X_hour_week_onehot)
+hour = ["%02d:00" % i for i in range(0, 24, 3)]
+day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+features = day + hour
+features_poly = poly_transformer.get_feature_names_out(features)
+features_poly
+```
+Allow us to see how different times and days interact with each other 
+- If it's Saturday 09:00 or Wednesday 06:00, the model is likely to predict bigger number for rentals. 
+- If it's Midnight or 03:00 or Sunday 06:00, the model is likely to predict smaller number for rentals. 
+### Encoding Time Feature as [[Lagged Feature]]
+```python
+rentals_df = pd.DataFrame(citibike)
+rentals_df = rentals_df.rename(columns={"one":"n_rentals"})
+
+# helper to create lagged features
+def create_lag_df(df, lag, cols):
+    return df.assign(
+        **{f"{col}-{n}": df[col].shift(n) for n in range(1, lag + 1) for col in cols}
+    )
+
+rentals_lag5 = create_lag_df(rentals_df, 5, ['n_rentals'] )
+```
 ### Helper Function
 - Splits the data 
 - Trains the given regressor model on the training data
@@ -153,10 +209,40 @@ def eval_on_features(features, target, regressor, n_train=184, sales_data=False,
     plt.xlabel("Date")
     plt.ylabel(ylabel)
 ```
+<<<<<<< HEAD
 ### Random Forest Regressor:
+=======
+### Train Random Forest Regressor
+- performs decent with time of day and day of week features
+- cannot extrapolate
+>>>>>>> origin/main
 ```python
 from sklearn.ensemble import RandomForestRegressor
 
 regressor = RandomForestRegressor(n_estimators=100, random_state=0)
-eval_on_features(X, y, regressor, feat_names="POSIX time")
+eval_on_features(X_hour_week, y, regressor, feat_names="hour of day + day of week")
 ```
+### Train Ridge
+- performs well with categorical or interaction features
+- linear models struggle with cyclic patterns in numeric features
+	- inherently non-linear
+	- Applying [[One-hot encoding]] on such features transforms cyclic temporal features into a format where their impact on the target variable can be independently and linearly modeled, enabling linear models to effectively capture and use these cyclic patterns. 
+```python
+from sklearn.linear_model import Ridge
+
+lr = Ridge()
+eval_on_features(X_hour_week_onehot_poly, y, lr, feat_names = "hour of day OHE + day of week OHE + interaction feats")
+```
+## [[Cross Validation]]
+- regular cross-validation trains on future data and predicts past data
+- use `TimeSeriesSplit`
+```python
+from sklearn.model_selection import TimeSeriesSplit
+# Code from sklearn documentation
+X_toy = np.array([[1, 2], [3, 4], [1, 2], [3, 4], [1, 2], [3, 4]])
+y_toy = np.array([1, 2, 3, 4, 5, 6])
+tscv = TimeSeriesSplit(n_splits=3)
+for train, test in tscv.split(X_toy):
+    print("%s %s" % (train, test))
+```
+![[Pasted image 20240407235719.png]]
