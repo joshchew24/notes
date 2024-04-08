@@ -66,6 +66,8 @@ X_train = train_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 X_test = test_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 ```
 - This won't work, because future dates are out of the range of our training data, 
+### Encoding Time Feature as Time of Day and Day of Week
+
 ### Helper Function
 - Splits the data 
 - Trains the given regressor model on the training data
