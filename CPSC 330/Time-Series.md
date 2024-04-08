@@ -51,7 +51,7 @@ plt.plot(test_df_sort, "r", label="test")
 plt.xticks(rotation="vertical")
 plt.legend()
 ```
-### Try Encoding the Time Feature as [[POSIX Time]]:
+### Encoding the Time Feature as [[POSIX Time]]:
 In pandas, datetime objects are typically represented as Timestamp objects, which internally store time as the number of nanoseconds (1 billionth of a second. 1 second = $10^9$ nanoseconds) since the POSIX epoch (January 1, 1970, 00:00:00 UTC).
 ```python
 X = (
@@ -80,7 +80,7 @@ X_hour_week[:5]
 - Works fine with random forest, but with `Ridge`, cannot capture **periodic pattern**
 	- because **time of day** is encoded as **integers**
 	- linear model can only learn a linear function of the time of day
-### Encoding Time of Day as a Categorical Feature
+### Encoding Time Feature as Categorical
 ```python
 enc = OneHotEncoder()
 X_hour_week_onehot = enc.fit_transform(X_hour_week).toarray()
@@ -91,7 +91,8 @@ features = day + hour
 
 pd.DataFrame(X_hour_week_onehot, columns=features)
 ```
-### Interaction Features using `PolynomialFeatures` Transformer
+Coefficient learned on individual times will capture the trends associated with those times
+### Encoding Time Feature as Interaction Features using `PolynomialFeatures` Transformer
 ```python
 from sklearn.preprocessing import PolynomialFeatures
 
@@ -105,7 +106,9 @@ features = day + hour
 features_poly = poly_transformer.get_feature_names_out(features)
 features_poly
 ```
-
+Allow us to see how different times and days interact with each other 
+- If it's Saturday 09:00 or Wednesday 06:00, the model is likely to predict bigger number for rentals. 
+- If it's Midnight or 03:00 or Sunday 06:00, the model is likely to predict smaller number for rentals. 
 ### Helper Function
 - Splits the data 
 - Trains the given regressor model on the training data
