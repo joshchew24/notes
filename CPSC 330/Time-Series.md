@@ -65,7 +65,8 @@ y_test = test_df.values
 X_train = train_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 X_test = test_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 ```
-- This won't work, because future dates are out of the range of our training data, 
+- assuming we used random forest, this won't work, because future dates are out of the range of our training data
+	- i.e. tree-based models cannot extrapolate to feature ranges outside of the training data
 ### Helper Function
 - Splits the data 
 - Trains the given regressor model on the training data
@@ -152,8 +153,7 @@ def eval_on_features(features, target, regressor, n_train=184, sales_data=False,
     plt.xlabel("Date")
     plt.ylabel(ylabel)
 ```
-###
-Try Random Forest Regressor:
+### Random Forest Regressor:
 ```python
 from sklearn.ensemble import RandomForestRegressor
 
