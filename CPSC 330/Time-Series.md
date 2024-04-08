@@ -51,7 +51,7 @@ plt.plot(test_df_sort, "r", label="test")
 plt.xticks(rotation="vertical")
 plt.legend()
 ```
-### Encoding the Time Feature as [[POSIX Time]]:
+### Encoding Time Feature as [[POSIX Time]]:
 In pandas, datetime objects are typically represented as Timestamp objects, which internally store time as the number of nanoseconds (1 billionth of a second. 1 second = $10^9$ nanoseconds) since the POSIX epoch (January 1, 1970, 00:00:00 UTC).
 ```python
 X = (
@@ -195,11 +195,23 @@ def eval_on_features(features, target, regressor, n_train=184, sales_data=False,
     plt.xlabel("Date")
     plt.ylabel(ylabel)
 ```
-###
-Try Random Forest Regressor:
+### Train Random Forest Regressor
+- performs decent with time of day and day of week features
+- cannot extrapolate
 ```python
 from sklearn.ensemble import RandomForestRegressor
 
 regressor = RandomForestRegressor(n_estimators=100, random_state=0)
-eval_on_features(X, y, regressor, feat_names="POSIX time")
+eval_on_features(X_hour_week, y, regressor, feat_names="hour of day + day of week")
+```
+### Train Ridge
+- performs well with categorical or interaction features
+- linear models struggle with cyclic patterns in numeric features
+	- inherently non-linear
+	- Applying [[One-hot encoding]] on such features transforms cyclic temporal features into a format where their impact on the target variable can be independently and linearly modeled, enabling linear models to effectively capture and use these cyclic patterns. 
+```python
+from sklearn.linear_model import Ridge
+
+lr = Ridge()
+eval_on_features(X_hour_week_onehot_poly, y, lr, feat_names = "hour of day OHE + day of week OHE + interaction feats")
 ```
