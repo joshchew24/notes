@@ -54,6 +54,7 @@ plt.legend()
 ```
 ### Encoding Time Feature as [[POSIX Time]]:
 In pandas, datetime objects are typically represented as Timestamp objects, which internally store time as the number of nanoseconds (1 billionth of a second. 1 second = $10^9$ nanoseconds) since the POSIX epoch (January 1, 1970, 00:00:00 UTC).
+**`citibike` dataset stores datetime as the index**
 ```python
 X = (
     citibike.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
