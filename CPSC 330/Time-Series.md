@@ -83,7 +83,7 @@ X_hour_week[:5]
 - Works fine with random forest, but with `Ridge`, cannot capture **periodic pattern**
 	- because **time of day** is encoded as **integers**
 	- linear model can only learn a linear function of the time of day
-### Encoding Time Feature as Categorical
+### Encoding Time Feature as [[One-hot encoding|Categorical]]
 ```python
 enc = OneHotEncoder()
 X_hour_week_onehot = enc.fit_transform(X_hour_week).toarray()
