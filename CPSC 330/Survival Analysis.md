@@ -7,4 +7,5 @@
 		- the time that someone unemployed will take to land a new job
 		- the time until you wait for your turn to get a surgery
 	- i.e. **whether or not something will happen in a certain time frame**
-- 
+- use `lifelines` package
+## Kaplan-Meier Survival Curve
