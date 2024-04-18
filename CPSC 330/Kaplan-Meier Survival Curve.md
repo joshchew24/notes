@@ -1,5 +1,6 @@
 - using base example from [[Customer Churn]] and data prep from [[Survival Analysis]]
 ## Training
+This model only uses two columns: `tenure` and `churn`
 ```python
 kmf = lifelines.KaplanMeierFitter()
 kmf.fit(train_df_surv["tenure"], train_df_surv["Churn"]);
