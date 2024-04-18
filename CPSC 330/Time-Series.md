@@ -6,6 +6,10 @@
 	- social sciences
 	- sports analytics
 - `pd.read_csv("example.csv", parse_dates=["Date"])`
+## [[Exploratory Data Analysis (EDA)]]
+- what is the frequency of data collection (e.g. hourly, daily)
+- how many time series are present within the dataset
+- are there any gaps or missing values in the data
 ## Data Splitting
 - regular `train_test_split` randomly samples
 	- this breaks the sequential order of our data
