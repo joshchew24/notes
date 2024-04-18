@@ -8,9 +8,7 @@
 		- the time until you wait for your turn to get a surgery
 	- i.e. **whether or not something will happen in a certain time frame**
 - use `lifelines` package
-## Kaplan-Meier Survival Curve
-- using base example from [[Customer Churn]]
-### Data Prep
+## Data Prep
 - drop `TotalCharges`
 	- value changes over time, but we only haev the final value
 	- still have `MonthlyCharges`
@@ -20,7 +18,7 @@ numeric_features = ["MonthlyCharges"]
 drop_features = ["customerID", "TotalCharges"]
 passthrough_features = ["tenure", "SeniorCitizen"]  # don't want to scale tenure
 target_column = ["Churn"]
-# the rest are categorical
+# Kaplan-Meier Survival Curve
 categorical_features = list(
     set(train_df.columns)
     - set(numeric_features)
@@ -60,13 +58,6 @@ test_df_surv = pd.DataFrame(
 
 train_df_surv.head()
 ```
-### Model
-```python
-kmf = lifelines.KaplanMeierFitter()
-kmf.fit(train_df_surv["tenure"], train_df_surv["Churn"]);
-
-kmf.survival_function_.plot();
-plt.title("Survival function of customer churn")
-plt.xlabel("Time with service (months)")
-plt.ylabel("Survival probability");
-```
+## Models
+### [[Kaplan-Meier Survival Curve]]
+### [[Cox Proportional Hazards Model]]
