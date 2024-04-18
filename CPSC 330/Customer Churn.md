@@ -64,11 +64,17 @@ X_test = test_df.drop(columns=["Churn"])
 y_train = train_df["Churn"]
 y_test = test_df["Churn"]
 ```
-### Problem
+## Problem
 - when treating this as binary classification, we predict whether the customer would churn or not at a specific point in time (when the data was collected)
 - it's more useful to understand **when** they are likely to churn
 	- to offer promotions, etc
 	- see [[Survival Analysis]]
 - can't do regular analysis of `tenure` column in combination with `churn` column
 	- ![[Pasted image 20240417190531.png|172]]
-	- 
+	- we don't know the actual time to churn in all occurrences
+		- i.e. **Censoring** prevents us from observing the exact time the event happened for all examples
+		- we don't have the **correct target values** to train and test our model
+## Approaches
+### Approach 1
+- only consider examples where `churn=yes
+- 
