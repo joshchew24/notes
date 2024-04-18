@@ -1,3 +1,4 @@
+# Censoring
 - when the true outcome of some data points is not fully observed or unknown
 - common in [[Survival Analysis]]
 	- i.e. some data points have not experienced the "event" within the timeframe of the dataset
