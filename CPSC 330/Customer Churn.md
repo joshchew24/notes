@@ -69,3 +69,6 @@ y_test = test_df["Churn"]
 - it's more useful to understand **when** they are likely to churn
 	- to offer promotions, etc
 	- see [[Survival Analysis]]
+- can't do regular analysis of `tenure` column in combination with `churn` column
+	- ![[Pasted image 20240417190531.png|172]]
+	- 
