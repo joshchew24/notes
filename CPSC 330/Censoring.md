@@ -1,15 +1,18 @@
 - when the true outcome of some data points is not fully observed or unknown
 - common in [[Survival Analysis]]
-	- interested in predicting the tim
+	- i.e. some data points have not experienced the "event" within the timeframe of the dataset
 ## Types of censoring
-There are also various types and sub-types of censoring we didn't cover:
-
-- What we did **today** is called "**right censoring**"
-- **Sub-types** within right censoring
-  - Did **everyone join** at the **same time**?
-  - Are there **other reasons** the data might be censored at random times, e.g. the **person died**?
-- **Left** censoring
-- **Interval** censoring
+### Right Censoring
+- event of interest has not occurred by the end of observation study
+- sub-types
+	- did everyone join at the same time?
+	- are there other reasons data might be censored at random times?
+		- e.g. person died
+### Left Censoring
+- event of interest occurred before the start of observation
+- e.g. study on time until machine failure, but machine was already broken when monitoring began
+### Interval censoring
+- event of interest known to lie within certain interval, but exact time is unknown
 
 [From Wikipedia](https://en.wikipedia.org/wiki/Censoring_(statistics)):
 > - Left censoring – a data point is below a certain value but it is unknown by how much.
