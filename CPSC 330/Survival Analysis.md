@@ -10,6 +10,7 @@
 - use `lifelines` package
 ## Kaplan-Meier Survival Curve
 - using base example from [[Customer Churn]]
+### Data Prep
 - drop `TotalCharges`
 	- value changes over time, but we only haev the final value
 	- still have `MonthlyCharges`
@@ -56,4 +57,16 @@ train_df_surv = pd.DataFrame(
 test_df_surv = pd.DataFrame(
     preprocessing_final.transform(test_df), index=test_df.index, columns=new_columns
 )
+
+train_df_surv.head()
+```
+### Model
+```python
+kmf = lifelines.KaplanMeierFitter()
+kmf.fit(train_df_surv["tenure"], train_df_surv["Churn"]);
+
+kmf.survival_function_.plot();
+plt.title("Survival function of customer churn")
+plt.xlabel("Time with service (months)")
+plt.ylabel("Survival probability");
 ```
