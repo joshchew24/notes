@@ -58,6 +58,13 @@ test_df_surv = pd.DataFrame(
 
 train_df_surv.head()
 ```
-## Models
-### [[Kaplan-Meier Survival Curve]]
-### [[Cox Proportional Hazards Model]]
+## Approaches
+- [[Kaplan-Meier Survival Curve]]
+	- only considers tenure/duration and churn
+- [[Cox Proportional Hazards Model]]
+	- can create a model that generates multiplicative coefficients for all covariates
+- time-varying proportional hazards
+	- what if some feature changes over time?
+		- e.g. plan type, number of lines, etc.
+- approaches **based on deep learning**, e.g. the [pysurvival](https://square.github.io/pysurvival/) package.
+- **random survival forests**
