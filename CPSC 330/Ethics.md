@@ -1,5 +1,5 @@
 # Ethics
-- **statistical parity**:
+- **statistical parity**
 	- each group of a protected class (e.g. sex) should receive the positive outcome at equal proportions
 	- e.g. proportion of loans approved for female should be equal to male
 - **equal opportunity**
@@ -49,4 +49,8 @@
 2. **quality of data varies across groups**
 	- structural discrimination can lead to systematically higher error rates in a certain group
 	- e.g. women more likely to be misdiagnosed or not diagnosed for conditions where self-reported pain is a symptom
-	- 
+3. **defined classification task is an oversimplification**
+	- for [[Supervised Learning]], we must choose a label to predict
+	- reducing a decision to a single attribute can create a biased proxy label
+		- it only captures a particular aspect of what we really want to measure
+	- e.g. predicting if a student will be "successful"
