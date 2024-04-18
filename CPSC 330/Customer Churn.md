@@ -77,4 +77,13 @@ y_test = test_df["Churn"]
 ## Approaches
 ### Approach 1
 - only consider examples where `churn=yes
-- 
+- on average, underestimates
+	- ignoring un-churned customers
+	- i.e. biased sample of dataset for those who churned within the time window of data collection
+	- long time subscribers more likely to be removed from the dataset
+### Approach 2
+- assume everyone churns right now
+- still underestimates
+	- assumes current subscribers churn, resulting in shorter tenure
+### Approach 3
+- [[Survival Analysis]]
