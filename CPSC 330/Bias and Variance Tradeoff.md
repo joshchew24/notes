@@ -12,6 +12,7 @@ aliases:
 ## Bias
 - tendency to consistently learn the same wrong thing 
 - high bias corresponds to [[Underfitting]]
+- different from bias in [[CPSC 330/Ethics|Ethics]] context
 ## Variance
 - tendency to learn random things irrespective of the real signal
 - high variance corresponds to [[Overfitting]]
