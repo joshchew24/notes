@@ -68,4 +68,4 @@ y_test = test_df["Churn"]
 - when treating this as binary classification, we predict whether the customer would churn or not at a specific point in time (when the data was collected)
 - it's more useful to understand **when** they are likely to churn
 	- to offer promotions, etc
-- 
+	- see [[Survival Analysis]]
