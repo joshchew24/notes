@@ -17,11 +17,21 @@ cph.fit(train_df_surv, duration_col="tenure", event_col="Churn")
 
 cph_params = pd.DataFrame(cph.params_).sort_values(by="coef", ascending=False)
 cph_params
+cph.baseline_hazard_ # baseline hazard
+cph.summary
 ```
 ### Interpreting Coefficients
-- A positive coefficient indicates higher values of the feature are associated with higher hazard rates, meaning they are associated with worse survival.
-- A negative coefficient indicates that higher values of the feature are associated with lower hazard rates, meaning they are associated with better survival.
-- In our example, it looks like `Contract_Month-to-month` has a positive coefficient 
-    - If the contract is month-to-month, it leads to more churn / worse survival (😔)
-- In our example, it looks like `Contract_Two year` has a negative coefficient 
-    - If the contract is two-year contract, it leads to less churn / better survival (😊)
+- A positive coefficient indicates higher values of the feature give higher hazard rates
+	- associated with worse survival
+	- e.g. `Contract_Month-to-month` has a positive coefficient 
+		- If the contract is month-to-month, it leads to more churn / worse survival (😔)
+- A negative coefficient indicates higher values of the feature give lower hazard rates
+	- associated with better survival
+	- e.g. `Contract_Two year` has a negative coefficient
+		- If the contract is two-year contract, it leads to less churn / better survival (😊)
+### Confidence Intervals
+```python
+plt.figure(figsize=(10, 12))
+cph.plot();
+```
+![[Pasted image 20240417202523.png]]
