@@ -44,5 +44,7 @@
 	- `ngram_range`
 		- consider word sequences in the given range
 		- can capture more context/relationships between words
-		- exponentially increase featu
+		- exponentially increase size of feature space and computational complexity
 - **incorporate text features in a machine learning pipeline**
+	- add a step in pipeline in `ColumnTransformer`
+	- treat text feature same as any other feature that you want to apply transformations to
