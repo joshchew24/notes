@@ -35,6 +35,6 @@
 - **describe the [[Bias and Variance Tradeoff|Fundamental Tradeoff]] between training score and the train-test gap**
 	- we want to achieve a high training score, and minimize the gap between training and test performance
 	- model with high training score but a large gap often indicates overfitting
-- **state [[The]]**
+- **state the #GoldenRule**
 	- 
 - **start to build a standard recipe for supervised learning: train/test split, hyperparameter tuning with cross-validation, test on test set**
