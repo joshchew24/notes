@@ -1,0 +1,19 @@
+# Lecture 5 Summary - Preprocessing and sklearn Pipelines
+- **explain motivation for [[Pre-processing]] in supervised machine learning**
+	- raw data often contains inconsistencies, missing values, and is not often in a format conducive to optimal machine learning model performance
+	- proper preprocessing improves the quality of the data, ensures it is clean, normalized, and suitable for the model
+	- this can significantly enhance model accuracy and efficiency
+- **identify when to implement feature transformations such as imputation, scaling, and one-hot encoding in a machine learning model development pipeline**
+	- [[Pre-processing#Imputation|Imputation]]
+		- apply when there are missing values in a dataset
+		- value to impute can be mean, median, default, or sometimes obtained via more complex methods 
+	- [[Pre-processing#Scaling]]
+		- apply when dataset has multiple numeric features with different scales
+			- scale can affect the influence of certain features on a model's outcome
+		- most ML algorithms assume data will be on the same scale
+		- **standardization**: subtract the mean and divide by standard deviation
+		- **normalization**: scale data to fixed range, like 0 to 1
+	- [[One-hot encoding]]
+- **use `sklearn` transformers for applying feature transformations on your dataset**
+- **discuss golden rule in the context of feature transformations**
+- **use `sklearn.pipeline.Pipeline` and `sklearn.pipeline.make_pipeline` to build a preliminary machine learning pipeline**

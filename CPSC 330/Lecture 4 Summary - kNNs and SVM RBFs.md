@@ -34,11 +34,14 @@
 	- `C`
 		- regularization parameter or penalty parameter
 		- trade-off between maximizing margin between hyperplane and closest data points, and minimizing errors
+			- larger margin improves performance and generalization
 		- smaller `C` allows for more misclassificaton
 			- higher bias but lower variance
 			- simpler decision boundary
+			- prioritize minimizing errors over maximizing margin
 			- can cause underfitting
 		- larger `C` aims for lower misclassification rate
 			- lower bias but higher variance
+			- prioritize maximizing margin over minimizing errors
 			- can cause overfitting
 		- [[Bias and Variance Tradeoff]]
