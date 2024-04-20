@@ -19,7 +19,12 @@
 	- group rare categories into single "other" category
 	- feature hashing
 		- use hash function to map category to integer index 
+		- reduces dimensionality of input data
+	- applying [[Word Embeddings|Embeddings]]
+		- represent category with integer ID that maps to a dense vector representation
 - **explain why text data needs a different treatment than categorical variables**
+	- text data is unstructured and high-dimensional
+	- requires [[Encoding Text Data#Preprocessing|special preprocessing]]
 - **use `scikit-learn`'s `CountVectorizer` to encode text data**
 - **explain different hyperparameters of `CountVectorizer`**
 - **incorporate text features in a machine learning pipeline**

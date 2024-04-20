@@ -6,7 +6,7 @@
 	- each vector is length $V$, i.e. the size of the vocabulary
 - typically wouldn't store all vectors, just a map of words to their indices
 	- generate the word vectors based on the query phrase
-## Problme
+## Problem
 - does not capture similarities between different words
 	- e.g. tall vs height
 	- i.e. the dot product between non-equal words is always zero
