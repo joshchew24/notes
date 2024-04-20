@@ -36,5 +36,11 @@
 	- we want to achieve a high training score, and minimize the gap between training and test performance
 	- model with high training score but a large gap often indicates overfitting
 - **state the #GoldenRule**
-	- 
+	- never train on testing data
 - **start to build a standard recipe for supervised learning: train/test split, hyperparameter tuning with cross-validation, test on test set**
+	- Train/Test split
+		- separate your data into training and testing sets
+	- Hyperparameter Tuning with Cross-Validation
+		- use cross-validation to determine the best hyperparameters for your model
+	- Test on Test Set
+		- evaluate model's performance on test set to understand how well it generalizes to new data

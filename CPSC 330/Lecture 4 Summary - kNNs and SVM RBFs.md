@@ -1,0 +1,13 @@
+# Lecture 4 Summary - kNNs and SVM RBFs
+- **explain the notion of similarity-based algorithms**
+	- make predictions based on the similarity of input data to training data
+		- e.g. [[k-Nearest Neighbours]] 
+	- rely on the assumption that similar data points are likely to have similar output values
+	- similarity often measured by distance metrics such as Euclidean distance
+- **broadly describe how $k$-NNs use distances**
+	- uses distance metrics to find $k$ closest training points to an input point
+	- prediction for the test point made based on output values of the nearest neighbours
+- **discuss the effect of using a small/large value of the hyperparameter $k$ when using the $k$-NN algorithm**
+- **describe the problem of curse of dimensionality**
+- **explain the general idea of SVMs with RBF kernel**
+- **broadly describe the relation of `gamma` and `C` hyperparameters of SVMs with the fundamental tradeoff**
