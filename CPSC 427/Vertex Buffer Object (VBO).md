@@ -11,7 +11,7 @@ glEnableVertexAttribArray(0);
 - `3 * sizeof(float)` stride through the buffer 
 	- each vector has 3 floats, so our stride is 3 times the size of a float
 - `(void *) 0` 
-## Remderomg
+## Rendering
 ```cpp
 // 0. copy our vertices array in a buffer for OpenGL to use
 glBindBuffer(GL_ARRAY_BUFFER, VBO);

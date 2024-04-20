@@ -7,13 +7,22 @@
 	- [[Pre-processing#Imputation|Imputation]]
 		- apply when there are missing values in a dataset
 		- value to impute can be mean, median, default, or sometimes obtained via more complex methods 
-	- [[Pre-processing#Scaling]]
+	- [[Pre-processing#Scaling|Scaling]]
 		- apply when dataset has multiple numeric features with different scales
 			- scale can affect the influence of certain features on a model's outcome
 		- most ML algorithms assume data will be on the same scale
 		- **standardization**: subtract the mean and divide by standard deviation
 		- **normalization**: scale data to fixed range, like 0 to 1
 	- [[One-hot encoding]]
+		- apply to categorical feature to convert to numeric
+		- new columns are binary presence indicators for each category from the original feature
 - **use `sklearn` transformers for applying feature transformations on your dataset**
+	- `SimpleImputer`, `StandardScaler`, `MinMaxScaler`, `OneHotEncoder`
 - **discuss golden rule in the context of feature transformations**
+	- make sure to fit the transformers on **ONLY** the training data 
+	- apply the transformations to the whole dataset after
 - **use `sklearn.pipeline.Pipeline` and `sklearn.pipeline.make_pipeline` to build a preliminary machine learning pipeline**
+	- [[Pipelines]] chain multiple preprocessing steps and model training into a single coherent workflow
+		- ensures all steps applied consistently and repeatably
+	- `make_pipeline` is shorthand for creating a pipeline
+		- automatically names each step in pipeline based on function

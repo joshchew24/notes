@@ -58,3 +58,4 @@ pd.DataFrame(scores)
 > by passing `X_train_scaled` to the `cross_validator`, we are creating validation splits from the fitted/transformed data, which violates the #GoldenRule 
 - use [[Pipelines]]
 ## [[Column Transformer]]
+## [[Categorical Transformations]]
