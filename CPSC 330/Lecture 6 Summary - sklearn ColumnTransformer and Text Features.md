@@ -1,0 +1,25 @@
+# Lecture 6 Summary - sklearn ColumnTransformer and Text Features
+- **use `ColumnTransformer` to build all our transformations together into one object and use it with `sklearn` pipelines**
+	- apply different transformations to different columns of a dataset in a single step
+	- [[Column Transformer]] can be integrated with [[Pipelines]]
+- **define `ColumnTransformer` where transformers contain more than one steps**
+	- each transformer can also be a pipeline
+		- e.g. for numeric features, make a pipeline that imputes then scales the data
+- **explain `handle_unknown="ignore"` hyperparameter of `scikit-learn`'s `OneHotEncoder`**
+	- when the model encounters a category in the test data that wasn't present in the training data, drop it
+- **explain `drop="if_binary"` argument of `OneHotEncoder`**
+	- if a categorical feature is binary, simply drop one of the columns
+		- reduces feature space and avoids multicollinearity
+- **identify when it's appropriate to apply ordinal encoding vs one-hot encoding**
+	- use ordinal encoding when the categorical feature has a natural order
+		- e.g. ratings of 'poor', 'good', 'excellent'
+	- use one-hot encoding when there's no ordinal relationship
+		- treat each category as an independent feature
+- **explain strategies to deal with categorical variables with too many categories**
+	- group rare categories into single "other" category
+	- feature hashing
+		- use hash function to map category to integer index 
+- **explain why text data needs a different treatment than categorical variables**
+- **use `scikit-learn`'s `CountVectorizer` to encode text data**
+- **explain different hyperparameters of `CountVectorizer`**
+- **incorporate text features in a machine learning pipeline**
