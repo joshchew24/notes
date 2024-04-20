@@ -9,7 +9,7 @@
 	- a model's ability to perform well on new, unseen data, not just training data
 	- captures underlying patterns in data without being too complex/simplistic
 - **appropriately [[Data Splitting|split a dataset]] into tran and test sets using `train_test_split` function**
-	- `train_test_split` function in [[sklearn]] is  used to divide a dataset into training and testing sets
+	- `train_test_split` function in [[sklearn]] is used to divide a dataset into training and testing sets
 	- training set used to train the model
 	- testing set used to evaluate its performance
 	- ensures we are evaluating performance on unseen data
@@ -18,7 +18,7 @@
 	- **Validation Data**: used to tune hyperparameters and make decisions about the model (e.g. which features to use)
 	- **Test Data**: used to assess model's performance and its ability to generalize to new data
 	- **Deployment Data**: real world data encountered by the model after deployment in production environment
-- **identify the difference between training error, validation error, and test error**
+- **identify the difference between training error, validation error, and test [[Error]]**
 	- **Training Error**: error the model makes on the data it was trained on
 	- **Validation Error**: error during hyperparameter tuning phase on a separate validation set
 	- **Test Error**: error when the model is applied to the test set, which reflects its ability to generalize
