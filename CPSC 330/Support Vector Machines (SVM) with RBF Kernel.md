@@ -5,7 +5,6 @@ aliases:
   - SVC
 ---
 # Support Vector Machines (SVM) with RBF Kernel
-r# Support Vector Machines (SVM) with RBF Kernel
 - superficially, SVM RBFs are like weighted $k$-NNs
 	- decision boundary defined by **a set of positive and negative examples** and **their weights** together with **their similarity measure**
 	- test example is labelled positive if on average it looks more like positive examples than negative ones

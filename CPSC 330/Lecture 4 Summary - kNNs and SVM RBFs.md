@@ -22,6 +22,12 @@
 	- [[Support Vector Machines (SVM) with RBF Kernel]]
 	- used for non-linear classification
 	- RBF kernel transforms input space into higher-dimensional space
-		- easier to separate data using hyperplans
+		- non-linear data in a higher-dimensional space may become linearly separable
+		- easier to separate data using hyperplane
 	- SVM aims to find optimal separating hyperplane that maximises margin between different classes
 - **broadly describe the relation of `gamma` and `C` hyperparameters of SVMs with the fundamental tradeoff**
+	- `gamma`
+		- controls the influence of individual training examples
+		- higher gamma leads to more complexity
+			- decision boundary may bend around individual data points
+			- may 
