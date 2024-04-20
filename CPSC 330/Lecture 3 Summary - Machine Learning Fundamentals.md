@@ -22,9 +22,19 @@
 	- **Training Error**: error the model makes on the data it was trained on
 	- **Validation Error**: error during hyperparameter tuning phase on a separate validation set
 	- **Test Error**: error when the model is applied to the test set, which reflects its ability to generalize
-- **explain cross-validation and use `cross_val_score` and `cross_validate` to calculate cross-validation error**
-- **recognize overfitting and/or underfitting by looking at train and test scores**
+- **explain [[Cross Validation]] and use `cross_val_score` and `cross_validate` to calculate cross-validation error**
+	- create many different data splits, training a model for each split and validating it on the associated remainder
+	- `cross_val_score` and `cross_validate` automate this and provide a more robust esetimate of the model's performance
+- **recognize [[Overfitting]] and/or [[Underfitting]] by looking at train and test scores**
+	- when a model performs well on training data but poorly on test data, it is likely overfitting (too complex)
+	- when a model performs poorly on both datasets, it is likely underfitting (too simple)
 - **explain why it is generally not possible to get a perfect test score (zero test error) on a supervised learning problem**
-- **describe the fundamental tradeoff between training score and the train-test gap**
-- **state the golden rule**
+	- perfect test scores are generally unattainable in supervised learning
+		- the presence of noise in real-world data
+		- limitations of the model's ability to capture all underlying patterns in complex data
+- **describe the [[Bias and Variance Tradeoff|Fundamental Tradeoff]] between training score and the train-test gap**
+	- we want to achieve a high training score, and minimize the gap between training and test performance
+	- model with high training score but a large gap often indicates overfitting
+- **state [[The]]**
+	- 
 - **start to build a standard recipe for supervised learning: train/test split, hyperparameter tuning with cross-validation, test on test set**
