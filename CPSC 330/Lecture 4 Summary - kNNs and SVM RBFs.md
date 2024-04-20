@@ -8,6 +8,20 @@
 	- uses distance metrics to find $k$ closest training points to an input point
 	- prediction for the test point made based on output values of the nearest neighbours
 - **discuss the effect of using a small/large value of the hyperparameter $k$ when using the $k$-NN algorithm**
+	- smaller $k$ can lead to overfitting
+		- predictions are based on a small number of neighbours
+	- larger $k$ can smooth out predictions and lead to more generalized results
+		- can blur boundaries and even underfit
 - **describe the problem of curse of dimensionality**
+	- more features results in exponential increase in volume of space
+		- data becomes sparse
+		- kNN has difficulty finding close neighbours, as all points become almost equidistant
+	- more features mean relevant features can be drowned out by accidental similarities in irrelevant features
+	- see [[k-Nearest Neighbours#Curse of Dimensionality]]
 - **explain the general idea of SVMs with RBF kernel**
+	- [[Support Vector Machines (SVM) with RBF Kernel]]
+	- used for non-linear classification
+	- RBF kernel transforms input space into higher-dimensional space
+		- easier to separate data using hyperplans
+	- SVM aims to find optimal separating hyperplane that maximises margin between different classes
 - **broadly describe the relation of `gamma` and `C` hyperparameters of SVMs with the fundamental tradeoff**
