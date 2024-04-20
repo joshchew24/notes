@@ -27,7 +27,18 @@
 	- SVM aims to find optimal separating hyperplane that maximises margin between different classes
 - **broadly describe the relation of `gamma` and `C` hyperparameters of SVMs with the fundamental tradeoff**
 	- `gamma`
-		- controls the influence of individual training examples
+		- controls how far the influence of a single training example reaches
 		- higher gamma leads to more complexity
 			- decision boundary may bend around individual data points
-			- may 
+			- may overfit
+	- `C`
+		- regularization parameter or penalty parameter
+		- trade-off between maximizing margin between hyperplane and closest data points, and minimizing errors
+		- smaller `C` allows for more misclassificaton
+			- higher bias but lower variance
+			- simpler decision boundary
+			- can cause underfitting
+		- larger `C` aims for lower misclassification rate
+			- lower bias but higher variance
+			- can cause overfitting
+		- [[Bias and Variance Tradeoff]]
