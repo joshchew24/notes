@@ -6,7 +6,10 @@
 	- deeper trees have more complex decision boundaries, capturing finer details in data
 	- too much depth can cause overfitting
 - **explain the concept of generalization**
+	- a model's ability to perform well on new, unseen data, not just training data
+	- captures underlying patterns in data without being too complex/simplistic
 - **appropriately split a dataset into tran and test sets using `train_test_split` function**
+	- 
 - **explain the difference between train, validation, test, and "deployment" data**
 - **identify the difference between training error, validation error, and test error**
 - **explain cross-validation and use `cross_val_score` and `cross_validate` to calculate cross-validation error**
