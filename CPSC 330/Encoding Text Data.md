@@ -5,7 +5,7 @@
 - many popular representations
 	- bag of words
 	- [TF-IDF](https://github.com/cheillie/CS3245)
-	- Embedding representations
+	- [[Word Embeddings]]
 ## Bag of Words
 Represents a document as a set of words and their frequencies, ignoring syntax and word order
 ### `CountVectorizer`

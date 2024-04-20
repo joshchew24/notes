@@ -25,6 +25,24 @@
 - **explain why text data needs a different treatment than categorical variables**
 	- text data is unstructured and high-dimensional
 	- requires [[Encoding Text Data#Preprocessing|special preprocessing]]
+		- tokenization, stopword removal, vectorization
 - **use `scikit-learn`'s `CountVectorizer` to encode text data**
+	- converts text data into a matrix of token counts
+	- counts occurrences of words in each document
 - **explain different hyperparameters of `CountVectorizer`**
+	- `max_df`
+		- ignore terms with a document frequency higher than given threshold
+		- high df 
+			- indicates a word may not be useful for distinguishing between different classes and categories
+			- may overfit to common terms
+	- `min_df`
+		- ignore terms with document frequency lower than given threshold
+		- low df
+			- indicates too rare to contribute meaningful patterns
+				- unnecessarily increases feature space
+			- may cause overfitting
+	- `ngram_range`
+		- consider word sequences in the given range
+		- can capture more context/relationships between words
+		- exponentially increase featu
 - **incorporate text features in a machine learning pipeline**
