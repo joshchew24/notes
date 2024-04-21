@@ -2,9 +2,19 @@
 - **Explain the general intuition behind [[Linear Models]]**
 	- learn a linear relationship between the inputs and output
 - **Explain how `predict` works for linear regression**
+	- each feature has a learned coefficient
+	- obtain a prediction by multiplying an example's feature values by the feature coefficients and adding the intercept
 - **Use `scikit-learn`'s `Ridge` model**
+	- similar to linear regression, but with another hyperparameter `alpha`
 - **Demonstrate how the `alpha` hyperparameter of `Ridge` is related to the fundamental tradeoff**
+	- inverse of `C` in [[Logistic Regression]]
+	- smaller `alpha` increases chance of overfitting
+	- larger `alpha` reduces overfitting (with possibility of underfitting)
+		- by reducing the size of the coefficients
+	- regularization parameter, control the tradeoff between bias and variance
 - **Explain the difference between linear regression and logistic regression;**
+	- linear regression is a regression model, it predicts a continuous value
+	- logistic regression has a threshold 
 - **Use `scikit-learn`'s `LogisticRegression` model and `predict_proba` to get probability scores**
 - **Explain the advantages of getting probability scores instead of hard predictions during classification**
 - **Broadly describe linear SVMs** 
