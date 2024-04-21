@@ -14,7 +14,7 @@
 	- regularization parameter, control the tradeoff between bias and variance
 - **Explain the difference between linear regression and logistic regression;**
 	- linear regression is a regression model, it predicts a continuous value
-	- logistic regression has a threshold 
+	- [[Logistic Regression]] is a classifier
 - **Use `scikit-learn`'s `LogisticRegression` model and `predict_proba` to get probability scores**
 - **Explain the advantages of getting probability scores instead of hard predictions during classification**
 - **Broadly describe linear SVMs** 
