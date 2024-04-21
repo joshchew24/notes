@@ -1,22 +1,40 @@
 # Lecture 7 Summary - Linear Models
 - **Explain the general intuition behind [[Linear Models]]**
 	- learn a linear relationship between the inputs and output
+	- assume the target can be approximated as a weighted sum of the input features
+		- each feature has a  learned coefficient/weight
 - **Explain how `predict` works for linear regression**
-	- each feature has a learned coefficient
-	- obtain a prediction by multiplying an example's feature values by the feature coefficients and adding the intercept
+	- calculate the dot product of the input features and learned coefficients, plus an intercept
+	- predict by multiplying an example's feature values by the feature coefficients and adding the intercept
 - **Use `scikit-learn`'s `Ridge` model**
 	- similar to linear regression, but with another hyperparameter `alpha`
+	- includes L2 regularization
+	- minimizes penalized residual sum of squares
+		- penalty is a function of the sum of squared coefficients
+		- helps reduce overfitting
 - **Demonstrate how the `alpha` hyperparameter of `Ridge` is related to the fundamental tradeoff**
 	- inverse of `C` in [[Logistic Regression]]
 	- smaller `alpha` increases chance of overfitting
 	- larger `alpha` reduces overfitting (with possibility of underfitting)
 		- by reducing the size of the coefficients
-	- regularization parameter, control the tradeoff between bias and variance
+	- regularization parameter
+		- higher value increases penalty on size of coefficient
 - **Explain the difference between linear regression and logistic regression;**
 	- linear regression is a regression model, it predicts a continuous value
-	- [[Logistic Regression]] is a classifier
+	- [[Logistic Regression]] is a linear [[Classification]] model
+		- add a classification layer on top of linear regressor
+		- apply a threshold to the raw output to predict a class
 - **Use `scikit-learn`'s `LogisticRegression` model and `predict_proba` to get probability scores**
+	- `predict_proba` returns the confidence score of a prediction
 - **Explain the advantages of getting probability scores instead of hard predictions during classification**
+	- helps interpret results
+	- high confidence (99%) is better than low confidence (55%)
+	- helpful when uncertainty needs to be considered
 - **Broadly describe linear SVMs** 
+	- linear version of [[Support Vector Machines (SVM) with RBF Kernel|SVM]]
+	- instead of minimizing residual sum of squares, **maximize margin between classes**
+	- effective in high-dimensional spaces
+	- effective when there is a clear margin of separation between classes
 - **Explain how can you interpret model predictions using coefficients learned by a linear model**
+	- 
 - **Explain the advantages and limitations of linear classifiers**
