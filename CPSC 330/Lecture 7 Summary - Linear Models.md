@@ -36,5 +36,11 @@
 	- effective in high-dimensional spaces
 	- effective when there is a clear margin of separation between classes
 - **Explain how can you interpret model predictions using coefficients learned by a linear model**
-	- 
+	- larger coefficients indicate a feature's importance in predicting the target value
+	- positive/negative coefficients indicate the correlation 
 - **Explain the advantages and limitations of linear classifiers**
+	- allow us to understand the confidence score of predictions
+	- simple, interpretable, efficient
+		- especially where linear boundary is sufficient
+	- in complex problems, relationships are often nonlinear
+		- poorer p
