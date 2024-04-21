@@ -57,5 +57,4 @@ $\hat{y} =$ <font color="red">$w_1$</font> <font color="DodgerBlue">$x_1$ </font
 > - <font  color="red"> ($w_1, \dots, w_d$) are coefficients or weights </font> (learned from the data)
 > - <font  color="green"> $b$ is the bias which can be used to offset your hyperplane </font> (learned from the data)
 
-
 ## [[Ridge]]

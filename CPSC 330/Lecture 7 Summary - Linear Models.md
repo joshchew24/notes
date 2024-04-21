@@ -1,0 +1,12 @@
+# Lecture 7 Summary - Linear Models
+- **Explain the general intuition behind [[Linear Models]]**
+	- learn a linear relationship between the inputs and output
+- **Explain how `predict` works for linear regression**
+- **Use `scikit-learn`'s `Ridge` model**
+- **Demonstrate how the `alpha` hyperparameter of `Ridge` is related to the fundamental tradeoff**
+- **Explain the difference between linear regression and logistic regression;**
+- **Use `scikit-learn`'s `LogisticRegression` model and `predict_proba` to get probability scores**
+- **Explain the advantages of getting probability scores instead of hard predictions during classification**
+- **Broadly describe linear SVMs** 
+- **Explain how can you interpret model predictions using coefficients learned by a linear model**
+- **Explain the advantages and limitations of linear classifiers**
