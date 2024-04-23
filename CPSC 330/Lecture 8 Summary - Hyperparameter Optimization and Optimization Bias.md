@@ -9,9 +9,12 @@
 		- systematically tests all possible combinations of hyperparameters (from given set)
 		- determines which combination gave best performance based on specified scoring method
 	- [[Hyperparameters#Randomized Hyperparameter Search|Randomized Search]]
-		- randomly samples hyperparameter values to test from given distribution
+		- randomly samples hyperparameter values to test from given distributions
 		- tests a specified number of combinations
+			- or until a time limit is reached
 		- faster than GridSearch
+			- not exhaustive
+			- more efficient because we test a new value for every feature on every run
 - **explain different hyperparameters of `GridSearchCV`**
 - **explain the importance of selecting a good range for the values.** 
 - **explain optimization bias**
