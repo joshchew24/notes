@@ -25,4 +25,6 @@
 	- if range is too wide, it will take too much time and resources
 	- range can be selected based on prior knowledge of the model and practical considerations of resources
 - **explain optimization bias**
+	- occurs when hyperparameter tuning is done on the same dataset used for model evaluation
+		- can lead to overitting
 - **identify and reason when to trust and not trust reported accuracies** 
