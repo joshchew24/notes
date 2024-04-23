@@ -4,8 +4,14 @@
 		- prediction quality
 		- model complexity
 	- find the most effective and efficient model for a givein dataset
-- **carry out hyperparameter optimization using `sklearn`'s [[asdf|`GridSearchCV`]] and `RandomizedSearchCV`**
-	- [[]]
+- **carry out hyperparameter optimization using `sklearn`'s `GridSearchCV` and `RandomizedSearchCV`**
+	- [[Hyperparameters#Exhaustive Grid Search|Grid Search]]
+		- systematically tests all possible combinations of hyperparameters (from given set)
+		- determines which combination gave best performance based on specified scoring method
+	- [[Hyperparameters#Randomized Hyperparameter Search|Randomized Search]]
+		- randomly samples hyperparameter values to test from given distribution
+		- tests a specified number of combinations
+		- faster than GridSearch
 - **explain different hyperparameters of `GridSearchCV`**
 - **explain the importance of selecting a good range for the values.** 
 - **explain optimization bias**
