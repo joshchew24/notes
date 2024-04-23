@@ -1,0 +1,6 @@
+- explain the need for hyperparameter optimization  
+- carry out hyperparameter optimization using `sklearn`'s `GridSearchCV` and `RandomizedSearchCV` 
+- explain different hyperparameters of `GridSearchCV`
+- explain the importance of selecting a good range for the values. 
+- explain optimization bias
+- identify and reason when to trust and not trust reported accuracies 

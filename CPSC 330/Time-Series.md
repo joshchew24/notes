@@ -1,4 +1,4 @@
-# Time-Series
+ # Time-Series
 - collection of data points indexed in time order
 	- weather
 	- stocks, market trends
