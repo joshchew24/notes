@@ -140,6 +140,9 @@ random_search.fit(X_train, y_train)
 	- does not waste iterations for a single variation on unimportant feature
 	- ![[Pasted image 20240422181832.png|450]]
 ### Optimization Bias 
+- repeated testing and tuning of hyperparameters on the same dataset
+	- leads to overfitting on this particular data
+	- 
 #### Overfitting of the Validation Set
 - why do we need to evaluate the model on the test set in the end?
 - why not just use cross-validation on the whole dataset
