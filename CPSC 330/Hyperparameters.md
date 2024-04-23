@@ -139,10 +139,11 @@ random_search.fit(X_train, y_train)
 	- all features are varied in every run
 	- does not waste iterations for a single variation on unimportant feature
 	- ![[Pasted image 20240422181832.png|450]]
-### Optimization Bias / Overfitting of the Validation Set
+### Optimization Bias 
+#### Overfitting of the Validation Set
 - why do we need to evaluate the model on the test set in the end?
-	- why not just use cross-validation on the whole dataset
-	- because it's possible to overfit
+- why not just use cross-validation on the whole dataset
+	- no data to test with, otherwise violating [[Golden Rule]]
 #### Optimization Bias of Parameter learning
 - overfitting of the training error
 - e.g.
