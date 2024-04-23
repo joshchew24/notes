@@ -43,4 +43,4 @@
 	- simple, interpretable, efficient
 		- especially where linear boundary is sufficient
 	- in complex problems, relationships are often nonlinear
-		- poorer p
+		- poorer performance
