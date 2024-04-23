@@ -54,7 +54,12 @@ np.prod(list(map(len, param_grid.values())))
 results = pd.DataFrame(gs.cv_results_)
 results.T
 ```
-#### Parallel Jobs `n_jobs`
+#### Hyperparameters
+- `param_grid`: set of hyperparameters to be tested
+- `scoring`: metric used to evaluate the performance of the models
+- `cv`: cross-validation splitting strategy
+- `n_jobs`: number of jobs to run in parallel
+#### Prallel Jobs `n_jobs`
 - Note the `n_jobs=-1` above.
 - Hyperparameter optimization can be done _in parallel_ for each of the configurations.
 - This is very useful when scaling up to large numbers of machines in the cloud.

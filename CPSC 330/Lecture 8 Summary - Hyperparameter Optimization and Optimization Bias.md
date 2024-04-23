@@ -16,6 +16,13 @@
 			- not exhaustive
 			- more efficient because we test a new value for every feature on every run
 - **explain different hyperparameters of `GridSearchCV`**
-- **explain the importance of selecting a good range for the values.** 
+	- `param_grid`: set of hyperparameters to be tested
+	- `scoring`: metric used to evaluate the performance of the models
+	- `cv`: cross-validation splitting strategy
+	- `n_jobs`: number of jobs to run in parallel
+- **explain the importance of selecting a good range for the values**
+	- if range is too narrow, you miss optimal values
+	- if range is too wide, it will take too much time and resources
+	- range can be selected based on prior knowledge of the model and practical considerations of resources
 - **explain optimization bias**
 - **identify and reason when to trust and not trust reported accuracies** 
