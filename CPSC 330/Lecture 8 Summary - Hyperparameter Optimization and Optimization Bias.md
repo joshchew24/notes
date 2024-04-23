@@ -1,8 +1,11 @@
-- **explain the need for hyperparameter optimization**
+- **explain the need for [[Hyperparameters]] optimization**
 	- helps enhance performance of the model
 		- efficiency in training
 		- prediction quality
-- **carry out hyperparameter optimization using `sklearn`'s `GridSearchCV` and `RandomizedSearchCV`** 
+		- model complexity
+	- find the most effective and efficient model for a givein dataset
+- **carry out hyperparameter optimization using `sklearn`'s [[asdf|`GridSearchCV`]] and `RandomizedSearchCV`**
+	- [[]]
 - **explain different hyperparameters of `GridSearchCV`**
 - **explain the importance of selecting a good range for the values.** 
 - **explain optimization bias**
