@@ -1,0 +1,14 @@
+- **Carry out feature transformations on somewhat complicated dataset**
+	- converting or scaling features make them more suitable for a model
+		- normalize or standardize numerical data
+		- encode categorical variables
+		- create polynomial features
+- **Visualize transformed features as a dataframe**
+- **Use `Ridge` and `RidgeCV`**
+- **Explain how `alpha` hyperparameter of `Ridge` relates to the fundamental tradeoff**
+- **Explain the effect of `alpha` on the magnitude of the learned coefficients**
+- **Examine coefficients of transformed features**
+- **Appropriately select a scoring metric given a regression problem**
+- **Interpret and communicate the meanings of different scoring metrics on regression problems**
+    - **MSE, RMSE, $R^2$, MAPE**
+- **Apply log-transform on the target values in a regression problem with `TransformedTargetRegressor`**

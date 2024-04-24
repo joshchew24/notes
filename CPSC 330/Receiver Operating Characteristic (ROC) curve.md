@@ -1,6 +1,7 @@
 ---
 aliases:
   - ROC
+  - ROC AUC
 ---
 # Receiver Operating Characteristic (ROC) curve
 - Another commonly used tool to analyze the **behavior of classifiers at different thresholds**.  

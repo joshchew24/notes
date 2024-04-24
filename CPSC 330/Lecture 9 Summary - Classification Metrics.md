@@ -29,7 +29,19 @@
 		- increase in recall from the previous threshold used as the weight
 - **Interpret and use [[Receiver Operating Characteristic (ROC) curve|ROC]] curves and ROC AUC using `scikit-learn`**
 	- [[Receiver Operating Characteristic (ROC) curve]] 
-			- plot the TP rate ([[Recall]]) against F
-- **Identify whether there is class imbalance and whether you need to deal with it**
+		- plot the TP rate ([[Recall]]) against FP rate for different thresholds
+	- [[Receiver Operating Characteristic (ROC) curve|ROC AUC]]
+		- measures the entire 2D area underneath the ROC curve
+		- provides an aggregate measure of performance across all possible classification thresholds
+- **Identify whether there is [[Class Imbalance]] and whether you need to deal with it**
+	- occurs when one class is significantly more frequent than the other
+	- important to identify and address
+		- can lead to misleadingly high accuracy for the majority class
+		- can fail to adequately represent the minorioty class
 - **Explain and use `class_weight` to deal with data imbalance**
+	- this parameter in classifiers like [[Logistic Regression]] and [[Support Vector Machines (SVM) with RBF Kernel|SVM]]s in [[sklearn]] can be used to give more weight to the minority class
+	- balance the influence of each class on the training process
 - **Assess model performance on specific groups in a dataset**
+	- important to assess a model's performance across different subgroups of the dataset
+	- ensure good performance for all groups
+		- especially for fairness and bias
