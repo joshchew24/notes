@@ -29,7 +29,13 @@
 		- and the importance of different types of errors
 - **Interpret and communicate the meanings of different scoring metrics on regression problems**
 	- [[Mean Squared Error (MSE)]]
+		- average of the squares of the errors
 	- [[Root Mean Squared Error (RMSE)]]
+		- square root of MSE
+		- provides error in the same units as the target variable
 	- [[R squared $R2$]]
+		- proportion of variance in the dependent variable that is predictable from the independent variable
 	- [[Mean Absolute Percentage Error (MAPE)]]
+		- average magnitude of errors as a percentage of actual values
 - **Apply log-transform on the target values in a regression problem with `TransformedTargetRegressor`**
+	- 
