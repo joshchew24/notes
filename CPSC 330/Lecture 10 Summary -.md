@@ -4,11 +4,32 @@
 		- encode categorical variables
 		- create polynomial features
 - **Visualize transformed features as a dataframe**
+	- visualize to understand new scale/format
+	- convert back to dataframe format
+	- use visualization libraries like [[Matplotlib]] or [[Seaborn Heatmap]]
 - **Use `Ridge` and `RidgeCV`**
+	- [[Ridge]] is a [[Linear Regression]] model with L2 regularization
+	- [[Ridge#`RidgeCV`|RidgeCV]] has built-in [[Cross Validation]]
+		- find an optimal alpha value (regularization strength)
 - **Explain how `alpha` hyperparameter of `Ridge` relates to the fundamental tradeoff**
+	- inverse of `C` in [[Logistic Regression]]
+	- smaller `alpha` increases chance of overfitting
+	- larger `alpha` reduces overfitting (with possibility of underfitting)
+		- by reducing the size of the coefficients
+	- regularization parameter
+		- higher value increases penalty on size of coefficient
 - **Explain the effect of `alpha` on the magnitude of the learned coefficients**
+	- increasing `alpha` reduces magnitude of learned coefficient
 - **Examine coefficients of transformed features**
+	- important to examine the coefficients after feature transformation
+	- understand how each feature impacts the predictions
+		- especially in the context of the transformed scale
 - **Appropriately select a scoring metric given a regression problem**
+	- depends on the specific nature of the problem
+		- and the importance of different types of errors
 - **Interpret and communicate the meanings of different scoring metrics on regression problems**
-    - **MSE, RMSE, $R^2$, MAPE**
+	- [[Mean Squared Error (MSE)]]
+	- [[Root Mean Squared Error (RMSE)]]
+	- [[R squared $R2$]]
+	- [[Mean Absolute Percentage Error (MAPE)]]
 - **Apply log-transform on the target values in a regression problem with `TransformedTargetRegressor`**
