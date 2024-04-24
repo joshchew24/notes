@@ -28,3 +28,9 @@
 	- occurs when hyperparameter tuning is done on the same dataset used for model evaluation
 		- can lead to overfitting
 - **identify and reason when to trust and not trust reported accuracies** 
+	- trust reported accuracies when the validation process is robust
+		- cross-validation
+		- hyperparameter tuning is conducted separately from final model evaluation
+	- be sketpical if model has been evaluated on same data used for training or hyperparameter tuning
+		- or if dataset is too small
+			- potential overfitting or lack of generalization
