@@ -1,3 +1,4 @@
+# Lecture 10 Summary - Regression Metrics
 - **Carry out feature transformations on somewhat complicated dataset**
 	- converting or scaling features make them more suitable for a model
 		- normalize or standardize numerical data
