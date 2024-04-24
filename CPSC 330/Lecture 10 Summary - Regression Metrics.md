@@ -38,4 +38,5 @@
 	- [[Mean Absolute Percentage Error (MAPE)]]
 		- average magnitude of errors as a percentage of actual values
 - **Apply log-transform on the target values in a regression problem with `TransformedTargetRegressor`**
-	- 
+	- TransformedTargetRegressor in scikit-learn allows applying a transformation like log-transform to the target values in regression problems. This can be useful when dealing with skewed target distributions or when errors are proportional to the size of the target.
+	- *this wasn't in our lecture notes*
