@@ -1,6 +1,10 @@
+---
+aliases:
+  - ROC
+---
 # Receiver Operating Characteristic (ROC) curve
 - Another commonly used tool to analyze the **behavior of classifiers at different thresholds**.  
-- **Similar to PR curve**, it considers all possible thresholds for a given classifier given by `predict_proba` but instead of precision and recall it plots false positive rate (FPR) and true positive rate (TPR or recall).
+- **Similar to [[Precision-recall curve]]**, it considers all possible thresholds for a given classifier given by `predict_proba` but instead of precision and recall it plots false positive rate (FPR) and true positive rate (TPR or recall).
 $$ TPR = \frac{TP}{TP + FN}$$
 
 $$ FPR  = \frac{FP}{FP + TN}$$
