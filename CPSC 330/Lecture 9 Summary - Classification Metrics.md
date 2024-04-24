@@ -9,8 +9,12 @@
 | TN  | FP  |
 | --- | --- |
 | FN  | TP  |
-|     |     |
 - **Define precision, recall, and f1-score and use them to evaluate different classifiers**
+	- **[[Precision]]**: the percentage of positive predictions that are actually positive
+	- **[[Recall]]**: the percentage of actual positives that were predicted as positive
+	- **[[F1 Score]]**: harmonic mean of precision and recall
+		- single value allows for hyperparameter optimization
+		- captures tradeoff between these two measures
 - **Broadly explain macro-average, weighted average**
 - **Interpret and use precision-recall curves**
 - **Explain average precision score**
