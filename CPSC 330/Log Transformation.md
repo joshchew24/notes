@@ -1,3 +1,6 @@
+---
+citation: https://stats.stackexchange.com/questions/107610/what-is-the-reason-the-log-transformation-is-used-with-right-skewed-distribution
+---
 Economists (like me) love the log transformation. We especially love it in regression models, like this:
 
 $$\ln{Y_i} = \beta_1 + \beta_2 \ln{X_i} + \epsilon_i$$
@@ -14,7 +17,7 @@ Which gives us:![Loving the log-log functional forms](https://i.stack.imgur.com/
 4. The coefficient \beta 2\beta 2 is interpreted as an elasticity. It is the percentage increase in Y𝑌 from a one percent increase in X𝑋.
 5. If $X$ is a dummy variable, you include it without logging it. In this case, $\beta 2$ is the percent difference in $Y$ between the $X=1$ category and the $X=0$ category.
 6. If $X$ is time, again you include it without logging it, typically. In this case, $\beta 2$ is the growth rate in $Y$---measured in whatever time units $X$ is measured in. If $X$ is years, then the coefficient is annual growth rate in $Y$, for example.
-7. The slope coefficient, $\beta 2\beta 2, becomes scale-invariant. This means, on the one hand, that it has no units, and, on the other hand, that if you re-scale (i.e. change the units of) X𝑋 or Y𝑌, it will have absolutely no effect on the estimated value of \beta 2\beta 2. Well, at least with OLS and other related estimators.
+7. The slope coefficient, $\beta 2$, becomes scale-invariant. This means, on the one hand, that it has no units, and, on the other hand, that if you re-scale (i.e. change the units of) $X$ or $Y$, it will have absolutely no effect on the estimated value of $\beta 2$. Well, at least with OLS and other related estimators.
 8. If your data are log-normally distributed, then the log transformation makes them normally distributed. Normally distributed data have lots going for them.
 
 Statisticians generally find economists over-enthusiastic about this particular transformation of the data. This, I think, is because they judge my point 8 and the second half of my point 3 to be very important. Thus, in cases where the data are not log-normally distributed or where logging the data does not result in the transformed data having equal variance across observations, a statistician will tend not to like the transformation very much. The economist is likely to plunge ahead anyway since what we really like about the transformation are points 1,2,and 4-7.
