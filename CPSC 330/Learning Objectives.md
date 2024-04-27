@@ -34,9 +34,18 @@
 		- leaves represent a prediction
 - **use `DecisionTreeClassifier` and `DecisionTreeRegressor` to build decision trees using `scikit-learn`;**
 	- [[sklearn]] classes used to create decision trees for classification and regression
-- visualize decision trees
+- **visualize decision trees**
 	- `plot_tree` in [[sklearn]] can visualize tree structure
 		- shows splits at each node, and decision path for predictions
-- explain the difference between parameters and hyperparameters; 
-- explain the concept of decision boundaries;
+- **explain the difference between [[Parameters]] and [[Hyperparameters]]**
+	- parameters are values learned by the model during training
+		- e.g. splits in decision tree
+	- hyperparameters are set before training and guide the learning process
+		- e.g. max depth of tree
+- explain the concept of [[Decision Boundary]]
+	- in classification, these are the lines/surfaces in the feature space that separate different classes
+	- in 2D feature space, decision boundary is a line that separates two classes
 - explain the relation between model complexity and decision boundaries.
+	- more complex models (e.g. deep decision trees) can create intricate decision boundaries
+		- can lead to overfitting
+		- model captures noise in training data and performs poorly on unseen data
