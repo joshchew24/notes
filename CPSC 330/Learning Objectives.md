@@ -32,8 +32,11 @@
 	- splits form a tree structure
 		- nodes represent decisions based on a feature
 		- leaves represent a prediction
-- use `DecisionTreeClassifier` and `DecisionTreeRegressor` to build decision trees using `scikit-learn`; 
-- visualize decision trees; 
+- **use `DecisionTreeClassifier` and `DecisionTreeRegressor` to build decision trees using `scikit-learn`;**
+	- [[sklearn]] classes used to create decision trees for classification and regression
+- visualize decision trees
+	- `plot_tree` in [[sklearn]] can visualize tree structure
+		- shows splits at each node, and decision path for predictions
 - explain the difference between parameters and hyperparameters; 
 - explain the concept of decision boundaries;
 - explain the relation between model complexity and decision boundaries.

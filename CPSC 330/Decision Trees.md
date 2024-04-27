@@ -15,7 +15,6 @@ Learn a binary decision tree to predict the outcome
 - [[Gini Index]]
 - information gain
 - cross entropy
-
 ## [[Regression]]
 - instead of [[Gini Index|gini]], we use other criteria for splitting
 	- commonly use [[Mean Squared Error (MSE)]]
