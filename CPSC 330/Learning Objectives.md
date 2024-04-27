@@ -4,7 +4,7 @@
 - **Identifying problems for [[Supervised Learning|Supervised Machine Learning]]**
 	- a problem can be solved with supervised learning if you have labelled data, where each input in the dataset is paired with an output
 	- for example, predicing house prices based on their size and location
-- **Differentiating between supervised and [[Unsupervised Learning]]**
+- **Differentiate between supervised and [[Unsupervised Learning]]**
 	- in supervised learning, model learns from labelled data to make predictions
 	- in unsupervised learning, the model works with unlabelled data to find patterns/groupings
 		- e.g. clustering customers based on purchasing behaviours
