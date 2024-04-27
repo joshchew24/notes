@@ -5,7 +5,7 @@ Learn a binary decision tree to predict the outcome
 ![[Pasted image 20240118223710.png]]
 - note: this example uses discrete/binary features, so the decision threshold is always `0.5`
 - decision trees can be created with continuous features, resulting in varying thresholds
-## Feature Selection
+## [[Feature Selection]]
 - which features are most useful for classification?
 - aim to minimize **impurity** at each node
 	- lower impurity indicates a more **homogenous** or **pure** set of data points

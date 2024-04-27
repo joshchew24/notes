@@ -21,8 +21,17 @@
 	- `DummyClassifier` might predict most frequent class
 	- `DummyRegressor` might predict the mean of the target values
 	- establish a minimum performance baseline for more sophisticated models
-- explain the `fit` and `predict` paradigm and use `score` method of ML models; 
-- broadly describe how decision tree prediction works;
+- **explain the `fit` and `predict` paradigm and use `score` method of ML models**
+	- **Fit**: train the model on the dataset
+	- **Predict**: use the trained model to make predictions on new data
+	- **Score**: evaluate the performance of a model 
+		- accuracy score for classification models
+		- R-squared value for regression models
+- **broadly describe how [[Decision Trees]] prediction works**
+	- decision trees make predictions by splitting the data based on feature values
+	- splits form a tree structure
+		- nodes represent decisions based on a feature
+		- leaves represent a prediction
 - use `DecisionTreeClassifier` and `DecisionTreeRegressor` to build decision trees using `scikit-learn`; 
 - visualize decision trees; 
 - explain the difference between parameters and hyperparameters; 
