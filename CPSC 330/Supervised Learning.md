@@ -15,7 +15,7 @@ aliases:
 
 ## Types of Supervised Learning
 ### [[Classification]]
-Prxedicting among two or more discrete classes
+Predicting among two or more discrete classes
 ### [[Regression]]
 Predicting a continuous value
 
