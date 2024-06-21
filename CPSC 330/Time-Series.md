@@ -67,7 +67,7 @@ y = citibike.values
 
 y_train = train_df.values
 y_test = test_df.values
-# convert to POSIX time by dividing by 10**9
+# Time-Series
 X_train = train_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 X_test = test_df.index.astype("int64").values.reshape(-1, 1) // 10 ** 9
 ```
