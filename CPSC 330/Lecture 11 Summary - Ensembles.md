@@ -1,3 +1,4 @@
+# Lecture 11 Summary - Ensembles
 - **Broadly explain the idea of [[Ensembles]]** 
 	- combine multiple ML models to improve performance compared to individual models
 - **Explain how does predict work in the context of random forest models**
