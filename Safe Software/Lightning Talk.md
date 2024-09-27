@@ -21,8 +21,6 @@ https://tile.openstreetmap.org/{z}/{x}/{y}.png
 
 Next I'll input the appropriate copyright information in the attribution text field.
 
-
-
 I can specify the minimum and maximum zoom levels that data inspector will request from the server. I'll just use the defaults values.
 
 To use a service that requires authentication, I can include an API key in the URL. For example, Azure Maps, another new map format for Data Inspector.
