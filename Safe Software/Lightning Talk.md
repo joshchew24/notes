@@ -8,7 +8,7 @@ NEXT
 
 This new background map format is will ship with FME 2024.2. 
 
-This new format can display background maps from any arbitrary source URL that uses XYZ placeholder OpenStreetMap standard.
+This new format can display background maps from any arbitrary source URL that uses XYZ placeholders.
 
 DEMO
 
