@@ -14,3 +14,21 @@ $$y' = f'\frac{y}{z}$$
 - z means as an object is further away from the image plane, their image gets smaller
 - increase focal length decreases the field of view
 #handwritten 2.5
+$$tan(\frac{\theta}{2} = \frac{w}{2f})$$
+$$\theta = 2arctan(\frac{w}{2f})$$
+## Orthographic Projection
+![[Pasted image 20250107185525.png]]
+## Weak Perspective
+- fixed depth $z = z_0$
+- objects are at a constant depth (or relatively constant depth)
+	- can use a weak perspetive model, i.e. assume all depths are the same
+		- i.e. linear mapping betewen x and x'
+- e.g. satellite imagery
+
+## cons 
+
+
+## compared to lenses
+[[Lenses]]
+- collects all the light
+- light is only focused on a particular image plane
