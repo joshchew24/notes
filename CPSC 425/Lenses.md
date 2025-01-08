@@ -12,3 +12,6 @@ $$\frac{1}{f} = \frac{1}{z'}+\frac{1}{z}$$
 - $f$ = focal length
 - $z'$ = focus distance
 - $z$ = object distance
+## question
+A 50mm lens is focussed at infinity. It now moves to focus on something 5m away. How far does the lens move?
+$z=5$
