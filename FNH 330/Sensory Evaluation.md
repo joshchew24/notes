@@ -6,3 +6,4 @@
 5. Structure & balance (acidity-sweetness-bitterness, tannins) 
 6. Body (weight-viscosity) 
 7. Length/finish (aftertaste)
+## Steps

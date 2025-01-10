@@ -3,3 +3,5 @@
 ## [[Aromas]]
 ## [[Wine Styles]]
 ## [[Sensory Evaluation]]
+## [[Hedonic Evaluation]]
+## [[Technical Evaluation]]
