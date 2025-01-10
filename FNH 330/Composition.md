@@ -8,3 +8,5 @@
 | Sugars                 | 0.1 - 10+  |
 | [[Phenolic Compounds]] | 0.05 - 0.3 |
 | [[Volatile Compounds]] | Trace      |
+- proteins, vitamins, minerals
+	- nutritionally insignificant amount
