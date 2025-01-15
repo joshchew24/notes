@@ -32,6 +32,6 @@ INSTRUCTION: MAKE | CONNECT ;
 MAKE: 'make me a ' SHAPE ' called ' NAME ' please' ;
 CONNECT: 'connect ' NAME ' to ' NAME ' please' ;
 SHAPE: 'circle' | 'square' | 'triangle' ;
-NAME: TEXT ;
+	NAME: TEXT ;
 TEXT: [a-zA-Z]* ;
 ```
