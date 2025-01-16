@@ -1,0 +1,13 @@
+# Volatile Compounds
+- Trace levels: 200-1000+ compounds from grapes in wine
+- Aldehydes
+	- e.g. hexanal (vegetal, green apple)
+- Terpenes
+	- e.g. linalool (floral)
+- Norisoprenoids
+	- e.g. piperitone (petrol, minty, leafy aromas)
+- Methoxypyraines
+	- e.g. 3-isobutyl-2-methoxypyrazine (green bell pepper)
+		- also found in multicoloured Asian ladybeetle
+- Thiols
+	- e.g. 3-mercaptohexan-1-ol (grapefruit, guava)

@@ -1,0 +1,12 @@
+# Chapter 1 - Storage - Learning Goals
+- Explain the impact that disk activities have on DBMS query performance.
+- Draw the memory hierarchy. Show where database bottlenecks are most likely to occur.
+- Compare and contrast: cost, capacity, and speed of access, in the level of the memory hierarchy.
+- Identify the components of a disk drive.
+- Given disk geometry figures, calculate the amount of time that it takes to read or write a number of bytes, blocks/pages, tracks, or cylinders of data to/from a disk.
+- Given disk geometry figures, compute the minimum, average, and maximum seek & rotation times, and transfer time to/from a disk.
+- Compare and contrast the relative speeds of seek, rotation, and transfer times – when accessing a given size of data on disk.
+- Explain how a large file, broken up into pages, can be optimally placed on a disk to improve performance.
+- Explain the difference between a random read and a sequential read, and argue why one is preferable over the other.
+- Compare and contrast hard disk drives (HDDs) to solid state disks (SSDs). Discuss performance implications.
+- Defend the ongoing role of hard disk drives in the DBMS world (e.g.,explain why we cannot eliminate spinning, hard disk drives anytime soon).
