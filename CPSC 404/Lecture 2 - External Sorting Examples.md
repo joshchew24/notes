@@ -24,6 +24,7 @@
 - buffer pool is 50 cylinders
 - use two cylinders for each SR$_i$ 
 - 10 cylinders for output buffer
+- #question why does RAM have cylinders?
 ## Example 2
 - suppose a database file containing 10,240,000 records @ 100 bytes/record
 ### # of records per page
