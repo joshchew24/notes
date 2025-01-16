@@ -5,4 +5,3 @@
 - token literals
 - grammar rules end with simicolons
 - EBNF from 310
-- 
