@@ -1,0 +1,29 @@
+# Pitfalls in Wine Tasting
+- Adaptation
+	- temporary loss in sensitivity to aroma/taste
+		- occurs as stimulus compound satures mucus lining of [[Smell - Olfactory system|olfactory receptors]]
+- palate fatigue
+	- similar, but more a loss of ability to concentrate
+		- e.g. tasting wines for many hours
+- thresholds
+	- people can vary in their thresholds of some tastes/aromas
+	- outside "noise" can make it hard to sort out aromas
+	- tired/sleepy makes it harder
+- anosmia
+	- smell "blind" for all aromas
+	- can be genetic
+	- triggered by polyps/tumour, head injury, viral infection
+- taste modifiers
+	- detergents
+		- e.g. toothpaste
+		- modify lipid-containing membranes of receptor cells in taste buds
+		- wine tastes more sour/bitter, less sweet
+	- food
+		- have effect on tannin
+		- sweetness reduces perception of tannin bitterness
+		- fat/protein reduce perception of tannin astringency
+- sequence of tasting wines modifies perception
+	- sweet before dry causes dry to taste sour
+- serving temperature
+	- affects perception of wine components
+	- warmer -> sweetness and aromas are heightened, body and acidity are muted
