@@ -1,8 +1,11 @@
 # Disk Geometry
 ![[Pasted image 20250115165015.png]]
-- platters
-	- spin (e.g. 15000 rpm)
-- platters spin (e.g. 15000 rpm)
+- platter
+	- spin to let disk head read (e.g. 15000 rpm)
+	- not many platters per disk (8-10)
+- surface
+	- two surfaces per platter
+	- 
 - whole arm assembly sweeps together
 	- positions head on desired track $k$
 - all tracks with same track # (e.g. $k$) compose cylinder $k$
