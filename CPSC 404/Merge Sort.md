@@ -7,6 +7,7 @@
 		- each **sorted sublist (SSL)** is locally sorted
 - merge phase:
 	- merge $m$ SSLs into single sorted file using repetition
+	- **one pass is 1 complete read (all pages) and 1 complete write**
 	- process:
 		- pass 0: sort phase
 		- pass 1: produces $\frac{m}{2}$ sorted runs of $2B$ pages each
