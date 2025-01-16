@@ -12,5 +12,10 @@
 - $\lceil \frac{256000}{256} \rceil = 1000$ cylinders (size of the file)
 ## # of pages in Buffer Pool (BP) or RAM size
 - 50 MB of RAM
-- $\frac{50 \times 2^{10} \times 2^{10}}{2^2 \times 2^{10}} = 50 \times 2^{8} = 50$
-- \frac{12800}
+- $\frac{50 \times 1024K}{4K} = 50 \times 256K = 12800$ pages
+## # of SSLs in sort phase of 2PMMS (two phase multi-way merge sort)
+- input file is 256000 pages
+- BP is 12800 pages
+- $\lceil\frac{256000}{12800}\rceil = 20$ SSLs
+## merge phase of 2PMMS
+![[Pasted image 20250115205951.png]]
