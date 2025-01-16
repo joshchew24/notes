@@ -46,4 +46,12 @@
 	- time for a full revolution times the fraction of a track consumed by a single page
 
 ## [[Page Prefetch]]
-- 
+- fetches more data from disk into RAM to reduce I/O operations
+## Data Layout
+- consecutive disk blocks
+	- blocks on same track; 
+	- blocks on same cylinder
+	- blocks on adjacent cylinder
+- minimize seek and rotational delays
+- first block is chosen arbitrarily (innermost vs outermost)
+![[Pasted image 20250115194742.png]]
