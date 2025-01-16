@@ -14,3 +14,6 @@
 		- continue until 1 sorted run of $m\times B$ pages produced
 	- 2-way merge can be optimized to k-way merge
 		- k can be as large as $B-1$
+## Example
+- what is the min # of pages of RAM needed to sort a file with 102 pages in only two passes?
+- 
