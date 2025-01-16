@@ -30,5 +30,8 @@
 - $2^9=512$ bytes per sector
 - disk head move speed is 1 ms setup + 1 ms per 500 cylinders
 1. max/min/avg seek time?
-	- max: $1 \text{ ms (setup)} + \frac{1}{500}$
-	- 
+	- max: $1 + \frac{1}{500}(8192 -1) = 17.382 \text{ms}$
+		- $\text{setup} + \text{sweep rate}\times \text{max number of tracks to move}$
+	- min: $1\text{ms}$
+	- avg: $1 + \frac{1}{3}\frac{8192 -1}{500} = 6.46 \text{ms}$
+		- $\text{setup} + \text{avg sweep time} \times \text{sweep rate}\times \text{max number of tracks to move}$
