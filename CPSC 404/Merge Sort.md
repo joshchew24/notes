@@ -14,6 +14,9 @@
 		- continue until 1 sorted run of $m\times B$ pages produced
 	- 2-way merge can be optimized to k-way merge
 		- k can be as large as $B-1$
-## Example
-- what is the min # of pages of RAM needed to sort a file with 102 pages in only two passes?
-- 
+## Example Questions
+- what is the min # of pages of RAM ($B$) needed to sort a file with 102 pages in only two passes?
+	- if $B=10$, $\lceil\frac{102}{10}\rceil = 11 \text{ SSLs}$ , which would not entirely fit in RAM on pass 2
+	- if $B=11$, $\lceil\frac{102}{11}\rceil = 10 \text{ SSLs}$ , which would fit in RAM for pass 2
+- to sort 108 page file, if RAM has 11 pages
+	- sorting the file would still take 2 passes
