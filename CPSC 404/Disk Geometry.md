@@ -13,7 +13,8 @@
 		- variable number of sectors per track 
 			- inner tracks have fewer sectors due to physical limitations
 	- block/page size is a multiple of sector size
-		- determined by software (file system or DBMS)
+		- determined at application time
+			- e.g. file system, DBMS
 - disk head
 	- one head per surface
 	- whole arm assembly moves together to position head on desired track $k$
