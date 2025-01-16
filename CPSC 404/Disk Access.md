@@ -21,3 +21,14 @@
 	- also dependent on rotation spede
 
 ### Example: Megatron 747
+- disk RPM = 3840
+- block size = 4096 bytes (4 KB)
+- 4 platters (2 surfaces each)
+- $2^{13}=8192$ tracks per surface == # of cylinders 
+- average $2^8 = 256$ sectors per track
+	- take an average because each track has different num of sectors
+- $2^9=512$ bytes per sector
+- disk head move speed is 1 ms setup + 1 ms per 500 cylinders
+1. max/min/avg seek time?
+	- max: $1 \text{ ms (setup)} + \frac{1}{500}$
+	- 
