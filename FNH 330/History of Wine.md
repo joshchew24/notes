@@ -54,3 +54,14 @@
 - sets national standards and units
 - sets packaging and labelling standards
 	- e.g. mandates alcohol content must be displayed in type of a certain height
+#### International Trade
+- controlled by Federal Government
+- has a big impact on Canadian wine industry
+- North America Free Trade Agreement (NAFTA) 1988
+	- opened Canada to US wine
+	- replaced in 2020 by Canada-United States-Mexico Agrement (CUSMA)
+	- Canadian wine industry is no longer protected from US imports
+- Provincial govt's acted to help revitalize wine industry
+	- established Vintner Quality Alliance (VQA)
+		- Ontario in 1988
+		- [[BC-VQA]] in 1990
