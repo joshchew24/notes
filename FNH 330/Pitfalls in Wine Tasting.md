@@ -1,7 +1,7 @@
 # Pitfalls in Wine Tasting
-## Adaptation
-- temporary loss in sensitivity to aroma/taste
-	- occurs as stimulus compound satures mucus lining of [[Smell - Olfactory system|olfactory receptors]]
+- Adaptation
+	- temporary loss in sensitivity to aroma/taste
+		- occurs as stimulus compound satures mucus lining of [[Smell - Olfactory system|olfactory receptors]]
 - palate fatigue
 	- similar, but more a loss of ability to concentrate
 		- e.g. tasting wines for many hours
@@ -13,3 +13,5 @@
 	- smell "blind" for all aromas
 	- can be genetic
 	- triggered by polyps/tumour, head injury, viral infection
+- taste modifiers
+	- det
