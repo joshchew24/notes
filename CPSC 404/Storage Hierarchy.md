@@ -8,3 +8,5 @@
 ## Tertiary storage
 - archives, off-site
 - disk, tape
+![[Pasted image 20250115164933.png]]
+![[Pasted image 20250115164942.png]]
