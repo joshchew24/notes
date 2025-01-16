@@ -35,3 +35,10 @@
 	- min: $1\text{ms}$
 	- avg: $1 + \frac{1}{3}\frac{8192 -1}{500} = 6.46 \text{ms}$
 		- $\text{setup} + \text{avg sweep time} \times \text{sweep rate}\times \text{max number of tracks to move}$
+		- avg sweep time is approx 1/3
+2. max/min/avg rotational delay?
+	- $r_{max}$: $\frac{1}{3840} \times 60 \times 10^3 = 15.625\text{ms}$
+	- $r_{min}$: $0 \text{ms}$
+	- $r_{avg}: \frac{1}{2}r_{max} = 7.8125\text{ms}$
+3. transfer time? $\tau$
+	- 
