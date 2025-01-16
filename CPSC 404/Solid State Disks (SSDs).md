@@ -1,0 +1,19 @@
+# Solid State Disks (SSDs)
+- flash memory based on EEPROMs
+- storage technology based on flash memory
+- advantages
+	- no spinning disks or moving parts
+	- less likely to be damaged
+	- low power requirements (1/3 to 1/2)
+	- less heat, therefore less cooling
+	- quieter
+	- faster reads (0.1ms vs 5-10 ms)
+- disadvantages
+	- cost (much more expensive per byte)
+		- $2/GB vs $0.05-0.10/GB
+	- smaller capacity
+	- Random writes are slower than reads because you can’t just write a single, changed page p to disk; you have to write a whole bank (chunk) X of data.
+		- e.g., block X is 0.5 MB; you have to copy X and identify changes, then erase the whole original block (e.g., 1 ms) before re-writing
+	- limited number of write cycles (1-5 million?), and then the block of memory can no longer be used
+	- SSD is only 1 order of magnitude closer to RAM speed
+		- RAM and HDD is 5 orders apart

@@ -1,4 +1,4 @@
-# Hard-Disk Drives (HDD)
+# Hard-Disk Drives (HDDs)
 ## [[Disk Geometry]]
 ## Compared to RAM
 - access time is variable
