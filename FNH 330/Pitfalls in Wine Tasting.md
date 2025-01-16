@@ -14,4 +14,16 @@
 	- can be genetic
 	- triggered by polyps/tumour, head injury, viral infection
 - taste modifiers
-	- det
+	- detergents
+		- e.g. toothpaste
+		- modify lipid-containing membranes of receptor cells in taste buds
+		- wine tastes more sour/bitter, less sweet
+	- food
+		- have effect on tannin
+		- sweetness reduces perception of tannin bitterness
+		- fat/protein reduce perception of tannin astringency
+- sequence of tasting wines modifies perception
+	- sweet before dry causes dry to taste sour
+- serving temperature
+	- affects perception of wine components
+	- warmer -> sweetness and aromas are heightened, body and acidity are muted
