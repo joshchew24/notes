@@ -19,3 +19,7 @@
 - $\lceil\frac{256000}{12800}\rceil = 20$ SSLs
 ## merge phase of 2PMMS
 ![[Pasted image 20250115205951.png]]
+- input buffers need at least one page each
+- buffer pool is 50 cylinders
+- use two cylinders for each SR$_i$ 
+- 10 cylinders for output buffer
