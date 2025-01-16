@@ -44,3 +44,6 @@
 	- $\tau = \frac{\text{\# sectors/page}}{\text{\# sectors/track}}\times r_{max}=\frac{2^3}{2^8} = 2^{-5}$
 	- $\text{\# sectors/page} = \frac{\text{block size}}{\text{sector size}} = \frac{4\times2^{10}}{2^9} = 8$
 	- time for a full revolution times the fraction of a track consumed by a single page
+
+## [[Page Prefetch]]
+- 
