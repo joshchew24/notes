@@ -31,4 +31,15 @@ Examine the file `ParseToASTVisitor.java` to get an idea of how the conversion s
 *(a) Try running this test (it should pass; if not, you might need to make sure your project is set up to compile, and that you've run ANTLR on the `TinyHTMLParser.g4` file once, so that it generates the appropriate classes).*
 
 *(b) Right now, the rules in `TinyHTMLParser.g4` contain a trick that causes the generated code to produce objects of a different class for the first row in a table (which makes it easy for us to change its behaviour later and have it printed in bold). Let's imagine we change this design and instead decide to simplify the grammar as follows: comment-out or delete the line `boldrow: row;` and, in the line above it, change the usage of `boldrow` to be `row`. Now rerun ANTLR on this file, and then try to rerun the test. What happens, and why?*
-(b) This change does not cause the test to fail. This is likely because 
+(b) This change causes the ParsetoASTVisitor conversion module and the test code to fail compilation, because these files contain code that expect the existence of boldrows.
+
+**Question 4**
+
+_(a) Suppose that instead of testing **Stage 1** and **Stage 2** as above, that we combine two other kinds of parser tests: Firstly, end-to-end tests that check that input strings result in expected AST `Node` instances after all three Stages of parsing have completed, and secondly, tests that check the functionality of only **Stage 3**: i.e. testing the functionality of the `ParseToASTVisitor.java` file. Is there any value in combining these two kinds of tests?_
+(a) I don't think there's value in combining these two kinds of tests, because we would still be testing against the ANTLR parse trees, which are prone to changes if we modify the underlying grammar definitions. 
+
+_(b) Imagine you are building a different software project that uses a library whose interface changes frequently from version to version. How is this situation similar to the issues we saw here with testing the ANTLR-generated **Stages 1 and 2**?_
+(b) This is similar because any time we would want to upgrade the version of the library used by our project, we would need to modify our own code that uses its interface.
+
+*(c) Suppose that during your projects you do not cleanly separate modules in your own project teams, and your code depends on the internal details of your teammates. How could this create similar problems to those that we've seen here? Are these problems limited to writing convenient tests?*
+(c) This is problematic because my code would be dependent on my teammates code, which is prone to changes. This coupling is not just limited to tests, as changes in one module may cause rippling changes in the entire project.
