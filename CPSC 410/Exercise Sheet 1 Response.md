@@ -7,8 +7,8 @@
 
 (c) it is possible to make the AST Module deeper. This could be achieved by abstracting the components of an AST behind a single "AST Factory" with methods for inserting/modifying an AST. It may be desirable as the user would not need as much background knowledge on ASTs to construct one correctly. A deeper module might contain checks and automatic operations to ensure correctness.  
 
-*(d) Consider again the `AST Module` from part b. How does inheritance (i.e. the `Node` class requiring the `evaluate` method to be implemented) affect the cost of the interface to this module?*
 
+(d) Inheritance from the `Node` class means that any changes to this parent class would require modifying the subclasses in the module, which can be costly, especially if `Node` is updated frequently.
 ## Question 2
 
 (a) The choice to include a conversion stage means an additional module needs to be implemented and tested. Overall, this should reduce code complexity of the system as we would work with our custom AST instead of ANTLR's generated parse tree.
