@@ -17,11 +17,11 @@
 
 (c) One reason to print all the lexer-provided tokens may be to simply reprint the input file to console to inform the user what they are trying to run the program against. A better way to achieve this would be to simply print the contents of the file to console.
 
-**Question 3**
+## Question 3
 
 (b) This change causes the ParsetoASTVisitor conversion module and the test code to fail compilation, because these files contain code that expect the existence of boldrows.
 
-**Question 4**
+##Question 4
 
 (a) I don't think there's value in combining these two kinds of tests, because we would still be testing against the ANTLR parse trees, which are prone to changes if we modify the underlying grammar definitions. 
 
