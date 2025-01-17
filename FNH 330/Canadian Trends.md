@@ -6,3 +6,5 @@
 			- blends of imported/domestic wines
 		- imports are largest share of Canadian market
 ## Imports
+## BC
+- 2020/21 - $1.3 billion
