@@ -24,5 +24,11 @@ Examine the file `ParseToASTVisitor.java` to get an idea of how the conversion s
 (b) A disadvantage of not testing these stages individually is if an error were to occur in the parsing stage, it might be harder to identify the exact source of the bug. An advantage of testing these phases as a whole is we can ensure that the intended purpose of the entire module is being fulfilled. In other words, we can black-box test the entire module. 
 
 *(c) What do you think is the purpose of the code on Lines 19-21 of `Main.java` (printing all of the lexer-provided tokens)? What would be a better way to achieve this purpose than printing the tokens in the main function?*
-(c) One reason to pri
-The purpose of printing all the lexer-provided tokens may be to provide insight on how our program is first interpreting the raw input before applying more drastic processing. It could also just be
+(c) One reason to print all the lexer-provided tokens may be to simply reprint the input file to console to inform the user what they are trying to run the program against. A better way to achieve this would be to simply print the contents of the file to console.
+
+**Question 3**
+
+*(a) Try running this test (it should pass; if not, you might need to make sure your project is set up to compile, and that you've run ANTLR on the `TinyHTMLParser.g4` file once, so that it generates the appropriate classes).*
+
+*(b) Right now, the rules in `TinyHTMLParser.g4` contain a trick that causes the generated code to produce objects of a different class for the first row in a table (which makes it easy for us to change its behaviour later and have it printed in bold). Let's imagine we change this design and instead decide to simplify the grammar as follows: comment-out or delete the line `boldrow: row;` and, in the line above it, change the usage of `boldrow` to be `row`. Now rerun ANTLR on this file, and then try to rerun the test. What happens, and why?*
+(b) This change does not cause the test to fail. This is likely because 
