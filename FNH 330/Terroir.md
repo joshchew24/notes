@@ -3,7 +3,7 @@
 	- [[Viticulture]]
 	- the physical and biological environment
 		- [[Soil]] (texture/structure)
-		- climate
+		- [[Climate]]
 		- topography
 		- slope and aspect
 		- biodiversity
