@@ -3,6 +3,7 @@
 ### Dynamic Enemy Waves
 - the DSL user can choose to statically declare the composition of a wave
 - alternatively, use loops and conditionals to determine the wave composition based on the players' tower placements
+- **this language feature uses mutable variables, loops, conditionals**
 #### Example 1: Static
 ```
 wave 1 {
@@ -70,8 +71,9 @@ wave 1 {
 	}
 }
 ```
-### Tower On-hit Functions
-- the user can define functions that get called when an attack hits an enemy
+### On-tick Effect Functions
+- the user can create on-hit effects that are applied by tower attacks
+- the on-hit effect function will be called once per game tick, and cleared after three(?) ticks
 #### Example 1: Burn
 ```
 tower "ArrowTower" {
@@ -80,9 +82,15 @@ tower "ArrowTower" {
 	onhit burn(base_damage);
 }
 
-func burn(base_damage) {
+effect burn(base_damage) {
 	damage = base_damage * 0.2
-	
+	target.health -= damage
+}
+```
+#### Example 2: Freeze
+```
+effect freeze() {
+	target.speed = 0.5
 }
 ```
 ## Modules
