@@ -16,9 +16,15 @@ wave 1 {
 ```
 wave 1 {
 	enemy_budget = 1000
-	// tower_costs is determifned at runtime, is the total cost of towers placed by player
+}
+```
+#### Example 3: More Complex Dynamic
+```
+wave 1 {
+	enemy_budget = 1000
+	// tower_costs is determined at runtime, is the total cost of towers placed by player	
+	enemy_budget += tower_costs * 2
 	dynamic_enemies: {
-		enemy_budget += tower_costs * 2
 		loop (enemy_budget > 0) {
 			add_enemy(slime)
 			enemy_budget -= slime.cost
@@ -26,7 +32,6 @@ wave 1 {
 	}
 }
 ```
-
 ## Modules
 ### Lexer and Parser
 #### Input
