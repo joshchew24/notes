@@ -7,4 +7,18 @@
 
 ```
 #### Output
-- parse tree
+- Parse Tree (ANTLR)
+### Parse Tree to AST Converter
+#### Input
+- Parse Tree (ANTLR)
+#### Output
+- AST
+- Split the AST into different objects
+	- game rules
+		- path/walls
+		- win/loss conditions
+		- 
+```
+```
+### Tower Definer
+###
