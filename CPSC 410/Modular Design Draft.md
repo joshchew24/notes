@@ -116,8 +116,20 @@ effect freeze() {
 		- cost
 		- range
 		- type
-		- special
+		- on-hit effect
+	- effect definitions
+	- enemy definitions
+	- wave definitions
+		- dynamic wave generation procedure
 ```
 ```
 ### Tower Definer
-###
+#### Input
+- AST (tower definition)
+#### Output
+- map of tower name to tower factory parameters
+### Effect Definer
+### Enemy Definer
+### Tower Placer
+### Wave Setup
+### Game Loop
