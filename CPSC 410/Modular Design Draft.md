@@ -70,7 +70,7 @@ wave 1 {
 	}
 }
 ```
-#### Example 6: 
+### 
 ## Modules
 ### Lexer and Parser
 #### Input
