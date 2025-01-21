@@ -21,7 +21,7 @@ wave 1 {
 		enemy_budget += tower_costs * 2
 		loop (enemy_budget > 0) {
 			add_enemy(slime)
-			enemy_budget -= 
+			enemy_budget -= slime.cost
 		}
 	}
 }
