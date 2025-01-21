@@ -125,7 +125,7 @@ effect freeze() {
 ```
 ### Tower Definer
 #### Input
-- AST (tower definition)
+- AST (tower subtree)
 #### Output
 - map of tower name to tower_definition object
 - there will be a tower factory function that consumes the tower_definition object, and uses the parameters to create instances of a tower object 
@@ -139,7 +139,30 @@ func tower_factory(tower_definition) {
 ```
 
 ### Effect Definer
+#### Input
+* AST (effect subtree)
+#### Output
+- functions that get called per game tick
 ### Enemy Definer
+#### Input
+- AST (enemy subtree)
+#### Output
+- enemy definitions
+- similar to tower definer
 ### Tower Placer
+#### Input
+- tower dictionary (from tower definer)
+- user should have be able to see what tower options are available
+#### Output
+- user should be able to place towers in the game
 ### Wave Setup
+#### Input
+- AST (wave definition subtree)
+#### Output
+- wave definition object
+	- contains order and number of enemies to spawn
 ### Game Loop
+#### Input
+- nothing (?)
+#### Output
+- tick the game state
