@@ -127,7 +127,17 @@ effect freeze() {
 #### Input
 - AST (tower definition)
 #### Output
-- map of tower name to tower factory parameters
+- map of tower name to tower_definition object
+- there will be a tower factory function that consumes the tower_definition object, and uses the parameters to create instances of a tower object 
+##### Example
+```
+tower_definition = (cost, damage, range, on_hit_effect_func)
+
+func tower_factory(tower_definition) {
+	// return a tower instance
+}
+```
+
 ### Effect Definer
 ### Enemy Definer
 ### Tower Placer
