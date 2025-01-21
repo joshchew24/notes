@@ -52,6 +52,25 @@ wave 1 {
 	}
 }
 ```
+#### Example 5: Complex Wave
+```
+wave 1 {
+	enemies: [
+		slime 10
+		zombie 5
+	]
+	enemy_budget = 1000
+	// tower_costs is determined at runtime, is the total cost of towers placed by player
+	enemy_budget += tower_costs * 2
+	dynamic_enemies: {
+		loop (enemy_budget > 0) {
+			add_enemy(slime)
+			enemy_budget -= slime.cost
+		}
+	}
+}
+```
+#### Example 6: 
 ## Modules
 ### Lexer and Parser
 #### Input
