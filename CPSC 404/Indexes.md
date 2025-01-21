@@ -7,6 +7,11 @@
 	- point query
 	- specific
 - range search
+- nodes == pages
+- leaf nodes/pages will store [[Data Entries]]
+	- can be alt1, alt2, alt3
+- if index file is large, make an index of index files
+	- multiple layers give us a tree-structured index
 ## Clustered Index
 - if data records are physically **sorted** on indexed attr A, then A has a clustered index
 	- e.g. data is sorted on income
