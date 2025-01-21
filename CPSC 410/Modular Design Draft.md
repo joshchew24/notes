@@ -70,7 +70,7 @@ wave 1 {
 	}
 }
 ```
-### 
+### Tower Targeting
 ## Modules
 ### Lexer and Parser
 #### Input
