@@ -12,17 +12,37 @@ wave 1 {
 	]
 }
 ```
-#### Example 2: Simple Dynamic
+#### Example 2: Simple Loop
 ```
 wave 1 {
 	enemy_budget = 1000
+	dynamic_enemies: {
+		loop (enemy_budget > 0) {
+			add_enemy(slime)
+			enemy_budget -= slime.cost
+		}
+	}
 }
 ```
-#### Example 3: More Complex Dynamic
+#### Example 3: Simple Dynamic Generation
 ```
 wave 1 {
 	enemy_budget = 1000
-	// tower_costs is determined at runtime, is the total cost of towers placed by player	
+	// tower_costs is determined at runtime, is the total cost of towers placed by player
+	enemy_budget += tower_costs * 2
+	dynamic_enemies: {
+		loop (enemy_budget > 0) {
+			add_enemy(slime)
+			enemy_budget -= slime.cost
+		}
+	}
+}
+```
+#### Example 4: Dynamic Generation
+```
+wave 1 {
+	enemy_budget = 1000
+	// tower_costs is determined at runtime, is the total cost of towers placed by player
 	enemy_budget += tower_costs * 2
 	dynamic_enemies: {
 		loop (enemy_budget > 0) {
