@@ -70,7 +70,21 @@ wave 1 {
 	}
 }
 ```
-### Tower Targeting
+### Tower On-hit Functions
+- the user can define functions that get called when an attack hits an enemy
+#### Example 1: Burn
+```
+tower "ArrowTower" {
+	base_damage 5;
+	range 10;
+	onhit burn(base_damage);
+}
+
+func burn(base_damage) {
+	damage = base_damage * 0.2
+	
+}
+```
 ## Modules
 ### Lexer and Parser
 #### Input
