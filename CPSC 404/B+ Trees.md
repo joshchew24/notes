@@ -1,6 +1,6 @@
 # B+ Trees
 - all relational databases uses B+ Trees
-- see [[Indexes
+- see [[Indexes]]
 - $d$ is order of the tree
 	- want to be as large as possible to have shorter trees
 	- d <= m <= 2d keys per node
