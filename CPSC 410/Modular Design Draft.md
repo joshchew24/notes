@@ -131,6 +131,8 @@ effect freeze() {
 - there will be a tower factory function that consumes the tower_definition object, and uses the parameters to create instances of a tower object 
 ##### Example
 ```
+cost = 13
+damage = 10
 tower_definition = (cost, damage, range, on_hit_effect_func)
 
 func tower_factory(tower_definition) {
