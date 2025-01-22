@@ -6,4 +6,6 @@ You are given a file of $40\times10^6$ records, each 200 bytes long. You wish to
 (c) Max # records that would fit in a page
 (d) Min possible height of this B+ Tree
 (e) Max possible height of this B+ Tree
-*Note: for (d) & (e), do not use formulas. Instead, start with the # leaf pages needed to hold the DEs, work bottom up 
+*Note: for (d) & (e), do not use formulas. Instead, start with the # leaf pages needed to hold the DEs, work bottom up, from leaves to their parents, to grandparents, etc., to the root.*
+## Response
+(a) 
