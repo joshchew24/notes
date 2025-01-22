@@ -4,6 +4,19 @@
 - **asexual propagation** by either
 	- plant a vine cane with buds in the ground to grow roots
 	- graft compound bud to a North American rootstock
+### Process
+- graft planted in winter/spring
+- late spring
+	- leaves, inflorescences, flowers, etc.
+	- vascular systems of compound bud and R/S join to make one whole plant (shoot)
+	- rootstock forms new roots
+- early summer
+	- grape/flowers bloom (bees not needed)
+- mid summer
+	- seeds mature and berries develop into clusters
+	- veraison
+- 2-3 years
+	- mature vine is formed with pruning and training
 ## Rootstock (R/S)
 - in NA, *Vitis riparia, V. berlandieri, V. rotundifolia, V. rupestris*
 - used mainly for protection against phylloxera (root louse)
@@ -13,3 +26,10 @@
 		- alkaline/saline
 		- slow/fast drainage
 	- high/low vigour
+## Shoot
+- form a compound bud
+- producs flowers in 1st 2-5 basal nodes
+- tendrils for climbing
+- produces flower buds for next year in basal buds
+- keeps growing until too stressed
+- ![[Pasted image 20250121165006.png]]
