@@ -21,4 +21,4 @@
 ### [[Mediterranean Climate]]
 ### [[Continental Climate]]
 ### [[Maritime Climate]]
-### Cool
+### [[Cool Climate]]
