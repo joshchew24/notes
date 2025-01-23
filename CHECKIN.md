@@ -117,7 +117,21 @@ shoot target
 | Module 5 - Game Logic (Model)                                           | Ian    |
 | Module 6 - Game Logic (View)                                            | Ian    |
 | Module 7 - Game Logic (Controller)                                      | Ian    |
-### Timeline
+### Sync-up/Communication
 - we meet after every class and use Discord to communicate
 - we plan calls if we need to meet more
 - finish before it is due
+### Timeline
+#### Jan 22 - Jan 29
+- define data interfaces between modules
+- complete MVC architecture
+#### Jan 29 - Feb 5
+- implement modules and unit test
+#### Feb 5 - Feb 12
+- integrate modules and test integration and end-to-end
+#### Feb 12 - Feb 13
+- try to finish everything by the 12th (last check-in)
+#### Feb 14 (valentines)
+- no plans
+#### Feb 15 - 21 (reading week)
+- if we suck, we have to work on the project 
