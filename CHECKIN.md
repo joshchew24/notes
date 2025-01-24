@@ -125,7 +125,7 @@ shoot target
 #### Jan 22 - Jan 29
 - define data interfaces between modules
 - complete MVC architecture
-#### Jan 29 - Feb 5
+#### Jan 29 - Feb 15
 - implement modules and unit test
 #### Feb 5 - Feb 12
 - integrate modules and test integration and end-to-end
