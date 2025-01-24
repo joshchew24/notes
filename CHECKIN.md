@@ -135,3 +135,6 @@ shoot target
 - no plans
 #### Feb 15 - 21 (reading week)
 - if we suck, we have to work on the project 
+### Progress
+- Ian has made a proof of concept of the game using an MVC architecture
+- We have made some samples of the DSL
