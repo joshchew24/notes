@@ -1,0 +1,14 @@
+# Veraison
+- onset of grape berry ripening
+- trigger may be maturation of grape seeds
+- grape berries
+	- soften
+	- change colour
+		- green to red/purple or yellow/green
+	- begin to accumulate sugars
+- mid-late summer
+	- timing varies by season (warmth, sunlight)
+		- OK Valley Syrah veraison
+			- 2012: late Aug (warm)
+			- 2013: early-mid Aug (warmer)
+			- 2015: late July (warmest)

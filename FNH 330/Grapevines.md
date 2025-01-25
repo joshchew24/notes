@@ -14,7 +14,13 @@
 	- grape/flowers bloom (bees not needed)
 - mid summer
 	- seeds mature and berries develop into clusters
-	- veraison
+	- [[Veraison]]
+- sept/oct
+	- ripe
+- early/mid fall
+	- harvested
+- winter
+	- vine prepares for, then goes into dormancy
 - 2-3 years
 	- mature vine is formed with pruning and training
 ## Rootstock (R/S)
