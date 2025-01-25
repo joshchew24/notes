@@ -49,3 +49,19 @@
 - select rootstocks/varieties suited for high-nutrient/low-nutrient soil
 - plow deeply or install drainage pipe/tiles to improve drainage
 	- allow for deeper root growth
+### Balancing Vegatative/Fruit Growth
+#### excess fruit for canopy and roots
+- delays ripening
+- tends to prevent full ripening of berries (poor wine quality)
+- delays grapevine acclimation for winter
+	- greater risk of frost and severe winter cold damage to vins/buds
+#### Overly Vegatative Vine
+- excess shading of inner leaves and fruit
+- poor quality wine-grapes
+	- underripe, low aroma
+- increased winter injury
+	- focuses too much energy on vegatative growth rather than roots for preparing for winter
+- high humidity in canopy
+	- increases disease and pest pressure (sprays cannot reach target) on fruit
+- if leaves above "light compensation point", net export of sugars (benefit fruit)
+- if below LCP, they impor tsugars (deprive fruit)
