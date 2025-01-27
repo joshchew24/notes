@@ -21,18 +21,24 @@ start game
 		slow() {
 			target.speed *= target.speed * 0.8
 		}
+		stun() {
+			target.speed = 0
+		}
+		push(_dist) {
+			target.posn -= _dist
+		}
 	end effects
 	start towers
 		"basic_tower" {
 			cost = 100
-			damage = 5
+			damage = 15
 			cooldown = 1
-			speed = 15
+			speed = 20
 			splash = 0
 		}
 		"fire_tower" {
 			cost = 200
-			damage = 15
+			damage = 20
 			cooldown = 3
 			speed = 25
 			splash = 2
@@ -42,7 +48,7 @@ start game
 		}
 		"water_tower" {
 			cost = 300
-			damage = 4
+			damage = 10
 			cooldown = 5
 			speed = 10
 			splash = 5
@@ -52,9 +58,25 @@ start game
 		}
 		"earth_tower" {
 			cost = 400
-			damage = 
+			damage = 30
 			cooldown = 10
+			speed = 15
+			splash = 3
+			type = "earth"
+			effect = stun()
+			effect_duration = 5
 		}
+		"air_tower" {
+			cost = 500
+			damage = 5
+			cooldown = 15
+			speed = 30
+			splash = 4
+			type = "air"
+			effect = push(3)
+			effect_duration = 1
+		}
+	end towers
 	start enemies
 		"basic_monkey" {
 			health = 100
