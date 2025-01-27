@@ -1,6 +1,7 @@
 # Project 1 DSL Examples
 #question can we include html colors in the DSL?
 #question do we want to let the user define types and counters in DSL? imo yes...
+#question should we surround all "user definable input" with quotations? or some special prefixes?
 ## Example 1
 ```
 start game
@@ -9,6 +10,7 @@ start game
 			"normal", "water", "fire", "earth", "air"
 		]
 		counters: "water" -> "fire" -> "air" -> "earth" -> "water"
+	end rules
 	start towers
 	start enemies
 		basic_monkey {
@@ -63,6 +65,12 @@ start game
 			dynamic {
 				fire_budget = 5 * placed_towers.count(type="fire")
 				water_budget = 10 * placed_towers.count(type="water")
+				loop(fire_budget > 0 AND water_budget > 0)
+					enemy = random(water_monkey, fire_monkey)
+					if enemy.type == "water"
+						water_budget -= enemy.health * enemy.speed
+					if enemy.type == "fire"
+						fire_budget -= enemy.health * enemy.speed
 			}
 		wave x
 			dynamic {
