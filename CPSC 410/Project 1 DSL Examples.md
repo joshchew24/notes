@@ -37,5 +37,19 @@ start game
 		wave 2
 			1 water_monkey
 			1 fire_monkey
+			1 earth_monkey
+			1 air_monkey
+		wave 3
+			10 basic_monkey
+			dynamic {
+				budget = 1000
+				budget += 2 * placed_tower_values
+				loop(budget > 0) {
+					enemy = random(water_monkey, fire_monkey, earth_monkey, air_monkey)
+					budget -= enemy.health * enemy.speed
+				}
+			}
+		wave 4
+				
 
 ```
