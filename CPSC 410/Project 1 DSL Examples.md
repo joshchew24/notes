@@ -5,6 +5,8 @@
 #todo explain specific design decisions: quotes for user-defined input, underscore prefix for mutable variables
 #question start/end vs wrapping in braces
 #todo list out all members of placed_towers, enemy(?)
+#question is our wave generation complex enough?
+
 ## Example 1
 ```
 start game
@@ -14,7 +16,22 @@ start game
 		]
 		counters: "water" -> "fire" -> "air" -> "earth" -> "water"
 	end rules
+	start effects
+		burn(damage) {
+			target.health -= damage * 0.5
+		}
+	end effects
 	start towers
+		"basic_tower" {
+			damage = 5
+			cooldown = 1
+			speed = 15
+		}
+		"fire_tower" {
+			damage = 10
+			cooldown = 2
+			speed = 15
+			effect = burn()
 	start enemies
 		"basic_monkey" {
 			health = 100
