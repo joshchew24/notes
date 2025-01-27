@@ -18,16 +18,16 @@ start game
 		enemy_damage = 1
 	end rules
 	start effects
-		burn(_damage) {
+		_burn(_damage) {
 			target.health -= _damage * 0.5
 		}
-		slow() {
+		_slow() {
 			target.speed *= target.speed * 0.8
 		}
-		stun() {
+		_stun() {
 			target.speed = 0
 		}
-		push(_dist) {
+		_push(_dist) {
 			target.posn -= _dist
 		}
 	end effects
@@ -46,7 +46,7 @@ start game
 			speed = 25
 			splash = 2
 			type = "fire"
-			effect = burn(damage)
+			effect = _burn(damage)
 			effect_duration = 5
 		}
 		"water_tower" {
@@ -56,7 +56,7 @@ start game
 			speed = 10
 			splash = 5
 			type = "water"
-			effect = slow()
+			effect = _slow()
 			effect_duration = 5
 		}
 		"earth_tower" {
@@ -66,7 +66,7 @@ start game
 			speed = 15
 			splash = 3
 			type = "earth"
-			effect = stun()
+			effect = _stun()
 			effect_duration = 5
 		}
 		"air_tower" {
@@ -76,7 +76,7 @@ start game
 			speed = 30
 			splash = 4
 			type = "air"
-			effect = push(3)
+			effect = _push(3)
 			effect_duration = 1
 		}
 	end towers
