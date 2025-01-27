@@ -43,13 +43,24 @@ start game
 			10 basic_monkey
 			dynamic {
 				budget = 1000
-				budget += 2 * placed_tower_values
+				budget += 2 * placed_towers.costs
 				loop(budget > 0) {
 					enemy = random(water_monkey, fire_monkey, earth_monkey, air_monkey)
 					budget -= enemy.health * enemy.speed
 				}
 			}
 		wave 4
+			dynamic {
+				budget += 5 * placed_towers.count(type=fire)
 				
+			}
+		wave x
+			dynamic {
+				budget = 5000
+				loop(budget > 0)
+					// choose random enemy based on type distribution of placed towers
+					enemy = random_type_counter()
+					budget -= enemy.health * enemy.speed
+			}
 
 ```
