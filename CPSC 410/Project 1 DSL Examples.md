@@ -46,6 +46,7 @@ start game
 			type = "air"
 			color = white
 		}
+	end enemies
 	start waves
 		wave 1
 			10 "basic_monkey"
@@ -109,5 +110,7 @@ start game
 					enemy = random_type_counter()
 					_budget -= enemy.health * enemy.speed
 			}
+	end waves
+end game
 
 ```
