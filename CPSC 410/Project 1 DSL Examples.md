@@ -13,31 +13,31 @@ start game
 	end rules
 	start towers
 	start enemies
-		basic_monkey {
+		"basic_monkey" {
 			health = 100
 			speed = 15
 			type = "normal"
 			color = brown
 		}
-		water_monkey {
+		"water_monkey" {
 			health = 200
 			speed = 10
 			type = "water"
 			color = blue
 		}
-		fire_monkey {
+		"fire_monkey" {
 			health = 50
 			speed = 30
 			type = "fire"
 			color = red
 		}
-		earth_monkey {
+		"earth_monkey" {
 			health = 500
 			speed = 1
 			type = "earth"
 			color = green
 		}
-		air_monkey {
+		"air_monkey" {
 			health = 75
 			speed = 20
 			type = "air"
@@ -45,40 +45,41 @@ start game
 		}
 	start waves
 		wave 1
-			10 basic_monkey
+			10 "basic_monkey"
 		wave 2
-			1 water_monkey
-			1 fire_monkey
-			1 earth_monkey
-			1 air_monkey
+			1 "water_monkey"
+			1 "fire_monkey"
+			1 "earth_monkey"
+			1 "air_monkey"
 		wave 3
-			10 basic_monkey
+			10 "basic_monkey"
 			dynamic {
-				budget = 1000
-				budget += 2 * placed_towers.costs
-				loop(budget > 0) {
-					enemy = random(water_monkey, fire_monkey, earth_monkey, air_monkey)
-					budget -= enemy.health * enemy.speed
+				// prefix custom mutable variables with an underscore
+				_budget = 1000
+				_budget += 2 * placed_towers.costs
+				loop(_budget > 0) {
+					enemy = random("water_monkey", "fire_monkey", "earth_monkey", "air_monkey")
+					_budget -= enemy.health * enemy.speed
 				}
 			}
 		wave 4
 			dynamic {
-				fire_budget = 5 * placed_towers.count(type="fire")
-				water_budget = 10 * placed_towers.count(type="water")
-				loop(fire_budget > 0 AND water_budget > 0)
-					enemy = random(water_monkey, fire_monkey)
+				_fire_budget = 5 * placed_towers.count(type="fire")
+				_water_budget = 10 * placed_towers.count(type="water")
+				loop(_fire_budget > 0 AND _water_budget > 0)
+					enemy = random(distribution=e"water_monkey", "fire_monkey")
 					if enemy.type == "water"
-						water_budget -= enemy.health * enemy.speed
+						_water_budget -= enemy.health * enemy.speed
 					if enemy.type == "fire"
-						fire_budget -= enemy.health * enemy.speed
+						_fire_budget -= enemy.health * enemy.speed
 			}
 		wave x
 			dynamic {
-				budget = 5000
-				loop(budget > 0)
+				_budget = 5000
+				loop(_budget > 0)
 					// choose random enemy based on type distribution of placed towers
 					enemy = random_type_counter()
-					budget -= enemy.health * enemy.speed
+					_budget -= enemy.health * enemy.speed
 			}
 
 ```
