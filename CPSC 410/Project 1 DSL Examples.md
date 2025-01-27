@@ -6,6 +6,7 @@
 #question start/end vs wrapping in braces
 #todo list out all members of placed_towers, enemy(?)
 #question is our wave generation complex enough?
+#todo flesh out the game rules section
 
 ## Example 1
 ```
@@ -13,6 +14,8 @@ start game
 	start rules
 		types = "normal", "water", "fire", "earth", "air"
 		counters: "water" -> "fire" -> "air" -> "earth" -> "water"
+		player_health = 100
+		enemy_damage = 1
 	end rules
 	start effects
 		burn(_damage) {
