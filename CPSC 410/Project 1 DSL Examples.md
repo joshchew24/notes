@@ -1,36 +1,46 @@
 # Project 1 DSL Examples
 #question can we include html colors in the DSL?
+#question do we want to let the user define types and counters in DSL? imo yes...
 ## Example 1
 ```
 start game
 	start rules
+		types = [
+			"normal", "water", "fire", "earth", "air"
+		]
+		counters: "water" -> "fire" -> "air" -> "earth" -> "water"
 	start towers
 	start enemies
-		basic_monkey
+		basic_monkey {
 			health = 100
 			speed = 15
-			type = normal
+			type = "normal"
 			color = brown
-		water_monkey
+		}
+		water_monkey {
 			health = 200
 			speed = 10
-			type = water
+			type = "water"
 			color = blue
-		fire_monkey
+		}
+		fire_monkey {
 			health = 50
 			speed = 30
-			type = fire
+			type = "fire"
 			color = red
-		earth_monkey
+		}
+		earth_monkey {
 			health = 500
 			speed = 1
-			type = earth
+			type = "earth"
 			color = green
-		air_monkey
+		}
+		air_monkey {
 			health = 75
 			speed = 20
-			type = air
+			type = "air"
 			color = white
+		}
 	start waves
 		wave 1
 			10 basic_monkey
@@ -51,8 +61,8 @@ start game
 			}
 		wave 4
 			dynamic {
-				budget += 5 * placed_towers.count(type=fire)
-				
+				fire_budget = 5 * placed_towers.count(type="fire")
+				water_budget = 10 * placed_towers.count(type="water")
 			}
 		wave x
 			dynamic {
