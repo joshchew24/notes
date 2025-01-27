@@ -1,7 +1,9 @@
 # Project 1 DSL Examples
 #question can we include html colors in the DSL?
 #question do we want to let the user define types and counters in DSL? imo yes...
-#question should we surround all "user definable input" with quotations? or some special prefixes?
+#todo explain random function
+#todo explain specific design decisions: quotes for user-defined input, underscore prefix for mutable variables
+#question start/end vs wrapping in braces
 ## Example 1
 ```
 start game
@@ -58,7 +60,8 @@ start game
 				_budget = 1000
 				_budget += 2 * placed_towers.costs
 				loop(_budget > 0) {
-					enemy = random("water_monkey", "fire_monkey", "earth_monkey", "air_monkey")
+					random = "water_monkey", "fire_monkey", "earth_monkey", "air_monkey"
+					enemy = random() // no value for distribution parameter means uniform
 					_budget -= enemy.health * enemy.speed
 				}
 			}
@@ -66,12 +69,21 @@ start game
 			dynamic {
 				_fire_budget = 5 * placed_towers.count(type="fire")
 				_water_budget = 10 * placed_towers.count(type="water")
-				loop(_fire_budget > 0 AND _water_budget > 0)
-					enemy = random(distribution=e"water_monkey", "fire_monkey")
-					if enemy.type == "water"
+				loop(_fire_budget > 0 || _water_budget > 0)
+					enemy = random("water_monkey", "fire_monkey")
+					if enemy.type == "water" AND _water_budget > 0
 						_water_budget -= enemy.health * enemy.speed
-					if enemy.type == "fire"
+					if enemy.type == "fire" AND _fire_budget > 0
 						_fire_budget -= enemy.health * enemy.speed
+			}
+		wave 5
+			dynamic {
+				_budget = 10000
+				loop(_budget > 0)
+					random = "water_monkey", "fire_monkey", "earth_monkey", "air_monkey"
+					enemy = random(0.75, 0.05)
+					// the first two values get assigned to first two monkeys, rest assigned randomly
+					
 			}
 		wave x
 			dynamic {
