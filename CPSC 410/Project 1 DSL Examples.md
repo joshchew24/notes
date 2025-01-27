@@ -11,27 +11,50 @@
 ```
 start game
 	start rules
-		types = [
-			"normal", "water", "fire", "earth", "air"
-		]
+		types = "normal", "water", "fire", "earth", "air"
 		counters: "water" -> "fire" -> "air" -> "earth" -> "water"
 	end rules
 	start effects
-		burn(damage) {
-			target.health -= damage * 0.5
+		burn(_damage) {
+			target.health -= _damage * 0.5
+		}
+		slow() {
+			target.speed *= target.speed * 0.8
 		}
 	end effects
 	start towers
 		"basic_tower" {
+			cost = 100
 			damage = 5
 			cooldown = 1
 			speed = 15
+			splash = 0
 		}
 		"fire_tower" {
-			damage = 10
-			cooldown = 2
-			speed = 15
-			effect = burn()
+			cost = 200
+			damage = 15
+			cooldown = 3
+			speed = 25
+			splash = 2
+			type = "fire"
+			effect = burn(damage)
+			effect_duration = 5
+		}
+		"water_tower" {
+			cost = 300
+			damage = 4
+			cooldown = 5
+			speed = 10
+			splash = 5
+			type = "water"
+			effect = slow()
+			effect_duration = 5
+		}
+		"earth_tower" {
+			cost = 400
+			damage = 
+			cooldown = 10
+		}
 	start enemies
 		"basic_monkey" {
 			health = 100
