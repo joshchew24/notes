@@ -4,6 +4,7 @@
 #todo explain random function
 #todo explain specific design decisions: quotes for user-defined input, underscore prefix for mutable variables
 #question start/end vs wrapping in braces
+#todo list out all members of placed_towers, enemy(?)
 ## Example 1
 ```
 start game
@@ -53,43 +54,58 @@ start game
 			1 "fire_monkey"
 			1 "earth_monkey"
 			1 "air_monkey"
-		wave 3
+		wave 3 // random generation with uniform distribution
 			10 "basic_monkey"
 			dynamic {
 				// prefix custom mutable variables with an underscore
 				_budget = 1000
 				_budget += 2 * placed_towers.costs
+				random = "water_monkey", "fire_monkey", "earth_monkey", "air_monkey"
 				loop(_budget > 0) {
-					random = "water_monkey", "fire_monkey", "earth_monkey", "air_monkey"
 					enemy = random() // no value for distribution parameter means uniform
 					_budget -= enemy.health * enemy.speed
 				}
+			}		
+		wave 4 // random generation with simple distribution
+			dynamic {
+				_budget = 10000
+				random = "water_monkey", "fire_monkey", "earth_monkey", "air_monkey"
+				loop(_budget > 0)
+					enemy = random(0.75, 0.05)
+					// the first two values get assigned to first two items, rest distributed
+					_budget -= 2 * enemy.health
 			}
-		wave 4
+		wave 5 // random generation with separate type budgets
 			dynamic {
 				_fire_budget = 5 * placed_towers.count(type="fire")
 				_water_budget = 10 * placed_towers.count(type="water")
+				random = "water_monkey", "fire_monkey"
 				loop(_fire_budget > 0 || _water_budget > 0)
-					enemy = random("water_monkey", "fire_monkey")
+					enemy = random()
 					if enemy.type == "water" AND _water_budget > 0
 						_water_budget -= enemy.health * enemy.speed
 					if enemy.type == "fire" AND _fire_budget > 0
 						_fire_budget -= enemy.health * enemy.speed
 			}
-		wave 5
+		wave 6 // random generation based on tower type distribution
 			dynamic {
+				total = placed_towers.count() // no parameter means all
+				_w = placed_towers.count(type="water") / total
+				_f = placed_towers.count(type="fire") / total
+				_e = placed_towers.count(type="earth") / total
+				_a = placed_towers.count(type="air") / total
 				_budget = 10000
+				random = "water_monkey", "fire_monkey", "earth_monkey", "air_monkey"
 				loop(_budget > 0)
-					random = "water_monkey", "fire_monkey", "earth_monkey", "air_monkey"
-					enemy = random(0.75, 0.05)
-					// the first two values get assigned to first two monkeys, rest assigned randomly
-					
+					enemy = random(_w, _f, _e, _a)
+					_budget -= 10 * enemy.speed
 			}
-		wave x
+
+		wave 6 // alternative
 			dynamic {
 				_budget = 5000
 				loop(_budget > 0)
-					// choose random enemy based on type distribution of placed towers
+					// autochoose random enemy based on type distribution of placed towers
 					enemy = random_type_counter()
 					_budget -= enemy.health * enemy.speed
 			}
