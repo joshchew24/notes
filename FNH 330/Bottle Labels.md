@@ -1,4 +1,4 @@
-# Labels
+# Bottle Labels
 ## Information
 ### Grape Variety (region-dependent)
 - sometimes not listed explicitly
