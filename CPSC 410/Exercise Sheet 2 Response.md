@@ -14,3 +14,5 @@
 - `DOWN`
 - `LEFT`
 - `RIGHT`
+## Question 3
+(a) 
