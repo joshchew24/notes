@@ -15,4 +15,5 @@
 - `LEFT`
 - `RIGHT`
 ## Question 3
-(a) 
+(a) Without ANTLR modes, `speedyTest` fails because the assertion on the number of tokens is incorrect. An example of this is the `TEXT` token (`~[[|\]\r\n']+`), which also captures the `START` string (`'Create a turtle named' WS*`), because ANTLR will choose the longest possible matching string for a rule. So, the line `Create a turtle named Speedy` gets captured as a single token under the `TEXT` rule. Every line will be captured as a single token except the `
+(b) Without ANTLR modes, `walkerTest` also fails for the same reasons as `speedyTest`. The line `Create a turtle namedWalker` is captured as a single token. 
