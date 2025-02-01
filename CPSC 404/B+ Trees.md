@@ -15,6 +15,12 @@
 - nodes are at avg fill level ($ln2 \times \text{max capacity}$)
 ## Max Height
 - nodes are half full (d)
+## Insertion
+### Pseudocode Example
+Insert data entry 
+```
+find correct leaf L 
+```
 ## Examples
 ### jan 23
 - RAM = 10000 pages
