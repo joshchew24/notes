@@ -17,6 +17,9 @@
 - nodes are half full (d)
 ## Insertion
 ### Procedure of inserting DE $k*$ to B+Tree $T$
+- split the leaf node, copy up the middle key into the index
+	- **copy** the value, keep the DE in the leaf
+	- if splitting an internal node (index), just move the value up
 #### Pseudocode 
 ```
 find correct leaf L that k* belongs to
