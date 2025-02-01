@@ -25,4 +25,4 @@ how many **complete** levels of the B+ tree can we prefetch and keep buffered in
 	- grandchildren maybe only prefetch based on access patterns
 ### Clicker Qs
 1. root and 3 children ![[Pasted image 20250131173302.png]]
-2. 
+2. $1\times 5\text{ reads}+8\times4\text{ reads}+6\times3\text{ reads} = 55 \text{ reads}$![[Pasted image 20250131174557.png]]
