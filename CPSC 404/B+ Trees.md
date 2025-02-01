@@ -23,3 +23,6 @@ how many **complete** levels of the B+ tree can we prefetch and keep buffered in
 - root = 1 page, children = 120 pages, grandchildren = 120\*100 = 12000 pages, doesn't fit in ram
 - therefore we prefetch root and children
 	- grandchildren maybe only prefetch based on access patterns
+### Clicker Qs
+1. root and 3 children ![[Pasted image 20250131173302.png]]
+2. 
