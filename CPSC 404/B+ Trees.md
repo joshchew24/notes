@@ -15,3 +15,11 @@
 - nodes are at avg fill level ($ln2 \times \text{max capacity}$)
 ## Max Height
 - nodes are half full (d)
+## Examples
+### jan 23
+- RAM = 10000 pages
+- root has 120 children, have 100 children each
+how many **complete** levels of the B+ tree can we prefetch and keep buffered in ram?
+- root = 1 page, children = 120 pages, grandchildren = 120\*100 = 12000 pages, doesn't fit in ram
+- therefore we prefetch root and children
+	- grandchildren maybe only prefetch based on access patterns
