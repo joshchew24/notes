@@ -16,10 +16,17 @@
 ## Max Height
 - nodes are half full (d)
 ## Insertion
-### Pseudocode Example
-Insert data entry 
+### Procedure of inserting DE $k*$ to B+Tree $T$
+#### Pseudocode 
 ```
-find correct leaf L 
+find correct leaf L that k* belongs to
+try to add k* to L
+	if L not full, done
+	else:
+		split L into two halves (distribute entries evenly)
+		copy up middle key to parent index
+		if parent index full, split and move middle key up
+		update parent index pointers
 ```
 ## Examples
 ### jan 23
