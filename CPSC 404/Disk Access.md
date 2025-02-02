@@ -7,6 +7,7 @@
 	- minimum 1 ms for setup
 	- max 20 ms for setup + time for arm to sweep to desired track
 		- worst case is innermost to outermost (and vice versa)
+	- avg seek time is $\frac{1}{3}$  
 ### Rotational Delay
 - wait for block to rotate under head
 - 0-10ms
