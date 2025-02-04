@@ -8,18 +8,29 @@
 	- climate
 	- site terrain
 	- cost
-### Double Guyot System
-- https://www.youtube.com/watch?v=K3LJLFG7qvU
-- https://www.youtube.com/watch?v=26sql4rBJKY
-- trunk with 2 one-year old renewal ("mother") canes
-- vertical shoot positioning (VSP)
-- each "mother-cane" has 5-30 compound buds
-	- produce new fruiting shoots in the following growing season
-#### Cane Renewal
-- each cane is replaced after it produces a harvest
-##### Pros
-- more fruitful, larger crop
-##### Cons
-- less suited to mechanical harvest
-- harder to prune
+- in the right terroir, some systems offer advantages
+	- manging canopy for cultivar, mesoclimate, soil
+	- potential for enhanced
+### [[Double Guyot System]]
 ### [[Bilateral Cordon System]]
+### [[Smart-Henry System]]
+### Bush/Umbrella System
+- no trellis
+- head-pruned to spurs canopy is bush/umbrella-shaped
+- low yielding
+- less expensive to establish
+	- no trellis/irrigation
+![[Pasted image 20250204000941.png]]
+### Overhead-pergola System
+- spur renewal and trellised
+- expensive
+- high yield
+- protection from hot sun
+![[Pasted image 20250204000944.png]]
+### Horizontally Divided Canopy System
+- allows higher vine vigour (more leaf/shoot growth)
+- more fruit (higher yield)
+- balances vegetative:fruit ratio
+- maintains wine grape quality
+- King Vineyards ![[Pasted image 20250204001046.png]]
+- CSU-Fresno ![[Pasted image 20250204001035.png|308]]
