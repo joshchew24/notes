@@ -12,3 +12,4 @@
 	- grape variety
 	- ripeness of grape
 	- fermentation style and temperature
+![[Pasted image 20250203220511.png]]

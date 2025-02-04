@@ -1,5 +1,6 @@
 # Phenolic Compounds
 - more present in red wines on average
+- affect color, taste, mouthfeel
 ## Flavonoids
 - 90% of wine phenolics
 - Anthocyanins (red/purple pigments)

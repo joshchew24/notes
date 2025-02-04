@@ -1,8 +1,8 @@
 # Wine Styles
 ## Still table wines
 - red or white
-	- dry
-	- off-dry
+	- dry (0-6g/L residual sugar)
+	- off-dry (9-24g/L RS)
 ## Specialty Wines
 - sparkling wines
 	- wine with carbon dioxide bubbles

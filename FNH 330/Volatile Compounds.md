@@ -1,4 +1,5 @@
 # Volatile Compounds
+- source of [[Aromas]]
 - Trace levels: 200-1000+ compounds from grapes in wine
 - Aldehydes
 	- e.g. hexanal (vegetal, green apple)
