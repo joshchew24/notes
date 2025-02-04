@@ -1,5 +1,7 @@
 # Aromas
 - not added to wine
+- varietal aroma comes from grape
+- non-varietal aroma comes from fermentation process
 - comes from
 	- grape skins
 		- pulp, to a lesser extent

@@ -7,6 +7,7 @@
 		- desired *V. vinifera* compound bud wood is used as a scion
 			- Scion: compound bud wood generates a new shoot
 		- prevent dessication of graft union and bud using wax coating
+- wine grape native to North America: Vitis Riparia
 ### Process
 - graft planted in winter/spring
 - late spring

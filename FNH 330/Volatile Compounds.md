@@ -7,8 +7,8 @@
 	- e.g. linalool (floral)
 - Norisoprenoids
 	- e.g. piperitone (petrol, minty, leafy aromas)
-- Methoxypyraines
+- Methoxypyrazines
 	- e.g. 3-isobutyl-2-methoxypyrazine (green bell pepper)
-		- also found in multicoloured Asian ladybeetle
+		- also found in multicoloured Asian ladybeetle/ladybug
 - Thiols
 	- e.g. 3-mercaptohexan-1-ol (grapefruit, guava)
