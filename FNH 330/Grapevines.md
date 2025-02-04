@@ -44,3 +44,15 @@
 - produces flower buds for next year in basal buds
 - keeps growing until too stressed
 ## Mature Grapevine
+- permanent wood: trunk
+- 1st year wood
+	- bears fruiting buds, shoots, fruit in spring/summer
+- ![[Pasted image 20250203232254.png]]
+- ![[Pasted image 20250203232304.png]]
+## Photosynthesis
+- plants convert light energy into chemical energy
+	- use sunlight, CO2, water
+	- produce sugars and oxygen
+- sugar is energy source for plant growth and berry ripening
+## [[Berry]]
+## [[Vine Management]]
