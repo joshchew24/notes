@@ -65,3 +65,4 @@
 	- increases disease and pest pressure (sprays cannot reach target) on fruit
 - if leaves above "light compensation point", net export of sugars (benefit fruit)
 - if below LCP, they impor tsugars (deprive fruit)
+## [[Vine Management]]
