@@ -5,5 +5,5 @@
 		- [[Soil]] (texture/structure)
 		- [[Climate]]
 		- topography
-		- slope and aspect
+		- [[Slope and Aspect]]
 		- biodiversity

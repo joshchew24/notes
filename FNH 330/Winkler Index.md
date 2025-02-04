@@ -10,3 +10,10 @@
 2. subtract 10 from each day
 3. sum values for each day of growing season (if positive)
 ### Example
+Day 1 high: 20°C
+Day 1 low: 10°C
+(20+10)/2 = 15
+15 °C - 10 = 5 GDD
+Day 1 + Day 2
+5 GDD + 6 GDD
+=11 GDD
