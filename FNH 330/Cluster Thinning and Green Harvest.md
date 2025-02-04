@@ -1,0 +1,11 @@
+# Cluster Thinning and Green Harvest
+- fruit/cluster thinning begins after fruit set
+- can continue through veraison
+	- varies through vintage
+- adjust/balance fruit load to leaf available
+	- achieve optimal ripeness in remaining time of season
+- high grape yields
+	- slow ripening, potentically reducing fruit/wine quality
+	- delay winter hardening/acclimation hence prone to cold damage
+	- yields may be kept low in cool climates to achieve better wine quality and vine health
+		- e.g. bilateral cordon: 2-6 ton/acre
