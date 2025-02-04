@@ -19,3 +19,4 @@
 - Many aromas (e.g. “coffee”) = multiple compounds interacting with receptors
 - binding of molecules with receptors causes a pattern of activation that is interpreted by the brain
 	- patterns are processed and stored/matched to existing memory
+- humans can distinguish up to 1 trillion aromas
