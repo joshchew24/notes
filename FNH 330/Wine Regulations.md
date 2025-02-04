@@ -10,7 +10,7 @@
 		- in 2019, Bill C-97 amended the Act to remove federal restriction on interprovincial shipment/transport of alcohol
 	- some provinces may still ban importation of liquor from another province
 		- imports allowed only in NS, MB, PEI, SK, BC
-### Rules
+### Import Rules
 - shipments direct from wineries for personal consumption
 	- MB and NS
 		- with bottle limits
