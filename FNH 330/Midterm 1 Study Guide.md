@@ -13,24 +13,28 @@
 5) In order to elicit flavour perception, wine compounds must first
 	a) be volatile 
 	b) be warmed to body temperature
-	c) bind with circumvallate papillae on the tongue d) reach the olfactory bulb
+	c) bind with circumvallate papillae on the tongue
+	d) reach the olfactory bulb
 	e) dissolve in olfactory mucus
-
 6) What Act regulates the maximum permissible residual level of compounds (e.g. clay, egg whites, SO2) used to condition a table wine?
-	a) The Prohibition Act b) Importation of Intoxicating Substances Act
-	c) The Food and Drug Act d) the Liquor License Act
+	a) The Prohibition Act 
+	b) Importation of Intoxicating Substances Act
+	c) The Food and Drug Act 
+	d) the Liquor License Act
 	e) the Excise Act
-
 7) Typically in balanced pruning, the minimum number of fruitful buds left per grapevine is \_\_\_\_ and 10 buds are left for every additional pound of prunings – up to a maximum of \_\_\_\_ buds depending upon the cultivar.
 8) BC’s Vintners Quality Alliance wine standards are now regulated by
-	a) BC Wine Authority b) Agriculture and Agri-Food Canada
-	c) BC Ministry of Justice d) Health Canada
+	a) BC Wine Authority 
+	b) Agriculture and Agri-Food Canada
+	c) BC Ministry of Justice 
+	d) Health Canada
 	e) none of the above
-
 9) One major pathogen (microbe) that is typically a problem to quality wine grape production is
-	a) Saccharomyces cerevisiae b) Pichia fermentans c) Kloeckera
-	d) Schizosaccharomyces e) Botrytis cinerea
-
+	a) Saccharomyces cerevisiae
+	b) Pichia fermentans 
+	c) Kloeckera
+	d) Schizosaccharomyces 
+	e) Botrytis cinerea
 10) When someone is anosmic, that person:
 	a) confuses red and green
 	b) has olfactory fatigue
@@ -38,14 +42,30 @@
 	d) is unable to perceive aromas/flavours
 	e) is unable to perceive tastes
 11) When considering the aromas/flavours of a wine, the ___ threshold refers to the smallest amount of a substance that can be identified.
-	a) impulse b) detection c) recognition d) gustatory e) olfactory
+	a) impulse 
+	b) detection 
+	c) recognition 
+	d) gustatory 
+	e) olfactory
 12) The scientific classification (genus & species) of one of the main native wine grapes from North America is
-	a) Vitis vinifera b) Vitis berlandieri c) Vinis riparia d) Saccharomyces cerevisiae
+	a) Vitis vinifera 
+	b) Vitis berlandieri 
+	c) Vinis riparia 
+	d) Saccharomyces cerevisiae
 13) The varietal aromas of wines (e.g. lychee) typically come from
-	a) the skins of the grapes b) the seeds of the grapes c) fermentation
-	d) the oak barrels e) the pulp of the grapes f) all the above
+	a) the skins of the grapes 
+	b) the seeds of the grapes
+	 c) fermentation
+	d) the oak barrels 
+	e) the pulp of the grapes
+	f) all the above
 14) The country with the most wine production globally is typically:
-	a) Germany b) Italy c) South Africa d) New Zealand e) USA f) Australia
+	a) Germany 
+	b) Italy 
+	c) South Africa 
+	d) New Zealand 
+	e) USA 
+	f) Australia
 15) The aroma compound released by ladybugs caught in grape must is very similar to
 	a) grape terpenes
 	b) grape hexanals that has a green apple/vegetal aroma
@@ -53,10 +73,17 @@
 	d) grape methoxypyrazines
 	e) all of the above
 16) For red wines, the berry surface:volume ratio is especially important to
-	a) disease resistance b) photosynthesis c) the ratio of sugars to acids
-	d) alcohol level e) colour and tannin concentration
+	a) disease resistance 
+	b) photosynthesis 
+	c) the ratio of sugars to acids
+	d) alcohol level 
+	e) colour and tannin concentration
 17) Winter pruning generally removes about
-	a) 60% of buds b) 10% of canes c) 40% of canes d) 80% of buds e) 90% of buds
+	a) 60% of buds 
+	b) 10% of canes 
+	c) 40% of canes 
+	d) 80% of buds 
+	e) 90% of buds
 18) (4 marks) Discuss benefits & limitations in using mechanical harvesting for wine-grapes instead of hand-picking:
 
 _____________________________________________________________________________

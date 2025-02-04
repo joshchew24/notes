@@ -6,6 +6,7 @@
 - two routes to olfactory bulb
 	- orthonasally (aroma)
 	- retronasally (flavour)
+- anosmic (smell blindness): someone who is unable to perceive aromas/flavours
 ![[Pasted image 20250109163442.png]]
 ## Olfactory Bulb
 - 2.5cm2
