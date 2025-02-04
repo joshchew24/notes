@@ -22,3 +22,4 @@
 ##### Cons
 - less suited to mechanical harvest
 - harder to prune
+### [[Bilateral Cordon System]]
