@@ -24,3 +24,9 @@
 7. Savor
 	- roll the wine in mouth, hold for 7 seconds to warm, draw air
 8. Assess acidity, sweetness, bitter, astringency, body, bubbles, "heat" from alcohol
+9. Spit
+	- evaluate aftertaste, finish, length
+	- short: <10 sec; med 10-25 sec long >25 sec
+10. Describe
+	- objectively describe components of the wine
+	- keep a historical record; compare against others over time

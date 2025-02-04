@@ -8,3 +8,10 @@
 ## Imports
 ## BC
 - 2020/21 - $1.3 billion
+- BC LDB Net Income: $1.2 billion
+- wine sales by source country (2020):
+	1. International and domestic blended wines (Bottled in BC)
+	2. [[BC-VQA]]
+	3. USA
+	4. Chile
+	5. Australia
