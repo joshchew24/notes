@@ -4,6 +4,9 @@
 - **asexual propagation** by either
 	- plant a vine cane with buds in the ground to grow roots
 	- graft compound bud to a North American rootstock
+		- desired *V. vinifera* compound bud wood is used as a scion
+			- Scion: compound bud wood generates a new shoot
+		- prevent dessication of graft union and bud using wax coating
 ### Process
 - graft planted in winter/spring
 - late spring
