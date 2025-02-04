@@ -10,18 +10,20 @@
 ### Process
 - graft planted in winter/spring
 - late spring
-	- leaves, inflorescences, flowers, etc.
+	- compound bud forms leaves, inflorescences, flowers, etc.
 	- vascular systems of compound bud and R/S join to make one whole plant (shoot)
 	- rootstock forms new roots
+	- ![[Pasted image 20250203231253.png]]
 - early summer
 	- grape/flowers bloom (bees not needed)
 - mid summer
+	- shoots bloom inflorescences (bees not needed)
 	- seeds mature and berries develop into clusters
 	- [[Veraison]]
 - sept/oct
 	- ripe
 - early/mid fall
-	- harvested
+	- harvested when ripe
 - winter
 	- vine prepares for, then goes into dormancy
 - 2-3 years
@@ -41,4 +43,4 @@
 - tendrils for climbing
 - produces flower buds for next year in basal buds
 - keeps growing until too stressed
-- ![[Pasted image 20250121165006.png]]
+## Mature Grapevine

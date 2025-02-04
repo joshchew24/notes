@@ -12,3 +12,5 @@
 			- 2012: late Aug (warm)
 			- 2013: early-mid Aug (warmer)
 			- 2015: late July (warmest)
+- ![[Pasted image 20250203231817.png]]
+- 
