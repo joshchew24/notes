@@ -1,5 +1,6 @@
 # Cluster Thinning and Green Harvest
 - fruit/cluster thinning begins after fruit set
+	- aka Green Harvest, harvesting unripe grapes during veraison
 - can continue through veraison
 	- varies through vintage
 - adjust/balance fruit load to leaf available

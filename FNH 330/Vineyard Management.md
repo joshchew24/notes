@@ -11,6 +11,7 @@
 - restrict irrigation to vineyard to enhance
 	- berry maturation and ripening
 	- restrict vegative growth
+	- often done in late summer to mid-autumn
 ### Diseases
 - mostly fungal
 - e.g. powdery mildew, *Botrytis cinerea* (grey rot)
