@@ -41,7 +41,7 @@
 - sandy soils
 	- poor water holding capacity (drains too fast)
 	- vine can't maintain its growth
-		- results in wilting an dpossibly death
+		- results in wilting and possibly death
 #### Managing Soil Nutrients and Structure
 - add organic matter (manure, compost)
 	- improves structure and drainage
