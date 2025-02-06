@@ -34,7 +34,7 @@ try to add k* to L
 ### Alternative
 - merge leaf node with adjacent one
 - redistribute DEs
-- update root with correct discriminator value
+- update root with correct discriminator value/seperator entry
 - can help to avoid increasing tree height
 ## Examples
 ### jan 23
