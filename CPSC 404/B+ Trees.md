@@ -31,6 +31,11 @@ try to add k* to L
 		if parent index full, split and move middle key up
 		update parent index pointers
 ```
+### Alternative
+- merge leaf node with adjacent one
+- redistribute DEs
+- update root with correct discriminator value
+- can help to avoid increasing tree height
 ## Examples
 ### jan 23
 - RAM = 10000 pages
