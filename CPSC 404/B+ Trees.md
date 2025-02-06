@@ -54,6 +54,8 @@ try to add k* to L
 		- if re-distribution fails, **merge** $L$ and sibling
 			- **delete** seperator entry from parent of $L$ that discriminates $L$ and sibling
 			- merge could propagate to root, **decreasing height**
+				- if internal node $P$ has <$d$ IEs, list all affected keys (sibling and parent) and merge
+					- if even number of keys, arbitrarily select a middle. by convention, left subtree will have less members than right subturee
 ## Examples
 ### jan 23
 - RAM = 10000 pages
