@@ -9,12 +9,20 @@
 	- d + 1 pointers to 2d + 1 pointers per node
 - for alt1, leaves are records
 - for alt2, leaves are key/pointer pairs
+## Fill Level
+- for leaves:
+	- different from $d$ if using alt1 index
+		- DEs can be different size than IEs (index entries - keys and pointers)
+- **Rich**: if >50% fill level
+- **Poor**: if 50% fill level
+- **Sparse**: if <50% fill level
 ## Min Height
 - nodes are full (2d)
 ## Avg Height
 - nodes are at avg fill level ($ln2 \times \text{max capacity}$)
 ## Max Height
 - nodes are half full (d)
+
 ## Insertion
 ### Procedure of inserting DE $k*$ to B+Tree $T$
 - split the leaf node, copy up the middle key into the index
@@ -40,7 +48,7 @@ try to add k* to L
 - start at root, find leaf $L$ where DE $k*$ belongs
 - remove DE $k*$
 	- if $L$ at least half full, done
-	- if $L$ has only $d-1$ entries, 
+	- if $L$ is less than half full, 
 ## Examples
 ### jan 23
 - RAM = 10000 pages
