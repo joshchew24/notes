@@ -36,6 +36,11 @@ try to add k* to L
 - redistribute DEs
 - update root with correct discriminator value/seperator entry
 - can help to avoid increasing tree height
+## Deletion
+- start at root, find leaf $L$ where DE $k*$ belongs
+- remove DE $k*$
+	- if $L$ at least half full, done
+	- if $L$ has only $d-1$ entries, 
 ## Examples
 ### jan 23
 - RAM = 10000 pages
