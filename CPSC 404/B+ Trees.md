@@ -50,6 +50,10 @@ try to add k* to L
 - remove DE $k*$
 	- if $L$ at least half full, done
 	- if $L$ is less than half full, 
+		- try to **re-distribute**, borrowing from siblings (adjacent node with same parent as $L$)
+		- if re-distribution fails, **merge** $L$ and sibling
+			- **delete** seperator entry from parent of $L$ that discriminates $L$ and sibling
+			- merge could propagate to root, **decreasing height**
 ## Examples
 ### jan 23
 - RAM = 10000 pages
