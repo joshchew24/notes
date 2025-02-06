@@ -23,7 +23,6 @@
 - nodes are at avg fill level ($ln2 \times \text{max capacity}$)
 ## Max Height
 - nodes are half full (d)
-
 ## Insertion
 ### Procedure of inserting DE $k*$ to B+Tree $T$
 - split the leaf node, copy up the middle key into the index
@@ -56,6 +55,8 @@ try to add k* to L
 			- merge could propagate to root, **decreasing height**
 				- if internal node $P$ has <$d$ IEs, list all affected keys (sibling and parent) and merge
 					- if even number of keys, arbitrarily select a middle. by convention, left subtree will have less members than right subturee
+## [[B+ Tree Optimization]]
+
 ## Examples
 ### jan 23
 - RAM = 10000 pages
