@@ -9,6 +9,7 @@
 	- d + 1 pointers to 2d + 1 pointers per node
 - for alt1, leaves are records
 - for alt2, leaves are key/pointer pairs
+- **constraint**: left subtrees are strictly less than the parent key, right subtress are geq than the parent key
 ## Fill Level
 - for leaves:
 	- different from $d$ if using alt1 index
