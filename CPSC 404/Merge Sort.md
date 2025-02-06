@@ -1,3 +1,7 @@
+---
+aliases:
+  - External Sort
+---
 # Merge Sort
 - Idea: given $B$ buffer pages of main memory (RAM)
 - sort phase:

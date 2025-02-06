@@ -12,3 +12,5 @@
 - index entries for leaf pages are always entered in the right-most index page just above leaf level
 	- when filled up, it splits up the right-most path to the root
 - anything except the right-most path can be flushed to disk
+- dominant factor is [[Merge Sort|External Sort]]
+	- followed by reading the data pages
