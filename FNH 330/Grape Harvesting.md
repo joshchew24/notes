@@ -37,6 +37,38 @@
 - fermented with skins
 ## Criteria
 ### Desired Wine Type
-- winery focus
-	- table wine, sparkling wine, late harvest wine, icewine, etc.
+- some wineries focus on different types
+- table wine, sparkling wine, late harvest wine, icewine, etc.
 - wine quality
+	- economy vs premium
+### Ripeness
+- are the grape rip?
+1. for optimal varietal aroma character?
+	- depends on variety and/or style desired
+	- e.g. Riesling
+		- early harvest -> green apple aromas (modest quality)
+		- later harvest -> honey/peach/apricot (medium quality)
+	- e.g. Viognier
+		- early-mid harvest -> orange-blossom aromas
+		- mid harvest (optimal ripeness) -> orange blossom and apricot aromas (higher quality rating)
+		- later harvest (past optimal) -> 
+2. sugar, acid concentration and balance?
+	- ~180 g/L sugars (18° [[Brix Scale|Brix]]) is appropriate minimum for better quality white wines (e.g. BC-VQA)
+		- 18° Brix -> ~10.7% ABV
+	- hang time
+		- longer sun/heat exposure reduces acidity, increases sugar (more alcohol)
+			- hard to get both
+		- acidity in the must is generally optimal near 7-9 g/L
+			- decreases during processing to about 6-8 g/L - good for most white table wines
+		- cool climate grape often have excess acidity and not enough sugar
+### Health of Grapes and Vineyard
+- incidence of diseases/insects currently present?
+	- is the problem minor/stable or spreading/problematic
+### Weather
+- damp, cool, rainy will speed disease spread
+- rain before harvest will swell grapes and dilute juice
+	- results in lower quality wine
+- forecast of severe frost or dry/warm weather?
+- in climate like BC, ripening period can often be shorter than in warmer climates
+	- longer ripening period is more desirable
+- cool temperatures slow microbial growth
