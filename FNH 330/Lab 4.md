@@ -26,6 +26,30 @@
 	- guess: vanilla
 	- actual: toasty oak, vanilla, butter, hint pineapple
 - acidity low
+	- actual low+
 - sweet hint+
+	- actual hint
 - bitter hint
-- alcohol hint+
+	- actual hint
+- alcohol hint+palate, med nose
+	- actual: no nose, no-hint palate
+- aftertaste
+	- vanlila medium
+	- actual vanilla, toasty oak, hint red apple, long
+- body low-
+	- actual medium
+## Wine 3 Bacchus
+- geographical classification
+	- fraser valley, BC, Canada
+- color straw low-
+	- straw-yellow low
+- aromas
+	- passionfruit
+	- peach, floral, necatrine, red apple, lemon
+- acidity
+- sweet
+- bitter
+- alcohol
+- body
+- texture silky
+- aftertaste
