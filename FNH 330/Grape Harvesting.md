@@ -5,6 +5,7 @@
 	- pre-harvest thinning of undesirable berries
 		- under-ripe, overripe, spoiled
 	- rapid movement of berries to fermentor
+- grapes are removed from stems
 ### Mechanical Harvesting
 - used for poor to near-premium quality wines
 #### Pros
@@ -27,6 +28,7 @@
 - https://www.youtube.com/watch?v=BcbDfqsGU6c
 - night harvest
 	- cooler, reduces oxidation and wild fermentation
+- grapes are clustered
 ## Timing
 - white and red grapes are harvested at different times and processed differently
 ### White Grapes
@@ -40,7 +42,9 @@
 - some wineries focus on different types
 - table wine, sparkling wine, late harvest wine, icewine, etc.
 - wine quality
-	- economy vs premium
+	- economy vs premium can dictate what time to harvest
+		- must we wait longer to optimize grape quality for target wine quality?
+		- dictated by vineyard site, grape condition, market trends
 ### Ripeness
 - are the grape rip?
 1. for optimal varietal aroma character?
@@ -72,3 +76,11 @@
 - in climate like BC, ripening period can often be shorter than in warmer climates
 	- longer ripening period is more desirable
 - cool temperatures slow microbial growth
+	- harvest at night
+### Misc
+- grapes should be processed ASAP
+	- ideally as soon as they harvested (same day)
+- mechanically harvested grapes are especially prone to
+	- oxidation and enzymatic browning of juice
+	- microbial spoilage (off-odours, flavours in juice)
+	- [[Sulfur Dioxide and Sorbic Acid]]
