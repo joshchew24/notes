@@ -46,10 +46,16 @@
 - aromas
 	- passionfruit
 	- peach, floral, necatrine, red apple, lemon
-- acidity
-- sweet
-- bitter
-- alcohol
-- body
+- acidity low
+	- med to med+
+- sweet offdry
+	- offdry
+- bitter no-hint
+	- no
+- alcohol no nose, no-hint palate
+	- no x2
+- body low
+	- low+
 - texture silky
-- aftertaste
+- aftertaste short grapefruit?
+	- peach pineapple nectarine long
