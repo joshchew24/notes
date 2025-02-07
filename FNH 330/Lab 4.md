@@ -15,3 +15,17 @@
 - texture silky
 - aftertaste apple, 27s
 	- actual: med+, pineapple, red apple, peach
+## Wine 2
+- vintage 2023
+- price $24
+- abv 13.5
+- colour
+	- guess: yellow, low
+	- actual: yellow, low+
+- aroma
+	- guess: vanilla
+	- actual: toasty oak, vanilla, butter, hint pineapple
+- acidity low
+- sweet hint+
+- bitter hint
+- alcohol hint+
