@@ -27,3 +27,16 @@
 - https://www.youtube.com/watch?v=BcbDfqsGU6c
 - night harvest
 	- cooler, reduces oxidation and wild fermentation
+## Timing
+- white and red grapes are harvested at different times and processed differently
+### White Grapes
+- harvested relatively early to allow for higher acidity and lower alcohol
+- juice is pressed off skins to avoid skin bitter/astringent tannins/colour
+### Red Grapes
+- generally harvested later to reach high level of sugars, optimize colour/flavour and improve tannins
+- fermented with skins
+## Criteria
+### Desired Wine Type
+- winery focus
+	- table wine, sparkling wine, late harvest wine, icewine, etc.
+- wine quality
