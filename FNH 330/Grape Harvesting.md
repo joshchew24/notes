@@ -5,9 +5,10 @@
 	- pre-harvest thinning of undesirable berries
 		- under-ripe, overripe, spoiled
 	- rapid movement of berries to fermentor
-- grapes are removed from stems
+![[Pasted image 20250206164014.png]]
 ### Mechanical Harvesting
 - used for poor to near-premium quality wines
+- grapes are removed from the stem
 #### Pros
 - faster
 - more economical in the long run
