@@ -9,5 +9,11 @@
 	- size is determined by developer
 		- by default, each bucket is 1 page
 		- cannot be partial pages
-## Static Hashing
+## [[Static Hashing]]
 - assumes file doesn't change much or at all
+- e.g. oxford dictionary (lol?)
+	- updated once a year
+## [[Dynamic Hashing]]
+- typical for most DB applications
+- e.g. medical records
+	- updated frequently
