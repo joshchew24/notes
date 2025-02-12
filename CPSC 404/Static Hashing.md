@@ -4,4 +4,9 @@
 - if data distribution is imbalanced, many keys could hash to the same bucket
 	- not enough room
 	- solution: overflow pages
-- number of primary pages is fixed and allocated sequentially
+- number of primary pages (buckets) is fixed and allocated sequentially
+	- at the time of building the index
+		- i.e. complete control of their physical location on disk
+	- if primary page is full, allocate a new overflow page
+		- allocated dynamically, no control over physical location
+			- i.e. more random seeks
