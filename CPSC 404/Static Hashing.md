@@ -4,3 +4,4 @@
 - if data distribution is imbalanced, many keys could hash to the same bucket
 	- not enough room
 	- solution: overflow pages
+- number of primary pages is fixed and allocated sequentially
