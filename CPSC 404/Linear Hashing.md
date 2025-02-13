@@ -33,5 +33,12 @@
 - in round $i$ of splitting, use functions $h_i$ and $h_{i+1}$ 
 ## Insertion
 - if $h_i(k)$ is less than the index of the **next** pointer, need to check $h_{i+1}(k)$
-	- i.e. if 
+	- i.e. if key hashes into red zone, check if it should go in blue zone
 	- i.e. if a key maps to a bucket that has already been split, we need to check another bit of the suffix to see if it should go to the split image
+	- i.e. if key hashes into green zone, it belongs there
+- if bucket is full, add the DE to an overflow page
+	- check split policy
+- since buckets are split round-robin, overly long overflow chains do not develop
+	- every bucket eventually gets redistributed, including all of its overflow pages
+	- subsequent insertions that would have collided are then distributed between the original and split image buckets
+## Search
