@@ -5,3 +5,5 @@
 	- very expensive and inefficient
 ## Fundamental
 - use **directory of poiners** to buckets
+- directory has a **Global Depth (GD)**
+	- number of least significant bits of a key required to find 
