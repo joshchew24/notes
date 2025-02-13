@@ -31,7 +31,7 @@
 	- considered a **primary index**
 	- binary search lookup
 	- index is small
-- dense: alt2 index on **dept**			
+- dense: alt2 index on **dept**	
 	- need an **index entry for every record** because we cannot exploit any ordering
 	- dense because the file is sorted on ID, so cannot spare any index entries to exploit "ranges" 
 	- secondary index
