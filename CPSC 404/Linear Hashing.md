@@ -49,5 +49,10 @@
 - inverse of insertion
 - if **last bucket is empty**, remove it and decrement **Next** index
 	- i.e. **merge the split image with its original bucket**
+	- i.e. call last bucket $move **Next** to the 
+	- **ONLY** the **LAST BUCKET**
+		- to preserve the round robin order
 - could also merge even if last bucket is **not empty**
 	- e.g. merge whenever deletion causes last bucket to be $\leq 10\%$ full
+- if **Next** points to bucket 0, and deletion leaves last bucket empty, what does it mean to decrement **Next**?
+	- 
