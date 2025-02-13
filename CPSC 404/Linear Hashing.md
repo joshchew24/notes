@@ -20,6 +20,7 @@
 	- $0, \dots, (N_R -1)$
 - round $R$ ends when all $N_R$ starting buckets have been split
 	- i.e. when number of buckets is $2 \times N_R$
+	- often, $N_R = 2^R$
 - in general,
 	- red zone: $[0, \text{Next}-1]$ 
 		- has already been split this round
@@ -49,10 +50,13 @@
 - inverse of insertion
 - if **last bucket is empty**, remove it and decrement **Next** index
 	- i.e. **merge the split image with its original bucket**
-	- i.e. call last bucket $move **Next** to the 
+	- i.e. call last bucket index $L$. move **Next** to the $(L\mod N_R) - 1$ bucket where $N_R$ is the number of buckets at the start of the round
+		- $N_R=2^{d_R}$
 	- **ONLY** the **LAST BUCKET**
 		- to preserve the round robin order
 - could also merge even if last bucket is **not empty**
 	- e.g. merge whenever deletion causes last bucket to be $\leq 10\%$ full
 - if **Next** points to bucket 0, and deletion leaves last bucket empty, what does it mean to decrement **Next**?
-	- 
+	- this means we are at the start of a round, so there are currently $N_R$ buckets
+	- **Next** should point to bucket $\frac{N_R}{2}$
+	- i.e. go to the end of the previous round
