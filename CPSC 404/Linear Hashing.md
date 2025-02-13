@@ -13,3 +13,9 @@
 		- starts at $i=0$
 	- during the round, **split each bucket**, ending the round with $2^{i+1}$ buckets
 ![[Pasted image 20250212205943.png]]
+## Hash Functions
+- uses **two hash functions per round** from a family of hash functions
+- $h_{i}(k) = k \mod 2^i \text{    for } k \geq 0$
+- in round $i$ of splitting, use functions $h_i$ and $h_{i+1}$ 
+- $i$ is sometimes referred to as $level$
+- 
