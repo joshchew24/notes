@@ -17,4 +17,5 @@ https://www.youtube.com/watch?v=r4GkXtH1la8
 	- when a bucket overflows, the **LD increases**, and the bucket is split
 	- the directory may also double in size if needed (**GD increases by 1 bit**)
 - ![[Pasted image 20250212162231.png]]
-	- 
+- #todo deletion?
+- #todo simple explanation of insertion
