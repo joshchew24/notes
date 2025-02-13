@@ -25,8 +25,15 @@
 - pointers in leaf pages will point to sequential pages on disk
 ## Density
 - can be **Sparse** or **Dense**
-	- e.g. consider *students*(**ID, name, addr, dept**) file sorted on **ID**
-		- alt2 indexed on **ID** -> sparse
-			- primary index
-		- alt2 indexed on **dept** -> dense
-			- secondary index
+- e.g. consider *students*(**ID, name, addr, dept**) file sorted on **ID**
+- sparse: alt2 index on **ID**
+	- since file is sorted, only need **one index entry per block/page**
+	- considered a **primary index**
+	- binary search lookup
+	- index is small
+- dense: alt2 index on **dept**			
+	- need an **index entry for every record** because we cannot exploit any ordering
+	- dense because the file is sorted on ID, so cannot spare any index entries to exploit "ranges" 
+	- secondary index
+	- direct lookup
+	- index is large (1 IE per record)
