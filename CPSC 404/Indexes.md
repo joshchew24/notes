@@ -2,6 +2,7 @@
 - think of index in a book
 	- helps us quickly find something we're looking for
 - id in index maps to a record ID in the actual database
+- [[Search Key]] is the attribute or set/sequence of attributes on which an index is built
 ## Tree-structured indexing
 - equality search
 	- point query
