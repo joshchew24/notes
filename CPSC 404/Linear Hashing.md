@@ -7,7 +7,7 @@
 	- e.g. whenever new overflow page is created
 	- whenever any entry is added to an overflow page
 	- every 3 new overflow pages
-- $d_R$ is the number of bits used for bucket inde
+- $d_R$ is the number of bits used for bucket indices for round $R$
 ## Round Robin Splitting
 - splits buckets in **rounds of splitting**
 	- round $i$ of splitting begins with $2^i$ buckets
@@ -43,4 +43,11 @@
 	- every bucket eventually gets redistributed, including all of its overflow pages
 	- subsequent insertions that would have collided are then distributed between the original and split image buckets
 ## Search
-- 
+- same process as disambiguating the index to place a DE in the **Insertion** algorithm
+	- can't just skip to the $h_{i+1}(k)$ function because it might give an address for a split image bucket that hasn't been created yet
+## Deletion
+- inverse of insertion
+- if **last bucket is empty**, remove it and decrement **Next** index
+	- i.e. **merge the split image with its original bucket**
+- could also merge even if last bucket is **not empty**
+	- e.g. merge whenever deletion causes last bucket to be $\leq 10\%$ full
