@@ -7,6 +7,7 @@
 	- e.g. whenever new overflow page is created
 	- whenever any entry is added to an overflow page
 	- every 3 new overflow pages
+- $d_R$ is the number of bits used for bucket inde
 ## Round Robin Splitting
 - splits buckets in **rounds of splitting**
 	- round $i$ of splitting begins with $2^i$ buckets
@@ -42,3 +43,4 @@
 	- every bucket eventually gets redistributed, including all of its overflow pages
 	- subsequent insertions that would have collided are then distributed between the original and split image buckets
 ## Search
+- 
