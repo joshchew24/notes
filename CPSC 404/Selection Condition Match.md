@@ -6,5 +6,18 @@
 			- invalid: A > 1 AND B = 2
 			- invalid: A = 1 AND B = 2 AND Z = 3 (assuming index not built on Z)
 	- [[B+ Trees]]
-		- for some prefix of search key, for every attribute $A$ in the prefix, $C$ has a conjunct of the form $A \text{op value$
-		- 
+		- for some prefix of search key, for every attribute $A$ in the prefix, $C$ has a conjunct of the form $A \text{ op value}$, where $\text{op} \in =, >, \geq, <, \leq$
+			- search key is a sequence of attributes
+				- prefix is from left to right of attribute significance
+					- e.g. search key is {uid, sid}
+						- valid prefixes are `uid`, and `uid, sid`
+		- e.g. `Ratings(uid, sid, time)` with index `uid, sid`
+			- valid conditions:
+				- $uid \geq 123 \land sid = 5$
+				- $sid = 5 \land uid \geq 123$
+					- order doesn't matter for the condition, even though it's important for constructing the tree
+				- $uid \geq 123 \land time \leq 2022$
+					- `uid` is a valid prefix of the search key
+			- invalid:
+				- $sid \geq 345 \land time \geq 1999$
+					- `sid` is not a valid prefix of the search key (needs `uid`)
