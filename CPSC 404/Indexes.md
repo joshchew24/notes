@@ -9,7 +9,7 @@
 - range search
 - nodes == pages
 - leaf nodes/pages will store [[Data Entries]]
-	- can be alt1, alt2, alt3
+	- can be **alt1, alt2, alt3**
 - if index file is large, make an index of index files
 	- multiple layers give us a tree-structured index
 ## Clustered Index
@@ -22,3 +22,11 @@
 - given file sorted on A (not sorted on B), and B is a candidate key, can we have an unclustered index on B?
 	- if only equality search, then index clustering doesn't matter
 	- if we want range search, then B can have an unclustered index, but it's much slower than clustered
+- pointers in leaf pages will point to sequential pages on disk
+## Density
+- can be **Sparse** or **Dense**
+	- e.g. consider *students*(**ID, name, addr, dept**) file sorted on **ID**
+		- alt2 indexed on **ID** -> sparse
+			- primary index
+		- alt2 indexed on **dept** -> dense
+			- secondary index
