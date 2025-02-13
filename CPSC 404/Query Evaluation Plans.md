@@ -17,6 +17,7 @@
 	- **[[Table Scan]]**: scan a table (i.e. data pages) to retrieve tuples satisfying condition
 	- **[[Index Scan]]**: scan index pages and examine *data entries* therein
 		- **different from index probe**
+		- typically need to read much less than table scan
 - **[[Partitioning]]**
 	- sorting (e.g. [[Merge Sort|External Sort]])
 	- hashing (e.g. [[Dynamic Hashing]])
