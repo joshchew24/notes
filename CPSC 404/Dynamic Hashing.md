@@ -8,7 +8,3 @@
 	- extendible hashing splits buckets **as soon as they overflow**
 	- linear hashing splits buckets according to a **fixed schedule**
 		- round robin splitting
-	- splitting policy is flexible, can use any criterion
-		- e.g. whenever new overflow page is created
-		- whenever any entry is added to an overflow page
-		- every 3 new overflow pages
