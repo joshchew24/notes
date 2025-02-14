@@ -37,7 +37,7 @@ Submission Deadline: Friday 14th February by 5pm (Vancouver time!)
 
 In this exercise we will examine how the Visitor pattern simulates double-dispatch. We will examine the TinyHTML code examined in class in more detail.
 
-In the TinyHTML AST, a `Table` contains a list of `Row`s. This list can contain both regular `Row`s, as well as `BoldRows`s, a subclass whose contents will be printed in bold font. In the current construction, the first row of a table is a `BoldRow`.
+In the TinyHTML AST, a `Table` contains a list of `Row`s. This list can contain both regular `Row`s, as well as `BoldRow`s, a subclass whose contents will be printed in bold font. In the current construction, the first row of a table is a `BoldRow`.
 
 The following questions all deal with the [TinyHTMLColoured](https://github.students.cs.ubc.ca/CPSC410-2024W-T2/tinyHTMLColoured) repository. We will ask you the sequence of methods that are called before a particular program point is reached when evaluating the tinyHTML program:
 
