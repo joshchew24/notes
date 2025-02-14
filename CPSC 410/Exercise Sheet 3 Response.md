@@ -5,6 +5,6 @@
 3. The methods called before the first table row is printed are: `Evaluator.visit(Table ta, PrintWriter writer)`, `colour.accept(this, writer)`, `Evaluator.visit(Colour c, PrintWriter writer)`. The first table row will be printed in bold because the `row.accept(this, writer)` method will dispatch into the `BoldRow` class, which then dispatches the correct `Evaluator.visit(BoldRow r PrintWriter writer)` method. 
 4. The methods called before the first table row is printed are: `Evaluator.visit(Table ta, PrintWriter writer)`, `Evaluator.visit(Colour c, PrintWriter writer)`. The first table row will not be printed in bold for the same reason as in part b. The call to `visit(r, writer)` will not know whether the row is a `BoldRow` or not, so will only call the `Evaluator.visit(Row r, PrinterWriter writer)` method.
 ## Question 2
-1. We would need to override `public U visit(Table ta, T t)` and `public U visit(Title ti, T t)`. These methods should add the colours from these AST nodes to the `colours` set. 
+1. We would need to override all of the `public U visit(Colour c, T t)`. This allows us to add any colour visited to the `colours` set. 
 2. A downside is that the incorrect behaviour may not raise an error, because the incorrect method is still implemented in the base class. It may be harder to debug than if the `ColourCollector` implemented the interface, because the program would not even compile if the method was not implemented.
-3. 
+3. We would still need to override the `public U visit(Colour c, T t)` method, because the implementation
