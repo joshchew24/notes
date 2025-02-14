@@ -1,4 +1,3 @@
 # Exercise Sheet 3 Response
 ## Question 1
-a) asd f
-b) asd
+a. The methods called before the first table row is printed are: `
