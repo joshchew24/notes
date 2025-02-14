@@ -11,4 +11,7 @@
 4. The base class could default to returning some type of "stub" object of the return type `U`.
 ## Question 3
 1. It is not necessarily always possible to determine which branch of a conditional will be evaluated, because the conditional may depend on a command line argument that can only be determined at runtime. 
-2. Without user input, it should be possible to 
+2. Without user input, it should be possible to determine the evaluated branch of a conditional statically, because all values will be declared statically in the program. 
+## Question 5
+1. A pessimistic approach may be to require that any variable declarations/athese variables are also declared outside of the loop. This is because the while loop is not guaranteed to run, so any variable declarations within are not guaranteed to be evaluated, which could break further execution.
+2. This approach cannot be generalised for programs with loops, because it can 

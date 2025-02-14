@@ -143,8 +143,7 @@ When evaluated, if we pass a (non-negative) integer command-line parameter, this
 
 We have seen three basic ideas for how to have a static checker deal with if-conditional control flow (see slides labelled "(★)" in Slide Deck 5), which we considered with respect the correctness property: "variables are declared before being assigned".
 
-The first of the three ideas (i.e., "1. Variables declared in both branches")
- can be seen to be "pessimistic": e.g. we only consider variables to be declared after an if-conditional if they are definitely declared at the end of *both* branches. This has the advantage that if the checker accepts the program, it will never violate the correctness property during evaluation.
+The first of the three ideas (i.e., "1. Variables declared in both branches") can be seen to be "pessimistic": e.g. we only consider variables to be declared after an if-conditional if they are definitely declared at the end of *both* branches. This has the advantage that if the checker accepts the program, it will never violate the correctness property during evaluation.
 
 *(a) What would an analogous "pessimistic" approach be for having a static checker for this correctness property check programs with while loops? In particular, is there a way to make this have the same advantage that __if__ the checker accepts the program, there is no way it could ever violate the correctness property?*
 
