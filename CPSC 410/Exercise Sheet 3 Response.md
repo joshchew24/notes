@@ -2,4 +2,4 @@
 ## Question 1
 1. The methods called before the first table row is printed are: `t.evaluate(writer)`, `color.evaluate(writer)`. The first table row will be printed in bold because the loop tells the `row` object to invoke its `evaluate()` method. The `BoldRow` will correctly call its own `evaluate` and print a bold row.
 2. The methods called before the first table row is printed are: `Evaluator.evaluate(Table ta, PrintWriter writer)`, `Evaluator.evaluate(ta.getColour(), writer)`. The first table row will not be printed in bold because the loop that prints the rows is agnostic to the actual type of the rows, and simply invokes the `Row.evaluate()` method. So, any `BoldRow` that passes through the loop will use the parent `Row.Evaluate()` method.
-3. 
+3. The methods called before the first table row is printed are: `Evaluator.visit(Table ta, PrintWriter writer)`, `colour.accept(this, writer)`, `Evaluator.visit`
