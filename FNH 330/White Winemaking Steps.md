@@ -107,4 +107,8 @@
 	- increased by 2 orders of magnitude in damaged berries
 - wild yeasts (non-*Saccharomyces*)
 	- *Kloeckera apiculata*
-		- 
+		- dominates until 4-5% EtOH (alcohol) kills it off
+		- produces ethyl acetate
+		- can create taints (glue, nail polish remover)
+	- after fermentation, ***Pichia* yeasts** forms a film on wine surface
+		- imparts oxidized/acetaldehyde aroma
