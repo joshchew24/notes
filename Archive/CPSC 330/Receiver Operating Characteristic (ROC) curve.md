@@ -62,3 +62,9 @@ RocCurveDisplay.from_estimator(pipe_lr, X_valid, y_valid);
 ```
 
 ![](https://lh7-us.googleusercontent.com/DgF_Ex-XO77wKArVYx9E-MuvCnnlUUfmANd3leQ6Df5MtHN6wSC7BFQL8TtVwdd1P72mbjP5gHU7bXViQlmz_2AaaZ19uIbE9at036mXBNP2GvRaCXrl4S8x8_2ewbZoRPjHnT_hZavtySig43ROr3I)
+
+## Sorting
+- material other than grapes (MOG) such as leaves/sticks may be removed
+- underripe or rotten grapes removed
+- degree of sorting depends on quality of wine desired, winery size
+- grapes are still in clusters (unless mechnically harvested)

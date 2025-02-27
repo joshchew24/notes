@@ -1,27 +1,8 @@
 # White Winemaking Steps
-## Sorting
-- material other than grapes (MOG) such as leaves/sticks may be removed
-- underripe or rotten grapes removed
-- degree of sorting depends on quality of wine desired, winery size
-- grapes are still in clusters (unless mechnically harvested)
-## Destemming
-- grapes mechanically separated from stems
-- more efficientL press more grapes at once
-- stems add astringency and bitterness
-## Crushing
-- better yield of juice from white grapes
-- enzymes may be added to enhance juice extraction
-- SO$_2$ may be added at this stage
-![[Pasted image 20250206163214.png]]
-## Pectinase Enzyme Addiction after Crushing
-- enzymes: biological molecules (proteins) that catalyze chemical reactions
-	- extracted from fungi
-- pectanises
-	- breaks down pectin molecules
-		- allow for better settling/juice clarification
-	- weaken grape cell walls
-		- allow gentler pressing to extract juice
-		- gentle press, fewer bitter skin/seed compounds are extracted
+## [[Sorting]]
+[[Destemming]]
+[[Crushing]]
+[[Pectinase Enzyme Addiction after Crushing]]
 ## Chilling
 - the [[Must]] may go through a heat exchanger to cool the must
 	- discourages oxiation and wild fermentation
@@ -182,3 +163,31 @@
 - wine is racked off precipitate while cold
 - should be performed after blending/acid adjustments
 ## Fining
+- adding an agent to precipitate debris/compounds in suspension or solution
+- Kieselsol - colloidal/bitter compounds
+- Egg albumen - tannins (astringent)
+- Bentonite (a clay) - proteins (haze)
+- Activated charcoal, PVPP - brown/oxidized pigments
+- fining should be performed with trials
+	- lowest possible levels of agents to avoid stripping aroma, mouthfeel, flavour
+## Finishing and Balancing
+- before final filtering for bottling
+- **Finishing**: 
+	- steps to consider any remaining components after fining that could cause issues
+	- e.g. SO$_2$ adjustments
+		- final addition to help "freshen", preserve the wine
+- **Balancing**:
+	- if wine tastes acidic, sugar level may be adjusted to offset excess acid taste
+		- low quality wines
+		- in higher quality wines (e.g. Pradikätswein Rieslings)
+			- may add “süssreserve” (high quality reserve juice)
+## Filtration
+- wine is filtered through a sheet/membrane filter to remove particles, bacteria, yeast
+## Bottling
+- wine bottled in glass
+	- rinsed and filled with nitrogen to protect against oxidation
+	- or bags
+- bottling closure:
+	- optional cork or screw cap
+- wine is bottled & labelled
+	- may be held for labeling and again before being shipped to overcome [[Bottle Shock]]
