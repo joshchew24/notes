@@ -142,7 +142,9 @@
 - increases body
 - imparties creamier, fuller mouthfeel
 - releases enzymes that increase desirable aromatic compounds
-- if anae
+- if anaerobic wine spends too long over the lees, can pick up **rotting yeast** (sulfur-compound) aromas
+	- can also have subtle **brioche** or **nutty** notes
+- wine without lees contact can feel **fresher**, **fruitier**
 #### Sur Lie
 - wine remains in contact with [[Lees|Fine lees]] for several weeks to 6 months in barrels/tanks
 - breakdown of yeast cells (autolysis) releases compounds that improve texture, body, roundness, reduce astringency
