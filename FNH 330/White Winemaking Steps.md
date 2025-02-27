@@ -133,5 +133,10 @@
 	- increases volatile aromas in aromatic white wines
 	- ![[Pasted image 20250226230308.png]]\
 	- sugar chains detached -> more volatile aromas
-### Batonnage (lees stirring)
-- in some (non-aromatic) whites, wine is left on dead yeast ([[Lees|Fine lees]]) in 
+### Sur Lie and Batonnage (lees stirring)
+- technique for non-aromatic white wines
+#### Sur Lie
+- wine remains in contact with [[Lees|Fine lees]] for several weeks to 6 months in barrels/tanks
+- breakdown of yeast cells (autolysis) releases compounds
+	- **mannoproteins**
+	- **polysaccharides
