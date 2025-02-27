@@ -144,6 +144,7 @@
 - releases enzymes that increase desirable aromatic compounds
 - if anaerobic wine spends too long over the lees, can pick up **rotting yeast** (sulfur-compound) aromas
 	- can also have subtle **brioche** or **nutty** notes
+	- prevented by batonnage
 - wine without lees contact can feel **fresher**, **fruitier**
 #### Sur Lie
 - wine remains in contact with [[Lees|Fine lees]] for several weeks to 6 months in barrels/tanks
@@ -154,3 +155,6 @@
 #### Batonnage
 - stirred periodically with rod/paddle to keep [[Fine lees]] suspended
 - increases yeast interaction
+### Malolactic Fermentation
+- some whites (e.g. [[Chardonnay]]) may undergo **malolactic fermentation (MLF)**
+- controlled MLF with lactic acid bacteria (LAB) *Oenococcus oeni* stabilizes wine and provides softer acidity, adds complexity (buttery)
