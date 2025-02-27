@@ -1,0 +1,11 @@
+## Finishing and Balancing
+- before final filtering for bottling
+- **Finishing**: 
+	- steps to consider any remaining components after fining that could cause issues
+	- e.g. SO$_2$ adjustments
+		- final addition to help "freshen", preserve the wine
+- **Balancing**:
+	- if wine tastes acidic, sugar level may be adjusted to offset excess acid taste
+		- low quality wines
+		- in higher quality wines (e.g. Pradikätswein Rieslings)
+			- may add “süssreserve” (high quality reserve juice)
