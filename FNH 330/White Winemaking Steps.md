@@ -135,8 +135,20 @@
 	- sugar chains detached -> more volatile aromas
 ### Sur Lie and Batonnage (lees stirring)
 - technique for non-aromatic white wines
+- stabilizes proteins (reduces haze)
+	- clarifies
+- stabilizes tartrates (reduces precipitation)
+	- formation of crystals
+- increases body
+- imparties creamier, fuller mouthfeel
+- releases enzymes that increase desirable aromatic compounds
+- if anae
 #### Sur Lie
 - wine remains in contact with [[Lees|Fine lees]] for several weeks to 6 months in barrels/tanks
-- breakdown of yeast cells (autolysis) releases compounds
+- breakdown of yeast cells (autolysis) releases compounds that improve texture, body, roundness, reduce astringency
 	- **mannoproteins**
-	- **polysaccharides
+	- **polysaccharides**
+- common in [[Chardonnay]], [[Muscadet]], and some [[Chenin Blanc]]s
+#### Batonnage
+- stirred periodically with rod/paddle to keep [[Fine lees]] suspended
+- increases yeast interaction
