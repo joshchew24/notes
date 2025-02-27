@@ -100,7 +100,7 @@
 - CO$_2$ escapes through one-way valve to avoid pressure build up
 - complete when all sugar is consumed (<2 g/L)
 	- winemaker can stop fermentation if off-dry to sweet wine is desired
-- wine is chilled, SO$_2$ added, then settled and racked off **gross lees** (grape solids and particulates)
+- wine is chilled, SO$_2$ added, then settled and racked off [[Lees|Gross lees]] (grape solids and particulates) 
 ### Types
 #### Inoculated Fermentation
 - single strain of *S. cerevisiae* is added (10$^6$ to 10$^7$ cells per mL)
@@ -127,3 +127,11 @@
 - some *Saccharomyces* present at low levels from grapes and winery
 	- as alcohol exceeds 4%, it begins to dominate (tolerates alcohol well)
 		- often the only yeast at $\geq$ 10% ABV
+## Optional Steps: Post-fermentation
+### Post-fermentation treatments
+- add **glucosidase enzymes ($\beta$-glucosidases)** 
+	- increases volatile aromas in aromatic white wines
+	- ![[Pasted image 20250226230308.png]]\
+	- sugar chains detached -> more volatile aromas
+### Batonnage (lees stirring)
+- in some (non-aromatic) whites, wine is left on dead yeast ([[Lees|Fine lees]]) in 
