@@ -158,5 +158,27 @@
 ### Malolactic Fermentation
 - some whites (e.g. [[Chardonnay]]) may undergo **malolactic fermentation (MLF)**
 - controlled MLF with lactic acid bacteria (LAB) *Oenococcus oeni* stabilizes wine and provides softer acidity, adds complexity (buttery)
-### Cellaring
-- wine begins to lose its harsh
+## Cellaring
+- the proper storage of wine to preserve its quality and allow it to age gracefully
+	- lose its harsh **fermentation bouquet**
+		- banana, bubblegum, grapey
+		- replaced by new esters/aroma compounds
+			- known as **varietal aromas/character**
+- white wines stored in tanks for several months
+- **storage in oak**: [[Chardonnay]] may be fermented in and/or stored in oak barrels up to 9 months
+	- time depends on barrel age, oak type, style desired
+## Blending
+- after [[Racking]] (2-3 times), the wine may be blended
+- for enhanced complexity
+- to "use up" leftover wines (economy blend)
+- adjust sweetness, acidity, other attributes
+	- e.g. lower pH, decrease bitterness
+- oak & tank-aged wines often blended for balance
+	- barrel bouquet (vanilla, spice, smoke) + grape varietal aroma
+## Cold stabilization
+- white wines must be "cold stabilized"
+- potassium hydrogen tartrate (KHT) can precipitate out of wines when chilled - "wine diamonds"
+- chilling the wine to -4˚C for several days causes precipitation of KHT crystals
+- wine is racked off precipitate while cold
+- should be performed after blending/acid adjustments
+## Fining
