@@ -87,6 +87,7 @@
 - add tartaric acid to low-acid juice
 ## Fermentation
 - fermented mainly using **wine yeast: *Saccharomyces cerevisiae***
+	- can tolerate high ethanol concentrations
 	- converts sugars in grape juice into ethanol, CO$_2$ and heat
 	- ![[Pasted image 20250223175923.png]]
 - temperature controlled at **12-18˚C to preserve aromas**
@@ -97,6 +98,9 @@
 - fermentation may start slowly, should be rapid once *Saccharomyces* population increases
 - continues for a number of days to about 2 weeks
 - CO$_2$ escapes through one-way valve to avoid pressure build up
+- complete when all sugar is consumed (<2 g/L)
+	- winemaker can stop fermentation if off-dry to sweet wine is desired
+- wine is chilled, SO$_2$ added, then settled and racked off **gross lees** (grape solids and particulates)
 ### Types
 #### Inoculated Fermentation
 - single strain of *S. cerevisiae* is added (10$^6$ to 10$^7$ cells per mL)
