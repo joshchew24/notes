@@ -24,7 +24,16 @@
 	- number of chunks: $\lceil \frac{250}{23} \rceil = 11$
 	- number of I/Os: $11 \times 120 + 250 = 1570$ reads
 ## Question 2
-- $R$ has $M=100000$ pages
-- $S$ has $N = 50000$ pages
-- $B = 3(M+N)$
-- 
+- $R$ initially has $M_1=100000$ pages
+	- $M_2 = 3\times M_1 = 300000$ pages
+- $S$ initially has $N_1 = 50000$ pages
+	- $N_2 = 10 \times N_1 = 500000$ pages
+- $B \geq max(\sqrt{M}, \sqrt{N})$
+- $B_1 \geq max(\sqrt{100000}, \sqrt{50000})$
+- $B_1 \geq 316$
+- $B_2 \geq max (\sqrt{300000}, \sqrt{500000})$
+- $B_2 \geq 707$
+- the buffer size must be approximately doubled
+	- precisely, $\frac{B_2}{B_1} = \frac{707}{317} \approx 2.24$
+## Question 3
+Tripling the size of the relations will triple the number of partitions, while doubling the size of the buffer will halve the number of partitions. The number of partitions should increase by $\frac{3}{2} = 1.5$
