@@ -37,3 +37,21 @@
 	- precisely, $\frac{B_2}{B_1} = \frac{707}{317} \approx 2.24$
 ## Question 3
 Tripling the size of the relations will triple the number of partitions, while doubling the size of the buffer will halve the number of partitions. The number of partitions should increase by $\frac{3}{2} = 1.5$
+## Question 4
+- external merge sort: (total 10000 I/Os)
+	- $2 \times 2500$ I/Os for sort phase (read and write all pages)
+		- produces $\lceil \frac{2500}{101} \rceil = 25$ SSLs
+	- $2 \times 2500$ I/Os for merge phase 
+		- 25 SSLs can be sorted in one pass, so one I/O per read or write
+- duplicate elimination (total 5000 I/Os)
+	- read all pages to eliminate - 2500 I/Os
+	- worst case, no duplicates, write all pages - 2500 I/Os
+- **Total estimated cost: 15000 I/Os**
+## Question 5
+- $R(A,B,C)$: 10000 pages
+- $S(A,B,C)$: 25000 pages
+- $B = 1001$ pages
+- first sort $R$:
+	- $\lceil \frac{10000}{1001} \rceil = 10$ SSLs
+	- sort phase: $2 \times 10000$ pages
+	- 
