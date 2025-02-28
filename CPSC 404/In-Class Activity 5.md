@@ -3,6 +3,7 @@
 - Patient: 120 pages
 - Treatment: 250 pages
 - $B_1$: 10 pages
+	- $\lceil \frac{10000}{1001} \rceil = 10$ SSLs
 - $B_2$: 25 pages
 - largest possible chunk size: $B-2$ (reserve 1 for input and output)
 ### (a) patient is outer
