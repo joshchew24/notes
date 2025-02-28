@@ -42,7 +42,7 @@ Tripling the size of the relations will triple the number of partitions, while d
 	- $2 \times 2500$ I/Os for sort phase (read and write all pages)
 		- produces $\lceil \frac{2500}{101} \rceil = 25$ SSLs
 	- $2 \times 2500$ I/Os for merge phase 
-		- 25 SSLs can be sorted in one pass, so one I/O per read or write
+		- 25 SSLs can be merged in one pass, so one I/O per read or write
 - duplicate elimination (total 5000 I/Os)
 	- read all pages to eliminate - 2500 I/Os
 	- worst case, no duplicates, write all pages - 2500 I/Os
@@ -54,4 +54,18 @@ Tripling the size of the relations will triple the number of partitions, while d
 - first sort $R$:
 	- $\lceil \frac{10000}{1001} \rceil = 10$ SSLs
 	- sort phase: $2 \times 10000$ pages
-	- 
+	- merge phase: $2 \times 10000$ pages (can merge all SSLs in one pass)
+	- total $40000$ I/Os
+- next sort $S$:
+	- $\lceil \frac{25000}{1001} \rceil = 25$ SSLs
+	- sort phase: $2 \times 25000$ pages
+	- merge phase: $2 \times 25000$ pages (can merge all SSLs in one pass)
+	- total $100000$ I/Os
+- merge and eliminate duplicates
+	- read $R$: $10000$ I/Os
+	- read $S$: $25000$ I/Os
+	- writing merge union
+		- assume reasonable skew: ~20% overlap
+			- total pages in final merge: $8000 + 25000 = 33000$ pages
+	- total: $68000$ I/Os
+- total: $208000$ I/Os $= 40000 + 100000 + 68000$
