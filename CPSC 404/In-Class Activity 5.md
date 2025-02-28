@@ -26,3 +26,5 @@
 ## Question 2
 - $R$ has $M=100000$ pages
 - $S$ has $N = 50000$ pages
+- $B = 3(M+N)$
+- 
