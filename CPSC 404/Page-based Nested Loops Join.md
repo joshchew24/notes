@@ -12,4 +12,6 @@ foreach page p in R {
 	}
 }
 ```
-**cost**: $M + M \times N = 1000 + 1000\times
+- **cost**: $M + M \times N = 1000 + 1000\times500$ I/Os
+	- if smaller relation ($S$) chosen as outer, **cost**: $500 + 500\times1000$ I/Os
+
