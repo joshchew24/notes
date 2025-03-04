@@ -38,3 +38,6 @@ $\sigma_{time<\text{8/9/04} \land rating=5 \land sid=3}(Ratings)$
 	- use B+ Tree index on $Time$ to retrieve tuples satisfying first condition
 		- then apply $rating=5$ and $sid=3$ conditions
 	- use hash index on $<rating, sid>$, then check time condition
+### Approach 2
+- if we have 2 or more matching indexes
+- 
