@@ -31,4 +31,10 @@ WHERE S.SNAME = ‘C%’ AND YEAR > 1975
 - two approaches
 ### Approach 1
 - find most selective [[Access Path]], retrieve tuples using it, apply any remaining conditions that didn't match index
-#todo left off 1:08:20 in feb 10 ecture, he skipped the first slide of GEN SELECTION EVALUATION first appro
+#### Q4
+$\sigma_{time<\text{8/9/04} \land rating=5 \land sid=3}(Ratings)$
+- B+ Tree on $Time$ and hash on $<rating, sid>$
+- evaluation options:
+	- use B+ Tree index on $Time$ to retrieve tuples satisfying first condition
+		- then apply $rating=5$ and $sid=3$ conditions
+	- use hash index on $<rating, sid>$, then check time condition
