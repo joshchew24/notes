@@ -18,3 +18,6 @@ WHERE r.uid = s.uid
 > 	- page size: ~100 tuples
 > 	- relation size: 1000 pages
 > - page size: 4096 bytes (4K)
+## [[Tuple-based Nested Loops Join]]
+- super naive
+## [[Page-based Nested Loops Join]]
