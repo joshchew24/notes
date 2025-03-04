@@ -21,4 +21,10 @@ foreach tuple r in R {
 	- for each $R$ tuple, cost of probing $S$ **alt1** index to find [[Data Entries]]:
 		- [[Hash-Based Index]]: 1.2
 		- [[B+ Trees]]: 2-4
-	- additional cost for **alt2**
+	- additional cost for **alt2**/**alt3**:
+		- [[Clustered Indexes]]: 1 I/O
+		- Non-clustered: up to 1 I/O **per matching** S-tuple
+## Examples
+- uses [[Join Evaluation#^example-schema|Example Schema]]
+### Example 1
+- **alt2** hash index on *sid* of $Songs$
