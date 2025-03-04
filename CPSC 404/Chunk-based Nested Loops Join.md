@@ -12,7 +12,20 @@ aliases:
 ```
 foreach chunk i of R {
 	foreach page q of S {
-		
+		add matching tuples of i and q to result
 	}
 }
 ```
+- **cost**: $\text{outer scan} + \text{\# outer chunks} \times \text{inner scan}$
+	- $\text{\# outer chunks} = \lceil \frac{\text{\# outer pages}}{\text{chunk size}} \rceil$
+	- a scan of a relation costs **1 I/O per page**
+## Examples
+- using [[Join Evaluation#^example-schema|Example Schema]]
+### Example 1
+- outer: $R$
+- chunk size: 100 pages
+- $R$ scan: 1000 I/Os
+- number of $R$ chunks: $\frac{1000}{100} = 10$
+- per chunk of $R$, scan $Songs (S)$
+	- $10 \times 500 = 5000$ I/Os
+- if buffer has 90 pages
