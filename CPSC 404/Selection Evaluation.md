@@ -40,4 +40,4 @@ $\sigma_{time<\text{8/9/04} \land rating=5 \land sid=3}(Ratings)$
 	- use hash index on $<rating, sid>$, then check time condition
 ### Approach 2
 - if we have 2 or more matching indexes
-- 
+- get sets of `rids` of data re
