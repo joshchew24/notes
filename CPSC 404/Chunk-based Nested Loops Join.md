@@ -11,6 +11,8 @@ aliases:
 	- use rest of buffer to hold chunks of outer relation $R$
 ```
 foreach chunk i of R {
-	foreach page s of
+	foreach page q of S {
+		
+	}
 }
 ```
