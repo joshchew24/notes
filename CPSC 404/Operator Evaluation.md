@@ -4,7 +4,7 @@
 	- can be represented by tree structure
 ## General Technique (Physical Algebra)
 - these physical algebra operators are used to evaluate SQL queries
-- all SQL queries (i.e. extended [[Relational Algebra]]) can be efficiently processed using just these 3 physical opreators
+- all SQL queries (i.e. extended [[Archive/CPSC 304/Relational Algebra]]) can be efficiently processed using just these 3 physical opreators
 - **[[Index Probe]]**
 	- use index to examine only tuples satisfying given selection/join condition
 	- also called index probe
