@@ -2,7 +2,7 @@
 aliases:
   - INL
 ---
-# Index Nested Loops Join
+# Index-based Nested Loops Join
 - assumes there is a matching index of S
 ```
 foreach tuple r in R {

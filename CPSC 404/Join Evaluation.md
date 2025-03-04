@@ -23,4 +23,5 @@ WHERE r.uid = s.uid
 	- super naive
 - [[Page-based Nested Loops Join]]
 	- slight improvement over [[Tuple-based Nested Loops Join|TNL]]
-- [[Index Nested Loops Join]]
+- [[Index-based Nested Loops Join]]
+- [[Chunk-based Nested Loops Join]]
