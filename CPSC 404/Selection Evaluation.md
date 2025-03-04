@@ -38,6 +38,16 @@ $\sigma_{time<\text{8/9/04} \land rating=5 \land sid=3}(Ratings)$
 	- use B+ Tree index on $Time$ to retrieve tuples satisfying first condition
 		- then apply $rating=5$ and $sid=3$ conditions
 	- use hash index on $<rating, sid>$, then check time condition
+#### Q5
+$\sigma_{time<\text{8/9/04} \land uid=5}(Rating)$
+- $Time$ condition matches B+ Tree index
+- $uid=5$ does not match any index
+	- even if UID has a low RF, if there's no index, it doesn't provide and I/O benefit
 ### Approach 2
-- if we have 2 or more matching indexes
-- get sets of `rids` of data re
+- **requires**: we have 2 or more matching indexes
+- overview
+	- get sets of `rids` of data records using each matching index
+	- intersect the sets
+		- sort the sets individually, then merge
+		- if sets are large, analogous to [[Merge Sort|External Sort]]
+	- retrieve records, apply remaining conditions
