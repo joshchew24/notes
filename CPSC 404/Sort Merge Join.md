@@ -38,4 +38,8 @@ aliases:
 	- total: $3(M+N)$ I/Os
 - **buffer size**
 	- have $\frac{M}{B}$ SSLs of $R$ and $\frac{N}{B}$ SSLs of $S$
-	- $B \geq \frac{M}{B} + \frac{N}{B} - 1$ pages
+	- minimum buffer size: $B \geq \frac{M}{B} + \frac{N}{B} - 1$ pages
+	- simple condition (overestimate):
+		- let $L = max\{M, N\}$
+		- $B \geq \frac{2L}{B} + 1 \Rightarrow B - 1 \geq \frac{2L}{B}$
+		- simplify to: $B > \sqrt{2L}$
