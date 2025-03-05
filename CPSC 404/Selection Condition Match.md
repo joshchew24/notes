@@ -26,8 +26,20 @@
 			- invalid:
 				- $sid \geq 345 \land time \geq 1999$
 					- `sid` is not a valid prefix of the search key (needs `uid`)
-## Partial vs Total Match Examples
+## Partial vs Total Match
+### Example
 - $student(SID, SName, Major, Year)$
-- hash index on $SID$
+- hash index on $\{SID\}$
 - B+ tree index on ($Major, Year$)
-1.  $SID  = 123456789 \land Year = 3$
+#### Partial Matches
+- $SID  = \text{`123456789'} \land Year = 3$
+	- hash index
+- $Major = \text{`CS'} \land SName = \text{`Jane Smith'}$
+	- B+ Tree prefix
+#### Invalid
+- $Year > 1 \land SName = \text{`Jane Smith'}$
+	- B+ tree no prefix, hash doesn't match
+- $SID \geq \text{`123456789'} \land SID \leq \text{`374926338'}$
+	- hash can't range search, B+ Tree search key doesn't match
+#### Total
+- $Year > 2 \land Major = \text{`soci'}$
