@@ -21,4 +21,8 @@ WHERE sid = s456
 			- accounts for overflow pages, big directory that doesn't fit in RAM
 		- if B+ Tree, cost depends on height
 	- [[Selection Condition Match]]
-## **what happens when selection condition matches multiple indexes?**
+## Example
+- **what happens when selection condition matches multiple indexes?**
+- two separate indexes on `{uid, sid}` and `{time}`
+- query: $time \geq 3 \land uid = 1 \land sid = 2$
+- 
