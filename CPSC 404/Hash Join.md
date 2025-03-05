@@ -1,13 +1,28 @@
 # Hash Join
 - **overview**
-	- partition both relations using hash function $h$
-		- $R$ tuples in partition (bucket) $i$ will *only* match $S$ tuples in partition $i$
-		- max number of partitions: $B-1$
-			- need one buffer page for input
-	- read entire partition $R_i$ of outer relation $R$ into memory
-		- assumes reasonable skew so that the partitoin fits in memory
-	- read partition $S_i$ of inner relation $S$ one page at a time
-	- apply second hash function $h_2$ to match partition members
+	- phase 1: create partitions
+		- partition both relations using hash function $h$
+			- $R$ tuples in partition (bucket) $i$ will *only* match $S$ tuples in partition $i$
+			- max number of partitions: $B-1$
+				- need one buffer page for input
+	- phase 2: merge partitions of $R$ and $S$
+		- read entire partition $R_i$ of outer relation $R$ into memory
+			- assumes reasonable skew so that the partitoin fits in memory
+		- read partition $S_i$ of inner relation $S$ one page at a time
+		- apply second hash function $h_2$ to match partition members
 - **observations**
 	- number of partitions $k \leq B-1$
-		- 
+	- $B-2 >$ size of largest $R$ partition to be held in memory
+		- phase 2 requires 1 input buffer for $S$ and 1 output buffer
+		- assuming uniformly sized partitions and maximizing $k$
+			- $k=B-1$
+			- $\frac{M}{B-1} < B-2$
+				- $M$ is size of $R$
+				- $\frac{M}{B-1}$ is partition size
+				- simple sufficient condition: $B > \sqrt M$
+	- can build an **in-memory hash table** to speed up matching of tuples
+		- see **fudge factor** in textbook, section 14.4.3
+		- little more memory is needed
+	- if the hash function does not partition **uniformly**
+		- one or more $R$ partitions may not fit into memory
+		- can apply hash-join technique **recursively** to do the join of this $R$ partition with corresponding $S$ partition
