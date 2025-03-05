@@ -39,11 +39,18 @@ aliases:
 - **buffer size**
 	- have $\frac{M}{B}$ SSLs of $R$ and $\frac{N}{B}$ SSLs of $S$
 	- minimum buffer size: $B \geq \frac{M}{B} + \frac{N}{B} - 1$ pages
-	- simple condition (overestimate):
+	- simple sufficient condition (overestimate):
 		- let $L = max\{M, N\}$
 		- $B \geq \frac{2L}{B} + 1 \Rightarrow B - 1 \geq \frac{2L}{B}$
 		- simplify to: $B > \sqrt{2L}$
 ### Idea 2
 - **replacement sort** for sort phase
 	- gives SSLs of size $2B$ pages
-- 
+- **buffer size**
+	- have $\frac{M}{2B}$ SSLs of $R$ and $\frac{N}{2B}$ SSLs of $S$
+	- need enough space to merge-join (at least) one page of each SSL in RAM
+	- minimum buffer size: $B \geq \frac{M}{2B} + \frac{N}{2B} + 1$
+	- simple sufficient condition (overestimate):
+		- let $L = max\{M, N\}$
+		- $B \geq \frac{2L}{2B} + 1 \Rightarrow B - 1 \geq \frac{L}{B}$
+		- simplify to: $B > \sqrt{L}$
