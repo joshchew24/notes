@@ -16,4 +16,4 @@
 - **[[Partitioning]]**
 	- sorting (e.g. [[Merge Sort|External Sort]])
 	- hashing (e.g. [[Dynamic Hashing]])
-## 
+## [[Selection Evaluation]]
