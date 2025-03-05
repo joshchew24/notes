@@ -26,3 +26,8 @@
 			- invalid:
 				- $sid \geq 345 \land time \geq 1999$
 					- `sid` is not a valid prefix of the search key (needs `uid`)
+## Partial vs Total Match Examples
+- $student(SID, SName, Major, Year)$
+- hash index on $SID$
+- B+ tree index on ($Major, Year$)
+1.  $SID  = 123456789 \land Year = 3$
