@@ -30,7 +30,15 @@ WHERE sid = s456
 - $Songs(SID, SName, Genre, Year)$
 	- 500 pages, 80 tuples per page, 10 distinct $Genre$s
 	- $RF = \frac{1}{10}$
-- $\rho_{Genre=\text{`hiphop'}(Songs)}$
+- $\sigma_{Genre=\text{`hiphop'}}(Songs)$
 - for clustered index:
-	- number of I/Os: $\frac{1}{10} \times 500$ pages
+	- Index Probe # of I/Os: $\frac{1}{10} \times 500$ 
 		- retrieve approximately $\frac{1}{10}$ of the data pages that match the genre
+	- Table Scan # of I/Os: $500$ 
+		- retrieve all records and check their genre
+- for unclustered index
+	- Index Probe # of I/Os: $\frac{1}{10} \times 500 \times 80 = 4000$ 
+		- each tuple requires a "random" seek
+	- Table Scan # of I/Os: $500$
+		- retrieve all records and check their genre
+		- **faster**

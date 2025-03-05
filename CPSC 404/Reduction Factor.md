@@ -20,3 +20,5 @@ Consider a table with **1,000,000** rows:
     - **RF = 1 / 1,000,000 = 0.000001**
     - **Selectivity = 1 - 0.000001 ≈ 1** (high selectivity)
 ## Estimation
+- for [[Selection Evaluation#Reduction Factor Estimation]]
+	- multiple conditions, take the product of the RF of the atomic conditions
