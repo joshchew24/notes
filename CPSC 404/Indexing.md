@@ -1,6 +1,7 @@
 ---
 aliases:
   - Index Probe
+  - Hash Probe
 ---
 # Indexing
 - use index to home in on tuples satisfying selection condition(s)
@@ -18,3 +19,4 @@ WHERE sid = s456
 		- heuristic avg for hash index
 			- accounts for overflow pages, big directory that doesn't fit in RAM
 		- if B+ Tree, cost depends on height
+	- [[Selection Condition Match]]

@@ -6,8 +6,9 @@
 			- e.g. A=1 AND B=2
 			- invalid: A > 1 AND B = 2
 				- can't range search on hash
-			- invalid: A = 1 AND B = 2 AND Z = 3 (assuming index not built on Z)
-				- Z = 3 can be 
+			- valid: A = 1 AND B = 2 AND Z = 3 (assuming index not built on Z)
+				- apply the Z condition to the result of the A/B probe
+					- can be done in memory for no I/O cost
 	- [[B+ Trees]]
 		- for some prefix of search key, for every attribute $A$ in the prefix, $C$ has a conjunct of the form $A \text{ op value}$, where $\text{op} \in =, >, \geq, <, \leq$
 			- search key is a sequence of attributes
