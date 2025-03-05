@@ -3,4 +3,5 @@
 	- stats help estimate how **selective** certain predicates and joins are
 	- **selectivity estimation (SE)** is key for QO
 		- used to estimate cost of different [[Query Evaluation Plans]]
+		- key ingredient of cost etimation: [[Reduction Factor]]
 	- use of [[Histogram]]s is one of many techniques for SE

@@ -6,6 +6,7 @@
 	- **never charge for writing final result**
 		- often result is returned to application or displayed to user, not written to disk
 		- this value is the same for all plans, so does not affect ranking
+- assess the [[Reduction Factor]]
 ## Generic Technique for Operator Evaluation - Physical Algebra for Relational Databases
 - #todo change this fucking title lol
 - these physical algebra operators are used to evaluate SQL queries
