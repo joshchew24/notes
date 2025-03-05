@@ -34,6 +34,5 @@ foreach chunk i of R {
 - if buffer only has space for chunks of 90 pages, we can BP fill $\lceil\frac{1000}{90}\rceil = 12$ times
 	- i.e. we need to scan $S$ 12 times
 	- $R$ outer: $1000 + \lceil \frac{1000}{90} \rceil \times 500 = 7000$ I/Os
-	- $S$ outer: $500 + \lceil \frac{500}{90} \times 1000 = 6500$ I/Os
+	- $S$ outer: $500 + \lceil \frac{500}{90} \rceil \times 1000 = 6500$ I/Os
 - **note**: it is not always cheaper to make smaller table outer
-	- 

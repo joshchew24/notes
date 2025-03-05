@@ -19,9 +19,14 @@ WHERE r.uid = s.uid
 > 	- relation size: 1000 pages
 > - page size: 4096 bytes (4K)
 > ^example-schema
+## Nested Loop Joins
 - [[Tuple-based Nested Loops Join]]
 	- super naive
-- [[Page-based Nested Loops Join]]
+- [[Page-based Nested Loops Join]] (SNL)
 	- slight improvement over [[Tuple-based Nested Loops Join|TNL]]
 - [[Index-based Nested Loops Join]]
+	- improvement over [[Page-based Nested Loops Join|SNL]]
 - [[Chunk-based Nested Loops Join]]
+	- improvement over [[Index-based Nested Loops Join|INL]]
+## Better Methods
+- [[Sort Merge Join]]
