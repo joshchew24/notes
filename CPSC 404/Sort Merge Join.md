@@ -43,3 +43,7 @@ aliases:
 		- let $L = max\{M, N\}$
 		- $B \geq \frac{2L}{B} + 1 \Rightarrow B - 1 \geq \frac{2L}{B}$
 		- simplify to: $B > \sqrt{2L}$
+### Idea 2
+- **replacement sort** for sort phase
+	- gives SSLs of size $2B$ pages
+- 
