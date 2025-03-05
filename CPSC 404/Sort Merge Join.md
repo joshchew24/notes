@@ -26,4 +26,5 @@ aliases:
 			- one read/write pass for sort
 			- one read/write pass for merge
 	- else, add $2M$ per additional pass required in the sorting phase
-## Efficient Version
+## Improved Version
+### Idea 1
