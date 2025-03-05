@@ -10,7 +10,7 @@
 - #todo change this fucking title lol
 - these physical algebra operators are used to evaluate SQL queries
 - all SQL queries (i.e. extended [[Relational Algebra]]) can be efficiently processed using just these 3 physical opreators
-- **[[Indexing]]**
+- **[[Index Probe]]**
 	- use index to examine only tuples satisfying given selection/join condition
 	- also called index probe
 - **[[Iteration]]**

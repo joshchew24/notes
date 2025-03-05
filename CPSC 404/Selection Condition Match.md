@@ -19,9 +19,10 @@
 			- valid conditions:
 				- $uid \geq 123 \land sid = 5$
 				- $sid = 5 \land uid \geq 123$
-					- order doesn't matter for the condition, even though it's important for constructing the tree
+					- **order doesn't matter for the condition, even though it's important for constructing the tree**
 				- $uid \geq 123 \land time \leq 2022$
 					- `uid` is a valid prefix of the search key
+					- `time` is not an extension of the prefix, treated as an additional conjunct
 			- invalid:
 				- $sid \geq 345 \land time \geq 1999$
 					- `sid` is not a valid prefix of the search key (needs `uid`)

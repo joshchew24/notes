@@ -1,9 +1,10 @@
 ---
 aliases:
-  - Index Probe
   - Hash Probe
+  - B+ Tree Probe
+  - Indexing
 ---
-# Indexing
+# Index Probe
 - use index to home in on tuples satisfying selection condition(s)
 	- best for equality selectiont
 - given a hash index `(sid)` on `Songs(sid, sname, genre, year)`, and the query:
@@ -20,3 +21,4 @@ WHERE sid = s456
 			- accounts for overflow pages, big directory that doesn't fit in RAM
 		- if B+ Tree, cost depends on height
 	- [[Selection Condition Match]]
+## **what happens when selection condition matches multiple indexes?**
