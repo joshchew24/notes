@@ -4,7 +4,7 @@ aliases:
 ---
 # Indexing
 - use index to home in on tuples satisfying selection condition(s)
-	- best for equality selection
+	- best for equality selectiont
 - given a hash index `(sid)` on `Songs(sid, sname, genre, year)`, and the query:
 ```sql
 SELECT *

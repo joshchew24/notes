@@ -7,7 +7,7 @@ aliases:
 # System Catalog
 - maintains important **metadata** about all data in the DB
 - what is data?
-	- **application data** in tables
+	- **application data** in tablest
 	- **all indexes** for the tables
 - aka catalog tables, data dictionary, catalog
 ## Catalog Contents
