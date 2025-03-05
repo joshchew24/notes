@@ -1,4 +1,13 @@
 # Hash Join
 - **overview**
 	- partition both relations using hash function $h$
-		- $R$ tuples in partition $i$ will *only* match $S$ tuples in partition $i$
+		- $R$ tuples in partition (bucket) $i$ will *only* match $S$ tuples in partition $i$
+		- max number of partitions: $B-1$
+			- need one buffer page for input
+	- read entire partition $R_i$ of outer relation $R$ into memory
+		- assumes reasonable skew so that the partitoin fits in memory
+	- read partition $S_i$ of inner relation $S$ one page at a time
+	- apply second hash function $h_2$ to match partition members
+- **observations**
+	- number of partitions $k \leq B-1$
+		- 
