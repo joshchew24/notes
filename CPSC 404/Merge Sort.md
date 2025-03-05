@@ -1,6 +1,7 @@
 ---
 aliases:
   - External Sort
+  - External Merge Sort
 ---
 # Merge Sort
 - Idea: given $B$ buffer pages of main memory (RAM)
