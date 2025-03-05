@@ -26,3 +26,16 @@
 	- if the hash function does not partition **uniformly**
 		- one or more $R$ partitions may not fit into memory
 		- can apply hash-join technique **recursively** to do the join of this $R$ partition with corresponding $S$ partition
+		- happens when there is significant **skew** in distribution of join values in $R$
+			- skew of $S$ is irrelevant because we are reading the partitions one page at a time
+- **costs**
+	- partition phase:
+		- read + write both relations
+		- $2(M+N)$ I/Os
+	- matching phase:
+		- read both relations
+		- $M+N$ I/Os
+	- total: $3(M+N)$ I/Os
+		- using [[Join Evaluation#^example-schema|Example Schema]] - $3(1000+500)= 4500$ I/Os
+	- **note**: estimated cost of [[Sort Merge Join|SMJ]] is same
+## [[SMJ vs. HJ]]

@@ -54,3 +54,4 @@ aliases:
 		- let $L = max\{M, N\}$
 		- $B \geq \frac{2L}{2B} + 1 \Rightarrow B - 1 \geq \frac{L}{B}$
 		- simplify to: $B > \sqrt{L}$
+## [[SMJ vs. HJ]]
