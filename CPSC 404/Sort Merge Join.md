@@ -28,3 +28,6 @@ aliases:
 	- else, add $2M$ per additional pass required in the sorting phase
 ## Improved Version
 ### Idea 1
+- combine **merge phases** of sorting $R$ and $S$ with the **join** phase
+	- requires a buffer pool large enough to allocate **at least one** page for **ALL** SSLs of **BOTH** $R$ and $S$ **SIMULTANEOUSLY** as well as at least one page for **output**
+		- we must be able to see and compare **ALL** SSLs to compute joins
