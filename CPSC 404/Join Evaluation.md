@@ -30,3 +30,4 @@ WHERE r.uid = s.uid
 	- improvement over [[Index-based Nested Loops Join|INL]]
 ## Better Methods
 - [[Sort Merge Join]]
+- [[Hash Join]]
