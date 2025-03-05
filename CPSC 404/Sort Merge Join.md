@@ -31,3 +31,11 @@ aliases:
 - combine **merge phases** of sorting $R$ and $S$ with the **join** phase
 	- requires a buffer pool large enough to allocate **at least one** page for **ALL** SSLs of **BOTH** $R$ and $S$ **SIMULTANEOUSLY** as well as at least one page for **output**
 		- we must be able to see and compare **ALL** SSLs to compute joins
+- **overall cost**
+	- create SSLs of $R$: one read/write pass: $M + M$ I/Os
+	- create SSLs of $S$: one read/write pass: $N+N$ I/Os
+	- merge-join directly from set of all SSLs: $M+N$ I/Os
+	- total: $3(M+N)$ I/Os
+- **buffer size**
+	- have $\frac{M}{B}$ SSLs of $R$ and $\frac{N}{B}$ SSLs of $S$
+	- $B \geq \frac{M}{B} + \frac{N}{B} - 1$ pages
