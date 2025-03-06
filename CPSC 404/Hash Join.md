@@ -1,3 +1,7 @@
+---
+aliases:
+  - HJ
+---
 # Hash Join
 - **overview**
 	- phase 1: create partitions
@@ -14,12 +18,6 @@
 	- number of partitions $k \leq B-1$
 	- $B-2 >$ size of largest $R$ partition to be held in memory
 		- phase 2 requires 1 input buffer for $S$ and 1 output buffer
-		- assuming uniformly sized partitions and maximizing $k$
-			- $k=B-1$
-			- $\frac{M}{B-1} < B-2$
-				- $M$ is size of $R$
-				- $\frac{M}{B-1}$ is partition size
-				- simple sufficient condition: $B > \sqrt M$
 	- can build an **in-memory hash table** to speed up matching of tuples
 		- see **fudge factor** in textbook, section 14.4.3
 		- little more memory is needed
@@ -38,4 +36,11 @@
 	- total: $3(M+N)$ I/Os
 		- using [[Join Evaluation#^example-schema|Example Schema]] - $3(1000+500)= 4500$ I/Os
 	- **note**: estimated cost of [[Sort Merge Join|SMJ]] is same
+- **buffer size**:
+			- assuming uniformly sized partitions and maximizing $k$
+			- $k=B-1$
+				- $\frac{M}{B-1} < B-2$
+				- $M$ is size of $R$
+				- $\frac{M}{B-1}$ is partition size
+			- simple sufficient condition: $B > \sqrt M$
 ## [[SMJ vs. HJ]]

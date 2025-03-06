@@ -1,7 +1,9 @@
 # SMJ vs. HJ
 - both **cost** $3(M+N)$ I/Os
 - minimum buffer size:
-	- SMJ
-		- 
+	- [[Sort Merge Join|SMJ]] simple sufficient condition
+		- $B > \sqrt{max(M,N)}$
+	- [[Hash Join]] simple sufficient condition
+		- $B > \sqrt{min(M,N)}$
 - #todo left off 53:36 on 2/27 lecture
 - 
