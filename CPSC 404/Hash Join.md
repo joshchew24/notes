@@ -37,10 +37,12 @@ aliases:
 		- using [[Join Evaluation#^example-schema|Example Schema]] - $3(1000+500)= 4500$ I/Os
 	- **note**: estimated cost of [[Sort Merge Join|SMJ]] is same
 - **buffer size**:
-			- assuming uniformly sized partitions and maximizing $k$
-			- $k=B-1$
-				- $\frac{M}{B-1} < B-2$
-				- $M$ is size of $R$
-				- $\frac{M}{B-1}$ is partition size
-			- simple sufficient condition: $B > \sqrt M$
+	- select smaller relation as outer relation
+		- more likely to fit into memory
+	- assuming uniformly sized partitions and maximizing $k$ (number of partitions)
+	- $k=B-1$
+		- $\frac{M}{B-1} < B-2$
+		- $M$ is size of $R$
+		- $\frac{M}{B-1}$ is partition size
+	- simple sufficient condition: $B > \sqrt M$
 ## [[SMJ vs. HJ]]
