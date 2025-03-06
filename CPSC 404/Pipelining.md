@@ -5,5 +5,5 @@
 - works naturally for [[Page-based Nested Loops Join|SNL]] and [[Chunk-based Nested Loops Join|CNL]]
 - does not work for [[Sort Merge Join|SMJ]] and [[Hash Join|HJ]]
 	- for SMJ, requires writing SSL to disk
-		- inherently a **blocking operator**
 	- for [[Hash Join|HJ]], requires writing partitions to disk
+	- inherently **blocking operator**s

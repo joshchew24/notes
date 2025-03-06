@@ -18,3 +18,17 @@
 	- what plans are considered?
 	- how is the plan cost estimated?
 	- **System R** approach by IBM
+## Examples
+### Example 1
+```sql
+SELECT S.genre
+FROM Ratings R, Songs S
+WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
+```
+- RA Tree: ![[Pasted image 20250306112543.png]]
+- Plan 0: ![[Pasted image 20250306112554.png]]
+	- missed opportunities:
+		- selections could have been *pushed* earlier (reduces number of tuples inputted to join)
+		- no use of indexes (if available)
+	- cost: just SNL, so $500 + 500\times1000$ I/Os
+		- 
