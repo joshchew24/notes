@@ -28,10 +28,16 @@ WHERE r.uid = s.uid
 	- for **each page** of $R$, check for join with **each page** of $S$
 - [[Index-based Nested Loops Join]]
 	- improvement over [[Page-based Nested Loops Join|SNL]]
+	- for **each tuple** of $R$, **probe $S$ index** for joinable tuples
 - [[Chunk-based Nested Loops Join]]
 	- improvement over [[Index-based Nested Loops Join|INL]]
+	- for **each chunk** of $R$, check for join with **each page** of $S$
 ## Better Methods
 - [[Sort Merge Join]]
 - [[Hash Join]]
 ## Multiple Attributes
-- 
+### Equality
+- e.g. $R.A = S.A \land R.B = S.B$
+- for [[INL]]
+	- build or use existing index on $(A,B)$ for $S$
+- for [[SMJ]] and [[HJ]], sort/partition on combination of the two join columns
