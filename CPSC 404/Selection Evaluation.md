@@ -31,4 +31,4 @@ WHERE S.SNAME = ‘C%’ AND YEAR > 1975
 - two approaches
 ### Approach 1
 - find most selective [[Access Path]], retrieve tuples using it, apply any remaining conditions that didn't match index
-#todo left off 1:08:20 in feb 10 ecture, he skipped the first slide of GEN SELECTION EVALUATION first appro
+#todo left off 1:08:20 in feb 10 ecture, he skipped the first slide of GEN SELECTION EVALUATION first approach
