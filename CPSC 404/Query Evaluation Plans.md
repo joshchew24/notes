@@ -15,3 +15,6 @@
 	- each operator typically implemented using a *pull* interface
 		- when an operator is *pulled* for the next output tuples, it *pulls* on its inputs and computes/retrieves them
 - **how do we find the best plan?**
+	- what plans are considered?
+	- how is the plan cost estimated?
+	- 

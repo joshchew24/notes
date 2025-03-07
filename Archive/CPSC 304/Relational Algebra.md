@@ -3,7 +3,6 @@
 Movie(<u>MovieID</u>, Title, Year)
 StarsIn(<u>MovieID</u>, <u>StarID</u>, Character)
 MovieStar(<u>StarID</u>, Name, Gender)
-
 ## Selection ($\sigma$)
 ### Notation
 - $\sigma_p(r)$
@@ -41,3 +40,15 @@ e.g. $\rho((StarID\rightarrow ID), \pi_{StarID, Name}(MovieStar))$
 e.g. $\rho((1\rightarrow ID), \pi_{StarID, Name}(MovieStar))$
 ## Useful Links
 [Playground](https://dbis-uibk.github.io/relax/)
+## Basic Operators
+- selection
+- projection
+- cross product
+- union
+- minus (set difference)
+- rename
+## Extended Operators
+- intersection
+- division
+- join
+- aggregation
