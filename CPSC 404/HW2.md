@@ -8,4 +8,12 @@
 - $YearOfStudy$ attribute: 4 bytes
 - pointers: 10 bytes
 - dense, clustered, alt2 B+ Tree index on $StudyID$
-- 
+- dense, unclustered, alt2 B+ Tree index on $YearOfStudy$
+- page size: 4K
+- buffer size: 400 pages
+### (a)
+```sql
+SELECT *
+FROM Studies
+WHERE StudyID > 'A%' AND StudyID < 'N%'
+```
