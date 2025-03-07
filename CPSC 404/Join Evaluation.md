@@ -22,8 +22,10 @@ WHERE r.uid = s.uid
 ## Nested Loop Joins
 - [[Tuple-based Nested Loops Join]]
 	- super naive
+	- for **each tuple** of $R$, check for join with **each tuple** of $S$
 - [[Page-based Nested Loops Join]] (SNL)
 	- slight improvement over [[Tuple-based Nested Loops Join|TNL]]
+	- for **each page** of $R$, check for join with **each page** of $S$
 - [[Index-based Nested Loops Join]]
 	- improvement over [[Page-based Nested Loops Join|SNL]]
 - [[Chunk-based Nested Loops Join]]
@@ -31,3 +33,5 @@ WHERE r.uid = s.uid
 ## Better Methods
 - [[Sort Merge Join]]
 - [[Hash Join]]
+## Multiple Attributes
+- 
