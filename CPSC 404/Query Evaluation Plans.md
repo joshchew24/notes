@@ -1,7 +1,7 @@
 # Query Evaluation Plans
 - a query can be evaluated using several different strategies, called **plans**
 	- all should produce the exact same result
-- precursor to [[Operator Evaluation]]
+- uses [[Operator Evaluation]]
 ## Cost Assessment
 - to assess I/O cost of a plan, charge for reading pages (data or index), as well as writing any *intermediate* results to disk
 	- **never charge for writing final result**

@@ -18,3 +18,4 @@
 	- hashing (e.g. [[Dynamic Hashing]])
 ## [[Selection Evaluation]]
 ## [[Projection Evaluation]]
+## [[Join Evaluation]]
