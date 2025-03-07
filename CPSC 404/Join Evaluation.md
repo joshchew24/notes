@@ -35,9 +35,15 @@ WHERE r.uid = s.uid
 ## Better Methods
 - [[Sort Merge Join]]
 - [[Hash Join]]
-## Multiple Attributes
-### Equality
+## Equality with Multiple Attributes
 - e.g. $R.A = S.A \land R.B = S.B$
-- for [[INL]]
-	- build or use existing index on $(A,B)$ for $S$
-- for [[SMJ]] and [[HJ]], sort/partition on combination of the two join columns
+- for [[Index-based Nested Loops Join|INL]]
+	- build or use existing index on $(A,B)$ for $S$ (assuming $S$ is inner relation)
+- for [[Sort Merge Join|SMJ]] and [[Hash Join|HJ]], sort/partition on combination of the two join columns
+## Inequality
+- e.g. $R \bowtie_{R.sid < S.sid} S$
+- for [[Index-based Nested Loops Join|INL]], **need** a **clustered** [[B+ Trees]] index
+	- range probes on inner relation
+	- number of matches likely to be much higher than for equality joins
+- [[Hash Join|HJ]], [[Sort Merge Join|SMJ]] not applicable
+- [[Chunk-based Nested Loops Join|CNL]] works and is probably best method 
