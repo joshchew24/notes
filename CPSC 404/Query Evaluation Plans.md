@@ -17,4 +17,4 @@
 - **how do we find the best plan?**
 	- what plans are considered?
 	- how is the plan cost estimated?
-	- 
+	- **System R** approach by IBM
