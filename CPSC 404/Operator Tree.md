@@ -7,5 +7,12 @@
 	- i.e. as you read tuples for another operation, apply a project/select op
 ### Shapes
 ![[Pasted image 20250306202749.png]]
-- use left-deep
-	- right 
+- left-deep
+	- right children of internal nodes are always **base tables**
+	- supports pipelining
+- right-deep
+	- vice versa
+	- supports pipelining
+- bushy
+	- bad for pipelining
+	- intermediary results must be written to disk
