@@ -35,4 +35,6 @@ WHERE R.sid = S.sid AND R.duration > 5 AND S.rating = 10
 	- i.e. if two sailors have same name and age, they have the same ID
 - page size: 4096 bytes
 - buffer size: 50 pages
-- 
+## Question 3
+- $R\bowtie_{R.a=S.b}S$
+- $R$ has $40\,000$ tuples over 1000 pages
