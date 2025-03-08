@@ -26,7 +26,7 @@ WHERE R.sid = S.sid AND R.duration > 5 AND S.rating = 10
 - $Reserves(\underline{sid} (7), \underline{date} (8), \underline{bid} (8), duration (2))$
 	- $1\,000\,000\;(10^6)$ tuples
 	- duration: 1-10
-- $Sailors(\underline{sid} (10), sname (30), rating (3), age (2))$
+- $Sailors(\underline{sid} (7), sname (33), rating (3), age (2))$
 	- $100\,000$ tuples
 	- rating: 1-10
 	- ages: 21-40
