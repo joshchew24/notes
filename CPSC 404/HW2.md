@@ -37,4 +37,9 @@ WHERE R.sid = S.sid AND R.duration > 5 AND S.rating = 10
 - buffer size: 50 pages
 ## Question 3
 - $R\bowtie_{R.a=S.b}S$
-- $R$ has $40\,000$ tuples over 1000 pages
+- $R$ has $40\,000$ tuples over 1000 pages (40 tuples/page)
+- $S$ has 8000 tuples over 400 pages (20 tuples/page)
+- $S.b$ is PK of $S$
+- both relations unsorted, no index
+- $B = 52$
+
