@@ -17,3 +17,11 @@ SELECT *
 FROM Studies
 WHERE StudyID > 'A%' AND StudyID < 'N%'
 ```
+## Question 2
+```sql
+SELECT S.sname S.age R.bid
+FROM Reserves R, Sailors S
+WHERE R.sid = S.sid AND R.duration > 5 AND S.rating = 10
+```
+- $Reserves(\underline{sid} (7), \underline{date} (8), \underline{bid} (8), duration (2))$
+- $Sailors({sid} (10 bytes), sname (30 bytes), rating (3 bytes), age (2 bytes))$
