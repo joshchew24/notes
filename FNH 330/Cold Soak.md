@@ -9,3 +9,4 @@
 	- adding inert gas such as CO$_2$ to displace oxygen
 	- add SO$_2$ to grape must
 	- keep temperature low
+- some varieties don't gain much from this process

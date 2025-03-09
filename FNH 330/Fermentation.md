@@ -26,6 +26,12 @@
 - may produce more aromatic complexity
 	- yeast variety yields different aroma compounds
 - risk of spoilage
+	- can't control what yeasts are on the grape skins
+- risk of stuck fermentation
+	- don't have strong enough strain of *S. cerevisiae*
+	- may not completely ferment
+	- some sugar left in wine, doesn't reach full dryness
+	- sugar is available for bacteria growth
 ##### Fermentation Microorganisms
 - grape surface contains microbes on the **waxy cuticle** (the **bloom**)
 	- yeasts/fungi: ~100 - 10,000 cells
@@ -46,6 +52,8 @@
 - innoculated with *Saccharomyces cerevisiae* yeast
 	- or allowed to spontaneously ferment
 - fermentation maintained at 20-30˚C
+	- usually closer to 30
 	- higher temp extracts more colours, tannins
 	- lower temp makes fruitier wines, less tannins
+		- good for underripe grapes to prevent extracting underripe tannins
 	- can last several days to 2 weeks
