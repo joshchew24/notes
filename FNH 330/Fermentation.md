@@ -58,3 +58,18 @@
 		- good for underripe grapes to prevent extracting underripe tannins
 	- can last several days to 2 weeks
 		- faster than white wine because of higher temps
+### Cap Management
+- CO$_2$ bubbles catch and float skins to surface, forming a "cap"
+	- ![[Pasted image 20250308174645.png]]
+- restricts must/wine extraction of colours/flavours
+	- because skin is out of contact with juice
+- dry cap may develop microbial spoilage
+#### Solutions
+- need to mix skins in cap back to must/wine to extract colours/flavours/tannins, keep cap wet
+- big factories use **rotary fermenters**
+	- ![[Pasted image 20250308174654.png]]
+	- ![[Pasted image 20250308174704.png]]
+- **punch down**
+	- use long rod with plate welded to bottom to push cap down and beak it up
+	- break it up
+	- one to three timeis a day
