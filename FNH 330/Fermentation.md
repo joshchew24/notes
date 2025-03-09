@@ -47,4 +47,5 @@
 	- or allowed to spontaneously ferment
 - fermentation maintained at 20-30˚C
 	- higher temp extracts more colours, tannins
-	- lower temp makes fruitier wines, 
+	- lower temp makes fruitier wines, less tannins
+	- can last several days to 2 weeks

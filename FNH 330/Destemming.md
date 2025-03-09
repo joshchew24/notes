@@ -1,3 +1,4 @@
+# Destemming
 ## Destemming
 - grapes mechanically separated from stems
 - more efficient, Lpress more grapes at once
