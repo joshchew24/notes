@@ -5,5 +5,3 @@
 		- $B > \sqrt{max(M,N)}$
 	- [[Hash Join]] simple sufficient condition
 		- $B > \sqrt{min(M,N)}$
-- #todo left off 53:36 on 2/27 lecture
-- 
