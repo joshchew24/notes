@@ -1,3 +1,7 @@
+---
+aliases:
+  - Projection
+---
 # Projection Evaluation
 ```sql
 SELECT SNAME, GENRE
@@ -12,3 +16,18 @@ FROM Songs
 		- read all DEs from index file
 	- which is better?
 - duplicate elimination is facilitated by [[Partitioning]]
+## Duplicate Elimination
+- given $R(A,B,C,D)$
+```sql
+SELECT DISTINCT A,B
+FROM R
+```
+- using [[Sort Merge Join|SMJ]]
+	- read $R$ into buffer
+	- project on $A,B$
+	- sort in memory
+	- write SSLs to disk
+	- if buffer large enough, merge all SSLs
+		- eliminate any duplicates that arise
+- using [[Hash Join|HJ]]
+	- similar, eliminate duplicates within partitions

@@ -43,7 +43,6 @@ aliases:
 	- $k=B-1$
 	- **simple sufficient condition**: $B > \sqrt{min(M,N)}$
 		- $\frac{M}{B-1} < B-2$
-			- 
-		- $M$ is size of $R$
-		- $\frac{M}{B-1}$ is partition size
+			- $\frac{M}{B-1}$ is uniform partition size
+			- $M$ is size of $R$
 ## [[SMJ vs. HJ]]
