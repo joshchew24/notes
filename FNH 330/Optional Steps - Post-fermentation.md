@@ -1,3 +1,4 @@
+# Optional Steps - Post-fermentation
 ## Optional Steps - Post-fermentation
 ### Post-fermentation treatments
 - add **glucosidase enzymes ($\beta$-glucosidases)** 
@@ -26,6 +27,6 @@
 #### Batonnage
 - stirred periodically with rod/paddle to keep [[Fine lees]] suspended
 - increases yeast interaction
-### Malolactic Fermentation
+### [[Malolactic Fermentation]]
 - some whites (e.g. [[Chardonnay]]) may undergo **malolactic fermentation (MLF)**
 - controlled MLF with lactic acid bacteria (LAB) *Oenococcus oeni* stabilizes wine and provides softer acidity, adds complexity (buttery)
