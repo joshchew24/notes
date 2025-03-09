@@ -17,7 +17,15 @@
 - marketed 9 months post-harvest
 ### Quality Reds
 - AOC Bordeaux/Burgundy
-	- Appellation 
+	- Appellation d'Origine Contrôlée 
 - aged minimum 6 to 24+ months in **barrels**
 	- often an additional year in bottle
-- some l
+	- some lower AOC Bordeaux aged in tanks/old barrels
+## Barrel Aging
+- oxidative aging
+	- soften wine texture
+		- lowers astringency of tannins
+	- stabilize colour
+	- oak wood is **porous**
+		- allows oxygen transfer
+		- influences wine sensory profile
