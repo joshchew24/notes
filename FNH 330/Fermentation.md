@@ -58,6 +58,7 @@
 		- good for underripe grapes to prevent extracting underripe tannins
 	- can last several days to 2 weeks
 		- faster than white wine because of higher temps
+	- low risk of oxidation, because so much CO$_2$ is evolved
 ### Cap Management
 - CO$_2$ bubbles catch and float skins to surface, forming a "cap"
 	- ![[Pasted image 20250308174645.png]]
@@ -72,4 +73,15 @@
 - **punch down**
 	- use long rod with plate welded to bottom to push cap down and beak it up
 	- break it up
-	- one to three timeis a day
+	- one to three times a day
+	- typically done on wines that have fewer tannins
+		- rougher, better at tannin extraction
+- **pump over**
+	- pump juice/must from below cap over & submerge/break-up the cap
+	- can also aerate the fermenting must
+		- oxygen important for yeast growth
+	- 15, 20 mins to an hour
+- **pneumatage**
+	- compressed air bubbles pumped into bottom of tank
+		- rise up and expand to agitate/break up the cap
+	- also promotes aeration of must

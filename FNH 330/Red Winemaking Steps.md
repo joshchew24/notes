@@ -11,3 +11,8 @@
 		- CO$_2$
 		- when the dry ice sublimates, it displaces the oxygen in the tank to prevent spoilage
 5. [[Fermentation]]
+6. [[Racking]]
+	- once grape must fermented to ~40 g/L sugar (4˚ [[Brix]])
+		- some wineries may ferment to dryness
+		- some wineries may leave wine on the skins for extended period of time to macerate
+			- extracts more tannins

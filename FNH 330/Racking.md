@@ -6,3 +6,7 @@
 - **First Racking** → After **fermentation** (removes heavy lees).  
 - **Second Racking** → After a few weeks/months (removes remaining lees).  
 - **Final Racking** → Before bottling (ensures clarity).
+## Red Wine
+- **free run wine**
+	- drained from underneath cap
+	- sent to tanks/barrels to finish fermentation or settle
