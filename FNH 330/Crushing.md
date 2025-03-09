@@ -4,3 +4,4 @@
 - enzymes may be added to enhance juice extraction
 - SO$_2$ may be added at this stage
 ![[Pasted image 20250206163214.png]]
+- for red wine, skin contact with juice is increased

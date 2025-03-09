@@ -1,3 +1,4 @@
+# Pre-fermentation Adjustments
 ## Pre-fermentation Adjustments
 ### Chaptalization
 - addition of sugar to increase final ABV
