@@ -57,3 +57,4 @@
 	- lower temp makes fruitier wines, less tannins
 		- good for underripe grapes to prevent extracting underripe tannins
 	- can last several days to 2 weeks
+		- faster than white wine because of higher temps
