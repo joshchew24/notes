@@ -1,2 +1,28 @@
 # Champagne
-- [[Sparkling Wine]] made by a primary alcoholic f
+- [[Sparkling Wine]] made by a primary alcoholic fermentation off the skins
+	- plus [[Secondary Fermentation]] to create CO$_2$
+- **characteristics**
+	- **bubbly**
+	- dry to sweet
+	- tart, hints of fruit and bread dough
+- made using **méthode champenoise/traditionnelle (Champagne or traditional method)** 
+	- [[Champagne Method]]
+	- ![[Pasted image 20250308201555.png]]
+- usually **non-vintage**
+	- blended from wines from multiple years
+- **vintage champagnes**
+	- made in years of **exceptional quality**
+	- must be made exclusively from wines of that vintage
+- also an [[AOC]] famous for its sparkling wine
+	- all champagne wine comes from this region
+## Producer Types
+- type **may appear** on label
+- Recoltant Manipulant (RM)
+	- grower Champagne-makers
+	- may sell grapes
+	- estate-bottled
+- Negociant Manipulant (NM)
+	- grow and buy grapes/wine
+- Cooperative Manipulant (CM)
+	- Co-op Champagne-makers under single brand
+	- group of winemakers send wines to co-owned facility to make champagne
