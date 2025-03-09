@@ -5,4 +5,10 @@
 - MLF converts malic acid to lactic acid + CO$_2$
 	- reduces harsh acidity; increases pH
 	- helps stabilize wine (nutrients consumed)
+		- prevents spontaneous MLF by other LAB
 	- avoids off-aromas
+	- malic acid
+		- found in apples
+		- crisp and tart
+	- lactic acid
+		- softer, fewer protons

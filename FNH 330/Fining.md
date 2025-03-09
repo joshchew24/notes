@@ -1,3 +1,4 @@
+# Fining
 ## Fining
 - adding an agent to precipitate debris/compounds in suspension or solution
 - Kieselsol - colloidal/bitter compounds
