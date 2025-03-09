@@ -1,0 +1,11 @@
+# Spoilage
+- *Acetobacter* bacteria can grow in presence of oxygen
+	- converts ethanol to acetic acid
+		- below [[Recognition Threshold]] can add complexity to aroma
+			- about 0.9g/L
+		- higher level gives vinegar smell, considered a fault
+- film yeasts (e.g. *Pichia*) can grow on wine surface
+	- gives an oxidized aroma 
+		- e.g. bruised apple
+	- ![[Pasted image 20250308194819.png]]
+	- prevented by [[Barrel Top-up]]

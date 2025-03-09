@@ -25,6 +25,7 @@
 	- or add water/sugar to ferment, make eau-de-vie or grappa
 ![[Pasted image 20250206164559.png]]
 ## Red Wine
+- ![[Pasted image 20250308194432.png]]
 - leftover cap pressed ~twice or thrice
 - press wine also sent to either tanks/barrels to finish fermentation/settle
 - **press fractions**

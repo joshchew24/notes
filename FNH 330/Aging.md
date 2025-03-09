@@ -44,6 +44,7 @@
 	- American: $750+
 	- cheaper wines use oak chips/staves/powder in tank-fermentation with micro-oxygenation
 		- pump small amounts of oxygen to mimic barrel aging process
+		- ![[Pasted image 20250308194453.png]]
 - **toasting**
 	- ![[Pasted image 20250308192842.png]]
 	- done to barrels and chips

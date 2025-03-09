@@ -17,3 +17,4 @@
 		- aerates the wine
 			- remove volatile sulfural compounds
 		- remove sediments
+	- ![[Pasted image 20250308194513.png]]

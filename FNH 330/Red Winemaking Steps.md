@@ -22,3 +22,9 @@
 8. [[Malolactic Fermentation]]
 9. [[Aging]]
 10. [[Barrel Top-up]] and [[Racking]]
+	- important to prevent [[Spoilage]]
+	- also monitoring [[Sulfur Dioxide and Sorbic Acid]] levels
+11. [[Fining]] and Clarification
+	- once aging is complete
+	- less fining than whites
+12. 
