@@ -26,6 +26,27 @@
 	- soften wine texture
 		- lowers astringency of tannins
 	- stabilize colour
+		- from purple to more red
 	- oak wood is **porous**
 		- allows oxygen transfer
 		- influences wine sensory profile
+- new barrels impart **oaky** flavours, tannins
+	- oak lactones, eugenol, vanillin
+		- whiskey, cloves, vanilla
+- can use different species
+	- French, European, American
+	- impart different flavours
+		- e.g. American has more vanilla/coconut, more astringency/tannins compared to French
+- **cost per 225L barrel** (CAD)
+	- French: $1000+
+	- American: $750+
+	- cheaper wines use oak chips/staves/powder in tank-fermentation with micro-oxygenation
+		- pump small amounts of oxygen to mimic barrel aging process
+- **toasting**
+	- ![[Pasted image 20250308192842.png]]
+	- done to barrels and chips
+	- liberate aromatic compounds
+		- rids some woody flavour from oak
+	- **light toast**: imparts natural woody flavour
+	- **medium toast**: more vanilla, roasted/toasted flavours, bit spicier
+	- **heavy toast**: smokier, less vanlila & complexity, charcoal/tar, spicy flavours, may lower colour
