@@ -26,3 +26,23 @@
 - Cooperative Manipulant (CM)
 	- Co-op Champagne-makers under single brand
 	- group of winemakers send wines to co-owned facility to make champagne
+## [[Grape Harvesting]]
+- main varieties: [[Pinot Noir]], [[Pinot Meunier]], [[Chardonnay]]
+	- 99%
+	- Pinots are red wine grapes, but **champagne is white**
+		- must process carefully
+- typically, grapes harvested when high acid and relatively low sugar
+	- earlier harvesting
+	- may need [[Pre-fermentation Adjustments#Chaptalization|Chaptalization]]
+		- grapes may not be ripe enough to reach target alcohol levels
+	- important to keep final alcohol levels low
+- must be [[Grape Harvesting#Hand Harvesting|Hand Harvested]]
+	- picked with stems
+	- grapes **must** be handled gently
+	- mechanical harvesting would
+		- destem, adding tannins
+		- break grape skins, adding colour and tannin
+			- i.e. reduces **pigment extraction**
+	- grapes can be sorted in vineyard
+		- filter out underripe or rotten clusters
+		- avoid *Bortrytis cinerea*
