@@ -10,5 +10,9 @@
 - e.g. Beaujolais Nouevau
 	- bottled and released weeks after fermentation
 ### Bulk reds
-- tanks, oak chips
+- aged with oak chips in tanks
+	- cheaper than oak barrel
+- relatively cheap
+- aged ~9 months before release
 - marketed 9 months post-harvest
+### Quality Reds
