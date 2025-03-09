@@ -1,3 +1,7 @@
+---
+aliases:
+  - Chaptalization
+---
 # Pre-fermentation Adjustments
 ## Pre-fermentation Adjustments
 ### Chaptalization

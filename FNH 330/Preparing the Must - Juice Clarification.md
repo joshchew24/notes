@@ -1,3 +1,7 @@
+---
+aliases:
+  - Settling
+---
 # Preparing the Must - Juice Clarification
 ## Preparing the Must - Juice Clarification
 - remove solids from wine that can impart vegetal aromas

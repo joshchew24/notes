@@ -41,4 +41,16 @@ aliases:
 			- second pressing, lower quality
 	- there is a **limit** on the **volume** of juice you can extract from the grapes
 		- ensures high quality
-## Making
+## Making the base wines
+- similar to [[White Winemaking Steps]]
+- add of SO$_2$ to juice
+	- may add pectinase enzymes for [[Preparing the Must - Juice Clarification|Settling]]
+- [[Pre-fermentation Adjustments#Chaptalization|Chaptalization]] may be necessary
+- fermentation at 15-18˚C
+	- usually in stainless steel tanks
+	- barrels would impart flavours
+- [[Malolactic Fermentation]] may be used
+- [[Cold stabilization]]
+	- kept separate until blending
+## Champagne Method
+1. [[Assemblage]]
