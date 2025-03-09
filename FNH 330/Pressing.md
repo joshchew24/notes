@@ -26,8 +26,16 @@
 ![[Pasted image 20250206164559.png]]
 ## Red Wine
 - leftover cap pressed ~twice or thrice
-	- press wine also sent to either tanks/barrels to finish fermentation/settle
-	- mid-stage of first press is highest quality
+- press wine also sent to either tanks/barrels to finish fermentation/settle
+- **press fractions**
+	- different press stages yield different quality
 		- **first press wine**
-		- may be mixed into 
-	- **hard press** or **second press** is lower q
+			- mid-stage of first press is highest quality
+			- may be mixed into main wine for (tannin) structure
+				- or kept separate
+		- **hard press** or **second press** is lower quality
+			- sold as economy wine
+	- good to keep stages separate for different products and blend ratios
+- press wine accounts for **~15%** of total yield
+- press wine has more tannins than free run
+	- blended to give more body, structure, mouthfeel
