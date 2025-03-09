@@ -21,3 +21,4 @@
 		- treated gently to avoid extracting vegetal flavours
 8. [[Malolactic Fermentation]]
 9. [[Aging]]
+10. [[Barrel Top-up]] and [[Racking]]

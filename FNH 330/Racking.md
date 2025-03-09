@@ -11,3 +11,9 @@
 	- drained from underneath cap
 	- sent to tanks/barrels to finish fermentation or settle
 	- cap saved for [[Pressing]]
+- during aging
+	- sediment is formed
+	- periodically rack wine off sediment
+		- aerates the wine
+			- remove volatile sulfural compounds
+		- remove sediments

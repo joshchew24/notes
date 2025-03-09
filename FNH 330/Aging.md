@@ -30,6 +30,8 @@
 	- oak wood is **porous**
 		- allows oxygen transfer
 		- influences wine sensory profile
+		- some alcohol & water evaporates from barrels
+			- requires [[Barrel Top-up]]
 - new barrels impart **oaky** flavours, tannins
 	- oak lactones, eugenol, vanillin
 		- whiskey, cloves, vanilla
