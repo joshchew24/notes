@@ -1,4 +1,5 @@
-## Fermentation
+# Fermentation
+## White Wine
 - fermented mainly using **wine yeast: *Saccharomyces cerevisiae***
 	- can tolerate high ethanol concentrations
 	- converts sugars in grape juice into ethanol, CO$_2$ and heat
@@ -40,3 +41,10 @@
 - some *Saccharomyces* present at low levels from grapes and winery
 	- as alcohol exceeds 4%, it begins to dominate (tolerates alcohol well)
 		- often the only yeast at $\geq$ 10% ABV
+## Red Wine
+- grape [[Must]] warmed to ~20˚C
+- innoculated with *Saccharomyces cerevisiae* yeast
+	- or allowed to spontaneously ferment
+- fermentation maintained at 20-30˚C
+	- higher temp extracts more colours, tannins
+	- lower temp makes fruitier wines, 
