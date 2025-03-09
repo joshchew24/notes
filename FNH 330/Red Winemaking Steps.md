@@ -16,3 +16,6 @@
 		- some wineries may ferment to dryness
 		- some wineries may leave wine on the skins for extended period of time to macerate
 			- extracts more tannins
+7. [[Pressing]]
+	- cap from racking saved for pressing
+		- treated gently to avoid extracting vegetal flavours

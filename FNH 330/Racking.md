@@ -10,3 +10,4 @@
 - **free run wine**
 	- drained from underneath cap
 	- sent to tanks/barrels to finish fermentation or settle
+	- cap saved for [[Pressing]]

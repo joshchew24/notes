@@ -1,3 +1,4 @@
+# Pressing
 ## Pressing
 - must be pumped into a pneumatic/membrane press
 	- also basket/vertical screw press
@@ -10,7 +11,7 @@
 	- first press juice is gently pressed off the skins/seeds
 		- this and free-run juice often mixed, used for higher quality wine
 		- free of bittered oils and tannins
-	- hard press juic is kept separate from first press and free-run
+	- hard press juice is kept separate from first press and free-run
 		- higher in solids
 		- more vegetal
 		- more bitter
@@ -23,3 +24,10 @@
 	- can be composted
 	- or add water/sugar to ferment, make eau-de-vie or grappa
 ![[Pasted image 20250206164559.png]]
+## Red Wine
+- leftover cap pressed ~twice or thrice
+	- press wine also sent to either tanks/barrels to finish fermentation/settle
+	- mid-stage of first press is highest quality
+		- **first press wine**
+		- may be mixed into 
+	- **hard press** or **second press** is lower q
