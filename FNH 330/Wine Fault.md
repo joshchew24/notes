@@ -8,4 +8,15 @@
 	- e.g. H$_2$S: rotten eggs, burnt rubber
 	- yeast stress during fermentation
 	- hard to deal with
-	- sulfur overuse in vineyard or by wine
+	- sulfur overuse in vineyard or by winemaker
+- "**Corked**" or musty
+	- cork taint
+	- 2,4,6-trichloroanisole
+	- smells like musty basement
+	- detectable in parts-per-billion or parts-per-trillion
+		- don't need a lot of it
+	- compound formed in cork fiber that can impart compound into wine
+	- causes some wineries to avoid corks
+- **Oxidation**
+	- solvent-like smell
+	- bruised apple
