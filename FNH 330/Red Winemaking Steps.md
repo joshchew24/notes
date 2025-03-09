@@ -27,4 +27,4 @@
 11. [[Fining]] and Clarification
 	- once aging is complete
 	- less fining than whites
-12. 
+12. [[Bottling]] and Storage, bottle aging

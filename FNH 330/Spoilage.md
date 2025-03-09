@@ -3,7 +3,7 @@
 	- converts ethanol to acetic acid
 		- below [[Recognition Threshold]] can add complexity to aroma
 			- about 0.9g/L
-		- higher level gives vinegar smell, considered a fault
+		- higher level gives vinegar smell, considered a [[Wine Fault]]
 - film yeasts (e.g. *Pichia*) can grow on wine surface
 	- gives an oxidized aroma 
 		- e.g. bruised apple
