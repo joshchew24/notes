@@ -16,3 +16,8 @@
 - aged ~9 months before release
 - marketed 9 months post-harvest
 ### Quality Reds
+- AOC Bordeaux/Burgundy
+	- Appellation 
+- aged minimum 6 to 24+ months in **barrels**
+	- often an additional year in bottle
+- some l
