@@ -59,4 +59,11 @@ aliases:
 4. storage and aging
 	- bottles stored horizontally
 	- aged [[Optional Steps - Post-fermentation#Sur Lie|sur-lie]]
-	- 
+		- **longer aging** imparts better characteristic
+	- [[Champagne#Producer Types|NV]] champagne: min. 15 months
+	- [[Champagne#Producer Types|Vintage]] champagne: min. 36 months
+	- [[Spanish Cava]]: min. 9 months
+	- produces bouquet: yeast/bread-dough
+	- improves foam/mousse quality and stability
+5. [[Riddling]]
+6. [[Disgorgement]]
