@@ -39,7 +39,17 @@
 	- i.e. wine of the country/Land Wine (1979)
 	- renamed in 2009
 - new classification for "superior" table wines
-- 2009: renamed to **IGP - Indication Géographique Protégée**
-	- Protected Geographical Region
-	- some modest restrictions on variety, yield, harvest maturity
-- 
+- translates to Protected Geographical Region
+- some **modest restrictions** on variety, yield, harvest maturity
+- often **overlaps** with [[AOC]] regions
+- allows **varietal labelling**
+## EU Systems
+- other EU countries followed France's lead (and marketing success)
+	- Italy: [[Denominazione di Origine Controllata]]
+	- Spain: [[Denominacion de Origen]]
+	- Germany: [[Qualitätswein]]
+- in 2008, European Union created three categories
+	- ![[Pasted image 20250310023344.png]]
+	- [[Protected Designation of Origin]]
+	- [[Protected Geographical Indication]]
+	- [[Wine without geographical indication]]

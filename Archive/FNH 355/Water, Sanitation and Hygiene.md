@@ -1,5 +1,5 @@
 ---
-ali: WASH
+aliases: WASH
 ---
 # Water, Sanitation and Hygiene
 - underlying cause in [[UNICEF Conceptual Framework on the Determinants of Maternal and Child Nutrition]]
