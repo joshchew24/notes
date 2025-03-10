@@ -2,8 +2,8 @@
 - **still**, **sweet** white/red, med-high ABV (aperitif or dessert)
 	- 8-21%
 - style is determined by **harvest criteria** and **processing method**
-	- [[Late Harvest]]
-	- dried grapes
+	- [[Late Harvest Wines]]
+	- [[Drying|Dried Grapes]]
 	- *Botrytis*-affected
 		- [[Aromas]]: apricot, lychee, honey
 	- frozen grapes

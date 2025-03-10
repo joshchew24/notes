@@ -1,4 +1,4 @@
-# Late Harvest
+# Late Harvest Wines
 - grapes left hanging in vineyard for longer period
 	- allows grape to **accumulate more sugar**
 	- develops different flavour profile
@@ -10,3 +10,12 @@
 		- e.g. Riesling/Semillon
 - aim for **low disease**
 	- small amount of *Botrytis* is acceptable
+- without botrytis typically 26-30º Brix
+	- some dessication on vine
+- **winemaking process** is similar to [[White Winemaking Steps]]
+	- crushed then pressed
+	- fermented
+	- aging variable
+		- tank/barrel
+		- months to years
+- some made from [[Drying|Dried Grapes]]
