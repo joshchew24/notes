@@ -32,6 +32,7 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 		- selections could have been *pushed* earlier (reduces number of tuples inputted to join)
 		- no use of indexes (if available)
 	- cost: just SNL, so $500 + 500\times1000$ I/Os
+		- total: $500\,500$ I/Os
 - Plan 1: ![[Pasted image 20250310150610.png]]
 	- push selects before join
 	- **assumptions**
@@ -50,6 +51,7 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 				- RF: $\frac{2005-2000}{(2005-1996) + 1} = \frac{5}{10}$
 				- yields $\frac{1}{2} \times 500=250$ tuples
 				- **500 read + 250 write** to temp2
+			- subtotal: $1000 + 10 + 500 + 250 = 1760$ I/Os
 		- naive SMJ
 			- sort temp1
 				- 5 buffer pages gives 2 SSLs which can be merged in one pass
@@ -64,4 +66,5 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 					- 3 passes of 250 reads + 250 writes each
 			- merge temp1 and temp2
 				- 1 scan of each sorted table = 250 reads + 10 reads
-			- total: $(2\$
+			- subtotal: $(2\times(10+10)) + (4\times(250+250)) + (250+10) = 2300$ I/Os
+		- **total**: $4060$ I/Os
