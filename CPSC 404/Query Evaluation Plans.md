@@ -19,6 +19,7 @@
 	- how is the plan cost estimated?
 	- **System R** approach by IBM
 ## Examples
+uses [[Join Evaluation#^example-schema]]
 ### Example 1
 ```sql
 SELECT S.genre
@@ -33,3 +34,6 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 	- cost: just SNL, so $500 + 500\times1000$ I/Os
 - Plan 1: ![[Pasted image 20250310150610.png]]
 	- push selects before join
+	- **cost**
+		- selects: table scan for each relation
+			- 500 read + 500 write to temp1
