@@ -9,6 +9,7 @@ aliases:
 	- included Médoc, Graves, Sauternes and Barsac
 		- Médoc only makes [[AOC]] red wines
 		- Sauternes and Barsac are only [[Late Harvest Wines|Late Harvest]] [[Botrytis-affected Wines]]
+	- mostly **red wines**
 - best vineyards ranked from “cinquième (5th) cru classé” to “premier (1st) grand cru superieur classé”
 	- ~130 wineries
 	- **cru**: growth
@@ -28,3 +29,18 @@ aliases:
 	- highest rank
 - Chateau d'Yquem
 ## [[Bottle Labels]]
+![[Pasted image 20250310014542.png]]
+- Ch. Kirwan is a 3ème cru classé
+	- marketed as **grand cru classé**
+- Still Red Table Wine
+	- all [[AOC]] wines from **Margaux** are red
+- [[AOC|Appellation d'Origine Contrôlée]]
+	- **Margaux**
+- [[Estate-bottled|Mis en bouteille au château]]
+- [[Geographical Classification]]
+	- grapes were grown at the **chateau**
+		- in **Margaux**, which is in
+		- the **Haut-Medoc** (sub-region) of
+		- [[Bordeaux]], France
+	- knowing the geography tells us the grape varieties
+		- [[Merlot]]
