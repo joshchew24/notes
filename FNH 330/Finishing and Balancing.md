@@ -8,5 +8,5 @@
 - **Balancing**:
 	- if wine tastes acidic, sugar level may be adjusted to offset excess acid taste
 		- low quality wines
-		- in higher quality wines (e.g. Pradikätswein Rieslings)
+		- in higher quality wines (e.g. [[Pradikätswein]] [[Rieslings]])
 			- may add “süssreserve” (high quality reserve juice)

@@ -13,7 +13,7 @@
 - heat accumulation for vines is at the lower limit for viticulture
 - frost and winter cold injury
 ## Varieties
-- chardonnay, Riesling, Pinot Noir, Muller Thurgau
+- [[Chardonnay]], [[Riesling]], [[Pinot Noir]], [[Muller Thurgau]]
 ## Sub-climates
 ### Rain shadow
 - mountain range blocks passage of rain-producing weather systems (storms)

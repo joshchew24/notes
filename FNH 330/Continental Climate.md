@@ -10,4 +10,4 @@
 - winter cold injury and frost
 - vintages quite variable; can be excessively wet or dry
 ## Grape Varieties
-- Chardonnay, Merlot, Riesling, Cabernet Franc
+- [[Chardonnay]], [[Merlot]], [[Riesling]], [[Cabernet Franc]]
