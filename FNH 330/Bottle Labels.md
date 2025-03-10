@@ -10,3 +10,5 @@
 - processing considerations
 ### [[Geographical Classification]]
 - where the grapes were grown (officially)
+## Example
+- [[Chateau Margaux 1996]]
