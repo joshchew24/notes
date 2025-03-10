@@ -1,6 +1,8 @@
 ---
 aliases:
   - Champagne Method
+  - Traditional Method
+  - Champagne/Traditional Method
 ---
 # Champagne Winemaking Steps
 ## [[Grape Harvesting]]

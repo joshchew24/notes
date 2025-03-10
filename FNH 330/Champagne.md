@@ -38,3 +38,13 @@
 		- made by blending white and red champagne wines
 	- Rosé de saignée
 		- keep juice in contact with red grape skins for few hours before pressing off
+## Sweetness Classifications
+| Champagne term  | Sparkling Wine term | Sugar (g/L) |
+| --------------- | ------------------- | ----------- |
+| **Brut Nature** | **bone dry**        | <3          |
+| Extra Brut      | dry                 | 0-6         |
+| **Brut**        | **dry-hint sweet**  | <12         |
+| Extra dry       | hint sweet          | 12-17       |
+| Sec             | medium sweet        | 17-32       |
+| **Demi-sec**    | **medium+ sweet**   | 32-50       |
+| Doux/Rich       | sweet               | >50         |
