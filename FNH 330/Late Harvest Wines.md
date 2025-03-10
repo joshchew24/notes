@@ -19,3 +19,4 @@
 		- tank/barrel
 		- months to years
 - some made from [[Drying|Dried Grapes]]
+- some are [[Botrytis-affected Wines]]

@@ -1,3 +1,11 @@
 # Botrytis-affected Wines
 - [[Botrytis cinerea]] is allowed to grow on grapes
 	- first evidence of this style in Hungary (Tokaji)
+- typical varieties: [[Riesling]], [[Semillon]]
+	- skin thickness influences *Botrytis* resistance
+	- higher residual acidity to balance sugar
+- *Botrytis* penetrates berry skin
+	- berry dehydrates in dry weather
+		- sugar, acids become concentrated
+	- develops different flavours/aromas
+		- e.g. dried apricot, honey
