@@ -1,6 +1,7 @@
 ---
 aliases:
   - Noble Rot
+  - Bortytis-affected
 ---
 # Botrytis-affected Wines
 - [[Botrytis cinerea]] is allowed to grow on grapes
