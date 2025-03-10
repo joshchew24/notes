@@ -27,7 +27,7 @@
 	f. June            2. bloom
 	b. Aug            5. veraison
 	a. late Aug     3. netting/noisemakers set up
-	g. Sept           6. bortrytis risk
+	g. Sept           6. botrytis risk
 	e. Oct - Nov   7. harvest
 22. too much vegetative growth sucks away nutrients from grapes
 23. GDD

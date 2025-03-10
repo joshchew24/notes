@@ -58,10 +58,10 @@
 		- mid harvest (optimal ripeness) -> orange blossom and apricot aromas (higher quality rating)
 		- later harvest (past optimal) -> 
 2. sugar, acid concentration and balance?
-	- white wines:
+	- **white wines**:
 		- ~180 g/L sugars (18° [[Brix Scale|Brix]]) is appropriate minimum for better quality white wines (e.g. BC-VQA)
 			- 18° Brix -> ~10.7% ABV
-	- red wines:
+	- **red wines**:
 		- 5-7 g/L acidity, 20-25+˚[[Brix Scale|Brix]]
 	- hang time
 		- longer sun/heat exposure reduces acidity, increases sugar (more alcohol)

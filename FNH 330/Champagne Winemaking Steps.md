@@ -24,7 +24,7 @@ aliases:
 			- i.e. reduces **pigment extraction**
 	- grapes can be sorted in vineyard
 		- filter out underripe or rotten clusters
-		- avoid *Bortrytis cinerea*
+		- avoid *Botrytis cinerea*
 ## Grape Processing
 - whole cluster [[Pressing]]
 	- why whole cluster?
