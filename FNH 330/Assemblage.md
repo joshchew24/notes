@@ -1,7 +1,7 @@
 # Assemblage
 - blending of the component wines for [[Champagne]]
 ## Non-vintage
-- compiling many diverse wines for blending of the “cuvée”
+- compiling many diverse wines for blending of the “**cuvée**”
 	- reserve wines (i.e. other vintages)
 		- can be >30% of total blend
 		- more complex flavours due to aging

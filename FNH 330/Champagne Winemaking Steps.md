@@ -54,3 +54,9 @@ aliases:
 	- kept separate until blending
 ## Champagne Method
 1. [[Assemblage]]
+2. [[Tirage]]
+3. [[Secondary Fermentation]]
+4. storage and aging
+	- bottles stored horizontally
+	- aged [[Optional Steps - Post-fermentation#Sur Lie|sur-lie]]
+	- 

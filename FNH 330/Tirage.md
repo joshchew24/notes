@@ -1,0 +1,16 @@
+# Tirage
+- **Cuvée** is mixed with **liqueur de tirage**
+	- solution added to still base for triggering [[Secondary Fermentation]]
+- Tirage contains
+	- yeast nutrients = diammonium phosphate, thiamine
+	- sugar
+		- helps produce alcohol
+		- add 24 g per L of cuvée to produce CO$_2$
+			- 24 g/L = 6 atmospheres final pressure
+		- ABV goes from 10% to 12-12.5% from secondary fermentation
+	- yeast
+		- *S. cerevisiae var. bayanus*
+		- (subspecies of *S. cerevisiae*)
+- wine mixed with tirage + yeast is **transferred to bottle**
+	- crown cap closures seals each bottle
+	- i.e. beer/soda cap
