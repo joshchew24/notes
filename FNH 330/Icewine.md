@@ -1,8 +1,18 @@
 # Icewine
 - made only in a few countries
-	- mainly Canada, Germany, Austria, China
+	- mainly Canada, Germany, Austria, China, Czech Republic
 - grapes are left on vine until winter
-	- if left too long, they will oxidize
+	- if left too long, they will **oxidize**
 	- protected by bird nets
-	- grapes picked and
+	- grapes **picked** and **processed** (outside) when temp drops **below -8ºC**
+	- water is frozen in berry, leaving juice concentrated in sugars/acids
 - typical [[Aromas]]: citrus, pear, melon
+- **regulation**
+	- minimum sugar concentration in grape: 35º Brix
+	- minimum sugar concentration in icewine: 100g/L
+	- **no sugar addition**
+	- **no artificial freezing**
+	- Fermentation: 17-20ºC
+		- warmer than [[White Winemaking Steps]]
+			- because of higher sugar concentration
+		- **no oak aging**
