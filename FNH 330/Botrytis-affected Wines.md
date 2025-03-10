@@ -1,7 +1,13 @@
+---
+aliases:
+  - Noble Rot
+---
 # Botrytis-affected Wines
 - [[Botrytis cinerea]] is allowed to grow on grapes
 	- first evidence of this style in Hungary (Tokaji)
-- typical varieties: [[Riesling]], [[Semillon]]
+	- no [[Grey Rot]] (mould) grows
+	- instead, the berries dessicate
+- typical varieties: [[Riesling]], [[Semillon]], [[Sauvignon Blanc]], [[Optima]]
 	- skin thickness influences *Botrytis* resistance
 	- higher residual acidity to balance sugar
 - *Botrytis* penetrates berry skin
@@ -9,3 +15,26 @@
 		- sugar, acids become concentrated
 	- develops different flavours/aromas
 		- e.g. dried apricot, honey
+	- ![[Pasted image 20250310002758.png]]
+		- Quails Gate estate winery Late-harvest botrytised-affected Optima
+		- 70% BA
+		- 38º Brix
+		- foot pressed
+		- wine residual sugar: 132 g/L
+			- 13 g acid/L
+- typically 26-34º Brix
+- will be **labelled "Botrytis Affected" (BA)** in BC
+	- for **prominent** Botrytis
+	- or **Totally Botrytis Affected (TBA)**
+- famous Botrytis-affected wines:
+	- Tokaji, German Beerenauslese/Trokcnebeerenauslese, [[Sauternes]]
+- some [[Aging#Barrel Aging|barrel aging]]
+## Winemaking
+- grapes are [[Pressing|pressed]] but not [[Crushing|crushed]]
+	- crushing will make a **mouldy paste**
+- similar to [[White Winemaking Steps]]
+	- [[Must]] is much sweeter and needs special attention
+		- *S. cerevisaie* (wine yeast) gets stressed at higher sugar levels
+		- [[Fermentation]] prone to getting stuck
+- may be aged in [[Aging#Barrel Aging|oak barrels]]
+	- [[Sauternes]], [[Tokaji]]
