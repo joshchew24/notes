@@ -50,4 +50,18 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 				- RF: $\frac{2005-2000}{(2005-1996) + 1} = \frac{5}{10}$
 				- yields $\frac{1}{2} \times 500=250$ tuples
 				- **500 read + 250 write** to temp2
-		- join
+		- naive SMJ
+			- sort temp1
+				- 5 buffer pages gives 2 SSLs which can be merged in one pass
+					- 10 reads + 10 writes
+				- merge 2 SSLs
+					- 10 reads + 10 writes
+			- sort temp2
+				- 5 buffer pages give 50 SSLs, cannot be merged in one pass
+					- 250 reads + 250 writes
+				- merge 550 SSLs
+					- requires $\lceil log_5(50)\rceil = 3$ passes
+					- 3 passes of 250 reads + 250 writes each
+			- merge temp1 and temp2
+				- 1 scan of each sorted table = 250 reads + 10 reads
+			- total: $(2\$
