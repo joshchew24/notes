@@ -53,6 +53,7 @@ aliases:
 - [[Cold stabilization]]
 	- kept separate until blending
 ## Champagne Method
+- **cheap traditional method cava to try**: segura viudas
 1. [[Assemblage]]
 2. [[Tirage]]
 3. [[Secondary Fermentation]]
@@ -67,3 +68,6 @@ aliases:
 	- improves foam/mousse quality and stability
 5. [[Riddling]]
 6. [[Disgorgement]]
+7. [[Dosage]] + corking
+	- cork inserted, wrapped in cage + foil
+	- aged for 1 more year

@@ -26,3 +26,15 @@
 - Cooperative Manipulant (CM)
 	- Co-op Champagne-makers under single brand
 	- group of winemakers send wines to co-owned facility to make champagne
+## Champagne Types
+- Blanc de blancs
+	- made only with white grapes
+	- e.g. [[Chardonnay]]
+- Blanc de noirs
+	- made only with red grapes
+	- e.g. [[Pinot Noir]], [[Pinot Meunier]]
+- Rosé
+	- Rosé d'assemblage
+		- made by blending white and red champagne wines
+	- Rosé de saignée
+		- keep juice in contact with red grape skins for few hours before pressing off
