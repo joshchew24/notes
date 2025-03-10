@@ -48,7 +48,7 @@
 - **toasting**
 	- ![[Pasted image 20250308192842.png]]
 	- done to barrels and chips
-	- liberate aromatic compounds
+	- liberate **aromatic** compounds
 		- rids some woody flavour from oak
 	- **light toast**: imparts natural woody flavour
 	- **medium toast**: more vanilla, roasted/toasted flavours, bit spicier
