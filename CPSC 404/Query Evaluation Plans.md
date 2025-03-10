@@ -70,4 +70,16 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 		- **total**: $4060$ I/Os
 - Plan 1b:
 	- use efficient SMJ (with replacement sort)
-	- select cost is same: $1760$ I/Os
+	- **cost**
+		- select cost is same: $1760$ I/Os
+		- SMJ
+			- sort temp1
+				- $\frac{10}{2\times5} = 1$ SSL
+					- 10 reads + 10 writes
+			- sort temp 2
+				- pass 1
+					- $\frac{250}{2\times5}=25$ SSLs
+						- 250 reads + 250 writes
+				- **must merge until total # SSLs fits into buffer**
+				- pass 2:
+					- $\frac{25}{4}$
