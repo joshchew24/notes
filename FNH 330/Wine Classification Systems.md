@@ -67,3 +67,5 @@
 - NA/SA, Australia, NZ
 - initially, legal requirements were pretty loose
 	- early marketing strategies copied styles/names from Europe
+- Some countries include designations of state/county, [[American Viticultural Areas]], [[Geographical Indications]] (GI), [[Denominacion de Origen]] etc.
+	- where a formal

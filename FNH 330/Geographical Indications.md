@@ -1,0 +1,5 @@
+---
+aliases:
+  - GI
+---
+# Geographical Indications
