@@ -33,7 +33,7 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 		- no use of indexes (if available)
 	- cost: just SNL, so $500 + 500\times1000$ I/Os
 		- total: $500\,500$ I/Os
-- Plan 1: ![[Pasted image 20250310150610.png]]
+- Plan 1a: ![[Pasted image 20250310150610.png]]
 	- push selects before join
 	- **assumptions**
 		- 5 buffer pages
@@ -62,9 +62,12 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 				- 5 buffer pages give 50 SSLs, cannot be merged in one pass
 					- 250 reads + 250 writes
 				- merge 550 SSLs
-					- requires $\lceil log_5(50)\rceil = 3$ passes
+					- requires $\lceil log_4(50)\rceil = 3$ passes
 					- 3 passes of 250 reads + 250 writes each
 			- merge temp1 and temp2
 				- 1 scan of each sorted table = 250 reads + 10 reads
 			- subtotal: $(2\times(10+10)) + (4\times(250+250)) + (250+10) = 2300$ I/Os
 		- **total**: $4060$ I/Os
+- Plan 1b:
+	- use efficient SMJ (with replacement sort)
+	- select cost is same: $1760$ I/Os
