@@ -1,6 +1,7 @@
 ---
 aliases:
   - 1855 Bordeaux classification
+  - Grand cru classé
 ---
 # Grands crus classés
 - presented at Paris Exhibition
