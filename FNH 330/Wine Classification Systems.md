@@ -18,6 +18,7 @@
 - in **1935**, France established the [[Institut national des appellations d'origine]]
 	- to comply with EU regulations, AOC is now AOP
 - [[Bordeaux]] received AOC designation in 1936
+	- has 7 [[AOC]]s
 	- kept [[Grands crus classés]] designations
 	- made new classifications
 		- [[St-Emilion 1955 Classification]]
@@ -53,3 +54,16 @@
 	- [[Protected Designation of Origin]]
 	- [[Protected Geographical Indication]]
 	- [[Wine without geographical indication]]
+
+### EU Classification Table
+
+| Country | [[Wine without geographical indication]] | [[Protected Geographical Indication\|PGI]]                       | [[Protected Designation of Origin\|PDO]] | [[Protected Designation of Origin#Protected Designation of Origin#"Special" Quality Tiers\|PDO Special]] |
+| ------- | ---------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| France  | Vin de France                            | [[#Indication Géographique Protégée\|IGP]]                       | [[Appellation d'Origine Contrôlée\|AOC]] | AOC [[Grands crus classés\|crus]]                                                                        |
+| Germany | Deutscher Wein                           | [[Landwein]]                                                     | [[Qualitätswein]]                        | [[Prädikatswein]]                                                                                        |
+| Italy   | Vino                                     | Indicazione geografica<br>protetta/typica                        | [[Denominazione di Origine Controllata]] | [[Denominazione di Origine Controllata\|Denominazione di Origine Controllata e Garantita]]               |
+| Spain   | Vino                                     | Indicazión geográfica protegida<br>(IGP)/ vino de la tierra (VT) | [[Denominacion de Origen]]               | [[Denominacion de Origen\|Denominacion de Origen Calificada]]                                            |
+## Non-European Labels and Regulations
+- NA/SA, Australia, NZ
+- initially, legal requirements were pretty loose
+	- early marketing strategies copied styles/names from Europe
