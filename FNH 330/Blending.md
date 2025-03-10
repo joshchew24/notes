@@ -1,3 +1,4 @@
+# Blending
 ## Blending
 - after [[Racking]] (2-3 times), the wine may be blended
 - for enhanced complexity
