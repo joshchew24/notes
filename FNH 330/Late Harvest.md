@@ -3,5 +3,10 @@
 	- allows grape to **accumulate more sugar**
 	- develops different flavour profile
 - **variety** must be good for hanging late
+	- other factors are **harvest timing** and **vineyard conditions**
 	- some grapes are better at **staying intact** and **preserving acidity**
-	- e.g.
+	- some grapes have attractive late-harvest flavours
+		- and high acidity (good balance for dessert-style)
+		- e.g. Riesling/Semillon
+- aim for **low disease**
+	- small amount of *Botrytis* is acceptable
