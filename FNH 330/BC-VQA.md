@@ -1,3 +1,7 @@
+---
+aliases:
+  - BC-Vintners Quality Alliance
+---
 # BC-VQA
 - established 1990
 - managed by **BC Wine Authority** under **Wines of Marked Quality Regulation**
