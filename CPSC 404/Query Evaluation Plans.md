@@ -31,4 +31,5 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 		- selections could have been *pushed* earlier (reduces number of tuples inputted to join)
 		- no use of indexes (if available)
 	- cost: just SNL, so $500 + 500\times1000$ I/Os
-		- 
+- Plan 1: ![[Pasted image 20250310150610.png]]
+	- push selects before join
