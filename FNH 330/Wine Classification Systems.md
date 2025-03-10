@@ -68,4 +68,18 @@
 - initially, legal requirements were pretty loose
 	- early marketing strategies copied styles/names from Europe
 - Some countries include designations of state/county, [[American Viticultural Areas]], [[Geographical Indications]] (GI), [[Denominacion de Origen]] etc.
-	- where a formal
+	- where a formal [[GI]] exists, may be restrictions on label
+		- e.g. % of varieties, vintage, origin of grapes
+- few to no restrictions on **how grapes are grown and vinified**
+	- **typicity** is not required
+		- how a wine reflects its varietal characteristics
+		- styles can change
+		- market feedback is major factor
+		- allows winemakers more freedom to experiment and innovate
+	- potential for more quality inconsistency across a region
+### Canada
+- Canada has a non-VQA system
+	- few restrictions
+- VQA System in [[BC-VQA]] and Ontario
+	- VQA similar to French and German systems
+	- more regulated than many non-European countries
