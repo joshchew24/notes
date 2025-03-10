@@ -50,10 +50,10 @@
 - are the grape rip?
 1. for optimal varietal aroma character?
 	- depends on variety and/or style desired
-	- e.g. Riesling
+	- e.g. [[Riesling]]
 		- early harvest -> green apple aromas (modest quality)
 		- later harvest -> honey/peach/apricot (medium quality)
-	- e.g. Viognier
+	- e.g. [[Viognier]]
 		- early-mid harvest -> orange-blossom aromas
 		- mid harvest (optimal ripeness) -> orange blossom and apricot aromas (higher quality rating)
 		- later harvest (past optimal) -> 
