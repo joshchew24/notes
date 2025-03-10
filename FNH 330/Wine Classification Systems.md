@@ -15,3 +15,31 @@
 	- established new Champagne appellation
 	- Champagne began to apply for legal restrictions on use of "Champagne" term
 ## [[Appellation d'Origine Contrôlée]]
+- in **1935**, France established the [[Institut national des appellations d'origine]]
+	- to comply with EU regulations, AOC is now AOP
+- [[Bordeaux]] received AOC designation in 1936
+	- kept [[Grands crus classés]] designations
+	- made new classifications
+		- [[St-Emilion 1955 Classification]]
+		- Graves: (new) grand cru classification in 1959
+- [[Wine Classification Systems#Champagne (early 1900s)|Champagne]] 1936: Non-cru-classified areas planned out their own cru systems
+	- based on villages instead of estates
+	- followed by [[Burgundy]] (1930s) and [[Alsace]] (1983)
+## Indication Géographique Protégée
+### Motivation
+- majority of wine made in France is **outside of AOC**
+- called "Table Wine"
+- no restrictions on varieties/French source
+- **restricted labelling**
+	- no geographic references
+	- no varietal labelling
+	- etc
+### System
+- initially called **Vin de Pays**
+	- i.e. wine of the country/Land Wine (1979)
+	- renamed in 2009
+- new classification for "superior" table wines
+- 2009: renamed to **IGP - Indication Géographique Protégée**
+	- Protected Geographical Region
+	- some modest restrictions on variety, yield, harvest maturity
+- 
