@@ -1,3 +1,7 @@
+---
+aliases:
+  - Late Harvest
+---
 # Late Harvest Wines
 - grapes left hanging in vineyard for longer period
 	- allows grape to **accumulate more sugar**
