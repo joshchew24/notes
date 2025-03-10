@@ -1,3 +1,3 @@
 # Icewine
 - sweet
-- typical [[Aromas]]:
+- typical [[Aromas]]: citrus, pear, melon

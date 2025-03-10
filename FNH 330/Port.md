@@ -1,4 +1,5 @@
 # Port
+- typical [[Aromas]]: cooked fruit, cherries, licorice
 ## Late Bottled Vintage Port
 - sweet, fortified wine
 	- **alcohol** has been **added** to **stop fermentation**
