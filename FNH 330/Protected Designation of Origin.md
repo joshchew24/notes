@@ -10,3 +10,6 @@ aliases:
 	- or higher tiers
 		- e.g. [[Grands crus classés]]
 ## "Special" Quality Tiers
+- France: [[Grands crus classés]]
+- Germany: [[Prädikatswein]]
+- Italy: [[Denominazione di Origine Controllata]]
