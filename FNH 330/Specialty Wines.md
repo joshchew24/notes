@@ -3,9 +3,9 @@
 	- 8-21%
 - style is determined by **harvest criteria** and **processing method**
 	- [[Late Harvest Wines]]
-	- [[Drying|Dried Grapes]]
-	- *Botrytis*-affected
-		- [[Aromas]]: apricot, lychee, honey
+		- [[Drying|Dried Grapes]]
+		- [[Botrytis-affected Wines]]
+			- [[Aromas]]: apricot, lychee, honey
 	- frozen grapes
 	- variable fermentation methods
 		- e.g. fortified
