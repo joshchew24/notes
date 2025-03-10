@@ -13,7 +13,7 @@
 - **vintage champagnes**
 	- made in years of **exceptional quality**
 	- must be made exclusively from wines of that vintage
-- also an [[AOC]] famous for its sparkling wine
+- also an [[Appellation d'Origine Contrôlée|AOC]] famous for its sparkling wine
 	- all champagne wine comes from this region
 ## Producer Types
 - type **may appear** on label

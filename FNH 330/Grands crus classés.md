@@ -7,7 +7,7 @@ aliases:
 - French Emperor Napoelon III's committee ranked all of the wineries (chateaus)' wines on the **left bank** of Gironde estuary in **Bordeaux**
 	- classified according to their quality
 	- included Médoc, Graves, Sauternes and Barsac
-		- Médoc only makes [[AOC]] red wines
+		- Médoc only makes [[Appellation d'Origine Contrôlée|AOC]] red wines
 		- Sauternes and Barsac are only [[Late Harvest Wines|Late Harvest]] [[Botrytis-affected Wines]]
 	- mostly **red wines**
 - best vineyards ranked from “cinquième (5th) cru classé” to “premier (1st) grand cru superieur classé”
@@ -33,8 +33,8 @@ aliases:
 - Ch. Kirwan is a 3ème cru classé
 	- marketed as **grand cru classé**
 - Still Red Table Wine
-	- all [[AOC]] wines from **Margaux** are red
-- [[AOC|Appellation d'Origine Contrôlée]]
+	- all [[Appellation d'Origine Contrôlée|AOC]] wines from **Margaux** are red
+- [[Appellation d'Origine Contrôlée|Appellation d'Origine Contrôlée]]
 	- **Margaux**
 - [[Estate-bottled|Mis en bouteille au château]]
 - [[Geographical Classification]]
@@ -43,4 +43,4 @@ aliases:
 		- the **Haut-Medoc** (sub-region) of
 		- [[Bordeaux]], France
 	- knowing the geography tells us the grape varieties
-		- [[Merlot]]
+		- [[Merlot]], [[Cabernet Sauvignon]], [[Cabernet Franc]]
