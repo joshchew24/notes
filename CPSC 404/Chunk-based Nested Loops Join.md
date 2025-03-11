@@ -26,9 +26,10 @@ foreach chunk i of R {
 		- $S$ has $8$ pages
 		- $B$ has $5$ pages
 			- chunk size is $3$ pages
-		- chunks of $R$: 3
-		- chunks of $S$: 3
-		- if $S$ is outer, 
+		- both relations have 3 chunks
+			- the inner relation will always be full scanned 3 times
+		- if $S$ (smaller) is the outer relation, the inner scan will cost $3\times9 = 27$ page I/Os
+		- if $R$ (larger) is the outer relation, the inner scan will cost $3 \times 8 = 24$ page I/Os
 - using [[Join Evaluation#^example-schema|Example Schema]]
 ### Example 1
 - outer: $R$
