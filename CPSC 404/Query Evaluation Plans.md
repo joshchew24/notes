@@ -136,6 +136,8 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 					- need $sid$ for join
 				- temp1 is $\lceil \frac{1}{4} \times (\frac{1}{100} \times 1000) \rceil = 3$ pages
 					- can pipeline this and use it as **1 chunk**
+						- to optimize, would process $Songs$ first
+							- less random I/Os as more buffer pages available (assuming file is sequential)
 			- $Songs$: attributes are 10, 10, 15, 15 bytes
 				- $sid$ = 10, $genre$ = 15
 				- $\sigma_{year > 2000}Songs$ has RF $\frac{1}{2}$
@@ -144,4 +146,7 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 				- temp2 is $\lceil \frac{1}{2} \times (\frac{1}{2} \times 500) \rceil = 125$ pages
 			- **cost**: $1000 + 500 + 125 = 1625$ I/Os, assuming temp1 is pipelined
 		- **CNL**
-			- temp1 pipelined into memory
+			- entire temp1 pipelined into memory
+				- no cost to read temp1
+			- cost is just inner scan: $125$ I/Os
+		- **total**: $1625 + 125 = 1800$ I/Os
