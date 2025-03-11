@@ -11,6 +11,11 @@
 	- e.g. 
 - **generally**, doing **selection** and **projection** before complex operations like **join** is beneficial
 	- however, if these intermediaries aren't materialized, there may be no benefit
+- **cardinality**
+	- number of tuples remaining after applying selections
+	- $\text{max \# tuples} \times \text{product of all RFs}$
+## [[System R]] Conventions
+- $col = value$ has RF $\frac{1}{NKeys($
 ## Example
 Consider a table with **1,000,000** rows:
 1. **Low Selectivity / High Reduction Factor:**
