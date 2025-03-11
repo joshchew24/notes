@@ -2,6 +2,9 @@
 - in [[Query Evaluation Plans]], after you perform an operation, don't write the result to disk, just use it for the next operation
 	- non-root intermediary nodes
 - requires left-deep or right-deep plans (see [[Operator Tree#Shapes]])
+	- **by convention, always left-deep**
+	- i.e. **left side is outer loop/relation**
+	- i.e. **right side can never be pipelined**
 - works naturally for [[Page-based Nested Loops Join|SNL]] and [[Chunk-based Nested Loops Join|CNL]]
 - does not work for [[Sort Merge Join|SMJ]] and [[Hash Join|HJ]]
 	- for SMJ, requires writing SSL to disk
