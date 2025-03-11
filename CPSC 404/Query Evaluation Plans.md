@@ -181,4 +181,5 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 			- if **alt2**, probe cost is $+1$ per page
 				- in this case, probe cost is $2.2$
 				- must reach physical record from alt1 data entry
-				- for $Ratings$, **only one extra I/O**, because **clustered** and **single hit** 
+				- for $Ratings$, **only one extra I/O**, because the data is **clustered**
+					- we can table scan after using index to find the starting **rid**
