@@ -1,3 +1,7 @@
+---
+aliases:
+  - Hash Index
+---
 # Hash-Based Index
 - Type of [[Indexes]]
 - best for **equality selections**

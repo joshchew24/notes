@@ -1,6 +1,7 @@
 ---
 aliases:
   - Clustered Index
+  - Clustered
 ---
 # Clustered Indexes
 - **rows are stored physically on disk in the same order as the index**
