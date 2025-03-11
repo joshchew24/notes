@@ -119,4 +119,6 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 	- cost
 		- selects: $1760$ I/Os
 		- CNL
-			- 
+			- assume 5 buffer pages
+			- chunk $Songs$ because it's smaller
+				- 
