@@ -157,4 +157,6 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 	- ![[Pasted image 20250310205340.png]]
 	- with a **clustered index** on $uid$, the RF is $\frac{1}{100}$, so we get 10 pages from the `select`
 	- if **unclustered**?
-		- **recall**L 10
+		- **recall**: 100 tuples per page, therefore $100\,000$ tuples total
+		- `select` gives $\frac{1}{100}\times100\,000 = 1000$ tuples
+		- since **unclustered**, each tuple could be on a **different page**: $1000$ pages
