@@ -15,7 +15,13 @@
 	- number of tuples remaining after applying selections
 	- $\text{max \# tuples} \times \text{product of all RFs}$
 ## [[System R]] Conventions
-- $col = value$ has RF $\frac{1}{NKeys($
+- $col = value$ has RF $\frac{1}{NKeys(I)}$ given index $I$ on col
+- $col1 = col2$ has RF $\frac{1}{MAX(NKeys(I1), NKeys(I2))}$
+	- i.e. $RF = min(\frac{1}{NKeys(I1)},\frac{1}{Nkeys(I2)})$
+- $col > value$ has RF $\frac{High(I) - value}{High(I) - Low(I)}$
+- $col < value$ has RF $\frac{value - Low(I)}{High(I) - Low(I)}$
+- if attribute domain is **real-valued**, bucket/discretize it
+	- e.g. salary, temperature
 ## Example
 Consider a table with **1,000,000** rows:
 1. **Low Selectivity / High Reduction Factor:**
