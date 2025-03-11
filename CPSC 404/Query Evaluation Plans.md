@@ -133,8 +133,15 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 			- $Ratings$: all 4 attributes are equal size
 				- $\sigma_{uid=50}Ratings$ has RF $\frac{1}{100}$
 				- $\pi_{sid}Ratings$ has RF $\frac{1}{4}$
+					- need $sid$ for join
 				- temp1 is $\lceil \frac{1}{4} \times (\frac{1}{100} \times 1000) \rceil = 3$ pages
+					- can pipeline this and use it as **1 chunk**
 			- $Songs$: attributes are 10, 10, 15, 15 bytes
 				- $sid$ = 10, $genre$ = 15
-				- $\sigma_{year > 2000}Songs$
-				- 
+				- $\sigma_{year > 2000}Songs$ has RF $\frac{1}{2}$
+				- $\pi_{sid, genre} Songs$ has RF $\frac{10 + 15}{10+10+15+15}=\frac{1}{2}$
+					- need $sid$ for join, $genre$ for final projection
+				- temp2 is $\lceil \frac{1}{2} \times (\frac{1}{2} \times 500) \rceil = 125$ pages
+			- **cost**: $1000 + 500 + 125 = 1625$ I/Os, assuming temp1 is pipelined
+		- **CNL**
+			- temp1 pipelined into memory
