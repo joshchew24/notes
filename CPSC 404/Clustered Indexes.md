@@ -3,6 +3,9 @@ aliases:
   - Clustered Index
 ---
 # Clustered Indexes
+- **rows are stored physically on disk in the same order as the index**
+	- for [[B+ Trees]], this means sorted
+	- for [[Hash-Based Index]], this could mean partitions are 
 - if data records are physically **sorted** on indexed attr A, then A has a clustered index
 	- e.g. data is sorted on income
 		- search for specific income N, all matching records are physically next to each other on disk
