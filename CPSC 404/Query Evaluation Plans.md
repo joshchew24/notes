@@ -151,14 +151,19 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 			- cost is just inner scan: $125$ I/Os
 		- **total**: $1625 + 125 = 1800$ I/Os
 - Plan 2a
+	- ![[Pasted image 20250310205340.png]]
 	- [[Clustered Indexes|Clustered Index]] on $uid$ for $Ratings$
 	- unclustered index on $sid$ for $Songs$
 	- [[Index-based Nested Loops Join|INL]] 
 	- [[Pipelining|Pipeline]] the **left** (outer) relation
 		- left is implied
-	- ![[Pasted image 20250310205340.png]]
+	- $sid$ is a [[Primary Key]] of $Songs$
+		- i.e. each tuple of $Ratings$ has at most **one matching tuple** in $Songs$
+		- i.e. unclustered index is acceptable and doesn't affect the outcome
 	- with a **clustered index** on $uid$, the RF is $\frac{1}{100}$, so we get 10 pages from the `select`
 	- if **unclustered**?
 		- **recall**: 100 tuples per page, therefore $100\,000$ tuples total
 		- `select` gives $\frac{1}{100}\times100\,000 = 1000$ tuples
 		- since **unclustered**, each tuple could be on a **different page**: $1000$ pages
+	- **note**: cannot **push** select down on $Songs$ (if using [[Index-based Nested Loops Join|INL]])
+		- the index only exists on the **base table**
