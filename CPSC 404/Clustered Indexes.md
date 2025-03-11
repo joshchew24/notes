@@ -13,3 +13,5 @@ aliases:
 	- if only equality search, then index clustering doesn't matter
 	- if we want range search, then B can have an unclustered index, but it's much slower than clustered
 - pointers in leaf pages will point to sequential pages on disk
+- for [[Hash-Based Index]]
+	- a **clustered** hash index means the equivalent records are physically stored together
