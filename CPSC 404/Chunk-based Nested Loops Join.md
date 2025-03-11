@@ -20,8 +20,9 @@ foreach chunk i of R {
 	- $\text{\# outer chunks} = \lceil \frac{\text{\# outer pages}}{\text{chunk size}} \rceil$
 	- a scan of a relation costs **1 I/O per page**
 - **note**: it is not always cheaper to make smaller table outer
-	- usually better because fewer chunks, means fewer full scans of the inner relation
-## Examples
+	- usually better because **fewer chunks**, means fewer full scans of the inner relation
+	- **larger** relation may be **better** **if**
+		- smaller relation has **many matches** per tuple
 - using [[Join Evaluation#^example-schema|Example Schema]]
 ### Example 1
 - outer: $R$

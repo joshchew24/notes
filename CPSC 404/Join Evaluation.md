@@ -33,7 +33,7 @@ WHERE r.uid = s.uid
 	- improvement over [[Index-based Nested Loops Join|INL]]
 	- for **each chunk** of $R$, check for join with **each page** of $S$
 - if one of the relation fits entirely in memory
-	- 
+	- only need one pass of each relation
 ## Better Methods
 - [[Sort Merge Join]]
 - [[Hash Join]]
