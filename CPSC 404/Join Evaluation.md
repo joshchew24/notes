@@ -32,6 +32,8 @@ WHERE r.uid = s.uid
 - [[Chunk-based Nested Loops Join]]
 	- improvement over [[Index-based Nested Loops Join|INL]]
 	- for **each chunk** of $R$, check for join with **each page** of $S$
+- if one of the relation fits entirely in memory
+	- 
 ## Better Methods
 - [[Sort Merge Join]]
 - [[Hash Join]]

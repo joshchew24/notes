@@ -19,6 +19,8 @@ foreach chunk i of R {
 - **cost**: $\text{outer scan} + \text{\# outer chunks} \times \text{inner scan}$
 	- $\text{\# outer chunks} = \lceil \frac{\text{\# outer pages}}{\text{chunk size}} \rceil$
 	- a scan of a relation costs **1 I/O per page**
+- **note**: it is not always cheaper to make smaller table outer
+	- usually better because fewer chunks, means fewer full scans of the inner relation
 ## Examples
 - using [[Join Evaluation#^example-schema|Example Schema]]
 ### Example 1
@@ -35,4 +37,3 @@ foreach chunk i of R {
 	- i.e. we need to scan $S$ 12 times
 	- $R$ outer: $1000 + \lceil \frac{1000}{90} \rceil \times 500 = 7000$ I/Os
 	- $S$ outer: $500 + \lceil \frac{500}{90} \rceil \times 1000 = 6500$ I/Os
-- **note**: it is not always cheaper to make smaller table outer
