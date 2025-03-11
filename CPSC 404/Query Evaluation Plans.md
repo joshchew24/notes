@@ -121,4 +121,7 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 		- CNL
 			- assume 5 buffer pages
 			- chunk $Songs$ because it's smaller
-				- 
+				- chunk size: $3$ pages
+				- number of chunks: $\lceil \frac{10}{3} \rceil = 4$
+			- cost: $10 + 4\times250 = 1010$ I/Os
+		- **total**: $1760 + 1010 = 2770$ I/Os
