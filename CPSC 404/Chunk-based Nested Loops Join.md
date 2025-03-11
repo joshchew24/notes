@@ -21,8 +21,14 @@ foreach chunk i of R {
 	- a scan of a relation costs **1 I/O per page**
 - **note**: it is not always cheaper to make smaller table outer
 	- usually better because **fewer chunks**, means fewer full scans of the inner relation
-	- **larger** relation may be **better** **if**
-		- smaller relation has **many matches** per tuple
+	- **counter-example**
+		- $R$ has $9$ pages
+		- $S$ has $8$ pages
+		- $B$ has $5$ pages
+			- chunk size is $3$ pages
+		- chunks of $R$: 3
+		- chunks of $S$: 3
+		- if $S$ is outer, 
 - using [[Join Evaluation#^example-schema|Example Schema]]
 ### Example 1
 - outer: $R$
