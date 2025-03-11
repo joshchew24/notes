@@ -28,3 +28,7 @@
 	- secondary index
 	- direct lookup
 	- index is large (1 IE per record)
+- **sparse alt1** index
+	- per page of **records** (alt1 [[Data Entries]]), there is one **index entry**
+	- **REQUIRES** that the file is sorted
+		- a given record **must** live in a given page found in the index
