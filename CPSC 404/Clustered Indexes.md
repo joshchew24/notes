@@ -1,3 +1,7 @@
+---
+aliases:
+  - Clustered Index
+---
 # Clustered Indexes
 - if data records are physically **sorted** on indexed attr A, then A has a clustered index
 	- e.g. data is sorted on income

@@ -150,3 +150,9 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 				- no cost to read temp1
 			- cost is just inner scan: $125$ I/Os
 		- **total**: $1625 + 125 = 1800$ I/Os
+- Plan 2
+	- [[Clustered Indexes|Clustered Index]] on $uid$ for $Ratings$
+	- unclustered index on $sid$ for $Songs$
+	- [[Index-based Nested Loops Join|INL]] with [[Pipelining]]
+	- ![[Pasted image 20250310205340.png]]
+	- 
