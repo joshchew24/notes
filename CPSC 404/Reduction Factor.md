@@ -9,6 +9,8 @@
 - often estimated using (statistical) **independence assumption**
 	- i.e. assume no correlation between conditions
 	- e.g. 
+- **generally**, doing **selection** and **projection** before complex operations like **join** is beneficial
+	- however, if these intermediaries aren't materialized, there may be no benefit
 ## Example
 Consider a table with **1,000,000** rows:
 1. **Low Selectivity / High Reduction Factor:**

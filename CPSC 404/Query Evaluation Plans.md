@@ -153,7 +153,9 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 - Plan 2a
 	- [[Clustered Indexes|Clustered Index]] on $uid$ for $Ratings$
 	- unclustered index on $sid$ for $Songs$
-	- [[Index-based Nested Loops Join|INL]] with [[Pipelining]]
+	- [[Index-based Nested Loops Join|INL]] 
+	- [[Pipelining|Pipeline]] the **left** (outer) relation
+		- left is implied
 	- ![[Pasted image 20250310205340.png]]
 	- with a **clustered index** on $uid$, the RF is $\frac{1}{100}$, so we get 10 pages from the `select`
 	- if **unclustered**?
