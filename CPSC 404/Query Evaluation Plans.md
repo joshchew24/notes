@@ -107,4 +107,16 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 		- total: $4250$ I/Os
 - Plan 1e:
 	- push down selects + [[Page-based Nested Loops Join|SNL]] + [[Pipelining]] temp2
-	
+	- cost
+		- selects $1000 + 500 + 10 = 1510$ I/Os
+			- 250 pages of temp2 not written to disk
+				- assumes buffer is large enough to hold
+		- SNL: $250 \times 10 = 2500$ I/Os
+			- 250 pages of temp2 in memory
+		- total: $4010$ I/Os
+- Plan 1f
+	- push down selects + [[Chunk-based Nested Loops Join|CNL]]
+	- cost
+		- selects: $1760$ I/Os
+		- CNL
+			- 
