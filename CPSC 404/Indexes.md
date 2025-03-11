@@ -32,3 +32,4 @@
 	- per page of **records** (alt1 [[Data Entries]]), there is one **index entry**
 	- **REQUIRES** that the file is sorted
 		- a given record **must** live in a given page found in the index
+		- otherwise **no guarantee** how any of the records in the page relate to the **keyed** record
