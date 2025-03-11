@@ -91,3 +91,14 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 				- 10 reads + 250 reads
 			- **subtotal**: $2\times10 + 3\times500 + 10 + 250 = 1780$ I/Os
 		- **total**: $1760 + 1780 = 3540$ I/Os
+- Plan 1c:
+	- push down selects + [[Page-based Nested Loops Join|SNL]]
+	- cost
+		- selects: $1760$ I/Os
+		- SNL: $10 + 10\times250 = 2510$ I/Os
+		- total: $1760 + 2510
+- Plan 1d:
+	- push down selects + [[Page-based Nested Loops Join|SNL]] + [[Pipelining]] temp1
+- Plan 1e:
+	- push down selects + [[Page-based Nested Loops Join|SNL]] + [[Pipelining]] temp2
+	
