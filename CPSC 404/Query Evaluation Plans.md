@@ -120,8 +120,21 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 		- selects: $1760$ I/Os
 		- CNL
 			- assume 5 buffer pages
-			- chunk $Songs$ because it's smaller
+			- chunk temp1 because it's smaller (10 pages)
 				- chunk size: $3$ pages
 				- number of chunks: $\lceil \frac{10}{3} \rceil = 4$
 			- cost: $10 + 4\times250 = 1010$ I/Os
 		- **total**: $1760 + 1010 = 2770$ I/Os
+- Plan 1g
+	- push down selects + projects + [[Chunk-based Nested Loops Join|CNL]]
+	- ![[Pasted image 20250310191018.png]]
+	- **cost**
+		- **selects and projects**
+			- $Ratings$: all 4 attributes are equal size
+				- $\sigma_{uid=50}Ratings$ has RF $\frac{1}{100}$
+				- $\pi_{sid}Ratings$ has RF $\frac{1}{4}$
+				- temp1 is $\lceil \frac{1}{4} \times (\frac{1}{100} \times 1000) \rceil = 3$ pages
+			- $Songs$: attributes are 10, 10, 15, 15 bytes
+				- $sid$ = 10, $genre$ = 15
+				- $\sigma_{year > 2000}Songs$
+				- 
