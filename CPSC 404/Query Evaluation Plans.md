@@ -173,4 +173,12 @@ WHERE R.sid=S.sid AND R.uid=50 AND S.year > 2000
 			- I/O cost is $1.2$ per page
 				- see [[Index-based Nested Loops Join#Index Probe Cost]]
 			- **12 I/Os**
-		2. 
+		2. probing $Songs$ index for each tuple retrieved in (1)
+			- $10$ pages = $1000$ tuples of $Ratings$
+			- probe cost: $1.2$
+			- total: $1200$ I/Os
+		- **total**: $1212$ I/Os
+			- if **alt2**, probe cost is $+1$ per page
+				- in this case, probe cost is $2.2$
+				- must reach physical record from alt1 data entry
+				- for $Ratings$, **only one extra I/O**, because **clustered** and **single hit** 
