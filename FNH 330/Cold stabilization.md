@@ -1,3 +1,4 @@
+# Cold stabilization
 ## Cold stabilization
 - white wines must be "cold stabilized"
 - potassium hydrogen tartrate (KHT) can precipitate out of wines when chilled - "wine diamonds"

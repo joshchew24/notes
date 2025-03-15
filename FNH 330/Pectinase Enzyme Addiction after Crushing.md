@@ -1,5 +1,5 @@
 # Pectinase Enzyme Addiction after Crushing
-## Pectinase Enzyme Addiction after Crushing
+## Pectinase Enzyme Addition after Crushing
 - enzymes: biological molecules (proteins) that catalyze chemical reactions
 	- extracted from fungi
 - pectanises
