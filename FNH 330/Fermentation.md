@@ -71,7 +71,7 @@
 	- ![[Pasted image 20250308174654.png]]
 	- ![[Pasted image 20250308174704.png]]
 - **punch down**
-	- use long rod with plate welded to bottom to push cap down and beak it up
+	- use long rod with plate welded to bottom to push cap down and break it up
 	- break it up
 	- one to three times a day
 	- typically done on wines that have fewer tannins
