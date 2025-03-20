@@ -8,3 +8,6 @@
 - Set-difference
 - Union
 - Aggregation
+## Unary Operators
+- [[Selection Evaluation|Select]]
+- [[Proje]]

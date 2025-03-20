@@ -1,3 +1,7 @@
+---
+aliases:
+  - Select
+---
 # Selection Evaluation
 ## [[Reduction Factor]] Estimation
 ### Single Condition
