@@ -15,8 +15,10 @@ FROM Employee
 WHERE Rank >= 'Associate'
 ```
 ## With [[Group By Evaluation|Group By]]
-- sort on group-by attribute(s)
+- [[[Sort Merge Join|SMJ]] approach:
+	- sort on group-by attribute(s)
 	- scan sorted relation
 	- compute aggregate for each group
 		- can combine sorting/aggregation step
-		- 
+			- I/O cost is only that of sorting
+- [[Hash Join|HJ]] approach is similar
