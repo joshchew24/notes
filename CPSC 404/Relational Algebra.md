@@ -10,4 +10,12 @@
 - Aggregation
 ## Unary Operators
 - [[Selection Evaluation|Select]]
-- [[Proje]]
+- [[Projection Evaluation|Projection]]
+- [[Aggregation]] with or without [[Group By]]
+## Binary Operators
+- Union
+- Intersect
+- Set Difference
+- Cross Product
+- [[Join Evaluation|Join]]
+- Division

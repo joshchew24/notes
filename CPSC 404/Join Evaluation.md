@@ -1,3 +1,7 @@
+---
+aliases:
+  - Join
+---
 # Join Evaluation
 ```sql
 SELECT *
