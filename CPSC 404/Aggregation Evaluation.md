@@ -7,3 +7,10 @@ aliases:
 ## Without [[Group By Evaluation|Group By]]
 - generally requires [[Table Scan]]
 - given [[Indexes|Index]] whose [[Search Key]] includes all attributes in `SELECT` and `WHERE` clause, may suffice to do [[Index Scan]]
+
+example:
+```sql
+SELECT AVG(Salary)
+FROM Employee
+WHERE Rank >= 'Associate'
+```
