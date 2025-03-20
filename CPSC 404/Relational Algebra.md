@@ -11,11 +11,11 @@
 ## Unary Operators
 - [[Selection Evaluation|Select]]
 - [[Projection Evaluation|Projection]]
-- [[Aggregation]] with or without [[Group By]]
+- [[Aggregation Evaluation|Aggregation]] with or without [[Group By]]
 ## Binary Operators
-- Union
-- Intersect
-- Set Difference
+- [[Union Evaluation|Union]]
+- [[Intersect Evaluation|Intersect]]
+- [[Set Difference Evaluation|Set Difference]]
 - Cross Product
 - [[Join Evaluation|Join]]
 - Division
