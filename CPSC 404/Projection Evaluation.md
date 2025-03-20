@@ -35,3 +35,5 @@ FROM R
 		- if buffer has **at least** one more page than the # SSLs, cost is $3 \times \# \text{ pages of R}$
 - using [[Hash Join|HJ]]
 	- similar, eliminate duplicates within partitions
+	- **cost**
+		- if $\frac{|R|}{B-1} \leq B-2$ then cost is $3 \times \# \text{ pages of R}$
