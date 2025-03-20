@@ -15,8 +15,10 @@ FROM Songs
 	- [[Index Scan]]
 		- read all DEs from index file
 	- which is better?
-- duplicate elimination is facilitated by [[Partitioning]]
-## Duplicate Elimination
+- [[Duplicate Elimination]] is facilitated by [[Partitioning]]
+	- [[Hash Join]]: eliminate within hash partitions
+	- [[Sort Merge Join|SMJ]]: deduplicate SSLs, deduplicate during merge-join
+## [[Duplicate Elimination]]
 - given $R(A,B,C,D)$
 ```sql
 SELECT DISTINCT A,B
@@ -29,5 +31,7 @@ FROM R
 	- write SSLs to disk
 	- if buffer large enough, merge all SSLs
 		- eliminate any duplicates that arise
+	- **cost**
+		- if buffer has **at least** one more page than the # SSLs, cost is $3 \times \# \text{ pages of R}$
 - using [[Hash Join|HJ]]
 	- similar, eliminate duplicates within partitions
