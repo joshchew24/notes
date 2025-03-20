@@ -14,3 +14,9 @@ SELECT AVG(Salary)
 FROM Employee
 WHERE Rank >= 'Associate'
 ```
+## With [[Group By Evaluation|Group By]]
+- sort on group-by attribute(s)
+	- scan sorted relation
+	- compute aggregate for each group
+		- can combine sorting/aggregation step
+		- 
