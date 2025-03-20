@@ -37,3 +37,4 @@ FROM R
 	- similar, eliminate duplicates within partitions
 	- **cost**
 		- if $\frac{|R|}{B-1} \leq B-2$ then cost is $3 \times \# \text{ pages of R}$
+			- i.e. partition size must be less than $B-2$
