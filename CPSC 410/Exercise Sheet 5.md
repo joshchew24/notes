@@ -7,14 +7,13 @@
 2	int b = 0;         // (a -> {1}, b -> {2})              []
 3	b = b + 3;         // (a -> {1}, b -> {2, 3})           []
 4	a = a + a;         // (a -> {1, 4}, b -> {2, 3})        []
-5	if (a < a - 1) {   // (a -> {1, 4}, b -> {2, 3})        [5]
-6	  b = 17;          5
+5	if (a < a - 1) {   // (a -> {1, 4}, b -> {2, 3})        [1,4]
+6	  b = 17;          // (a -> {1, 4}, b -> {2, 3, 6})     [1,4]
 7	}
-8	print b;           3, 6
+8	print b;           // (a -> {1, 4}, b -> {2, 3, 6})     [1,4]
 ```
-
 ### (b)
-to preserve the value of `b` at line 8, we would need all lines to ensure all possible definitions of `b`. Even though line 6 is always false, static slicing conservatively includes this line.
+to preserve the value of `b` at line 8, we would need all lines to ensure all possible definitions of `b`
 ### (c)
 1. `a = 4`
 2. `b = 0`
@@ -24,12 +23,13 @@ to preserve the value of `b` at line 8, we would need all lines to ensure all po
 6. `print b` -> prints `3`
 Dynamic dependencies
 ```java
-1	int a = 4;        
-2	int b = 0;
-3	b = b + 3;         2
-4	a = a + a;         1
-5	if (a < a - 1) {   4
-6	  b = 17;          5
+                       // totalDependencies                 controlFlowDependencies
+1	int a = 4;         // (a -> {1})                        []
+2	int b = 0;         // (a -> {1}, b -> {2})              []
+3	b = b + 3;         // (a -> {1}, b -> {2, 3})           []
+4	a = a + a;         // (a -> {1, 4}, b -> {2, 3})        []
+5	if (a < a - 1) {   // (a -> {1, 4}, b -> {2, 3})        [1,4]
+6	  b = 17;          // (a -> {1, 4}, b -> {2, 3, 6})     [1,4]
 7	}
-8	print b;           3, 6
+8	print b;           // (a -> {1, 4}, b -> {2, 3, 6})     [1,4]
 ```
