@@ -20,3 +20,15 @@
 - 14.5% ABV
 - colour: ruby hint purple
 - intensity: med(-) to med
+- aromas
+	- black plum, blackberry, floral (biolets), smoky oak, hint black pepper
+- acidity: low+ to med-
+- sweet: dry
+- bitter: hint
+- astringency: low+
+- alcohol: no, no-hint
+- body: med
+- texture: satiny
+- aftertaste
+	- length: long
+	- flavours: blackberry, lback plum, smoky oak
