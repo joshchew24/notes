@@ -43,4 +43,6 @@ There is no user input, so the program will run the same every time. Also, there
 ### (a)
 Unlike for loops, while loops don't have an explicit "increment" step, and the loop condition variable may depend on many statements within the loop body. The rules will need to track all dependencies of the loop condition variable.
 ### (b)
-The first iteration of the loop body 
+The first iteration of the loop body will not be dependent on any conditions. Any further iterations would behave the same as above.
+### (c)
+Aliasing variables would require maintaining equivalent mapping between names and line dependencies. This means updating both mappings, even if only one alias receives an update (assuming the alias was performed by reference and not copy). 
