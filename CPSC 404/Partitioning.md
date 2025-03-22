@@ -5,6 +5,7 @@
 - useful for [[Union Evaluation]]
 	- union of two tables can produce duplicates
 	- eliminate duplicates during SSL merge phase
-- useful for [[Aggregation]]
+- useful for [[Aggregation]] with [[Group By Evaluation|Group By]]
 	- e.g. `SELECT A,B, sum(C) FROM R GROUP BY A,B`
 	- merge-aggregate SSLs 
+	- without Group By, **don't need partitioning** because we're computing one aggregate value
