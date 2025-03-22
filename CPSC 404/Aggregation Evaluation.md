@@ -22,3 +22,4 @@ WHERE Rank >= 'Associate'
 		- can combine sorting/aggregation step
 			- I/O cost is only that of sorting
 - [[Hash Join|HJ]] approach is similar
+- maintain running aggregate in buffer **per group**
