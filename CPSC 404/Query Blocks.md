@@ -7,7 +7,8 @@
 ## Evaluating Single Block Queries
 - find "best" single relation access plan
 - find "best" 2-relation (join) plan
-- find "best" way of joining a $k$-relation plan to a $(k+1)^{th}$ plrelation
+- find "best" way of joining a $k$-relation plan to a $(k+1)^{th}$ relation
+	- i.e. **multi relation** join plan
 	- there may be more than one "best" plan
 	- maintain all
 	- use dynamic programming to find "best" plan for $k+1$ joins from previous plans
