@@ -5,3 +5,4 @@
 	- Index height, low/high key values (Low/High) for each tree index
 	- histograms of **attribute distribution** of tables
 	- needs **periodic updates** to ensure accurate estimates
+## Optimization by [[Query Blocks]]
