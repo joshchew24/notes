@@ -71,7 +71,7 @@ In the lectures we've introduced Static Program Slicing rules to handle __for__ 
 --- 
 ### Static Program Slicing for TinyVars
 
-In the master branch of our TinyVars repo there's now a version of the language with all of the features developed in the course so far. In this question, we'll consider adapting our Static Program Slicing technique to this language.
+In the master branch of our TinyVars repo there's now a version of the language with all of the features developed in the course so far. In this question, we'l n  consider adapting our Static Program Slicing technique to this language.
 
 <a name="ex3"></a>
 **Question 3 (Unassessed)**
