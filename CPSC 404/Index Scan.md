@@ -14,3 +14,5 @@ WHERE uid = u123 AND time > 2019
 ```
 - can be evaluated by **scanning** the *index file*
 	- cost of plan: # of pages of index file holding DEs
+- if **dense** and [[Data Entries]] contain all query attributes
+	- only need to scan DEs
