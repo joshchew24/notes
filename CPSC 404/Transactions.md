@@ -36,3 +36,4 @@ A transaction can be in one of the following states:
 - to undo effects of a committed transaction, must run a compensating transaction
 - supposed to have run to completion, **logically speaking**
 	- not executed yet, the DBMS will do what it takes to make sure it is
+## Transaction Properties ([[Transaction Properties|ACID]])
