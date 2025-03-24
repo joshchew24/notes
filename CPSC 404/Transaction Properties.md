@@ -10,8 +10,13 @@ DBMS ensures ACID properties:
 - DBMS must **undo** aborted transactions
 ## Consistency
 - DB state is **consistent** after transaction
-- e.g. transfering from one account to another, check that sum of balances are same before/after
-	- programmer is responsible for writing consistent transactions
+- DBMS guarantees enforcement of [[Integrity Constraints]]
+	- domain constraints
+	- PK, FK constraints
+	- [[Archive/CPSC 304/Assertions|Assertions]] and [[Triggers]]
+- programmer is responsible for **semantic consistency**
+	- e.g. writing consistent transactions
+		- transfering from one account to another, check that sum of balances are same before/after
 ## Isolation
 - **concurrent** transactions **must not interfere with each other**
 - DBMS must perform [[Concurrency Control]]
