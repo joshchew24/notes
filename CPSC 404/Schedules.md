@@ -13,3 +13,6 @@
 ### Serializable Schedule
 - schedule equivalent to some serial schedule
 - if each transaction preserves consistency, every serializable schedule preserves consistency
+#### Example of (Concurrent) Non-serializable Schedule
+![[Pasted image 20250324163939.png]]
+- 
