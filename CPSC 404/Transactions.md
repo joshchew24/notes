@@ -9,7 +9,7 @@
 	- e.g. what value is being written, who is reading
 	- i.e. **how** data was modified
 - why?
-	- schedules transactions by **interleaving**
+	- DBMS [[Schedules]] transactions by **interleaving**
 	- more efficient resource usage
 		- disk access is **slow**
 	- simplifies reasoning about **correctness**
