@@ -15,4 +15,9 @@
 - if each transaction preserves consistency, every serializable schedule preserves consistency
 #### Example of (Concurrent) Non-serializable Schedule
 ![[Pasted image 20250324163939.png]]
-- 
+- not equivalent to **serial schedules**
+	- $\not\equiv$ T3 ; T4 
+	- $\not\equiv$ T4 ; T3
+- transactions are independent of each other
+- executing in different orders may produce different results
+- if two or more transactions submitted at same time, system chooses one **serializable** schedule
