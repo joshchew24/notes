@@ -4,15 +4,18 @@
 	- e.g. transfer money from one account to another at bank's ATM, make travel booking, book concert tickets, etc.
 	- allows for **rollback** [[Recovery]]
 - DBMS abstracts state changes in **transactions**
-	- reads/writes
-- not concerned about the underlying **logic**
-	- e.g. what value is being written, who is reading
-	- i.e. **how** data was modified
-- why?
-	- DBMS [[Schedules]] transactions by **interleaving**
-	- more efficient resource usage
-		- disk access is **slow**
-	- simplifies reasoning about **correctness**
+	- reads/write actions
+	- commit/abort action (usually one at the end)
+	- not concerned about the underlying **logic**
+		- e.g. what value is being written, who is reading
+		- i.e. **how** data was modified
+	- why?
+		- DBMS [[Schedules]] transactions by **interleaving**
+		- more efficient resource usage
+			- disk access is **slow**
+		- simplifies reasoning about **correctness**
+	- transactions **interact with the database**, not **directly with each other**
+	- DB is a **fixed collection** of **independent objects**
 ## Transaction States
 A transaction can be in one of the following states:
 ### Active
