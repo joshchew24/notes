@@ -1,5 +1,14 @@
 # Assignment 3
 ## Question 2
+
+|        | Primary | Secondary | Clustered | Unclustered                                                                     |
+| ------ | ------- | --------- | --------- | ------------------------------------------------------------------------------- |
+| Dense  | fine    | fine      | fine      | fine                                                                            |
+| Sparse |         |           |           | not possible. if the records are not sorted, we must have a pointer to each one |
+| Alt1   |         |           | fine      | fine                                                                            |
+| Alt2   | fine    | fine      | fine      | fine                                                                            |
+
+### Dense
 ### Dense Primary Alt1 Clustered
 ### Dense Primary Alt1 Unclustered
 ### Dense Primary Alt2 Clustered
