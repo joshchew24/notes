@@ -7,25 +7,3 @@
 | Sparse (DE per page of records)     | ""                                                                                                                                 | ""                                                                                                                                | Good. Can exploit physical ordering to reduce number of DEs required to reach all records                                      | Not possible. No guarantee that records are sorted/partitioned physically, so we need a handle on every record.                                                                            |
 | Alt1 (DEs are physical records)     | Possible. Implies the index is clustered on PK                                                                                     | Possible. Implies the index is clustered on SK                                                                                    | Necessary. Index is useless if its DEs are not sorted/partitioned. Alt1 DEs are inherently clustered                           | Not possible. Index is useless if its DEs are not sorted/partitioned. Alt1 DEs are inherently clustered                                                                                    |
 | Alt2 (DEs point to records on disk) | Possible. The attribute on which the index is built imposes no requirements on the type of DE                                      | Possible. The attribute on which the index is built imposes no requirements on the type of DE                                     | Possible. DEs and records are stored in same order.                                                                            | Possible. DEs will be sorted on index search key, and contain pointers to physical records.                                                                                                |
-
-### Dense
-### Dense Primary Alt1 Clustered
-### Dense Primary Alt1 Unclustered
-### Dense Primary Alt2 Clustered
-### Dense Primary Alt2 Unclustered
-### Dense Secondary Alt1 Clustered
-### Dense Secondary Alt1 Unclustered
-### Dense Secondary Alt2 Clustered
-### Dense Secondary Alt2 Unclustered
-### Sparse Primary Alt1 Clustered
-### Sparse Primary Alt1 Unclustered
-- cannot be sparse and unclustered
-### Sparse Primary Alt2 Clustered
-### Sparse Primary Alt2 Unclustered
-- cannot be sparse and unclustered
-### Sparse Secondary Alt1 Clustered
-### Sparse Secondary Alt1 Unclustered
-- cannot be sparse and unclustered
-### Sparse Secondary Alt2 Clustered
-### Sparse Secondary Alt2 Unclustered
-- cannot be sparse and unclustered
