@@ -1,3 +1,7 @@
+---
+aliases:
+  - Conflict Serializable
+---
 # Conflict Serializable Schedule
 - **simple definition**
 	- if two schedules have their conflicts in the same order, they are conflict equivalent
