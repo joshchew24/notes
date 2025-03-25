@@ -17,6 +17,7 @@
 	- checking equivalence is a hard problem
 	- use stronger notions of serializability that are easier to check
 		- e.g. [[Conflict Serializable Schedule|Conflict Serializability]], [[View Serializability]]
+- to ensure **serializability**, DBMS uses [[Lock-based Concurrency Control]]
 #### Example of (Concurrent) Non-serializable Schedule
 ![[Pasted image 20250324163939.png]]
 - not equivalent to **serial schedules**
