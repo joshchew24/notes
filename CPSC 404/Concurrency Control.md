@@ -16,9 +16,12 @@
 - conflict
 	- transaction T1 writes data A
 	- transaction T2 reads and uses data A which are written by T1 before T1 is committed
-	- **problems**
-		- if T1 **aborts** before committing change to A, T2 will use wrong data
-			- why wrong?
-		- 
+- **problem**
+	- if T1 **aborts** before committing change to A, T2 will use wrong data
+		- value read by T2 is not correct, because it was changed by T1 which was not committed
+		- T2 **must** be aborted as well
+			- [[Cascaded Aborts]]
 #### Read-Write (RW)
+- **"unrepeatable reads"**
+- 
 #### Write-Write (WW)
