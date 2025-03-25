@@ -54,3 +54,7 @@ $$
 #### Write-Write (WW)
 - **"overwriting uncommitted data"**
 	- **transaction requests to write an entity for which an unclosed transaction has already made a write request**
+- conflict
+	- T1 writes A
+	- T2 writes A before T1 commits
+	- 
