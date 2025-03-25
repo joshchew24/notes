@@ -1,3 +1,7 @@
+---
+aliases:
+  - Transaction
+---
 # Transactions
 - **definition**: a sequence of reads and writes that are expected to be **executed as a unit** 
 	- i.e. all or nothing
