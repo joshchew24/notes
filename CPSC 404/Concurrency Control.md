@@ -7,7 +7,7 @@
 - two actions conflict if:
 	- both **act on same data**
 	- one of them is a **write**
-- not inherently bad, just implies an **order dependency** between two transactions
+- not inherently bad, just impose **constraints** on **order of transactions** in possible equivalent serial schedules
 ### Types
 #### Write-Read (WR)
 - **"dirty reads"**
