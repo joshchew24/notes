@@ -13,6 +13,10 @@
 ### Serializable Schedule
 - schedule equivalent to some serial schedule
 - if each transaction preserves consistency, every serializable schedule preserves consistency
+- generally, very difficult to check that a concurrent schedule is serializable
+	- checking equivalence is a hard problem
+	- use stronger notions of serializability that are easier to check
+		- e.g. [[Conflict Serializable Schedule|Conflict Serializability]], [[View Serializability]]
 #### Example of (Concurrent) Non-serializable Schedule
 ![[Pasted image 20250324163939.png]]
 - not equivalent to **serial schedules**
@@ -21,3 +25,4 @@
 - transactions are independent of each other
 - executing in different orders may produce different results
 - if two or more transactions submitted at same time, system chooses one **serializable** schedule
+## [[Conflict Serializable Schedule]]
