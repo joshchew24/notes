@@ -52,9 +52,18 @@ $$
 	- However, when T1 reads from A, it discovers two different versions of A, and T1 would be forced to abort, because T1 would not know what to do
 	- Alice and Bob are using a website to book tickets for a specific show. Only one ticket is left for the specific show. Alice signs on first to see that only one ticket is left, and finds it expensive. Alice takes time to decide. Bob signs on and also finds one ticket left, and orders it instantly. Bob purchases and logs off. Alice decides to buy a ticket, to find there are no tickets. This is a typical read–write conflict situation.
 #### Write-Write (WW)
+![[Pasted image 20250324185026.png]]
 - **"overwriting uncommitted data"**
 	- **transaction requests to write an entity for which an unclosed transaction has already made a write request**
+- **blind writes**
+	- does not depend on any existing DB object values
+	- i.e. no reads in the transaction
 - conflict
 	- T1 writes A
 	- T2 writes A before T1 commits
-	- 
+- **problem**
+	- T1 and T2 mutually overwrite each other
+		- T1 always writes B, T2 always writes A
+	- e.g. T1 sets interest rate of all loans to 10%, T2 sets to 5%
+		- loan A set to 5%
+		- loan B set to 10%
