@@ -1,9 +1,20 @@
 # Conflict Serializable Schedule
+- **simple definition**
+	- if two schedules have their conflicts in the same order, they are conflict equivalent
+	- if a schedule is conflict equivalent to a serial schedule, it is conflict serializable
 - **Conflict Equivalence**
 	- schedules are **conflict equivalent** if every pair of conflicting actions is **ordered the same way**
 		- i.e. S1 can be transformed into S2 by swapping **non-conflicting actions**
+			- **swapping** 2 [[Conflicts|Conflicting]] actions (from different transactions) changes the results of the schedule
+			- **swapping** 2 non-conflicting actions does not affect the result of the schedule
 - **conflict serializable**
 	- if S is conflict equivalent to some serial schedule
-	- conflict-serializable schedules can be converted into serial schedules by swapping adjacent non-conflicting actions
-- **swapping** 2 [[Conflicts|Conflicting]] actions (from different transactions) changes the results of the schedule
-- **swapping** 2 non-conflicting actions does not affect the result of the schedule
+	- conflict-serializable schedules **can be converted** into serial schedules by swapping adjacent non-conflicting actions
+		- e.g. ![[Pasted image 20250324191634.png]]
+	- **conservative** method
+		- always true positives, sometimes false negatives
+		- i.e. some serializable schedules **are not** conflict serializable
+		- e.g. ![[Pasted image 20250324191621.png]]
+		- Since T3 overwrites T1 and T2, a possible serial schedule is T1; T2; T3, as the values written to D in T1 and T2 get ignored anyway
+		- it's not possible to conflict serialize because the RW and WW conflicts are happening in opposite orders
+- check using [[Precedence Graph]]
