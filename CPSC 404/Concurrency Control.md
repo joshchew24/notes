@@ -24,6 +24,7 @@
 #### Read-Write (RW)
 ![[Pasted image 20250324175840.png]]
 - **"unrepeatable reads"**
+	- **transaction requests to read an entity for which an unclosed transaction has already made a write request**
 - conflict
 	- T1 reads A and does some calculations
 	- T2 changes value of A
@@ -34,4 +35,22 @@
 	- not **serializable**
 		- T1 expects to read/write on original value, but A gets changed miway
 		- T2 expects to 
+- [Wikipedia Example](https://en.wikipedia.org/wiki/Read%E2%80%93write_conflict)
+	- $$ S =
+\begin{bmatrix}  
+T1 & T2 \\  
+R(A) &  \\
+ & R(A) \\
+ & W(A) \\
+ & Com. \\
+ R(A) & \\
+ W(A) & \\
+ Com. & \\
+\end{bmatrix}
+$$
+	- T1 has read the original value of A, and is waiting for T2 to finish. T2 also reads the original value of A, overwrites A, and commits.
+	- However, when T1 reads from A, it discovers two different versions of A, and T1 would be forced to abort, because T1 would not know what to do
+	- Alice and Bob are using a website to book tickets for a specific show. Only one ticket is left for the specific show. Alice signs on first to see that only one ticket is left, and finds it expensive. Alice takes time to decide. Bob signs on and also finds one ticket left, and orders it instantly. Bob purchases and logs off. Alice decides to buy a ticket, to find there are no tickets. This is a typical read–write conflict situation.
 #### Write-Write (WW)
+- **"overwriting uncommitted data"**
+	- **transaction requests to write an entity for which an unclosed transaction has already made a write request**
