@@ -9,6 +9,8 @@ aliases:
 	- $T_i$ executes R(A) **before** $T_j$ executes W(A)
 - **theorem**: schedule is [[Conflict Serializable Schedule|Conflict Serializable]] if its precedence graph is **acyclic**
 	- topological sort over graph produces equivalent serial schedule
+		- graph traversal in which each node is only visited after **all its dependencies are visited**
+		- ![[Pasted image 20250324194251.png]]
 ## Example
 ### Schedule
 $$
