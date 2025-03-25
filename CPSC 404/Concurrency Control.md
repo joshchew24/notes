@@ -10,7 +10,9 @@
 - not inherently bad, just impose **constraints** on **order of transactions** in possible equivalent serial schedules
 ### Types
 #### Write-Read (WR)
+![[Pasted image 20250324174409.png]]
 - **"dirty reads"**
+	- i.e. **reading uncommitted data**
 - conflict
 	- transaction T1 writes data A
 	- transaction T2 reads and uses data A which are written by T1 before T1 is committed
