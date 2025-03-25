@@ -4,8 +4,11 @@
 	- structures that restrict access to DB objects
 	- **shared (S)** locks
 		- can be shared by multiple transactions
+		- if held by transaction, can **upgrade** to an **X** lock
 	- **exclusive (X)** locks
 		- can be held by a single transaction at a time
+		- if held by transaction, can **downgrade** to an **S** lock
+			- if it **does not change** the object
 		- if a [[Transactions|Transaction]] holds an **X lock** on an object, no other transaction can get **any** (S or X) lock on that object
 	- **locking protocol** defines how locks are used
 - **each transaction** must obtain

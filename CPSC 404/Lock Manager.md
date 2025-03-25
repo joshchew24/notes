@@ -6,8 +6,13 @@
 	- **lock table**
 		- hash table with **one entry for each data object**
 		- **lock table entry**
-			- number of transactions currently holding a lock
-			- type of lock held (S or X)
-			- pointer to queue of lock **requests** for object
+			- **number of transactions** currently holding a lock
+			- **type** of lock held (S or X)
+			- pointer to **queue** of lock **requests** for object
 	- **transaction table**
 		- for each transaction, contains list of locks held by it
+- locking/unlocking **should result in**:
+	- **update** lock and transaction **tables**
+	- have to be **atomic operations**
+- lock **upgrade**
+	- transactions that hold an **S** lock can upgrade to **X**

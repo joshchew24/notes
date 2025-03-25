@@ -21,10 +21,13 @@ aliases:
 - same locking rules (S/X for read, X for write)
 - a transaction can **release locks at any time**, but **cannot request any additional locks** once it releases **any lock**
 	- i.e. growth phase of requesting/acquiring locks, shrink phase of shedding/releasing locks
+	- **upgrades/downgrades** can occur during **growing** phase
+		- a **downgrade** causes the transaction enter **shrinking** phase
 ### Outcomes
 - only allows conflict-serializable schedules
 - transactions are ordered by the order of their **entering the shrinking phase**
 	- determines equivalent serial schedule
+- can [[Deadlock]]
 ## Example
 $$
 s = \begin{bmatrix}
