@@ -7,11 +7,16 @@
 - two actions conflict if:
 	- both **act on same data**
 	- one of them is a **write**
+- not inherently bad, just implies an **order dependency** between two transactions
 ### Types
 #### Write-Read (WR)
 - **"dirty reads"**
-- e.g.
+- conflict
 	- transaction T1 writes data A
 	- transaction T2 reads and uses data A which are written by T1 before T1 is committed
+	- **problems**
+		- if T1 **aborts** before committing change to A, T2 will use wrong data
+			- why wrong?
+		- 
 #### Read-Write (RW)
 #### Write-Write (WW)
