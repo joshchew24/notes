@@ -39,4 +39,24 @@ W(B) & \\
 Com.
 \end{bmatrix}
 $$
-- strict 2PL doesn't allow this schedule, because T1 holds an X lock on A and can't release until committing, so T2 won't be able to obtain the l
+- strict 2PL doesn't allow this schedule, because T1 holds an X lock on A and can't release until committing, so T2 won't be able to obtain the lock
+	- if T2 instead targeted object $C$, the **equivalent serial schedule** would be $T2; T1$ because of the order of commits
+- regular 2PL schedule with locks shown
+- $$
+s = \begin{bmatrix}
+T1 & T2 \\
+X(A), X(B) & \\
+R(A) & \\
+W(A) & \\
+U(A) & X(A) \\
+& R(A) \\
+& W(A) \\
+& Com. \\
+& U(A) \\
+R(B) & \\
+W(B) & \\
+Com. & \\
+U(B) & \\
+\end{bmatrix}
+$$
+	- **equivalent serial schedule** is $T1; T2$ because of order of entering **shrinking phase**

@@ -11,5 +11,5 @@
 - **each transaction** must obtain
 	- **S or X** lock on an object before **reading** it
 	- **X** lock on an object before writing it
-## Protocols
-### [[Two-Phase Locking Protocol]]
+- handled by [[Lock Manager]]
+## [[Two-Phase Locking Protocol]]

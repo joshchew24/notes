@@ -1,0 +1,13 @@
+# Lock Manager
+- part of DBMS
+- handles [[Lock-based Concurrency Control]]
+	- lock/unlock requests
+- maintains **two tables**
+	- **lock table**
+		- hash table with **one entry for each data object**
+		- **lock table entry**
+			- number of transactions currently holding a lock
+			- type of lock held (S or X)
+			- pointer to queue of lock **requests** for object
+	- **transaction table**
+		- for each transaction, contains list of locks held by it
