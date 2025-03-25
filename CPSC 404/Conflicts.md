@@ -13,6 +13,7 @@ aliases:
 ![[Pasted image 20250324174409.png]]
 - **"dirty reads"**
 	- i.e. **reading uncommitted data**
+- this conflict is [[Conflict Serializable Schedule|Conflict Serializable]]
 - conflict
 	- transaction T1 writes data A
 	- transaction T2 reads and uses data A which are written by T1 before T1 is committed

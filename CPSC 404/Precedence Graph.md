@@ -6,7 +6,9 @@ aliases:
 - one node per transaction
 - edge from $T_i$ to $T_j$ if 
 	- $T_i$ executes W(A) **before** $T_j$ executes R(A) or W(A)
+		- WR and WW [[Conflicts]]
 	- $T_i$ executes R(A) **before** $T_j$ executes W(A)
+		- RW conflict
 - **theorem**: schedule is [[Conflict Serializable Schedule|Conflict Serializable]] if its precedence graph is **acyclic**
 	- topological sort over graph produces equivalent serial schedule
 		- graph traversal in which each node is only visited after **all its dependencies are visited**
