@@ -22,6 +22,16 @@
 		- T2 **must** be aborted as well
 			- [[Cascaded Aborts]]
 #### Read-Write (RW)
+![[Pasted image 20250324175840.png]]
 - **"unrepeatable reads"**
-- 
+- conflict
+	- T1 reads A and does some calculations
+	- T2 changes value of A
+	- T1 writes back value from its calculation, changing A's value
+- **problem**
+	- value of A is modified by T2 after T1 reads it, and before it writes A
+	- if T1 reads A again before writing, it will get a different value
+	- not **serializable**
+		- T1 expects to read/write on original value, but A gets changed miway
+		- T2 expects to 
 #### Write-Write (WW)
