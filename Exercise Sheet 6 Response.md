@@ -36,7 +36,7 @@ void foo(int x) {                 // (x -> U)              {}
   int z = x + 7;                  // (x -> U, z -> U + 7)  {}
   
   while(z < 42) {                 // (x -> U, z -> V)      {V < 42}
-    z = z + 1;                    // (x -> U, z -> V)      {v < 42}
+    z = z + 1;                    // (x -> U, z -> V)      {V < 42}
   }
   if(z == x + 7) {                // (x -> U, z -> S)      {S == U + 7}
     assert false;   // (A)        // (x -> U, z -> S)      {S == U + 7}        true
@@ -57,16 +57,20 @@ It is not possible to reach B where `x > 100`, because `z` initializes to a valu
 void foo(int x) {           // (x -> 34)            (x -> U)
   int z = x + 7;            // (x -> 34, z -> 41)   (x -> U, z -> U + 7)
 
-  while(z < 42) {           // (x -> 34, z -> 41)   (x -> U, z -> V)       {z < 42}
-    z = z + 1;              // (x -> 34, z -> 42)   (x -> U, z -> V + 1)   {z < 42}
+  while(z < 42) {           // (x -> 34, z -> 41)   (x -> U, z -> V)       {V < 42}
+    z = z + 1;              // (x -> 34, z -> 42)   (x -> U, z -> V + 1)   {V < 42}
   }
-  if(z == x + 7) {
-    assert false;   // (A)
-  } else {
-    assert false;   // (B)
+  if(z == x + 7) {          // (x -> 34, z -> 42)   (x -> U, z -> U + 8)   {U + 8 == U + 7}
+    assert false;   // (A)  // (x -> 34, z -> 42)   (x -> U, z -> U + 8)   {U + 8 == U + 7}
+  } else {                  // (x -> 34, z -> 42)   (x -> U, z -> U + 8)   {U + 8 != U + 7}
+    assert false;   // (B)  // (x -> 34, z -> 42)   (x -> U, z -> U + 8)   {U + 8 != U + 7}
   }
 }
 ```
+Concrete values: `(x -> 34, z -> 42)`, Symbolic values: `(x -> U, z -> S)`, Path conditions: `{U + 8 != U + 7}`
 ### (e)
+Since we know the concrete value of `z` based on the input, our path conditions for the assertions are using the same symbolic variable `U`. This acfects accuracy of test generation because it only gives path conditions for a specific input.
 ### (f)
+`C'` is the same condition `{U + 8 != U + 7}` as the last explored path condition, which is satisfiable. We can start with `x -> 35`. The path conditions on the last conditional become `{U + & == U + 7}` and `{U + 7 != U + 7}`.
 ### (g)
+Having a fixed input value is similar to the bounded loop unrolling and loop invariant approaches, because we have a deterministic program execution. 
