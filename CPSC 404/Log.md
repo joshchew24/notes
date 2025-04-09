@@ -10,4 +10,14 @@
 	- every log record has
 		- **transID, prevLSN, type**
 - ![[Pasted image 20250408184603.png]]
-- 
+## LogRecord
+- most of these details are abstracted for simpler analysis
+### Fields
+- `prevLSN`
+- `transID`
+- `type`
+- `pageID`$^{+*}$
+- `length`
+- `offset`
+- `before-image`
+- `after-image`
