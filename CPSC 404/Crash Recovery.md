@@ -13,7 +13,7 @@ aliases:
 - **STEAL** and **NO-STEAL**
 - **FORCE** and **NO-FORCE**
 ## Log-Based Recovery Methods
-- use a **log** and write any database changes first in the log
+- use a [[Log]] and write any database changes first in the log
 - use the log to **Undo** or **Redo** transactions
 - log should **record** the **old** and **new** values for a database item
 - many algorithms, popular one is [[ARIES Crash Recovery Framework]]
