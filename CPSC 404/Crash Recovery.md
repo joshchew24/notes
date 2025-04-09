@@ -44,3 +44,6 @@ DBMS guarantees the following:
 		- enforcing [[Transaction Properties#Durability|Durability]] is hard
 			- what if system crahes before a page modified by a **committed** transaction is written to disk?
 			- need to keep information to do the changes when the system starts again
+- **steal and force** and **no-steal and no-force** policies can exist, but are rare
+	- **SF** means pages can be written early to free BP space, but must all be written again at commit
+	- **NSNF** means pages pages can't be written early to free BP space, and are only freed/written after commit
