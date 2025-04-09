@@ -10,14 +10,8 @@
 	- every log record has
 		- **transID, prevLSN, type**
 - ![[Pasted image 20250408184603.png]]
-## LogRecord
-- most of these details are abstracted for simpler analysis
-### Fields
-- `prevLSN`
-- `transID`
-- `type`
-- `pageID`$^{+*}$
-- `length`
-- `offset`
-- `before-image`
-- `after-image`
+## [[LogRecord]]
+- $<T_i, X, N_{old}, N_{new}>$
+- $X$ is ID of DB element
+## Write-Ahead Logging Protocol
+1. must **ensure** the **log record** for an update is written 
