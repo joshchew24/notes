@@ -21,8 +21,8 @@ DBMS guarantees the following:
 		- i.e. transaction can commit without writing changes to disk (to reduce I/Os), only writing when the space it occupies in the buffer is needed
 ## Application
 - **no-steal** and **force** is the easiest to implement
-	- never has to [[Undo]] changes of an aborted transaction, because they were never written to disk
-	- never has to [[Redo]] changes of a committed transaction, because they are guaranteed to be written to disk at commit time
+	- never has to **undo** changes of an aborted transaction, because they were never written to disk
+	- never has to **redo** changes of a committed transaction, because they are guaranteed to be written to disk at commit time
 	- **all** data that a transaction needs to modify **must** fit in memory
 - most systems use **steal** and **no-force** 
 	- **steal**
