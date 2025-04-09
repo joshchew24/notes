@@ -13,5 +13,3 @@
 ## [[LogRecord]]
 - $<T_i, X, N_{old}, N_{new}>$
 - $X$ is ID of DB element
-## Write-Ahead Logging Protocol
-1. must **ensure** the **log record** for an update is written 
