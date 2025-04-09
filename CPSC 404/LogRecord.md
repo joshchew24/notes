@@ -1,6 +1,8 @@
 # LogRecord
 ## LogRecord
 - most of these details are abstracted for simpler analysis
+- $<T_i, X, N_{old}, N_{new}>$
+	- $X$ is ID of DB element
 ### Types
 - update
 - commit
