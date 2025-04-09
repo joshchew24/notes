@@ -6,7 +6,7 @@ aliases:
 - **definition**: a sequence of reads and writes that are expected to be **executed as a unit** 
 	- i.e. all or nothing
 	- e.g. transfer money from one account to another at bank's ATM, make travel booking, book concert tickets, etc.
-	- allows for **rollback** [[Recovery]]
+	- allows for **rollback** [[Crash Recovery]]
 - DBMS abstracts state changes in **transactions**
 	- reads/write actions
 	- commit/abort action (usually one at the end)
