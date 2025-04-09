@@ -42,4 +42,5 @@ DBMS guarantees the following:
 			- what if $T$ aborts? we must remember the old value of $P$
 	- **no-force**
 		- enforcing [[Transaction Properties#Durability|Durability]] is hard
-			- what if system crahes before a page modified by a **commit
+			- what if system crahes before a page modified by a **committed** transaction is written to disk?
+			- need to keep information to do the changes when the system starts again
