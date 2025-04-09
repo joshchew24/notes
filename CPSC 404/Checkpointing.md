@@ -5,4 +5,4 @@
 2. immediately flush the log to disk
 3. write all **dirty pages** to disk
 	- may iunclude pages modified by **uncommitted transactions**
-4. write an `<END CKPT>` 
+4. write an `<END CKPT>`  record to log, flush immediately
