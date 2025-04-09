@@ -12,7 +12,7 @@ aliases:
 ## Buffer Pool Management Policies
 DBMS guarantees the following:
 - The changes for any transaction are [[Transaction Properties#Durability|Durable]] once the DBMS has told somebody that it committed
-- No partial changes are durable if the transaction aborted.
+- No partial changes are durable if the transaction aborted
 ### Steal Policy
 - dictates whether the DBMS **allows** an **uncommitted transaction** to **overwrite** the most recent committed value of an object in **non-volatile storage** (can a transaction write uncommitted changes to disk)
 	- **STEAL**: is allowed
@@ -28,16 +28,18 @@ DBMS guarantees the following:
 	- **FORCE**: is required
 		- when a transaction wants to **commit**, write **all pages** modified by it, then commit
 	- **NO-FORCE**: is *not* required
-## Flushing Buffer Pool
-- transactions modify pages in memory buffers
-- **when** should updated pages be written back to disk?
-	1. **steal** 
-		- when system *needs* the page, write to disk even if transactions that changed it are **still active**
-		- i.e. if buffer is full, write dirty page to disk to free the space
-	2. **no-steal** 
-		- keep a page **in memory** if the **transaction that updated it is active**
-		- i.e. all pages modified by a transaction are kept in memory until committed
-	3. **force**
-		- when a transaction **commits**, write **all pages** modified by it
-	4. **no-force**
 		- when a transaction **commits**, no need to write all pages modified by it; pages are **only written when their buffers are needed**
+		- i.e. transaction can commit without writing changes to disk (to reduce I/Os), only writing when the space it occupies in the buffer is needed
+### Application
+- **no-steal** and **force** is the easiest to implement
+	- never has to [[Undo]] changes of an aborted transaction, because they were never written to disk
+	- never has to [[Redo]] changes of a committed transaction, because they are guaranteed to be written to disk at commit time
+	- **all** data that a transaction needs to modify **must** fit in memory
+- most systems use **steal** and **no-force** 
+	- **steal**
+		- enforcing [[Transaction Properties#Atomicity|Atomicity]] is hard
+			- to steal page $P$, written by active transaction $T$, must write $P$ to disk
+			- what if $T$ aborts? we must remember the old value of $P$
+	- **no-force**
+		- enforcing [[Transaction Properties#Durability|Durability]] is hard
+			- what if system crahes before a page modified by a **commit
