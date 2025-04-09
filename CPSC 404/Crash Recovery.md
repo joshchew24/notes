@@ -21,3 +21,5 @@ aliases:
 		- simple, log-based recovery algo
 		- works well with **Steal** and **No-Force**
 		- handles crashes **during** recovery
+	- can use [[Write-Ahead Logging Protocol|WAL]] protocol
+	- can use different [[Logging Method]]s
