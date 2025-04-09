@@ -57,7 +57,7 @@ flowchart LR
 ```
 - alternatively, use **timeouts**
 	- abort if waiting too long for locks
-### Recovery
+### [[Crash Recovery]]
 - transaction in cycle in waits-for graph is **picked and aborted**
 	- choices could be based on
 		- number of locks held

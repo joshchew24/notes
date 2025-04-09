@@ -25,6 +25,6 @@ DBMS ensures ACID properties:
 - keep enough info on disk to recover
 - user must **commit** changes to assume DB data has been changed
 - DBMS must **redo** actions of **committed** transactions **after a crash**
-	- [[Recovery]]
+	- [[Crash Recovery]]
 		- DBMS **logs** all actions to undo/redo
 		- done by **recovery manager**
