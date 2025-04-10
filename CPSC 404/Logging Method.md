@@ -14,8 +14,12 @@ aliases:
 	- [[LogRecord]] to track each DB element modification by a transaction
 	- *Update* records **must** be written to disk **before** $T$'s changes to $X$ are written to disk
 - offers most flexibility
-- similar in spirit to [[ARIES Crash Recovery Framework|ARIES]]
 - use [[Checkpointing]] to know from **where to start recovery**
+- **best practice**
+	- could be an extension of [[Write-Ahead Logging Protocol|WAL]] protocol
+	- flush the `COMMIT` record for a transaction ASAP after it's added to **log tail**
+	- this is optional, but maximizes transactions that are **logically** completed
+		- more costly to undo, because will need to redo eventually
 ### Steps
 1. analysis: ID **incomplete** and **committed** transactions
 2. redo actions of **committed** transactions (earliest first, go forward)

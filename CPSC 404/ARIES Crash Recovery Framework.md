@@ -3,6 +3,7 @@ aliases:
   - ARIES
 ---
 # ARIES Crash Recovery Framework
+- uses [[Logging Method|Undo/Redo Logging]] with [[Write-Ahead Logging Protocol|WAL]]
 ## Three Phases
 ### Analysis
 - start from some point in the log, scan forward to identify
