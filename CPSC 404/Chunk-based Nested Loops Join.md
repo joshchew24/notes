@@ -1,9 +1,10 @@
 ---
 aliases:
   - CNL
+  - BNL
 ---
 # Chunk-based Nested Loops Join
-- also called Block-based Nested Loops in textbook
+- also called Block-based Nested Loops (**BNL**) in textbook
 	- confusing because we use block/page interchangeably
 - **overview**
 	- use one page as input buffer for scanning the inner relation $S$
