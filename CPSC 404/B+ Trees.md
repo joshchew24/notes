@@ -17,6 +17,10 @@
 - **Rich**: if >50% fill level
 - **Poor**: if 50% fill level
 - **Sparse**: if <50% fill level
+
+## Height Terminology
+- height $h$ means there are $h$ non-root levels including leaves
+- levels $k$ means there are $k$ levels including root and leaves
 ## Min Height
 - nodes are full (2d)
 ## Avg Height
