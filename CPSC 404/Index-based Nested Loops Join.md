@@ -2,8 +2,10 @@
 aliases:
   - INL
 ---
-# Index-based Nested Loops Join
-- assumes there is a matching index of S
+ # Index-based Nested Loops Join
+- assumes there is a matching index of $S$
+	- $S$ is the **inner table**
+	- $R$ is the **outer table**
 ```
 foreach tuple r in R {
 	probe index of S for query value
@@ -12,7 +14,7 @@ foreach tuple r in R {
 	}
 }
 ```
-- **cost**: $M + M\times T_R \times \text{cost of finding matching S-tuples})$
+- **cost**: $M + M\times T_R \times \text{cost of finding matching S-tuples}$
 	- $M$: # pages of $R$
 	- $T_R$: # tuples of $R$
 	- cost of finding matching S-tuples $\equiv$ cost of index probe
