@@ -23,3 +23,8 @@ WHERE Rank >= 'Associate'
 			- I/O cost is only that of sorting
 - [[Hash Join|HJ]] approach is similar
 - maintain running aggregate in buffer **per group**
+### Differences
+- only performing the operation on a single operation
+- relatively same for SMJ, just need one extra page for output buffer
+- for HJ, don't need extra page for input buffer of the inner relation
+	- i.e. partition size == number of partitions == $B-1$
