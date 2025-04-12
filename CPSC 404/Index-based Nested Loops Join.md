@@ -3,7 +3,7 @@ aliases:
   - INL
 ---
  # Index-based Nested Loops Join
-- assumes there is a matching index of $S$
+- assumes there is a **matching index** of $S$
 	- $S$ is the **inner table**
 	- $R$ is the **outer table**
 ```
