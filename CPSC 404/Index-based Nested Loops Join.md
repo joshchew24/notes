@@ -2,6 +2,7 @@
 aliases:
   - INL
 ---
+# Index-based Nested Loops Join
  # Index-based Nested Loops Join
 - assumes there is a **matching index** of $S$
 	- $S$ is the **inner table**
