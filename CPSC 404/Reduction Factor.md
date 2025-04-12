@@ -18,6 +18,7 @@
 - $col = value$ has RF $\frac{1}{NKeys(I)}$ given index $I$ on col
 - $col1 = col2$ has RF $\frac{1}{MAX(NKeys(I1), NKeys(I2))}$
 	- i.e. $RF = min(\frac{1}{NKeys(I1)},\frac{1}{Nkeys(I2)})$
+	- the $RF$ of a [[Join Evaluation|Join]] is whichever relation is more [[Selectivity|selective]] on the **join condition**, because it yields **fewer tuples** available to create matches
 - $col > value$ has RF $\frac{High(I) - value}{High(I) - Low(I)}$
 - $col < value$ has RF $\frac{value - Low(I)}{High(I) - Low(I)}$
 - if attribute domain is **real-valued**, bucket/discretize it
