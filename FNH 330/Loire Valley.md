@@ -12,8 +12,15 @@
 	- [[Sauvignon Blanc]], [[Chenin Blanc]], [[Cabernet Franc]], [[Melon Blanc]]
 ## Sub-Regions
 - ![[Pasted image 20250413191056.png]]
+### Pays Nantais
+- Climate: [[Maritime Climate|Maritime]]
+- Soil:
+- Varieties: [[Melon Blanc]]
+- Famous for [[Muscadet]]
+	- made from [[Melon Blanc]]
 ### Anjou-Saumur
 - Climate: [[Cool Climate|Cool]] [[Maritime Climate|Maritime]]
 - [[Soil]]: schist, sandstone, limestone, clay and sandy gravel
+	- depends how close you are to a river or if you're situated on a riverbed
 - Varieties: [[Chenin Blanc]], [[Cabernet Franc]]
 - Diverse wines:
