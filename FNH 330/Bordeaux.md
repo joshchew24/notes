@@ -3,3 +3,19 @@
 	- [[Merlot]]
 	- [[Cabernet Sauvignon]]
 	- [[Cabernet Franc]]
+	- [[Malbec]]
+	- [[Petit Verdot]]
+	- [[Sauvignon Blanc]]
+	- [[Semillon]]
+- highest producing wine region in [[France]]
+- Climate:
+	- Moderate [[Maritime Climate|Maritime]] 
+	- EU Zone CI - warm
+	- no frost, mild winters
+	- excess rain is main risk factor, especially during harvest
+	- [[Saignée]] may be used in some vintages to increase concentration
+- [[Soil]]s
+	- left bank: **Haut-medoc**
+		- [[Grands crus classés]]
+		- coarse and gravelly - good drainage
+		- key to early spring warming and longer growing season
