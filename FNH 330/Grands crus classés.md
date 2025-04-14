@@ -5,7 +5,7 @@ aliases:
 ---
 # Grands crus classés
 - presented at Paris Exhibition
-- French Emperor Napoelon III's committee ranked all of the wineries (chateaus)' wines on the **left bank** of Gironde estuary in **Bordeaux**
+- French Emperor Napoelon III's committee ranked all of the wineries (chateaus)' wines on the **left bank** of Gironde estuary in [[Bordeaux]]
 	- classified according to their quality
 	- included Médoc, Graves, Sauternes and Barsac
 		- Médoc only makes [[Appellation d'Origine Contrôlée|AOC]] red wines
@@ -28,7 +28,8 @@ aliases:
 - sweet [[Late Harvest Wines|Late Harvest]] [[Botrytis-affected Wines|Bortytis-affected]] dessert wine
 - grand cru **superieur** classé
 	- highest rank
-- Chateau d'Yquem
+	- Chateau d'Yquem
+	- is a sweet LHBA
 ## [[Bottle Labels]]
 ![[Pasted image 20250310014542.png]]
 - Ch. Kirwan is a 3ème cru classé
