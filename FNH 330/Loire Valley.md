@@ -1,4 +1,5 @@
 # Loire Valley
+- **EU Zone B** Climate
 - large region, spans from west coast to center of france
 	- causes a variable climate and [[Soil]]
 	- on the coast: 
@@ -45,4 +46,5 @@
 - Climate: [[Cool Climate|Cool]] with some Atlantic [[Maritime Climate|Maritime]] influence
 - upper/east Loire river valley with rolling hills
 - Grape Varieties: [[Sauvignon Blanc]]
-- Sancerre AOC: ge
+- [[Sancerre]] AOC: geographical centre of France
+- [[Pouilly-Fumé]] AOC: smokey wines
