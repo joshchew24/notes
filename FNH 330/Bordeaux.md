@@ -63,9 +63,20 @@
 	- e.g. [[Late Harvest Wines|Late Harvest]] and LHBA wines: [[Barsac]]. [[Sauternes]] AOC
 		- within [[Graves]]
 	- e.g. Red wine: [[Pauillac]], [[Margaux]], [[Saint-Julien]], [[St. Estèphe]] AOCs (within [[Haut-Medoc]])
+- communes < sub-regions (AOC) < main region (Bordeaux)
 ### General Economy AOC style wines
 - AOC Bordeaux
 - AOC Bordeaux Superiur (riper grapes & 0.5% higher ABV than AOC Bordeaux)
 - may not have any oak in reds
 - e.g. [[Mouton Cadet]] #trythiswine
-	- made by Mouton 
+	- made by Chateau Mouton Rothschild, a Premier Grand Cru Classe
+	- cheap ($15ish)
+## AOCs
+### [[Sauternes]] and [[Barsac]]
+- sweet [[Late Harvest Wines|Late Harvest]] [[Botrytis-affected Wines]]
+- located within [[Graves]]
+- intensely-scented sweet whintes
+	- barrel fermented & aged
+	- [[Semillon]], [[Sauvignon Blanc]], [[Muscadelle]] (1-3%)
+- [[Botrytis cinerea]] encouraged by morning fog where Ciron-Garonne Rivers meet
+	- humidity drops later in day when sun comes out
