@@ -42,4 +42,7 @@
 - [[Bourgueil]] AOC: [[Cabernet Franc]]
 - [[Vouvray]]: [[Late Harvest Wines|Late Harvest]] [[Chenin Blanc]]
 ### Centre
-- Climate: 
+- Climate: [[Cool Climate|Cool]] with some Atlantic [[Maritime Climate|Maritime]] influence
+- upper/east Loire river valley with rolling hills
+- Grape Varieties: [[Sauvignon Blanc]]
+- Sancerre AOC: ge
