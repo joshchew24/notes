@@ -22,7 +22,7 @@
 	- adds calcium
 		- imperically alters wine flavour
 	- drains moderately
-		- e.g. Chablis, France
+		- e.g. Chablis, [[France]]
 > [!Note]
 > soils can be a combination of the above components, e.g. loam: silt and sand + some clay (Fraser Valley)
 - organic matter

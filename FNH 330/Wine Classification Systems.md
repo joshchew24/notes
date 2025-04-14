@@ -1,6 +1,6 @@
 # Wine Classification Systems
 ## Early Attempts
-- as early as 1300s in France
+- as early as 1300s in [[France]]
 - most influential was [[Grands crus classés|1855 Bordeaux classification]]
 	- big marketing success
 	- regulation of these wines is very tightly maintained
@@ -15,7 +15,7 @@
 	- established new Champagne appellation
 	- Champagne began to apply for legal restrictions on use of "Champagne" term
 ## [[Appellation d'Origine Contrôlée]]
-- in **1935**, France established the [[Institut national des appellations d'origine]]
+- in **1935**, [[France]] established the [[Institut national des appellations d'origine]]
 	- to comply with EU regulations, AOC is now AOP
 - [[Bordeaux]] received AOC designation in 1936
 	- has 7 [[AOC]]s
@@ -28,7 +28,7 @@
 	- followed by [[Burgundy]] (1930s) and [[Alsace]] (1983)
 ## Indication Géographique Protégée
 ### Motivation
-- majority of wine made in France is **outside of AOC**
+- majority of wine made in [[France]] is **outside of AOC**
 - called "Table Wine"
 - no restrictions on varieties/French source
 - **restricted labelling**
@@ -45,7 +45,7 @@
 - often **overlaps** with [[AOC]] regions
 - allows **varietal labelling**
 ## EU Systems
-- other EU countries followed France's lead (and marketing success)
+- other EU countries followed [[France]]'s lead (and marketing success)
 	- Italy: [[Denominazione di Origine Controllata]]
 	- Spain: [[Denominacion de Origen]]
 	- Germany: [[Qualitätswein]]
@@ -57,12 +57,12 @@
 
 ### EU Classification Table
 
-| Country | [[Wine without geographical indication]] | [[Protected Geographical Indication\|PGI]]                       | [[Protected Designation of Origin\|PDO]] | [[Protected Designation of Origin#Protected Designation of Origin#"Special" Quality Tiers\|PDO Special]] |
-| ------- | ---------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| France  | Vin de France                            | [[#Indication Géographique Protégée\|IGP]]                       | [[Appellation d'Origine Contrôlée\|AOC]] | AOC [[Grands crus classés\|crus]]                                                                        |
-| Germany | Deutscher Wein                           | [[Landwein]]                                                     | [[Qualitätswein]]                        | [[Prädikatswein]]                                                                                        |
-| Italy   | Vino                                     | Indicazione geografica<br>protetta/typica                        | [[Denominazione di Origine Controllata]] | [[Denominazione di Origine Controllata\|Denominazione di Origine Controllata e Garantita]]               |
-| Spain   | Vino                                     | Indicazión geográfica protegida<br>(IGP)/ vino de la tierra (VT) | [[Denominacion de Origen]]               | [[Denominacion de Origen\|Denominacion de Origen Calificada]]                                            |
+| Country    | [[Wine without geographical indication]] | [[Protected Geographical Indication\|PGI]]                       | [[Protected Designation of Origin\|PDO]] | [[Protected Designation of Origin#Protected Designation of Origin#"Special" Quality Tiers\|PDO Special]] |
+| ---------- | ---------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [[France]] | Vin de France                            | [[#Indication Géographique Protégée\|IGP]]                       | [[Appellation d'Origine Contrôlée\|AOC]] | AOC [[Grands crus classés\|crus]]                                                                        |
+| Germany    | Deutscher Wein                           | [[Landwein]]                                                     | [[Qualitätswein]]                        | [[Prädikatswein]]                                                                                        |
+| Italy      | Vino                                     | Indicazione geografica<br>protetta/typica                        | [[Denominazione di Origine Controllata]] | [[Denominazione di Origine Controllata\|Denominazione di Origine Controllata e Garantita]]               |
+| Spain      | Vino                                     | Indicazión geográfica protegida<br>(IGP)/ vino de la tierra (VT) | [[Denominacion de Origen]]               | [[Denominacion de Origen\|Denominacion de Origen Calificada]]                                            |
 ## Non-European Labels and Regulations
 - NA/SA, Australia, NZ
 - initially, legal requirements were pretty loose

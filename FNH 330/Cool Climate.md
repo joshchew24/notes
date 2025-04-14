@@ -19,7 +19,7 @@
 - mountain range blocks passage of rain-producing weather systems (storms)
 	- casts "shadow" of dryness behind them
 - example
-	- Alsace, France
+	- Alsace, [[France]]
 	- Marlborough, NZ
 	- Pfalz Germany
 	- semi-arid

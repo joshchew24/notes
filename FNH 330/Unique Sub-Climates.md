@@ -7,7 +7,7 @@
 - e.g. Eden Valley, South Australia
 ## [[Cool Climate]]
 ## Morning Fog in Maritime Area followed by Drying Hot Sun
-- Sauternes, France
+- Sauternes, [[France]]
 - morning mist from rivers promotes *Botrytis cinerea* "noble rot"
 	- humidity in air causes moisture in grapes, promotes bacteria growth
 	- compromises skins

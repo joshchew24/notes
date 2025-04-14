@@ -9,6 +9,6 @@
 - Chateau Margaux
 - Margaux
 - Haut-medoc
-- [[Bordeaux]], France
+- [[Bordeaux]], [[France]]
 ## Varieties
 - [[Merlot]], [[Cabernet Sauvignon]], [[Cabernet Franc]]

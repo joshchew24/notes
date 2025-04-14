@@ -42,6 +42,6 @@ aliases:
 	- grapes were grown at the **chateau**
 		- in **Margaux**, which is in
 		- the **Haut-Medoc** (sub-region) of
-		- [[Bordeaux]], France
+		- [[Bordeaux]], [[France]]
 	- knowing the geography tells us the grape varieties
 		- [[Merlot]], [[Cabernet Sauvignon]], [[Cabernet Franc]]

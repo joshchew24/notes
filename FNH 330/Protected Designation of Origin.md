@@ -10,7 +10,7 @@ aliases:
 	- or higher tiers
 		- e.g. [[Grands crus classés]]
 ## "Special" Quality Tiers
-- France: [[Grands crus classés]]
+- [[France]]: [[Grands crus classés]]
 - Germany: [[Prädikatswein]]
 - Italy: [[Denominazione di Origine Controllata|Denominazione di Origine Controllata e Garantita]] (DOCG)
 - Spain: [[Denominacion de Origen]] (DOCa)
