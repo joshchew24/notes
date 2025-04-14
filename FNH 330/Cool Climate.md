@@ -1,3 +1,7 @@
+---
+aliases:
+  - Cool
+---
 # Cool Climate
 - e.g. The Mosel or Rheingau in Germany
 - short, cool growing season (14-16 C avg)

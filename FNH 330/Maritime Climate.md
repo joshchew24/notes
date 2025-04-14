@@ -1,3 +1,8 @@
+---
+aliases:
+  - Maritime
+  - maritime
+---
 # Maritime Climate
 - next to a large body of water
 	- e.g. Vancouver

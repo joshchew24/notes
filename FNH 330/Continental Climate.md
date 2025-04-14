@@ -1,3 +1,7 @@
+---
+aliases:
+  - Continental
+---
 # Continental Climate
 - big difference between winter/summer
 	- cold winters, warm-hot summers
