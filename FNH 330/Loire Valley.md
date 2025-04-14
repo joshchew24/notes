@@ -35,3 +35,11 @@
 	- carved out of tufa limestone
 	- black mold *Aspergillus niger* on many surfaces
 	- even though tunnels, fermentation and wine storage rooms are deep, grapevine roots still penetrate the ceilings
+### Touraine
+- Climate: [[Cool Climate|Cool]] with [[Maritime Climate|Maritime]] influence
+- Grape Varieties: [[Chenin Blanc]], [[Cabernet Franc]]
+- [[Chinon]] AOC: [[Cabernet Franc]]. [[Chenin Blanc]]
+- [[Bourgueil]] AOC: [[Cabernet Franc]]
+- [[Vouvray]]: [[Late Harvest Wines|Late Harvest]] [[Chenin Blanc]]
+### Centre
+- Climate: 
