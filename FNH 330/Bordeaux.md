@@ -43,3 +43,7 @@
 - Note: Petrus (2005: $4975) was never classified
 - non-cru-classified areas planned out their own cru classé systems within AOC
 - **Graves** followed with a new grand cru classification in **1959**
+### Cru bourgeois
+- used **just beneath** [[Grands crus classés]] system
+- established in 1932, revised in 2010, 2020
+- meant to **distinguish** the chateaus making good quality wines above the above-average, but not as good as [[Grands crus classés|Grand cru classé]]
