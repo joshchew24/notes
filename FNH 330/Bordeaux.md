@@ -80,3 +80,18 @@
 	- [[Semillon]], [[Sauvignon Blanc]], [[Muscadelle]] (1-3%)
 - [[Botrytis cinerea]] encouraged by morning fog where Ciron-Garonne Rivers meet
 	- humidity drops later in day when sun comes out
+### [[Haut-Medoc]]
+- red wines, left bank of the Gironde river
+- [[Grands crus classés]]
+- [[Cabernet Sauvignon]]-based blends
+- gravelly soil; drains well & warms early in the spring
+- [[Margaux]] [[Appellation d'Origine Contrôlée|AOC]]
+	- one premier cru classe estate:" [[Chateau Margaux 1996|Chateau Margaux]]
+- [[Pauillac]] AOC
+	- prestigious commune with 3 premier cru classe estates
+		- [[Chateau Latour]], [[Chateau Lafite-Rothschild]], and later-added [[Chateau Mouton-Rothschild]]
+- [[Pomerol]] AOC
+	- small, but significant AOC in Bordeaux region
+	- level fields, clay soil
+	- home of [[Chateau Pétrus]]
+- [[St. Emilion]]
