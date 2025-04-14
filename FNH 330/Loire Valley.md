@@ -23,4 +23,15 @@
 - [[Soil]]: schist, sandstone, limestone, clay and sandy gravel
 	- depends how close you are to a river or if you're situated on a riverbed
 - Varieties: [[Chenin Blanc]], [[Cabernet Franc]]
-- Diverse wines:
+- Diverse wine styles
+	- reds, whites, [[Late Harvest Wines|Late Harvest]] [[Botrytis-affected Wines]]
+	- famous for two wines (?)
+		- **Coteaux du Layon**
+			- sweet, LHBA wines
+			- 1 Premier cru ([[Chaume]])
+			- 1 Grand cru ([[Quarts de Chaume]])
+- wine is made in underground cellars/caves
+	- common for Loire valley
+	- carved out of tufa limestone
+	- black mold *Aspergillus niger* on many surfaces
+	- even though tunnels, fermentation and wine storage rooms are deep, grapevine roots still penetrate the ceilings
