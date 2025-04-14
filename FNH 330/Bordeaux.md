@@ -48,4 +48,4 @@
 - established in 1932, revised in 2010, 2020
 - meant to **distinguish** the chateaus making good quality wines above the above-average, but not as good as [[Grands crus classés|Grand cru classé]]
 - 3 tiers (low to high)
-	- Cru bourgeois, cru bourgeois sup
+	- Cru bourgeois, cru bourgeois supérieur, cru bourgeois exceptionnelle
