@@ -1,3 +1,6 @@
+---
+aliases: Mediterranean
+---
 # Mediterranean Climate
 - named after mediterranean basin
 - warm and dry climate

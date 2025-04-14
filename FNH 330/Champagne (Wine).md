@@ -1,4 +1,8 @@
-# Champagne
+---
+aliases:
+  - Champagne
+---
+# Champagne (Wine)
 - [[Sparkling Wine]] made by a primary alcoholic fermentation off the skins
 	- plus [[Secondary Fermentation]] to create CO$_2$
 - **characteristics**

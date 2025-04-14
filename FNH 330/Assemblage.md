@@ -1,5 +1,5 @@
 # Assemblage
-- blending of the component wines for [[Champagne]]
+- blending of the component wines for [[Champagne (Wine)]]
 ## Non-vintage
 - compiling many diverse wines for blending of the “**cuvée**”
 	- reserve wines (i.e. other vintages)

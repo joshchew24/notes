@@ -1,5 +1,5 @@
 # Sparkling Wine
-- if made from grapes from the **Champagne** [[Appellation d'Origine Contrôlée]], it is [[Champagne]]
+- if made from grapes from the **Champagne** [[Appellation d'Origine Contrôlée]], it is [[Champagne (Wine)]]
 	- other sparkling wines can be made using [[Champagne Winemaking Steps|Champagne/Traditional Method]]
 		- Spanish Cava
 			- made with Macabeo, Xarel-lo, Paralleda grapes
