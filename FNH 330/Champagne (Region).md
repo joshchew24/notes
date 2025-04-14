@@ -3,6 +3,7 @@ aliases:
   - Champagne (AOC)
 ---
 # Champagne (Region)
+- see also [[Champagne (Wine)]]
 - Climate: [[Cool Climate|Cool]] 
 	- one of the coolest regions in [[France]]
 		- really good for growing [[Sparkling Wine]] grapes
@@ -10,3 +11,35 @@ aliases:
 - Chalky [[Soil]]
 	- higher water holding capacity
 	- helpful in summer to provide water during dry growing season
+- **always an AOC**, even if not on the [[Bottle Labels]]
+- **Cru** status assigned to **villages**
+	- different from [[Grands crus classés]] system
+	- historically related to **grape prices**
+## Échelle des Crus
+- (ladder of growth)
+- ratings are percentage
+	- amount of the price you would receive for selling the grapes
+- 17 villages are **Grand Cru** (100% rating)
+	- [[Ambonnay]]
+	- [[Avize]]
+	- [[Ay]]
+	- [[Beaumont-sur-Vesle]]
+	- [[Bouzy]]
+	- [[Chouilly (white grapes only)]]
+	- [[Cramant]]
+	- [[Louvois]]
+	- [[Mailly Champagne]]
+	- [[Le Mesnil-sur-Oger]]
+	- [[Oger]]
+	- [[Oiry]]
+	- [[Puisieulx]]
+	- [[Sillery]]
+	- [[Tours-sur-Marne]] (red grapes only)
+	- [[Verzenay]]
+	- [[Verzy]]
+- 43 **Premier Cru** villages
+	- 2 - 99%
+	- 13 - 95%
+	- 7 - 94%
+	- 5 - 93%
+	- 16 - 90%

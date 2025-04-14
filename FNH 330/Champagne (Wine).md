@@ -3,6 +3,7 @@ aliases:
   - Champagne
 ---
 # Champagne (Wine)
+- see also [[Champagne (Region)]]
 - [[Sparkling Wine]] made by a primary alcoholic fermentation off the skins
 	- plus [[Secondary Fermentation]] to create CO$_2$
 - **characteristics**
@@ -18,7 +19,7 @@ aliases:
 	- made in years of **exceptional quality**
 	- must be made exclusively from wines of that vintage
 - also an [[Appellation d'Origine Contrôlée|AOC]] famous for its sparkling wine
-	- all champagne wine comes from this region
+	- all champagne wine comes from [[Champagne (Region)]]
 ## Producer Types
 - type **may appear** on label
 - Recoltant Manipulant (RM)
