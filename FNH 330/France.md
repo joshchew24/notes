@@ -11,7 +11,7 @@ aliases:
 	- Grape Varieties: [[Riesling]], [[Gewurztraminer]], [[Pinot Gris]]
 - [[Loire Valley]]
 	- Climate: [[Cool Climate|Cool]]-[[Maritime Climate|Maritime]] ----- [[Continental Climate|Continental]] (+[[Maritime Climate|Maritime]])
-	- Grape Varieties: #todo [[Sauvignon]] (is this just sauv? blanc?), [[Chenin Blanc]], [[Cabernet Franc]]
+	- Grape Varieties: [[Sauvignon Blanc]] (is this just sauv? blanc?), [[Chenin Blanc]], [[Cabernet Franc]]
 - [[Burgundy]]
 	- Climate: [[Continental Climate|Continental]]
 	- Grape Varieties: [[Pinot Noir]], [[Chardonnay]], [[Gamay]] #todo (noir?)

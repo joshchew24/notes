@@ -15,6 +15,8 @@ aliases:
 - **Cru** status assigned to **villages**
 	- different from [[Grands crus classés]] system
 	- historically related to **grape prices**
+	- champagne houses can buy grapes from different villages
+		- if all grapes from Grand Cru, then they can put Grand Cru on the label
 ## Échelle des Crus
 - (ladder of growth)
 - ratings are percentage
