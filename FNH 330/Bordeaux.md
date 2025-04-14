@@ -49,3 +49,23 @@
 - meant to **distinguish** the chateaus making good quality wines above the above-average, but not as good as [[Grands crus classés|Grand cru classé]]
 - 3 tiers (low to high)
 	- Cru bourgeois, cru bourgeois supérieur, cru bourgeois exceptionnelle
+	- stricter criteria for higher tiers
+- need to have five vintages evaluated by **tasting panel** before classification
+	- continually evaluate winery and tourism practices
+### AOC Sub-regions
+- Haut-Medoc AOC
+	- mostly [[Merlot]] and [[Cabernet Sauvignon]] blends with some [[Cabernet Franc]]
+	- grapes can come from anywhere within this AOC
+- Graves AOC
+	- reds/whites
+### Specific Origin AOC
+- "major communes" within subregional AOCs associated with higher quality wine production
+	- e.g. [[Late Harvest Wines|Late Harvest]] and LHBA wines: [[Barsac]]. [[Sauternes]] AOC
+		- within [[Graves]]
+	- e.g. Red wine: [[Pauillac]], [[Margaux]], [[Saint-Julien]], [[St. Estèphe]] AOCs (within [[Haut-Medoc]])
+### General Economy AOC style wines
+- AOC Bordeaux
+- AOC Bordeaux Superiur (riper grapes & 0.5% higher ABV than AOC Bordeaux)
+- may not have any oak in reds
+- e.g. [[Mouton Cadet]] #trythiswine
+	- made by Mouton 
