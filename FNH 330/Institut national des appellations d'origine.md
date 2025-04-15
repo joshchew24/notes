@@ -11,7 +11,7 @@ aliases:
 - also manages foods such as cheese
 ## Key Regulations
 1. All grapes must **originate** from designated region
-	- Negociants (some winemakers) can buy grapes/wine and finish and market
+	- [[Negociants]] (some winemakers) can buy grapes/wine and finish and market
 2. Only certain **grape varieties** permitted to be grown
 	- **terroir** and variety **matched** for highest **quality**
 	- may change with climate change

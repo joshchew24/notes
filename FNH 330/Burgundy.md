@@ -1,0 +1,12 @@
+# Burgundy
+- Climate:
+	- [[Continental Climate|Continental]]
+	- Zone CI except [[Chablis]], Zone B
+	- long cold winter, humid spring, hot sunny summer; excessive rain at harvest a problem
+- Soil:
+	- clay-marl-limestone base
+	- highly diverse soil types found across Burgundy
+- Winemaking:
+	- main varieties: [[Pinot Noir]], [[Chardonnay]], [[Gamay Noir]]
+		- AOCs grow one to many of these varieties
+	- [[Negociants]]

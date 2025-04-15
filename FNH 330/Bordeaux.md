@@ -90,12 +90,14 @@
 - [[Pauillac]] AOC
 	- prestigious commune with 3 premier cru classe estates
 		- [[Chateau Latour]], [[Chateau Lafite-Rothschild]], and later-added [[Chateau Mouton-Rothschild]]
+
+### Right Bank of Gironde
+- red wines
+- mostly [[Merlot]]-based blends, because of terroir (clay soil)
 - [[Pomerol]] AOC
 	- small, but significant AOC in Bordeaux region
 	- level fields, clay soil
-	- home of [[Chateau Pétrus]]
-### Right Bank of Gironde
-- red wines
+	- home of [[Pétrus]]
 - [[St. Emilion]] AOC
 	- sloping hills, clay soil
 	- [[St-Emilion 1955 Classification]]
