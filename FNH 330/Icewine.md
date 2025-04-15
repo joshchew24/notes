@@ -1,3 +1,7 @@
+---
+aliases:
+  - Eiswein
+---
 # Icewine
 - made only in a few countries
 	- mainly Canada, Germany, Austria, China, Czech Republic
