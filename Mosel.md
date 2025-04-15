@@ -6,9 +6,22 @@ aliases:
 - 9% of German wine
 - formerly known as Mosel-Saar-Ruwer until 2007
 - vineyards on the Mosel's "sunny" south-facing river banks
-	- ![[Pasted image 20250415032454.png]]
+	- ![[Pasted image 20250415032454.png|245]]
+	- [[Slope and Aspect]] are very important for this region
+	- south aspect is **premium** for light interception and therefore heat accumulation
+	- steep slope helps increase light interception
+		- very steep: ![[Pasted image 20250415033404.png]]
+		- too steep for trellis system and other standard [[Vine Management]] systems
+		- uses "The Mosel arch"
+			- ![[Pasted image 20250415033445.png]]
+			- canes grow up from the trunk and wrapped up and around 
+			- low number of grapes per vine
+		- slate -schistic [[Soil]] (river banks)
+			- low major nutrients; nitrogen and phosphorus
+			- good drainage
 - 90% [[Riesling]]
 	- known for [[Botrytis-affected Wines|Beerenauslese (BA)]] and [[Trockenbeerenauslese|TBA]]
 - famous vineyard - Doctor vineyard
 	- located in Bereich of Bernkastel
 	- in 14th century, an ailing Archbishop Boemund II was "cured" by the [[Riesling]] wine from here
+- contains village/town of [[Urzig]]
