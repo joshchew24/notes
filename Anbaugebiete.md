@@ -11,4 +11,4 @@ aliases:
 - [[Bereich]]s are districts within an Anbaugebiete
 	- e.g. [[Johannisberg]] in [[Rheingau]]
 - [[Grosslage]]: collective site of vineyards
-- [[Einzellage]]: single vineyard
+- [[Single vineyard designation|Einzellage]]: [[Single vineyard designation]]

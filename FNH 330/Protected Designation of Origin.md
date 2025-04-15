@@ -15,5 +15,3 @@ aliases:
 - Germany: [[Prädikatswein]]
 - Italy: [[Denominazione di Origine Controllata|Denominazione di Origine Controllata e Garantita]] (DOCG)
 - Spain: [[Denominacion de Origen]] (DOCa)
-
-## 

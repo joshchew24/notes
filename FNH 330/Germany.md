@@ -38,3 +38,4 @@
 	- typicity (typical of the style of wine)
 	- quality (no faults allowed)
 ## [[Bottle Labels]]
+- [[Toni Jost 2012 Riesling Spätlese]]

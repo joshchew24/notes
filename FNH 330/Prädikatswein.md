@@ -2,6 +2,12 @@
 aliases:
   - Qualitätswein mit Pradikat
   - QmP
+  - Prädikatswein Kabinett
+  - Prädikatswein Spätlese
+  - Prädikatswein Auslese
+  - Prädikatswein Beerenauslese
+  - Prädikatswein Eiswein
+  - Prädikatswein Trockenbeerenauslese
 ---
 # Prädikatswein
 - [[Protected Designation of Origin|Special PDO]]
