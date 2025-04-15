@@ -1,14 +1,15 @@
 ---
 aliases:
   - Chaptalization
+  - Anreichen
 ---
 # Pre-fermentation Adjustments
 ## Pre-fermentation Adjustments
 ### Chaptalization
 - addition of sugar to increase final ABV
 	- if necessary and legal
-- 17 g/L sugar raises ABV by 1%
-- can also use sucrose (if alloewd) or rectified concentrated grape must
+- **17 g/L sugar raises ABV by 1%**
+- can also use sucrose (if allowed) or rectified concentrated grape must
 - ![[Pasted image 20250223174840.png]]
 ### Balancing pH
 #### Low pH (high acidity)
@@ -25,3 +26,10 @@ aliases:
 - acid level is < 6-8 g/L
 - pH > 3.4
 - add tartaric acid to low-acid juice
+## Germany
+- called Anreichen
+- can use sugar **or** concentrated grape juice
+- northerly zones (A) are permitted more sugar than south zones (e.g. [[Burgundy]]: C) by EU regulations
+	- cooler areas may struggler more to reach target sugar levels
+- [[Prädikatswein]]s cannot be chaptalized
+![[Pasted image 20250415024945.png]]

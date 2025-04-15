@@ -4,6 +4,7 @@ aliases:
   - Botrytis-affected
   - Beerenauslese
   - Botrytized
+  - Beerenauslese (BA)
 ---
 # Botrytis-affected Wines
 - [[Botrytis cinerea]] is allowed to grow on grapes

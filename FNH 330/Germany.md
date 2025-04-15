@@ -19,3 +19,12 @@
 - [[Landwein]] ([[Protected Geographical Indication|PGI]])
 - [[Qualitätswein]] ([[Protected Designation of Origin|PDO]])
 - [[Prädikatswein]] ([[Protected Designation of Origin|Special PDO]])
+## Wine Testing
+- [[Qualitätswein]] and [[Prädikatswein]] must pass 3 separate evaluations for an [[Amtliche Prufungsnummer]]
+1. Vineyard requirements
+	- most involved, usually completed by winery
+	- juice sugar concentration depending on tier
+	- mold (minimum of botrytis for [[Botrytis-affected Wines|Beerenauslese (BA)]] (50%) and [[Trockenbeerenauslese|TBA]] (100% [[Botrytis-affected Wines|Botrytis-affected]]))
+	- yield level estimated
+2. Analysis of Wine
+3. Sensory Exam
