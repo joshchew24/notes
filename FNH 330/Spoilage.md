@@ -1,6 +1,6 @@
 # Spoilage
 - *Acetobacter* bacteria can grow in presence of oxygen
-	- converts ethanol to acetic acid
+	- converts ethanol to acetic acid (vinegar)
 		- below [[Recognition Threshold]] can add complexity to aroma
 			- about 0.9g/L
 		- higher level gives vinegar smell, considered a [[Wine Fault]]

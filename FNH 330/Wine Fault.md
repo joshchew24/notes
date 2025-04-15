@@ -2,7 +2,7 @@
 - more likely to occur in **red wines**
 	- longer storage periods
 - **volatile acidity
-	- *Acetobacter* making acetic acid from ethanol in presence of oxygen
+	- *Acetobacter* making acetic acid (vinegar) from ethanol in presence of oxygen
 	- see [[Spoilage]]
 - **(Reductive) volatile sulfur compounds**
 	- e.g. H$_2$S: rotten eggs, burnt rubber
