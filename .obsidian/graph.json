@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"CPSC 330\"  ",
+  "search": "path:\"FNH 330\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 7.47733333333333,
   "linkStrength": 0.646933333333333,
   "linkDistance": 282,
-  "scale": 0.34091010959937984,
-  "close": true
+  "scale": 0.1464816101601216,
+  "close": false
 }
