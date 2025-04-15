@@ -1,6 +1,7 @@
 ---
 aliases:
   - PDO
+  - Special PDO
 ---
 # Protected Designation of Origin
 - generally associated with highest quality of EU systems

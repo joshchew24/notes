@@ -17,4 +17,9 @@
 		- German or Austrian [[Botrytis-affected Wines]]
 		- grapes are fully "dried" from [[Botrytis cinerea]]
 		- highest quality wine from Germany
-- uses specific gravity [[Oechsle scale]] for measuring sugar concentration in grape juice
+- uses specific gravity [[Oechsle scale]] for measuring sugar concentration in **grape** juice
+## Wine Classification Systems
+- [[Deutscher Wein]] ([[Wine without geographical indication]])
+- [[Landwein]] ([[Protected Geographical Indication|PGI]])
+- [[Qualitätswein]] ([[Protected Designation of Origin|PDO]])
+- [[Prädikatswein]] ([[Protected Designation of Origin|Special PDO]])
