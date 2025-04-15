@@ -2,7 +2,7 @@
 - 3% of German wine
 - prestigious region
 	- most expensive/famous German wines
-- known for **Geisenheim Institute**
+- known for [[Geisenheim Institute]]
 	- [[Oenology|Oenological]] research and teaching
 - **whites**:
 	- most common, mostly [[Reisling]]

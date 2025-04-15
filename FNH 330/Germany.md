@@ -45,3 +45,6 @@
 - [[Joh. Jos. Prüm 2021 Riesling Prädikatswein]]
 - [[Dr. Loosen 2009 Riesling Spätlese]]
 - [[Dr. Loosen 2019 Riesling Spätlese]]
+- [[Robert König 2009 Spätburgunder Spätlese]]
+- [[Baron zu Knyphausen 2004 Riseling Beerenauslese]]
+- [[Rheinhessen 2014 Trockenbeernauslese]]

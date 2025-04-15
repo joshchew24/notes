@@ -1,7 +1,7 @@
 # Baron zu Knyphausen 2004 Riseling Beerenauslese
 ![[Pasted image 20250415162106.png]]
 ## Formal Classification
-- sweet botrytis-affected wine (?)
+- sweet (late harvest?) botrytis-affected wine (?)
 - [[Single vineyard designation]]
 - [[Estate-bottled|Gutsabfüllung]]
 - [[Prädikatswein]]
