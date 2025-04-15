@@ -25,3 +25,6 @@ aliases:
 	- located in Bereich of Bernkastel
 	- in 14th century, an ailing Archbishop Boemund II was "cured" by the [[Riesling]] wine from here
 - contains village/town of [[Urzig]]
+## Example Bottles
+- [[Joh. Jos. Prüm 2021 Riesling Prädikatswein]]
+- [[Dr. Loosen 2009 Riseling Spätlese]]

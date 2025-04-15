@@ -39,4 +39,4 @@
 	- quality (no faults allowed)
 ## [[Bottle Labels]]
 - [[Toni Jost 2012 Riesling Spätlese]]
-- [[Joh. Jos. Prüm 2021 Riesling Pr]]
+- [[Joh. Jos. Prüm 2021 Riesling Prädikatswein]]

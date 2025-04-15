@@ -4,3 +4,4 @@
 - village name + 'er' followed by vineyard name: [[Single vineyard designation]]
 - [[Halbtrocken]]/[[Halbtrocken|feinherb]]
 - [[Trocken]]
+- [[Weingut]]
