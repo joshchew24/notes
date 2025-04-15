@@ -48,7 +48,7 @@
 - other EU countries followed [[France]]'s lead (and marketing success)
 	- Italy: [[Denominazione di Origine Controllata]]
 	- Spain: [[Denominacion de Origen]]
-	- Germany: [[Qualitätswein]]
+	- [[Germany]]: [[Qualitätswein]]
 - in 2008, European Union created three categories
 	- ![[Pasted image 20250310023344.png]]
 	- [[Protected Designation of Origin]]
