@@ -28,3 +28,4 @@
 ### [[Chablis]]
 - wines from the Grand cru are produced from **sloped, south-facing** vineyards
 	- intercept the most light and heat
+### [[Côte d’Or]]
