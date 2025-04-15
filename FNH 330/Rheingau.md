@@ -1,0 +1,12 @@
+# Rheingau
+- 3% of German wine
+- prestigious region
+	- most expensive/famous German wines
+- known for **Geisenheim Institute**
+	- [[Oenology|Oenological]] research and teaching
+- **whites**:
+	- most common, mostly [[Reisling]]
+	- riper than [[Mosel]], more floral/stone fruit characteristics 
+	- known also for [[Botrytis-affected Wines|Beerenauslese (BA)]] and [[Trockenbeerenauslese|TBA]]
+- **reds**:
+	- some [[Pinot Noir|Spätburgunder]] ([[Pinot Noir]])

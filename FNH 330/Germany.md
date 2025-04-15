@@ -8,6 +8,9 @@
 		- e.g. steep river banks with south aspect
 	- [[Baden]] (near [[Alsace]]) is EU Zone B because it has a [[Unique Sub-Climates#Cool Climate Rain shadow Rain Shadow|Rain Shadow]] due to the [[Vosges Mountains]]
 - Germany is divided into many agricultural districts called [[Anbaugebiete]]
+## Major Subregions ([[Anbaugebiete]])
+- [[Rheinhessen]], [[Pfalz]], [[Baden]], [[Mosel]], [[Rheingau]]
+- also [[Wurtemberg]], [[Franken]], [[Nahe]], [[Saale-Unstrut]], [[Ahr]], [[Mittelrhein]], [[Hessiche Bergstrasse]], and [[Saachsen]]
 ## Wine Quality System
 - changing in 2026
 - uses amount of ripeness = **sugar in grapes** as a primary factor for formally assessing **quality**
