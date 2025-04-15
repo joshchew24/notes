@@ -94,4 +94,8 @@
 	- small, but significant AOC in Bordeaux region
 	- level fields, clay soil
 	- home of [[Chateau Pétrus]]
-- [[St. Emilion]]
+### Right Bank of Gironde
+- red wines
+- [[St. Emilion]] AOC
+	- sloping hills, clay soil
+	- [[St-Emilion 1955 Classification]]
