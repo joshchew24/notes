@@ -48,3 +48,4 @@
 - [[Robert König 2009 Spätburgunder Spätlese]]
 - [[Baron zu Knyphausen 2004 Riseling Beerenauslese]]
 - [[Rheinhessen 2014 Trockenbeernauslese]]
+- [[Christoph and Johannes Thörle 2016 Spätburgunder]]
