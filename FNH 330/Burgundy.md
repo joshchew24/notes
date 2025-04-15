@@ -20,12 +20,17 @@
 	- cru assigned to individual vineyards (plots of land that the grapes come from)
 		- [[Bordeaux]] is estates, [[Champagne (Region)]] is village
 		- [[Institut national des appellations d'origine|INAO]] rules: yields are lower in grand and premier cru vineyards
+	- [[Single vineyard designation]]
 - **Village** appellations
 	- e.g. Mercurey, Gevrey-Chambertin
 - **Regional** appellations
-	- Bourgogne rouge (Burgundy in Frnech), Bourgogne Hautes-Cotes-de-Nuits
+	- Bourgogne rouge (Burgundy in French), Bourgogne Hautes-Cotes-de-Nuits
 ## Sub-regions
 ### [[Chablis]]
 - wines from the Grand cru are produced from **sloped, south-facing** vineyards
 	- intercept the most light and heat
 ### [[Côte d’Or]]
+- AKA Golden Slope, East Slope
+- 2 major sub regions
+	- [[Côte d’Or#Côte de Nuits|Côte de Nuits]]
+	- [[Côte d’Or#Côte de Beaune|Côte de Beaune]]
