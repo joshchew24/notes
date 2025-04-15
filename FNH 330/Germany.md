@@ -13,10 +13,6 @@
 - uses amount of ripeness = **sugar in grapes** as a primary factor for formally assessing **quality**
 	- i.e. **quality correlates to sweetness**
 	- highest quality = dessert wines
-	- Trockenbeerenauslese TBA
-		- German or Austrian [[Botrytis-affected Wines]]
-		- grapes are fully "dried" from [[Botrytis cinerea]]
-		- highest quality wine from Germany
 - uses specific gravity [[Oechsle scale]] for measuring sugar concentration in **grape** juice
 ## Wine Classification Systems
 - [[Deutscher Wein]] ([[Wine without geographical indication]])

@@ -25,7 +25,7 @@ aliases:
 - Ch. Haut-Brion
 ### Sauternes
 - formerly in Graves
-- sweet [[Late Harvest Wines|Late Harvest]] [[Botrytis-affected Wines|Bortytis-affected]] dessert wine
+- sweet [[Late Harvest Wines|Late Harvest]] [[Botrytis-affected Wines|Botrytis-affected]] dessert wine
 - grand cru **superieur** classé
 	- highest rank
 	- Chateau d'Yquem

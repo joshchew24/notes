@@ -1,7 +1,7 @@
 ---
 aliases:
   - Noble Rot
-  - Bortytis-affected
+  - Botrytis-affected
   - Beerenauslese
   - Botrytized
 ---
