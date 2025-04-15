@@ -35,9 +35,18 @@
 	- [[Côte d’Or#Côte de Nuits|Côte de Nuits]]
 	- [[Côte d’Or#Côte de Beaune|Côte de Beaune]]
 ### [[Côte Chalonnaise]]
+- south of [[Côte d’Or]]
 - some famous villages with their own [[Appellation d'Origine Contrôlée|AOC]]:
 	- [[Givry]] and [[Mercurey]] (mainly [[Pinot Noir]])
 	- [[Rully]] ([[Pinot Noir]] and [[Chardonnay]])
 	- [[Montagny]] ([[Chardonnay]])
 - some have vineyards/**climats** classified as Premiers Crus
 - generally best vineyards have south/south-east exposure
+### [[Mâconnais]]
+- south of [[Côte Chalonnaise]]
+- mainly [[Chardonnay]] with some [[Gamay]]
+	- more ripe/robust compared to [[Chablis]]
+- rolling hills with some distinct outcrops
+- Appellation villages [[Pouilly-Fuisse]] have **applied** to have certain vineyards/Climats classed as Premiers Crus
+### [[Beaujolais]]
+- not really part of Burgundy, it is the region south of Burgundy

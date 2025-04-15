@@ -1,0 +1,2 @@
+# Beaujolais
+- varieties: [[]]
