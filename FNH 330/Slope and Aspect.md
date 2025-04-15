@@ -1,3 +1,8 @@
+---
+aliases:
+  - Slope
+  - Aspect
+---
 # Slope and Aspect
 - slope is slope
 - aspect is cardinal direction of slope
