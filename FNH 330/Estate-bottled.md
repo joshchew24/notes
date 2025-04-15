@@ -3,6 +3,7 @@ aliases:
   - Mis en bouteille au château
   - Mis en bouteille au domaine
   - Mis en bouteille a la propriété
+  - Gutsabfüllung
 ---
 # Estate-bottled
 - all grapes were grown by, wine was processed by, and bottled at the estate

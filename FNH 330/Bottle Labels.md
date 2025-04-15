@@ -1,5 +1,6 @@
 # Bottle Labels
 ## Information
+- see also [[Key German Bottle Label Terms]]
 ### Grape Variety (region-dependent)
 - sometimes not listed explicitly
 - must know what grapes are grown in the listed region
@@ -10,5 +11,5 @@
 - processing considerations
 ### [[Geographical Classification]]
 - where the grapes were grown (officially)
-## Example
+## Examples
 - [[Chateau Margaux 1996]]
