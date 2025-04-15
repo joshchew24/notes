@@ -1,11 +1,10 @@
-# South Rhone Valley
+# South Rhône Valley
 - climate: dry, hot, sunny [[Mediterranean Climate]]
 	- zone CII
 - varieties are drought-tolerant
 	- low rainfall
 	- irrigation not allowed unless specific conditions
 - region is most known for **reds**:
-	
 	- [[Grenache]] often makes up at least 50% of red blends
 	- [[Syrah]] and [[Mourvèdre]] (20% minimum)
 	- some [[Cinsault]] and [[Carignan]]
@@ -17,15 +16,21 @@
 - vineyards often planted high in the hills for **cooler weather**
 	- steons/galets absorb heat and radiate heat out in the night
 ## Standout AOCs
-- [[Muscat de Beaumes-de-Venise]] AOC
+- AOC [[Muscat de Beaumes-de-Venise]]
 	- sweet fortified wine from [[Muscat Blanc à Petits Grains]]
 	- very aromatic
-- [[Côtes du Rhone]] AOC
+- AOC [[Côtes du Rhône]]
 	- good value wine
 	- [[Côtes de Rhone Villages]]
 		- higher quality
 		- some allowed to attach village name
 		- similar to Cru
-- [[Gigondas]] AOC
+- AOC [[Gigondas]]
 	- well known for reds and rosés
 	- vineyards are around the base of [[Dentelles de Montmirail]] mountains
+- AOC [[Châteauneuf du Pape]]
+	- known for reds
+- AOC [[Tavel]]
+	- only rosé wines
+	- [[Grenache|Grenache Noir]] is dominant
+	- no variety can exceed 60% of the blend

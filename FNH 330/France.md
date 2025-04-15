@@ -22,6 +22,6 @@ aliases:
 - [[North Rhône Valley]]
 	- Climate: [[Continental Climate|Continental]]
 	- Grape Varieties: [[Semillon]], [[Sauvignon Blanc]] #todo idk if this is the correct ones
-- [[South Rhone Valley]]
+- [[South Rhône Valley]]
 	- Climate: [[Mediterranean Climate]]
 	- Grape Varieties: [[Syrah]], [[Mourvèdre]], [[Grenache]]

@@ -1,3 +1,7 @@
+---
+aliases:
+  - Triage
+---
 # Sorting
 - material other than grapes (MOG) such as leaves/sticks may be removed
 - underripe or rotten grapes removed
