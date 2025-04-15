@@ -16,7 +16,7 @@
 - texture: silky
 ## Wine 2 (GSM)
 - 75% [[Grenache]]
-	- [[Mourvedre]], [[Syrah]]
+	- [[Mourvèdre]], [[Syrah]]
 - 14.5% ABV
 - colour: ruby hint purple
 - intensity: med(-) to med

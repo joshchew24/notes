@@ -24,4 +24,4 @@ aliases:
 	- Grape Varieties: [[Semillon]], [[Sauvignon Blanc]] #todo idk if this is the correct ones
 - [[South Rhone Valley]]
 	- Climate: [[Mediterranean Climate]]
-	- Grape Varieties: [[Syrah]], [[Mourvedre]], [[Grenache]]
+	- Grape Varieties: [[Syrah]], [[Mourvèdre]], [[Grenache]]
