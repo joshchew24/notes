@@ -19,7 +19,7 @@ aliases:
 - [[Bordeaux]]
 	- Climate: [[Maritime Climate|Maritime]]
 	- Grape Varieties: [[Merlot]], [[Cabernet Sauvignon]], [[Cabernet Franc]]
-- [[North Rhone Valley]]
+- [[North Rhône Valley]]
 	- Climate: [[Continental Climate|Continental]]
 	- Grape Varieties: [[Semillon]], [[Sauvignon Blanc]] #todo idk if this is the correct ones
 - [[South Rhone Valley]]
