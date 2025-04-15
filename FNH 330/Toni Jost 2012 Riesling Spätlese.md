@@ -10,3 +10,8 @@
 ## Geographical Classification
 - Walkenberg vineyard
 - Toni Jost Estate
+	- vineyard is offsite, but owned by Weingut Toni Jost
+- Village/town of Walluf
+	- where the vineyard is
+- [[Rheingau]]
+- [[Germany]]
