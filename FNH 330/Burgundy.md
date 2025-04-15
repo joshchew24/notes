@@ -34,3 +34,10 @@
 - 2 major sub regions
 	- [[Côte d’Or#Côte de Nuits|Côte de Nuits]]
 	- [[Côte d’Or#Côte de Beaune|Côte de Beaune]]
+### [[Côte Chalonnaise]]
+- some famous villages with their own [[Appellation d'Origine Contrôlée|AOC]]:
+	- [[Givry]] and [[Mercurey]] (mainly [[Pinot Noir]])
+	- [[Rully]] ([[Pinot Noir]] and [[Chardonnay]])
+	- [[Montagny]] ([[Chardonnay]])
+- some have vineyards/**climats** classified as Premiers Crus
+- generally best vineyards have south/south-east exposure
