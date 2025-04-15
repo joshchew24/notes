@@ -40,3 +40,5 @@
 ## [[Bottle Labels]]
 - [[Toni Jost 2012 Riesling Spätlese]]
 - [[Joh. Jos. Prüm 2021 Riesling Prädikatswein]]
+- [[Dr. Loosen 2009 Riesling Spätlese]]
+- [[Dr. Loosen 2019 Riesling Spätlese]]
