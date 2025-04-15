@@ -1,4 +1,4 @@
-# Dr. Loosen 2009 Riseling Spätlese
+# Dr. Loosen 2009 Riesling Spätlese
 ![[Pasted image 20250415034221.png]]
 ## Formal Classification
 - still white table wine

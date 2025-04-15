@@ -24,7 +24,8 @@ aliases:
 - famous vineyard - Doctor vineyard
 	- located in Bereich of Bernkastel
 	- in 14th century, an ailing Archbishop Boemund II was "cured" by the [[Riesling]] wine from here
-- contains village/town of [[Urzig]]
+- contains village/town of [[Ürzig]]
 ## Example Bottles
 - [[Joh. Jos. Prüm 2021 Riesling Prädikatswein]]
-- [[Dr. Loosen 2009 Riseling Spätlese]]
+- [[Dr. Loosen 2009 Riesling Spätlese]]
+- [[Dr. Loosen 2019 Riesling Spätlese]]
