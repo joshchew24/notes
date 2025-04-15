@@ -14,7 +14,8 @@ aliases:
 	- Grape Varieties: [[Sauvignon Blanc]] (is this just sauv? blanc?), [[Chenin Blanc]], [[Cabernet Franc]]
 - [[Burgundy]]
 	- Climate: [[Continental Climate|Continental]]
-	- Grape Varieties: [[Pinot Noir]], [[Chardonnay]], [[Gamay]] #todo (noir?)
+	- Grape Varieties: [[Pinot Noir]], [[Chardonnay]], [[Gamay Noir]]
+- [[Beaujolais]]
 - [[Bordeaux]]
 	- Climate: [[Maritime Climate|Maritime]]
 	- Grape Varieties: [[Merlot]], [[Cabernet Sauvignon]], [[Cabernet Franc]]

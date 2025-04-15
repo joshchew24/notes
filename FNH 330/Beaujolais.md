@@ -1,2 +1,11 @@
 # Beaujolais
-- varieties: [[]]
+- varieties: [[Gamay Noir]]
+	- the only one with cru status in France
+- **Cru** system in this region apply to villages/areas
+	- compared to [[Burgundy]], where assigned to individual vineyards
+- #trythiswine Beaujolais Nouveau
+	- famous 1st wine of the vintage each year in France
+	- not fermented
+	- carbonic maceration
+	- very fruity
+	- cheap

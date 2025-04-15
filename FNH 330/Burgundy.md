@@ -44,7 +44,7 @@
 - generally best vineyards have south/south-east exposure
 ### [[Mâconnais]]
 - south of [[Côte Chalonnaise]]
-- mainly [[Chardonnay]] with some [[Gamay]]
+- mainly [[Chardonnay]] with some [[Gamay Noir]]
 	- more ripe/robust compared to [[Chablis]]
 - rolling hills with some distinct outcrops
 - Appellation villages [[Pouilly-Fuisse]] have **applied** to have certain vineyards/Climats classed as Premiers Crus

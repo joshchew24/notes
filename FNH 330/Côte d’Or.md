@@ -10,9 +10,9 @@ aliases:
 ### Côte de Nuits
 - north part of Côte d’Or
 - best wines (mainly [[Pinot Noir]]) are from the Grand cru vineyards
-	- southeast facint, variably sloped in that direction
-	- e.g. Romanée-Conti, Chambertin
-		- Romanée-Conti: only a few thousand bottles of wine a year ($5-10 thousand a bottle)
+	- southeast facing, variably sloped in that direction
+	- e.g. [[Romanée-Conti]], [[Chambertin]]
+		- [[Romanée-Conti]]: only a few thousand bottles of wine a year ($5-10 thousand a bottle)
 - sometimes [[Chardonnay]]
 ### Côte de Beaune
 - south of Côte de Nuits
