@@ -3,4 +3,6 @@ aliases:
   - Los Carneros
 ---
 # Carneros AVA
-- Winkler Region 1
+- [[Winkler Index]] Region 1
+- adjacent to cool San Francisco Bay: Fog
+- [[Chardonnay]], [[Pinot Noir]], and[[Sparkling Wine]]s

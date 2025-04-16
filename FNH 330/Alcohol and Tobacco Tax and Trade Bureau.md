@@ -20,6 +20,7 @@ aliases:
 - no restrictions on varieties planted, yield, sugar levels, quality, typicity
 - label restrictions from [[#Appellations of Origin]] apply
 	- except AVA requires 85% for area of origin
+- can be **nested** within each other and within counties
 ## Wine Label Regulations
 - **Vinted/cellared & bottled by**
 	- wine has undergone some cellar treatment/processing at the producer's winery
