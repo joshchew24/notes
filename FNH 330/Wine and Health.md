@@ -112,3 +112,30 @@
 	- each additional standard drink
 		- radically increases risk of alcohol-related consequences
 ## Alcohol Metabolism
+- for one glass of wine on an empty stomach
+	- significant amount of alcohol is absorbed within 4-5 minutes
+- peak concentration in blood (%BAC) within 30-45 minutes
+- after 2 hours, all has been absorbed, only half metabolized
+- [[Sparkling Wine]]
+	- CO$_2$  relaxes pyloric valve
+	- faster passage to intestine and absorption
+- metabolism can start in stomach
+	- mostly metabolized by the liver
+	- 2-10% may be passed in urine, exhaled, or sweated out
+### How do we "handle" alcohol
+- alcohol is absorbed 20% in stomach
+- 80% in small intestine
+- converted to acetaldehyde in stomach and liver
+	- acetaldehyde
+	- ![[Pasted image 20250416011019.png]]
+- two pathways for ethanol metabolism in liver
+	1. ethanol --(alcohol dehydrogenase)-> acetaldehyde --(acetaldehyde dehydrogenase)-> acetate --(other enzymes and pathways)-> energy/fats
+		- fat builds in the liver
+			- fatty liver is physiological sign of alcohol abuse
+	2. if cytosolic stomach and liver ADH insufficient
+		- ethanol metabolism induced in smooth endoplasmic reticulum (ER) **within** cells
+		- very efficient when induced
+			- alcoholics metabolize ethanol quickly compared to non-drinkers
+		- if ADH and ER cannot metabolize ethanol rapidly enough, cell death in liver begins
+			- can regenerate somewhat, but scar tissue builds
+			- enlarged liver -> cirrhosis of liver and eventually death due to non-function
