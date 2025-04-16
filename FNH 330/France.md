@@ -42,3 +42,5 @@ aliases:
 	- vineyard name listed (premier or grand cru Burgundy/Loire Valley, grand cru Alsace)
 - [[Estate-bottled]]
 	- [[Estate-bottled|Mis en bouteille au château]], [[Estate-bottled|Mis en bouteille au domaine]], [[Estate-bottled|Mis en bouteille a la propriété]]
+### Examples
+- [[Montrachet Label]]
