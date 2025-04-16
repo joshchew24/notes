@@ -83,3 +83,4 @@
 - VQA System in [[BC-VQA]] and Ontario
 	- VQA similar to French and German systems
 	- more regulated than many non-European countries
+### [[USA]]
