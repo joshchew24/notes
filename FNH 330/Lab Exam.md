@@ -78,4 +78,11 @@
 	- alcohol: no, no
 	- length: med+
 - Côtes du Rhone (France) [[Lab 9#Wine 2 (GSM)]]
-	- 
+	- $26
+	- black plum, blackberry, floral (biolets), smoky oak, hint black pepper
+	- acid: low+ to med-
+	- sweet: dry
+	- bitter: hint
+	- astringency: low+
+	- alcohol: no, no to hint
+	- length: long
