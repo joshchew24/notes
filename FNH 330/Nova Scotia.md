@@ -1,0 +1,11 @@
+# Nova Scotia
+- 4 regions with 1200 acres of production
+- [[Cool Climate|Cool]] [[Maritime Climate]]
+	- bad for *V. vinifera*
+	- often grow hybrids
+- **grape varieties**
+	- some [[Chardonnay]] and [[Pinot Noir]]
+	- mostly hybrids
+	- signature varieties: [[L'Acadie Blanc]], [[Seyval]], [[Vidal]], [[Geisenheim 318]]
+- known for [[Tidal Bay]] wine
+	- 
