@@ -22,14 +22,14 @@ aliases:
 	- except AVA requires 85% for area of origin
 - can be **nested** within each other and within counties
 ## Wine Label Regulations
-- **Vinted/cellared & bottled by**
+- Cellared/[[Vinted & bottled by]]
 	- wine has undergone some cellar treatment/processing at the producer's winery
 	- didn't necessarily ferment it
 		- could have bought it from somewhere else
-- **Made/Produced & bottled by**
+- Made/[[Produced & bottled by]]
 	- winery fermented a minimum of 75% of the wine
 	- might not have grown the grapes
-- **Grown, produced & bottled by**
+- [[Grown, produced & bottled by]]
 	- winery grew and fermented 100% of wine
 	- best quality on average
 	- similar to Estate/Chateau designation

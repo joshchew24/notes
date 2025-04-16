@@ -38,3 +38,4 @@
 - desert climate in [[Central Valley]]
 	- needs irrigation
 ## Bottle Labels
+- [[St. Supéry Cabernet Sauvignon]]
