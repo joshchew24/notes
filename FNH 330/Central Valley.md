@@ -3,3 +3,14 @@
 	- wines from here are just labelled as [[California]] wines under [[Alcohol and Tobacco Tax and Trade Bureau|Appellations of Origin]]
 - desert with irrigation
 - bounded on west by [[Coastal Mountain Range]]
+	- east by [[Sierra Mountains]]
+- most of [[California]]'s fruits and vegetables are grown here
+- 200 000 acres of grape growing
+	- ~half of California's acreage and 75% of production
+- varieties
+	- [[Chenin Blanc]], [[Zinfandel]], [[Barbera]]
+	- more heat tolerant and hold acidity
+- [[Winkler Index]] region 5 (V)
+- wines may be used to dilute premium wines
+	- e.g. 15% in AVAs
+	- 25% in counties

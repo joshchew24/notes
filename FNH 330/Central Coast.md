@@ -4,7 +4,7 @@ aliases:
 ---
 # Central Coast
 - [[Mediterranean Climate|Mediterranean]]-[[Maritime Climate]]
-- regional [[Alcohol and Tobacco Tax and Trade Bureau|AVA]] containing many smaller AVAs
+- regional [[Alcohol and Tobacco Tax and Trade Bureau|AVA]] in [[California]] containing many smaller AVAs
 - [[Winkler Index]] region 1-3
 	- cooler closer to ocean
 - from a bit south of SF to LA
