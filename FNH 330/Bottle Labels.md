@@ -1,6 +1,6 @@
 # Bottle Labels
 ## Information
-- see also [[Key German Bottle Label Terms]] and [[Germany#Bottle Labels]]
+- see also [[German Bottle Label Terms]] and [[Germany#Bottle Labels]]
 ### Grape Variety (region-dependent)
 - sometimes not listed explicitly
 - must know what grapes are grown in the listed region

@@ -36,3 +36,8 @@ aliases:
 	- applies to all vineyards and wineries within that village
 - different levels of "cru" in each region
 	- premier < grand
+## Bottle Labels
+- [[Single vineyard designation]]
+	- vineyard name listed (premier or grand cru Burgundy/Loire Valley, grand cru Alsace)
+- [[Estate-bottled]]
+	- [[Estate-bottled|Mis en bouteille au château]], [[Estate-bottled|Mis en bouteille au domaine]], [[Estate-bottled|Mis en bouteille a la propriété]]

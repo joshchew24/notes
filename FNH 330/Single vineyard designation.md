@@ -6,3 +6,4 @@ aliases:
 - all the fruit is coming from a single vineyard
 - in Germany, village name + 'er' followed by vineyard name
 	- called Einzellage
+- **smaller than estate/winery**

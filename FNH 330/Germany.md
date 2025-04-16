@@ -41,6 +41,9 @@
 	- typicity (typical of the style of wine)
 	- quality (no faults allowed)
 ## [[Bottle Labels]]
+- can be [[Single vineyard designation]] and/or [[Estate-bottled]]
+	- [[Single vineyard designation]] is implied by village name + er followed by vineyard name ([[Single vineyard designation|Einzellage]])
+	- [[Estate-bottled]]: [[Estate-bottled|Gutsabfüllung]] or [[Estate-bottled|Erzeugerabfullung]]
 - [[Toni Jost 2012 Riesling Spätlese]]
 - [[Joh. Jos. Prüm 2021 Riesling Prädikatswein]]
 - [[Dr. Loosen 2009 Riesling Spätlese]]
