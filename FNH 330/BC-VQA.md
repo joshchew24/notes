@@ -5,6 +5,7 @@ aliases:
 # BC-VQA
 - established 1990
 - managed by **BC Wine Authority** under **Wines of Marked Quality Regulation**
+- 100% BC grapes
 
 > [!note] BC-VQA
 > 1. Sets viticulture standards and regions
@@ -14,4 +15,4 @@ aliases:
 > 	- includes reviewing wines for faults, excluding faulted wines
 
 - **Wine Growers of BC** markets BC VQA wines for industry
-- also exists an Ontario VQA
+	- also exists an [[Ontario]] [[Vintners Quality Alliance]]

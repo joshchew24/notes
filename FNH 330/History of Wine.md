@@ -63,5 +63,5 @@
 	- Canadian wine industry is no longer protected from US imports
 - Provincial govt's acted to help revitalize wine industry
 	- established Vintner Quality Alliance (VQA)
-		- Ontario in 1988
+		- [[Ontario]] in 1988
 		- [[BC-VQA]] in 1990
