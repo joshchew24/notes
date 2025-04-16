@@ -18,3 +18,5 @@
 		- [[Pinot Noir]], [[Pinot Blanc]]/[[Pinot Gris]] dominate
 ## Bottle Labels
 - [[Faber 2015 Pinot Noir]]
+- [[Bernard Huber Spätburgunder]]
+- [[Bernard Huber 2011 Grauburgunder]]

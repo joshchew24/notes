@@ -49,3 +49,8 @@
 - [[Baron zu Knyphausen 2004 Riseling Beerenauslese]]
 - [[Rheinhessen 2014 Trockenbeernauslese]]
 - [[Christoph and Johannes Thörle 2016 Spätburgunder]]
+- [[Lingenfelder 2007 Riesling]]
+- [[Nußdorfer Bischofskreuz 1975 Muller Thurgau]]
+- [[Faber 2015 Pinot Noir]]
+- [[Bernard Huber Spätburgunder]]
+- [[Bernard Huber 2011 Grauburgunder]]

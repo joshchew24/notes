@@ -13,3 +13,4 @@
 - where the grapes were grown (officially)
 ## Examples
 - [[Chateau Margaux 1996]]
+- see also [[Germany#Bottle Labels]]

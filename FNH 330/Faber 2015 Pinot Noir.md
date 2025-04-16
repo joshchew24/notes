@@ -8,3 +8,6 @@
 ## Geographical Classification
 - Winklerberg vineyard
 - [[Weingut]] Faber
+- Ihring village
+- [[Baden]]
+- [[Germany]]
