@@ -1,5 +1,18 @@
 # Lab 9
 ## Wine 1
+- Chenin Blanc
+- [[Formal Classification]]
+	- still white table wine
+	- [[Appellation d'Origine Contrôlée]]
+	- [[Estate-bottled|Mis en bouteille a la propriété]]
+	- [[Single vineyard designation]]
+- [[Geographical Classification]]
+	- [[Les Pouches]]
+	- [[Cave Robert et Marcel]]
+	- [[Saumur]]
+	- [[Anjou-Saumur]]
+	- [[Loire Valley]]
+	- [[France]]
 - vintage 2022
 - 11.5% ABV
 - colour: straw

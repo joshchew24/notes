@@ -1,14 +1,6 @@
 # Lab 4
 ## Wine 1
 - unoaked [[Chardonnay]]
-- [[Formal Classification]]
-	- still white table wine
-	- [[Alcohol and Tobacco Tax and Trade Bureau|Appellations of Origin]] state designation
-	- [[Vinted & bottled by]]
-- [[Geographical Classification]]
-	- California, USA
-- producer
-	- Bread 
 - vintage 2023
 - ABV 13.5%
 - colour:
@@ -26,6 +18,14 @@
 	- actual: med+, pineapple, red apple, peach
 ## Wine 2
 - oaked [[Chardonnay]]
+- [[Formal Classification]]
+	- still white table wine
+	- [[Alcohol and Tobacco Tax and Trade Bureau|Appellations of Origin]] state designation
+	- [[Vinted & bottled by]]
+- [[Geographical Classification]]
+	- (Napa, North Coast), California, USA
+- producer
+	- Bread and Butter
 - vintage 2023
 - price $24
 - abv 13.5
