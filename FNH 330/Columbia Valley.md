@@ -12,4 +12,5 @@ aliases:
 - contains many AVAs
 	- [[Red Mountain]]
 	- [[Horse Heaven Hills]]
-	- [[Yakima Valley]]
+	- [[Yakima Valley|Yakima Valley AVA]]
+	- [[Walla Walla]]
