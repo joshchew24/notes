@@ -55,3 +55,24 @@
 - Meta-analysis of 54 studies 
 - 1974-2004: no cardiac protection from alcohol
 - Control groups included people who had reduced or stopped drinking for health reasons
+## More Recent Studies
+### The Lancet 2018
+- No level of alcohol consumption improves health
+### Meta-analysis of other drinking studies
+- When comparing no drinks with one drink a day, the risk of developing an alcohol-related health problem (23 including heart disease and cancer) was 0.5% higher
+	- “914 in 100,000 15-95 year olds would develop a condition in one year if they did not drink, but 918 people in 100,000 who drank one alcoholic drink a day would develop an alcohol-related health problem in a year.”
+	- Risk increased by 7% for 2 drinks a day, 37% for 5 drinks a day.
+### Journal of American Medical Association Open Network 2022
+- No level of alcohol consumption is good for cardiovascular health
+- Study of genetic data and drinking data, 371 463 adults in Britain
+- Light drinkers had lowest risk of cardiovascular disease, followed by abstainers…
+- Light drinkers have healthier lifestyles than abstainers – when factored into the study, alcohol consumption benefits dropped significantly
+- Exponential increase in cardiovascular risk going from 7 drinks to 14 drinks to 21 drinks/week
+## Effects of Ethanol
+- Ethanol disrupts coordination, concentration, logical thinking
+	- even at low concentrations
+	- nervous system depressant: 0.05% inhibits nerve impulses
+- cell toxin at concentrations >0.15%
+	- can permanently destroy brain cells and cause death
+- ethanol can be addictive (alcoholism)
+	- some have inadequate warning system to stop drinking before physiological habituation
