@@ -1,7 +1,25 @@
 # Okanagan Valley
-- sub regions:
+- several official sub-GIs:
 	- [[Golden Mile Bench]]
 	- [[Naramata Bench]]
 	- [[Okanagan Falls]]
 	- [[Skaha Bench]]
 	- [[Lake Country]]
+- over 180 [[BC-VQA]] wineries
+- >84% of BC's wine
+- ~8800 acres of vineyard
+## Climate
+- [[Continental Climate]]
+- same latitude as [[Champagne (Region)]] and [[Rheingau]]
+	- these are cooler climate regions, but OK valley is in a [[Unique Sub-Climates#Cool Climate Rain shadow Rain Shadow|Rain Shadow]]
+		- in the South end we can grow bigger reds like [[Cabernet Sauvignon]], [[Merlot]], [[Syrah]]
+		- in the North end, produce [[Sparkling Wine]], [[Pinot Noir]]
+	- Okanagan Lake moderates summer and winter temperatures
+- gets very cold in the winter
+	- overcropping is avoided to prevent winter kill
+- range of mesoclimates across valley
+- cooler in North
+- South OK is desert-like with very sandy soils
+- daytime highs can reach $\geq$ 40ºC in July/Aug
+	- low night temperatures of ~7ºC
+	- large contrast between day/night helps preserve acids/flavour
