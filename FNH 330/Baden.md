@@ -1,0 +1,20 @@
+# Baden
+- smaller producer of German wines
+- **climate**:
+	- warm (zone B)
+	- relatively sunny and dry - east of [[Alsace]]
+	- [[Vosges Mountains]] and [[Haardt Mountains]] shelter Baden from west
+	- [[Odenwald Mountains]] and [[Black Forest]] shelter from east
+- **grape varieties**:
+	- [[Pinot Noir|Spätburgunder]]
+	- [[Pinot Gris|Grauburgunder]]
+	- [[Pinot Blanc|Weissburgunder]]
+	- often made in oaked styles
+- famous [[Bereich]]s
+	- [[Ortenau]] 
+		- [[Pinot Noir]], [[Riesling]], [[Gewürztraminer]]
+		- similar to [[Alsace]]
+	- [[Kaiserstuhl]]
+		- [[Pinot Noir]], [[Pinot Blanc]]/[[Pinot Gris]] dominate
+## Bottle Labels
+- [[Faber 2015 Pinot Noir]]

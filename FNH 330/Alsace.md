@@ -6,7 +6,7 @@
 		- Vosges Mountains protect the region from inclement weather systems coming in from Atlantic Ocean
 		- slightly warmer/drier climate
 - main ("**noble**") grape varieties
-	- [[Riesling]], [[Pinot Gris]], [[Gewurztraminer]], [[Muscat]]
+	- [[Riesling]], [[Pinot Gris]], [[Gewürztraminer]], [[Muscat]]
 	- some [[Pinot Blanc]], [[Pinot Noir]]
 - other wines
 	- Vendanges Tardives ([[Late Harvest Wines]])
