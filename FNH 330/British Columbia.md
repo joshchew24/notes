@@ -11,7 +11,7 @@ aliases:
 	- blends with 0-100% Canadian wine
 	- can also separately produce [[Vintners Quality Alliance|VQA]]/[[BC-VQA]] wine
 - small number of commercial wineries, but account for 50% of wine produced
-- can have vineyards, but can source fruit from anywhere
+	- can have vineyards, but can source fruit from anywhere
 ### Land-based Wineries
 - must have a minimum of 2 acres of vineyard
 ## BC Wine Classifications
@@ -29,3 +29,12 @@ aliases:
 	- vineyard is in a designated Geographical Indication
 		- e.g. [[Okanagan Valley]]
 	- winery has registered the vineyard with the [[BC Wine Authority]]
+- Wines with Special Attributes
+	- modeled on [[Germany]]'s wine system
+	- uses grape sugar content to set quality level
+	- for [[BC-VQA]] [[Late Harvest Wines|Late Harvest]] and Dessert wines
+	- [[BC-VQA Late Harvest]]
+	- [[BC-VQA Select Late-Harvest]]
+	- [[BC-VQA Botrytis Affected]] 
+	- [[BC-VQA Totally Botrytis Affected]]
+	- [[BC-VQA Icewine]] 

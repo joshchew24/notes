@@ -1,0 +1,11 @@
+# BC Wine of Distinction
+- Table wine
+- Blanc de Noirs wine
+- Nouveau wine
+- [[Sparkling Wine]]
+- [[Champagne Winemaking Steps|Methode traditionnelle]] Sparkling wine
+- Méthode Cuvée Close Sparkling wine
+- Aromatic Sparkling wine
+- [[Fortified wine]]
+- Liqueur wine
+- Solera wine
