@@ -12,7 +12,7 @@
 ![[Pasted image 20250415200217.png|475]]
 - order: regional AVA -> counties -> smaller AVAs
 - [[North Coast|North Coast AVA]]
-- [[Central Coast AVA]]
+- [[Central Coast]]
 - [[Central Valley]]
 ## Climate
 ![[Pasted image 20250415200700.png]]
@@ -37,5 +37,3 @@
 		- fog blankets and cools [[Carneros AVA|Los Carneros]]
 - desert climate in [[Central Valley]]
 	- needs irrigation
-## Bottle Labels
-- [[St. Supéry Cabernet Sauvignon]]

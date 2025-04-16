@@ -11,5 +11,5 @@
 - [[Napa Valley]]
 - [[North Coast|Napa County]]
 - [[North Coast|North Coast AVA]]
-- California
-- America
+- [[California]]
+- [[USA]]
