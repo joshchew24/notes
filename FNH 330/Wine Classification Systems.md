@@ -77,10 +77,12 @@
 		- market feedback is major factor
 		- allows winemakers more freedom to experiment and innovate
 	- potential for more quality inconsistency across a region
-### Canada
+### [[Canada]]
 - Canada has a non-VQA system
 	- few restrictions
 - VQA System in [[BC-VQA]] and Ontario
 	- VQA similar to French and German systems
 	- more regulated than many non-European countries
 ### [[USA]]
+- [[Alcohol and Tobacco Tax and Trade Bureau|Appellations of Origin]]
+- [[Alcohol and Tobacco Tax and Trade Bureau|American Viticultural Areas]]
