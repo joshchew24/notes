@@ -4,6 +4,15 @@
 - still white table wine
 	- [[Montrachet]] makes [[Chardonnay]]
 - [[Appellation d'Origine Contrôlée]]
-- [[Estate-bottled|Mis en bouteille a la propriété]]
 - [[Grand Cru]]
-## Geographical C
+- [[Estate-bottled|Mis en bouteille a la propriété]]
+- [[Single vineyard designation]]
+	- all premier/grand cru wines in [[Burgundy]] come from single vineyard
+## Geographical Classification
+- [[Montrachet]] vineyard
+- [[Domaine]] Leflaive
+	- name of the estate
+- [[Côte d’Or#Côte de Beaune|Cote de Beaune]]
+- [[Côte d’Or]]
+- [[Burgundy]]
+- [[France]]

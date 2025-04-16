@@ -4,6 +4,7 @@ aliases:
   - East Slope
 ---
 # Côte d’Or
+- subregion of [[Burgundy]]
 - AKA Golden Slope, East SLope
 - Zone CI
 - 2 major sub regions

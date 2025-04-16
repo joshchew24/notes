@@ -57,3 +57,4 @@
 - [[Faber 2015 Pinot Noir]]
 - [[Bernard Huber Spätburgunder]]
 - [[Bernard Huber 2011 Grauburgunder]]
+- [[Bercher 2017 Spätburgunder]]
