@@ -18,3 +18,14 @@
 	 - imported wine, blended with domestic
 	 - no origin labels required
 - [[100% Canadian wine]]
+	- made in regions without [[Vintners Quality Alliance|VQA]] system
+	- wines made outside [[Vintners Quality Alliance|VQA]]
+- [[Vintners Quality Alliance]] wines
+	- quality regulated wines with a general geographic indication
+		- e.g. [[BC-VQA]] or [[Vintners Quality Alliance|VQA]] (Ontario)
+	- can have **specific geographic indications**
+		- e.g. [[Niagara Peninsula]]
+		- [[Okanagan Valley]]
+		- [[Shuswap]]
+		- [[Lillooet]]
+	- equivalent to [[Protected Designation of Origin|PDO]] wines in EU

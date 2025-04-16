@@ -15,3 +15,4 @@ aliases:
 > 	- includes reviewing wines for faults, excluding faulted wines
 
 - **Wine Growers of BC** markets BC VQA wines for industry
+- wines fall under [[BC Wines of Marked Quality]]
