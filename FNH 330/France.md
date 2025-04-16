@@ -32,6 +32,7 @@ aliases:
 	- classé is unique to Bordeaux
 	- [[Grands crus classés|1855 Bordeaux classification]]
 - [[Alsace]], [[Burgundy]], [[Loire Valley]] **vineyards**
+	- i.e. Cru wines from these regions have [[Single vineyard designation]]
 - [[Champagne (Region)]], [[Beaujolais]] **villages**
 	- applies to all vineyards and wineries within that village
 - different levels of "cru" in each region
