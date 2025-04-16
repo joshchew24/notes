@@ -71,8 +71,44 @@
 ## Effects of Ethanol
 - Ethanol disrupts coordination, concentration, logical thinking
 	- even at low concentrations
-	- nervous system depressant: 0.05% inhibits nerve impulses
-- cell toxin at concentrations >0.15%
+	- nervous system depressant: 0.05% BAC inhibits nerve impulses
+- cell toxin at concentrations >0.15% BAC
 	- can permanently destroy brain cells and cause death
 - ethanol can be addictive (alcoholism)
 	- some have inadequate warning system to stop drinking before physiological habituation
+## Harms of Alcohol Use
+![[Pasted image 20250416005802.png]]
+- no safe level of alcohol consumption during **pregnancy**
+	- Fetal Alcohol Spectrum Disorder affects 4% of Canadian population
+		- leading preventable disability in Canada
+	- drinking alcohol during pregnancy may cause permanent changes to developing brain
+	- lifelong challenges with memory, social communication, attention and sensory skills
+	- individuals with FASD at risk of depression anxiety and many physical health issues
+## Heavy Drinking
+- a heavy drinker consumes in excess of ~68g of alcohol/occasion on a monthly basis
+- 19.1% of Canadian population are heavy drinkers
+- previously, a "moderate" drinker was someone that consumes not more than 15 glasses of wine/week
+	- 3/day
+	- excludes binge drinking
+	- 3 glasses (142 mL each) of wine (12% alcohol) = 426 mL
+	- $426 mL \times 0.12 \times 0.789 g/mL = 40.3g$ alcohol
+		- $0.789 g/mL$ is the density factor of alcohol
+	- heavy drinkers: $\frac{68g \text{ alcohol}}{0.12 \times 0.789 g/mL} = 718 mL$ per occasion 
+### Example Calculation
+- how much alcohol (in g) is in a 150 mL glass of [[Riesling]] [[Prädikatswein|Prädikatswein Kabinett]] of 10% alcohol
+- $150 \times 0.1 \times 0.789 = 11.835g$
+## Current Drinking Guidelines
+- from the Canadian Centre for Substance Use and Addiction
+	- not yet endorsed by Health Canada, but the current accepted standard
+- based on a continuum of risk
+	- 0 drinks per week
+		- not drinking has benefits, such as better health and sleep
+	- 2 standard drinks or less per week
+		- likely to avoid alcohol-related consequences for yourself or other
+	- 3-6 standard drinks per week
+		- increased risk of developing several types of cancer, including breast and colon
+	- 7 standard drinks or more per week
+		- risk of heart disease and/or strike increases significantly
+	- each additional standard drink
+		- radically increases risk of alcohol-related consequences
+## Alcohol Metabolism
