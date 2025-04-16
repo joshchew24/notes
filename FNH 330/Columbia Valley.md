@@ -18,4 +18,4 @@ aliases:
 	- [[Red Mountain]]
 	- [[Horse Heaven Hills]]
 	- [[Yakima Valley|Yakima Valley AVA]]
-	- [[Walla Walla]]
+	- [[Walla Walla Valley]]

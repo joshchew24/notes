@@ -4,3 +4,4 @@ aliases:
 ---
 # Syrah
 - AKA Shiraz
+- red
