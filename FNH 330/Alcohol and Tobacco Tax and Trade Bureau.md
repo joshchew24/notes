@@ -20,7 +20,7 @@ aliases:
 - no restrictions on varieties planted, yield, sugar levels, quality, typicity
 - label restrictions from [[#Appellations of Origin]] apply
 	- except AVA requires 85% for area of origin
-## Wine Label Requirements
+## Wine Label Regulations
 - **Vinted/cellared & bottled by**
 	- wine has undergone some cellar treatment/processing at the producer's winery
 	- didn't necessarily ferment it
@@ -37,4 +37,11 @@ aliases:
 	- label will have \<vineyard name\> vineyard
 	- if it says vineyard**s**, doesn't mean single vineyard
 - [[Estate-bottled]]
-	- similar 
+	- similar to grown, produced and bottled by, but **both winery and vineyard** must be in **same district**
+- [[Meritage]]
+	- wine style term from [[California]]
+	- used in North America
+### Label Warnings
+- contains sulfites
+- effects of alcohol on pregnant women, ability to drive/operate machinery, health
+- **no health benefit claims**
