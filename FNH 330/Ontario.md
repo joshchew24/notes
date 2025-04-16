@@ -6,6 +6,15 @@
 	- clay and loam in [[Niagara Peninsula]]
 	- clay-loam on limestone in [[Prince Edward County]]
 	- sandy loam in [[Lake Erie North Shore]]
+- close to 200 [[Vintners Quality Alliance|VQA]] wineries
+- leading single varietal wines:
+	- [[Chardonnay]]
+	- [[Riesling]]
+	- [[Merlot]]
+- produces 75% of [[Canada]]'s [[Icewine]]
+	- mainly made from hybrid varietal [[Vidal]]
+	- also [[Riesling]]
+	- world's largest [[Icewine]] producer
 ## Ontario Viticultural Areas (Geographical Indications)
 - these are the major areas, they contain other sub-appellations
 1. [[Ontario]]

@@ -5,6 +5,10 @@ aliases:
 # British Columbia
 - over 11 000 acres of vineyard
 - province in [[Canada]]
+- 282 [[Vintners Quality Alliance|VQA]] wineries
+- 63% of vineyard acres owned by wineries
+- 37% of vineyards owned by independent grape growers
+- now 10 main Geographical Indications (9 regional)
 ## Types of Wineries
 ### Commercial Wineries
 - can use imported wine 
@@ -38,3 +42,16 @@ aliases:
 	- [[BC-VQA Botrytis Affected]] 
 	- [[BC-VQA Totally Botrytis Affected]]
 	- [[BC-VQA Icewine]] 
+## Geographical Indications
+| Geographical Indication   | Acres  |
+| ------------------------- | ------ |
+| BC                        | 11000+ |
+| [[Okanagan Valley]]       | 8800   |
+| [[Similkameen Valley]]    | 700    |
+| [[Fraser Valley]]         | 200+   |
+| [[Vancouver Island]]      | 430    |
+| [[Gulf Islands]]          | 80-90  |
+| [[Lillooet]] (new)        | 30     |
+| [[Shuswap]] (new)         | 100    |
+| [[Thompson Valley]] (new) | 100    |
+| [[Kootenays]] (new)       | 90     |
