@@ -84,6 +84,18 @@
 	- drinking alcohol during pregnancy may cause permanent changes to developing brain
 	- lifelong challenges with memory, social communication, attention and sensory skills
 	- individuals with FASD at risk of depression anxiety and many physical health issues
+### Severe Alcohol Use Disorders
+#### Effects on the brain
+- thiamine (vitamin B1)
+	- water soluble compound that is required for metabolism of alcohol
+	- alcohol degrades thiamine and inhibits absorption of thiamine from gut
+	- deficiency in thiamine
+		- mental confusion
+		- unsteady walking/standing
+		- loss of coordinated eye movement (Wernicke's encephalopathy)
+#### Wernicke-Korsakoff Syndrome
+- Wernicke's encephalopathy + Korsakoff syndrome (loss of short-term memory)
+- treatable with intravenous thiamine and abstinence from alcohol
 ## Heavy Drinking
 - a heavy drinker consumes in excess of ~68g of alcohol/occasion on a monthly basis
 - 19.1% of Canadian population are heavy drinkers
@@ -139,3 +151,15 @@
 		- if ADH and ER cannot metabolize ethanol rapidly enough, cell death in liver begins
 			- can regenerate somewhat, but scar tissue builds
 			- enlarged liver -> cirrhosis of liver and eventually death due to non-function
+				- cirrhosis is scarred and permanently damaged liver
+### BAC chart
+- BAC in excess of 0.05% driving is unsafe/penalized
+- in excess of 0.08% is illegal
+
+| Weight (lbs) | Male (%BAC) | Male (%BAC)<br> | Male (%BAC)<br> | Female (%BAC) | Female (%BAC)<br> | Female (%BAC)<br> |
+| ------------ | ----------- | --------------- | --------------- | ------------- | ----------------- | ----------------- |
+|              | 1 drinks    | 2 drinks        | 3 drinks        | 1 drink       | 2 drinks          | 3 drinks          |
+| 100          | 0.043       | 0.087           | 0.130           | 0.050         | 0.101             | 0.152             |
+| 150          | 0.029       | 0.058           | 0.087           | 0.034         | 0.068             | 0.101             |
+| 175          | 0.025       | 0.050           | 0.075           | 0.029         | 0.058             | 0.087             |
+| 200          | 0.022       | 0.043           | 0.065           | 0.026         | 0.050             | 0.078             |
