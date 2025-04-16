@@ -1,9 +1,31 @@
 # Lab Exam
-- [[Chardonnay]]: [[Lab 4#Wine 1]]
-	- peach, pineapple, melon, red apple, passionfruit?
-- Champagne (Specialty) 
-- [[Chenin Blanc]]: 
+- [[Chardonnay]]: [[Lab 11#Wine 1]]
+	- $23
+	- pineapple, red apple, toasty oak, butter, pear
+	- acid: med-
+	- sweet: dry
+	- bitter: none
+	- alcohol: no-hint x2
+	- length: long
+- Champagne (Specialty) [[Lab 8#Wine 1]]
+	- $82
+	- red apple, yeast, bread-dough, pineapple, lemon
+	- acid: med +
+	- sweet: hint to off-dry
+	- bitter: none
+	- alcohol: no x2
+	- length: med+ to long
+- [[Chenin Blanc]]: [[Lab 9#Wine 1]]
+	- $28
+	- lemon, green apple, pineapple, pear, hint grass (dry)
+	- acid: medium+
+	- sweet: dry-hint (mostly dry)
+	- bitter: no-hint
+	- alcohol no, no
+	- length: long
 - [[Bacchus]]: [[Lab 4#Wine 3]]
+	- $19
 	- peach, floral, necatrine, red apple, lemon
 - [[Gewürztraminer]]: [[Lab 3#Wine 2]]
+	- $24
 	- rose, red apple, lychee, hint pineapple, hint nutmeg
