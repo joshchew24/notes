@@ -1,5 +1,14 @@
 # Lab 4
 ## Wine 1
+- unoaked [[Chardonnay]]
+- [[Formal Classification]]
+	- still white table wine
+	- [[Alcohol and Tobacco Tax and Trade Bureau|Appellations of Origin]] state designation
+	- [[Vinted & bottled by]]
+- [[Geographical Classification]]
+	- California, USA
+- producer
+	- Bread 
 - vintage 2023
 - ABV 13.5%
 - colour:
@@ -16,6 +25,7 @@
 - aftertaste apple, 27s
 	- actual: med+, pineapple, red apple, peach
 ## Wine 2
+- oaked [[Chardonnay]]
 - vintage 2023
 - price $24
 - abv 13.5
@@ -38,7 +48,8 @@
 	- actual vanilla, toasty oak, hint red apple, long
 - body low-
 	- actual medium
-## Wine 3 Bacchus
+## Wine 3 
+- [[Bacchus]]
 - geographical classification
 	- fraser valley, BC, Canada
 - color straw low-
