@@ -23,3 +23,7 @@ aliases:
 - south part of the region
 	- valleys run more east to west
 	- [[Pinot Noir]], [[Chardonnay]]
+## Sub-regions
+- [[Santa Barbara County]]
+	- [[Santa Maria Valley]] AVA
+	- [[Santa Ynez Valley]] AVA
