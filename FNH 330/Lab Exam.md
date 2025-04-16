@@ -1,4 +1,5 @@
 # Lab Exam
+## Whites
 - [[Chardonnay]]: [[Lab 11#Wine 1]]
 	- $23
 	- pineapple, red apple, toasty oak, butter, pear
@@ -26,6 +27,55 @@
 - [[Bacchus]]: [[Lab 4#Wine 3]]
 	- $19
 	- peach, floral, necatrine, red apple, lemon
+	- acidity med to med+
+	- sweet: offdry
+	- bitter: no
+	- alcohol: no x2
+	 - length: long
 - [[Gewürztraminer]]: [[Lab 3#Wine 2]]
 	- $24
 	- rose, red apple, lychee, hint pineapple, hint nutmeg
+	- acid: low+
+	- sweet: dry to hint
+	- bitter: no to hint
+	- alcohol: no-hint x2
+	- length: long
+## Reds
+- Tawny Port (20 year- specialty): [[Lab 8#Wine 3]]
+	- $70
+	- raisin, walnut, dried fig, marzipan, toffee/caramel
+	- acid: low+
+	- sweet: high
+	- bitter: hint
+	- astringency: hint
+	- alcohol: med-, med
+	- length: long
+- Zinfandel (California) [[Lab 11#Wine 3]]
+	- $37
+	- black cherry, cocoa, raspberry, toasty oak, vanilla
+	- acid: low+
+	- sweet: dry to hint
+	- bitter: no to hint
+	- astringency: low
+	- alcohol: low-, hint to low-
+	- length: long
+- Cabernet Sauvignon (Chile) [[Lab 6#Wine 2]]
+	- $27
+	- black currant, black plum, toasty oak, cedar, blackberry
+	- acid: low+
+	- sweet: dry
+	- bitter: hint to low-
+	- astringency: low+
+	- alcohol: no to hint, hint
+	- length: long
+- Gamay Noir (BC) [[Lab 7#Wine 1]]
+	- $25
+	- red cherry, cranberry, strawberry, red plum, hint oak
+	- acid: medium
+	- sweet: dry
+	- bitter: no to hint
+	- astringency: low
+	- alcohol: no, no
+	- length: med+
+- Côtes du Rhone (France) [[Lab 9#Wine 2 (GSM)]]
+	- 
