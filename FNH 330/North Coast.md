@@ -9,7 +9,7 @@ aliases:
 - 25% total vineyard acres in [[California]]
 	- but 85% of premium wine
 - contains counties and smaller AVA
-- ![[Pasted image 20250415202623.png|450]]
+- ![[Pasted image 20250415202623.png|300]] ![[Pasted image 20250415203012.png|375]]
 ## Sonoma County
 - [[Russian River Valley]] [[AVA]]
 	- [[Winkler Index]] region 2-3; [[Chardonnay]], [[Cabernet Sauvignon]], [[Merlot]]

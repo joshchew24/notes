@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"FNH 330\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 325,
-  "scale": 0.30374051330596286,
-  "close": false
+  "scale": 0.019708859497252422,
+  "close": true
 }

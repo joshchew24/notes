@@ -37,3 +37,4 @@
 		- fog blankets and cools [[Carneros AVA|Los Carneros]]
 - desert climate in [[Central Valley]]
 	- needs irrigation
+## Bottle Labels
