@@ -11,3 +11,4 @@
 ## Bottle Labels
 - [[St. Supéry Cabernet Sauvignon]]
 - [[Au Bon Climat 2001 Pinot Noir]]
+- [[Argyle 2019 Pinot Noir]]
