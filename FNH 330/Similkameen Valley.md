@@ -4,4 +4,5 @@
 - 690+ vineyard acres
 - ~12 wineries
 - climate similar to [[Okanagan Valley#Climate]]
-- 
+	- very windy
+	- vines should be well trellised
