@@ -20,10 +20,19 @@
 	- proximity to ocean and mountains is more influential
 - westerlies (predominant wind for this region) from Pacific Ocean bring moisture
 	- wet, coastal rainforests in the [[North Coast AVA]]
-- coastal mountain range blocks lower westerlies
+	- rise up and cool at Coastal Mountain range
+	- as they are forced up the Sierra Nevada mountains, they cool, leading to rain and snow
+	- moisture flows back down to Pacific in rivers
+		- used for irrigation
+- Coastal Mountain range blocks lower westerlies
 	- [[Unique Sub-Climates#Cool Climate Rain shadow Rain Shadow|Rain Shadow]] for inland [[North Coast AVA|North Coast]]
-		- mountains block
+		- drier, sunnier on eastern side
 	- [[North Coast AVA|Sonoma County]] and [[North Coast AVA|Napa County]]: [[Mediterranean Climate]]
-		- west side of mountains
+		- rainier on western side
 	- gaps in mountains at San Francisco Bay allow fog
 		- [[Carneros AVA]]: [[Cool Climate|Cool]] [[Maritime Climate]]
+		- cold offshore currents mixed by westerlies with warm coastal air/water to create fog
+		- westerlies move fog through gap in Coastal Mountain Range
+		- fog blankets and cools [[Carneros AVA|Los Carneros]]
+- desert climate in [[Central Valley]]
+	- needs irrigation
