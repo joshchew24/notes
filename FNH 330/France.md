@@ -25,3 +25,14 @@ aliases:
 - [[South Rhône Valley]]
 	- Climate: [[Mediterranean Climate]]
 	- Grape Varieties: [[Grenache]], [[Syrah]], [[Mourvèdre]]
+## Grand Crus Systems
+- many different Grand Crus systems for different regions
+- different regions assign "cru" to different **areas**
+- [[Bordeaux]] **estates** (grand cru **classé**)
+	- classé is unique to Bordeaux
+	- [[Grands crus classés|1855 Bordeaux classification]]
+- [[Alsace]], [[Burgundy]], [[Loire Valley]] **vineyards**
+- [[Champagne (Region)]], [[Beaujolais]] **villages**
+	- applies to all vineyards and wineries within that village
+- different levels of "cru" in each region
+	- premier < grand
