@@ -4,7 +4,7 @@ aliases:
 ---
 # Vintners Quality Alliance
 - Estate wineries form VQA in 1989 to improve Canadian wine quality
-- [[Ontario]] and [[BC]] have both enshrined VQA in law
+- [[Ontario]] and [[British Columbia|BC]] have both enshrined VQA in law
 	- ON: [[VQA Act]]
 	- BC: [[Wines of Marked Quality Regulation]]
 - managed **provincially**
@@ -26,3 +26,14 @@ aliases:
 		- about 85 varieties, 97% acreage
 	- select hybrids
 		- 35 types, 3% total acreage
+3. Grape ripeness
+	- BC: minimum 18º [[Brix Scale|Brix]] for table wines
+		- also minimum standards for dessert wines
+4. Vinification
+	- limits on [[Pre-fermentation Adjustments|Chaptalization]], acid addition, use of sweet reserve
+	- cannot add water
+5. Tasting panels review wines for faults
+	- in Ontario and BC, wine typicity is not regulated
+6. Labels & Packaging
+	- if variety on label, 85% of grapes must be that variety
+	- same for vintage 85%

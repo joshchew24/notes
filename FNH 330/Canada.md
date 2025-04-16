@@ -13,3 +13,8 @@
 	- estate wineries formed [[Vintners Quality Alliance]] in 1989
 	- 1990, under the [[BC Wine Act]], BC government created [[BC-VQA|BC-Vintners Quality Alliance]]
 		- minimum standards for BC wines (100% BC grapes)
+## Canadian Wine Classifications
+ - [[International blend of imported and domestic wines]]
+	 - imported wine, blended with domestic
+	 - no origin labels required
+- [[100% Canadian wine]]
