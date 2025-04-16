@@ -1,7 +1,17 @@
 # Washington
+- state of [[USA]]
 - [[Unique Sub-Climates#Cool Climate Rain shadow Rain Shadow|Rain Shadow]] from [[Cascades Mountains]]
 	- most AVAs are in this region
 	- need irrigation from Columbia River
 	- yields/acre were high in 70s/80s but have come down
 		- more focus on quality
 - most vineyards are grown inland in [[Columbia Valley|Columbia Valley AVA]], some on Puget Sound
+- most of the vines are ungrafted
+	- [[Phylloxera]] has been discovered in the south end of the state, exploring ways to address
+	- tend to get killed in the winter
+	- ungrafted vines die to the ground and regrow from the roots
+	- grafted vines would die, including the trunk, and regrowth would be a different species
+		- idk why that's just what Jay said
+- **grape varieties**:
+	- mainly [[Chardonnay]], [[Riesling]]
+	- [[Cabernet Sauvignon]], [[Merlot]], expanding to [[Syrah]]

@@ -3,6 +3,7 @@ aliases:
   - Yakima Valley AVA
 ---
 # Yakima Valley
+- part of [[Columbia Valley|Columbia Valley AVA]]
 - very dry
 - very hot in the summer
 - [[Sangiovese]] grows well here

@@ -8,6 +8,11 @@ aliases:
 - cool in winter
 - [[Continental Climate|Continental]]-semi-desert
 	- relies on irrigation from Columbia river basin
+- [[Winkler Index]] region 1
+	- wikipedia says 2-3
+- continental air-masses cooled
+	- bit of westerly winds off Pacific
+- hotter and drier than [[Oregon]]
 - big shift in summer/winter temps
 - contains many AVAs
 	- [[Red Mountain]]

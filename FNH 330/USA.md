@@ -12,3 +12,6 @@
 - [[St. Supéry Cabernet Sauvignon]]
 - [[Au Bon Climat 2001 Pinot Noir]]
 - [[Argyle 2019 Pinot Noir]]
+- [[Eight Bells 2010 Syrah]]
+- [[Tucker Cellars 2003 Pinot Noir]]
+- [[L'ecole Syrah]]
