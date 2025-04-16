@@ -29,3 +29,5 @@
 		- [[Shuswap]]
 		- [[Lillooet]]
 	- equivalent to [[Protected Designation of Origin|PDO]] wines in EU
+	- in [[British Columbia|BC]], [[Vintners Quality Alliance|VQA]] wines fall under [[BC Wines of Marked Quality]]
+- [[British Columbia|BC]] has its own **specific wine classifications**

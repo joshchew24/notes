@@ -14,3 +14,18 @@ aliases:
 - can have vineyards, but can source fruit from anywhere
 ### Land-based Wineries
 - must have a minimum of 2 acres of vineyard
+## BC Wine Classifications
+- [[BC Wines of Marked Quality]]
+	- two tiers, one for [[Vintners Quality Alliance|VQA]] wines and lower tier for others ([[BC Wine of Distinction]])
+- [[Estate-bottled]]
+	- grapes were grown by winery, processed and bottled at winery
+	- for [[BC-VQA]], grapes can come from vineyard **off the estate** but:
+		- winery **must** own it, or have a minimum 10-year lease agreement
+		- wine can be labelled as "estate-bottled" only **after the 3rd year of production**
+	- [[BC Wine of Distinction]]
+		- estate-bottled can include grapes from **off-estate** vineyard(s) with **no restrictions on lease**
+- [[Single vineyard designation]]
+	- same for [[BC-VQA]] and [[BC Wine of Distinction]]
+	- vineyard is in a designated Geographical Indication
+		- e.g. [[Okanagan Valley]]
+	- winery has registered the vineyard with the [[BC Wine Authority]]
