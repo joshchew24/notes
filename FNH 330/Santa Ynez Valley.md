@@ -1,3 +1,7 @@
+---
+aliases:
+  - Santa Ynez Valley AVA
+---
 # Santa Ynez Valley
 - hotter than [[Santa Maria Valley]]
 - [[AVA]] in [[Santa Barbara County]], [[Central Coast|Central Coast AVA]]

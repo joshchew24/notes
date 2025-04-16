@@ -7,6 +7,7 @@
 - most of [[California]]'s fruits and vegetables are grown here
 - 200 000 acres of grape growing
 	- ~half of California's acreage and 75% of production
+		- very high yield
 - varieties
 	- [[Chenin Blanc]], [[Zinfandel]], [[Barbera]]
 	- more heat tolerant and hold acidity
