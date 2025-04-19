@@ -18,6 +18,7 @@ aliases:
 - only certain varieties permitted
 - each wine "grade" is made from grapes that meet that grade's minimum sugar level
 - required grape sugar level/ripeness increases with grade
+- **cannot use** [[Pre-fermentation Adjustments|Chaptalization]]
 ## Tiers
 ### Prädikatswein Kabinett
 - normal harvest (e.g. early October), after [[Qualitätswein]]

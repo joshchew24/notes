@@ -14,6 +14,9 @@ aliases:
 	- participation in any VQA appellation system is voluntary (and costs money)
 	- BC: marketing/promotion is by [[Wine Growers of BC]]
 - Canadian VQA systems are similar to [[France]]'s [[Appellation d'Origine Contrôlée|AOC]] but like [[Germany]]'s [[Prädikatswein]] system for [[Late Harvest Wines|Late Harvest]] and dessert wines
+	- differences to AOC
+		- no limit on yield
+		- no typicity regulation
 ## Regulations
 1. viticulture area boundaries
 	- i.e. wine grape origins
@@ -33,7 +36,7 @@ aliases:
 	- limits on [[Pre-fermentation Adjustments|Chaptalization]], acid addition, use of sweet reserve
 	- cannot add water
 5. Tasting panels review wines for faults
-	- in Ontario and BC, wine typicity is not regulated
+	- in Ontario and BC, wine **typicity is not regulated**
 6. Labels & Packaging
 	- if variety on label, 85% of grapes must be that variety
 	- same for vintage 85%
