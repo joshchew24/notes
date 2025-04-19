@@ -24,7 +24,7 @@
 - [[Prädikatswein]] ([[Protected Designation of Origin|Special PDO]])
 ## Wine Testing
 - [[Qualitätswein]] and [[Prädikatswein]] must pass 3 separate evaluations for an [[Amtliche Prufungsnummer]]
-1. Vineyard requirements[[German Wine Testing Vineyard Requirements|Vineyard Requirements]]
+1. [[German Wine Testing Vineyard Requirements|Vineyard Requirements]]
 	- most involved, usually completed by winery
 	- juice sugar concentration depending on tier
 	- mold (minimum of botrytis for [[Botrytis-affected Wines|Beerenauslese (BA)]] (50%) and [[Trockenbeerenauslese|TBA]] (100% [[Botrytis-affected Wines|Botrytis-affected]]))
