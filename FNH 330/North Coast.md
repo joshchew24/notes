@@ -16,5 +16,8 @@ aliases:
 ## Napa County
 - [[Napa Valley]] [[AVA]]
 	- [[Winkler Index]] region 2-3
+	- warmer
+	- [[Stags Leap District|Stags Leap District AVA]]
 ## [[Carneros AVA|Los Carneros]]
 - straddles both Sonoma and Napa Counties
+- cool, maritime climate
