@@ -16,7 +16,9 @@ expr: term '+' expr | term;
 ### Cannot be Left-recursive
 **Definition:** Left recursion occurs when a non-terminal appears as the leftmost symbol in one of its production rules, directly or indirectly.
 #### Example
-
+```antlr
+expr: expr '+' term | term
+```
 ### Locally-Deterministic
 **Definition:** A grammar is **locally-deterministic** if the parser can decide which rule to apply by looking only at the next token (lookahead of 1).
 **Implication:** For each non-terminal, the first terminal of every alternative must be distinct. This allows for unambiguous decision-making using just one token.
