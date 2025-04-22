@@ -22,7 +22,8 @@ expr: expr '+' term | term
 ```
 ##### How to fix
 ```antlr
-
+expr: term exprTail ;
+exprTail: '+' term exprTail;
 ```
 ### Locally-Deterministic
 **Definition:** A grammar is **locally-deterministic** if the parser can decide which rule to apply by looking only at the next token (lookahead of 1).
