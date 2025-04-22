@@ -13,10 +13,11 @@ aliases:
 		- i.e. can tell us values of variables at specific program points
 ## Information
 ### Control Flow Dependency Stack
-- tracks lines which **might** have affected values of all conditional branches/lops currently being analysed
+- tracks lines which **might** have affected values of all conditional branches/loops currently being analysed
 - a stack of sets of integers (relevant statement/line numbers)
-### Total Dependency Map
-- tracks lines which have affected values 
+### Total Dependency Map (TD Map)
+- tracks lines which have affected values of variables
+	- **overestimates** conditionals
 - a map from variable names to sets of integers (relevant statement/line numbers)
 ## Analysis Rules
 ### If-then-else branches
@@ -25,3 +26,11 @@ aliases:
 3. Step through the block statements recursively to get maps for the ends of both blocks
 	1. The TD map after if-then-else maps each variable to the union of its mappings at the end of each block
 4. Pop the head of CFD to get the CFD for after the if-then-else
+### Loops and Implicit Dependencies
+1. Process the loop body step by step (as above, starting from the map just after line 6, here)
+2. Go back to the head of the loop (just after line 6, here); rewrite each variable’s mapping as:
+	- The union of its current mapping and its mapping at the end of the loop body
+	- <Handling of control-flow dependencies…>
+
+Iterate 1. and 2. until nothing changes. Copy the resulting map (at loop head) to after the loop
+and pop the head off the stack
