@@ -3,9 +3,21 @@ aliases:
   - Value-Agnostic Program Slicing
 ---
 # Static Program Slicing
+- no tracking of variable values in the analysis itself
+- **at each program point, which statements could have affected the current values of which variables**?
+	- i.e. keep track of what statements affect each variable
+- can create **program slices**
+	- slice of the program in which all **irrelevant statements have been deleted**
+	- helps answer **queries**
+		- e.g. "what gets printed on the last line of a program?"
+		- i.e. can tell us values of variables at specific program points
 ## Information
 ### Control Flow Dependency Stack
 - tracks lines which **might** have affected values of all conditional branches/lops currently being analysed
+- a stack of sets of integers (relevant statement/line numbers)
+### Total Dependency Map
+- tracks lines which have affected values 
+- a map from variable names to sets of integers (relevant statement/line numbers)
 ## Analysis Rules
 ### If-then-else branches
 1. Push onto the current CFD stack the set $TD(y_0)∪TD(y_1)∪…∪TD(y_n)$ where $y_0,y_1,…,y_n$ are the variables read in the if-condition 
