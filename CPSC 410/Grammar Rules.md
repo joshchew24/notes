@@ -13,6 +13,15 @@ For the input `3 + 4 + 5`, multiple parse trees could exist, differing in how th
 ```antlr
 expr: term '+' expr | term;
 ```
+#### More Complex Ambiguous Example
+```antlr
+stmt : 'if' expr 'then' stmt
+     | 'if' expr 'then' stmt 'else' stmt
+     | 'other'
+     ;
+```
+- `if a then if b then x else y` is ambiguous
+	- `else y` can belong to either of inner or outer `if` statements
 #### Unambiguous Example
 ```antlr
 expr: 
