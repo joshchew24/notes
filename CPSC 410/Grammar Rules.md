@@ -15,12 +15,11 @@ expr: term '+' expr | term;
 
 ### Cannot be Left-recursive
 **Definition:** Left recursion occurs when a non-terminal appears as the leftmost symbol in one of its production rules, directly or indirectly.
-#### Non-Left-Recursive Example
 #### Left-Recursive Example
 ```antlr
 expr: expr '+' term | term
 ```
-##### How to fix
+#### Non-Left-Recursive Example (How to fix)
 ```antlr
 expr: term exprTail ;
 exprTail: '+' term exprTail;
