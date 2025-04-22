@@ -9,10 +9,14 @@
 ### Unambiguous
 **Definition:** A grammar is ambiguous if there exists a string that can be derived in more than one way (i.e., it has multiple leftmost derivations or parse trees).
 For the input `3 + 4 + 5`, multiple parse trees could exist, differing in how the additions are grouped.
+#### Ambiguous Example
 ```antlr
 expr: term '+' expr | term;
 ```
-
+#### Unambiguous Example
+```antlr
+expr: 
+```
 ### Cannot be Left-recursive
 **Definition:** Left recursion occurs when a non-terminal appears as the leftmost symbol in one of its production rules, directly or indirectly.
 #### Left-Recursive Example
@@ -22,7 +26,11 @@ expr: expr '+' term | term
 #### Non-Left-Recursive Example (How to fix)
 ```antlr
 expr: term exprTail ;
-exprTail: '+' term exprTail;
+exprTail: '+' term (exprTail |);
+```
+#### Alternative
+```antlr
+expr: term ('+' term)* ;
 ```
 ### Locally-Deterministic
 **Definition:** A grammar is **locally-deterministic** if the parser can decide which rule to apply by looking only at the next token (lookahead of 1).
