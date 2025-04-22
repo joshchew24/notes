@@ -34,3 +34,26 @@ aliases:
 
 Iterate 1. and 2. until nothing changes. Copy the resulting map (at loop head) to after the loop
 and pop the head off the stack
+
+## Examples
+### Simple If
+```java
+/*CFD*/		void foo(int a) {      // TD
+			1	int x = 42;        // (x -> {1})
+/*[]*/	    2	int y = a;         // (x -> {1}, y -> {2})
+/*[]*/      3	int z = 4;         // (x -> {1}, y -> {2}, z -> {3})
+/*[]*/      4	int w = 14;        // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+
+/*[{2}]*/   5	if (y > 0) {       // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+/*[{2}]*/   6		y = z;         // (x -> {1}, y -> {2,3,6}, z -> {3}, w -> {4})
+/*[{2}]*/   7		x = x + w;     // (x -> {1,2,4,7}, y -> {2,3,6}, z -> {3}, w -> {4})
+/*[{2}]*/   8	} else { //empty   // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+/*[]*/      9	}                  // (x -> {1,2,4,7}, y -> {2,3,6}, z -> {3}, w -> {4})
+			}
+```
+### Variant
+| CFD                | Program | TD  |
+| ------------------ | ------- | --- |
+| ```java<br><br>``` |         |     |
+|                    |         |     |
+```java
