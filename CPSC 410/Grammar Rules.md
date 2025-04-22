@@ -24,7 +24,20 @@ stmt : 'if' expr 'then' stmt
 	- `else y` can belong to either of inner or outer `if` statements
 #### Unambiguous Example
 ```antlr
-expr: 
+stmt : matched
+     | unmatched
+     ;
+
+matched
+  : 'if' expr 'then' matched 'else' matched
+  | 'other'
+  ;
+
+unmatched
+  : 'if' expr 'then' stmt
+  | 'if' expr 'then' matched 'else' unmatched
+  ;
+
 ```
 ### Cannot be Left-recursive
 **Definition:** Left recursion occurs when a non-terminal appears as the leftmost symbol in one of its production rules, directly or indirectly.
