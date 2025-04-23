@@ -50,14 +50,25 @@
 - not enough to **analyse** loop body for a **finite number of input states**
 	- we want **all states that can be reached** at the start of a loop iteration
 - **after** the loop, we want an **abstract state** for **all the states in which it can terminate**
+### Over-Approximation Strategy
 1. Find the set of variables **assigned to in the loop body**
 2. Copy symbolic state before the loop, updating each assigned-to variable to map to a **fresh symbolic value**
 3. Add to the path conditions the symbolic evaluation of the loop condition in this new symbolic state
 4. Use this as the abstract state for start of loop body; analyse the loop body just once and then stop
 5. Repeat steps 2-3 but this time symbolically evaluating the negation of the loop condition
 6. Use the resulting abstract state to continue after loop
+### Loop Invariant Strategy
+##
 ## Unit Test Suite Generation
-- 
+- can use symbolic execution for generating unit test suites
+	- e.g. branch coverage suites, path coverage, line coverage, etc.
+- loop over-approximation is not useful
+	- generating tests that try to exercise behaviour that the program doesn't have
+### For Path Coverage Test Suites
+1. Symbolically execute the program **down each path**. Record the path conditions encountered just **after entering each** branch taken down the explored path
+2. For each path explored, take the last recorded path conditions (just after the last branch taken), and check these path conditions for satisfiability.
+	1. If satisfiable, find any values for the symbolic variables satisfying them. Generate a unit test which passes the corresponding values for parameters to a single call to the function. 
+	2. If unsatisfiable, do nothing with this path.
 ## Examples
 ### Simple Symbolic Execution
 ```java
