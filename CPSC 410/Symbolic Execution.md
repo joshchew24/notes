@@ -58,7 +58,20 @@
 5. Repeat steps 2-3 but this time symbolically evaluating the negation of the loop condition
 6. Use the resulting abstract state to continue after loop
 ### Loop Invariant Strategy
-##
+- loop invariants tell us what relation/property of variables is true at the start/end of each loop iteration
+- add invariants as path conditions
+```java
+void foo(int a, int b) {
+	int y = b;
+	int z = 0;
+	while(y > 10) {
+		z = z + 2;
+		y = y - 1;
+	}
+	assert z == 0 || y == 10;
+}
+```
+### Bounded Loop Unrolling
 ## Unit Test Suite Generation
 - can use symbolic execution for generating unit test suites
 	- e.g. branch coverage suites, path coverage, line coverage, etc.
