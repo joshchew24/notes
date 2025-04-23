@@ -1,4 +1,4 @@
-# Exercise Sheet 3: The Visitor Pattern; Static and Dynamic Checks
+# Exercise Sheet 3 Questions The Visitor Pattern; Static and Dynamic Checks
 Submission Deadline: Friday 14th February by 5pm (Vancouver time!)
 
 **What to submit:** Written solutions to Questions 1,2,3,5 in any reasonably-standard text/document format, on Canvas.

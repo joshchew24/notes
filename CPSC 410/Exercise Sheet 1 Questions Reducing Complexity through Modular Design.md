@@ -1,4 +1,4 @@
-# Exercise Sheet 1: Reducing Complexity through Modular Design
+# Exercise Sheet 1 Questions Reducing Complexity through Modular Design
 
 **Submission Deadline:** Friday 17th January by 5pm Vancouver time. See Canvas.
 

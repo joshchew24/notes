@@ -1,4 +1,4 @@
-# Exercise Sheet 4 Empirical Studies (and Intro to Part II)  (Sample Solutions and Notes)
+# Exercise Sheet 4 Questions Empirical Studies (and Intro to Part II)  (Sample Solutions and Notes)
 
 Submission Deadline: Friday 7th March by 5pm (Vancouver time!)
 
