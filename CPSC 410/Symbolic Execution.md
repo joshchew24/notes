@@ -37,12 +37,15 @@
 - **never** need to **approximate** when handling if-then-else
 - can optimise using **path conditions**
 	- for new branch, if path conditions are not satisfiable, just skip
+- allows us to **generate concrete inputs** to serve as "witness" to yes/no answers
+	- i.e. "here is an input which triggers this assert"
 ## Disadvantages
 - requires **exponentially** many symbolic executions of paths through the program (in number of branches)
 	- i.e. number of combinations grows exponentially
 - **cannot** be simply extended to **handle loops**
 	- treating loop-heads like conditions creates infinite branches
 	- need to **approximate**
+		- by assigning fresh symbolic values in and after loop
 ## Loop-handling
 - not enough to **analyse** loop body for a **finite number of input states**
 	- we want **all states that can be reached** at the start of a loop iteration
@@ -53,6 +56,8 @@
 4. Use this as the abstract state for start of loop body; analyse the loop body just once and then stop
 5. Repeat steps 2-3 but this time symbolically evaluating the negation of the loop condition
 6. Use the resulting abstract state to continue after loop
+## Unit Test Suite Generation
+- 
 ## Examples
 ### Simple Symbolic Execution
 ```java
@@ -125,3 +130,19 @@ void foo(int a, int b) {// (a->U, b->V)
 ```
 - set of constraints: `V <= U`, `V + 3 >= U`, `V + 1 != U`
 	- is this violatable? (i.e. can our correctness property by violated)
+### Loop Example (from [[Exercise Sheet 6 Solution]])
+```
+                        Symbolic State          Path Conditions
+void foo(int x) {		(x -> U)			    {}
+  int z = x + 7;		(x -> U, z -> U+7)	    {}
+  while(z < 42) {		(x -> U, *z -> V)		{V < 42}
+	z = z + 1;		    (x -> U, z -> V+1)		{V < 42}
+	assert z <= 42;	    (x -> U, z -> V+1)		{V < 42}
+  }				        (x -> U, *z -> W)	    {W >= 42}
+  if(z == 12) {			(x -> U, z -> W)		{W >= 42, W == 12}
+	assert false;  		(x -> U, z -> W)		{W >= 42, W == 12}
+  } else {			    (x -> U, z -> W)		{W >= 42, W != 12}
+	assert z <= 12; 	(x -> U, z -> W)		{W >= 42, W != 12}
+  }             	    // Stop before this line for this question!
+}
+```
