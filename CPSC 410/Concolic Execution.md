@@ -19,7 +19,11 @@
 	- rely on SMT solver (symbolic execution) for solutions/solve path conditions
 		- doesn't support **all logic**
 			- e.g. modulo, external calls
-- do bounded exploration
+## Loop-handling
+- do bounded exploration of loops
+	- i.e. bound number of iterations to `N`
+	- record branch conditions at **each iteration**, building up a long path for loops
+	- **don't flip loop exit condition** when iterations exceed `N`
 ## Examples
 ### Example 1
 ```java
@@ -157,6 +161,48 @@ void test_me(int x, int y) { // (x->49,y->7)       (x->U,y->V)           {}
 		if (x > y+10) {      // (x->49,y->7,z->49) (x->U,y->V,z->V*V%50) {49==U,U>V+10} {V==7}
 			assert false;    !! assertion error
 		}
+	}
+}
+```
+### Loop
+- loop exploration upper bound: `N=2`
+- inputs: `z=2`, `n=2`
+#### Iteration 1
+```java
+                    //   Concrete State   Symbolic State  Path
+void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
+	while(n > 0) {    // (z->2, n->2)     (z->U, n->V)    {V>0}
+		z = z + 2;    // (z->4, n->2)     (z->U+2, n->V)  {V>0}
+		n = n - 1;    // (z->4, n->1)     (z->U+2, n->V-1){V>0}
+	}
+	if (z > 14) {
+		assert false;
+	}
+}
+```
+#### Iteration 2
+```java
+                    //   Concrete State   Symbolic State  Path
+void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
+	while(n > 0) {    // (z->4, n->1)     (z->U+2, n->V-1){V>0, V-1>0}
+		z = z + 2;    // (z->6, n->1)     (z->U+4, n->V-1){V>0}
+		n = n - 1;    // (z->6, n->0)     (z->U+4, n->V-2){V>0}
+	}
+	if (z > 14) {
+		assert false;
+	}
+}
+```
+#### Iteration 3 (exit)
+```java
+                    //   Concrete State   Symbolic State  Path
+void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
+	while(n > 0) {    // (z->6, n->0)     (z->U+4, n->V-2){V>0}
+		z = z + 2;
+		n = n - 1;
+	}
+	if (z > 14) {
+		assert false;
 	}
 }
 ```
