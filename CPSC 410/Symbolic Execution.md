@@ -72,6 +72,17 @@ void foo(int a, int b) {
 }
 ```
 ### Bounded Loop Unrolling
+- treat loops like if conditions
+	- expore each path through the loop (each iteration) separately
+	- won't terminate, fix an upper bound N
+- **ignores paths** that involve more than `N` iterations
+	- **under-approximation**
+		- ignores some behaviours
+		- could miss bugs
+- **fully automatic**
+	- don't need human intervention
+- no special rules for loops (just keep unrolling)
+	- no over-approximation
 ## Unit Test Suite Generation
 - can use symbolic execution for generating unit test suites
 	- e.g. branch coverage suites, path coverage, line coverage, etc.
