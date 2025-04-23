@@ -36,13 +36,47 @@
 ## Examples
 ### Simple Symbolic Execution
 ```java
-							// symbolic state            failure condition
+							// symbolic state                         failure condition
 void foo(int a, int b) {    // (a->U, b->V)
     int x = a;              // (a->U, b->V, x->U)
-    int y = b;
-    int z = 0;
-    y = y + 3;
-    z = -2
-    z = z + y;
-    assert x != z;
+    int y = b;              // (a->U, b->V, x->U, y->V)
+    int z = 0;              // (a->U, b->V, x->U, y->V, z->0)
+    y = y + 3;              // (a->U, b->V, x->U, y->V+3, z->0)
+    z = -2                  // (a->U, b->V, x->U, y->V+3, z->-2)
+    z = z + y;              // (a->U, b->V, x->U, y->V+3, z->V+1)
+    assert x != z;          // (a->U, b->V, x->U, y->V+3, z->V+1)     U == V + 1
+}
+```
+### Simple Symbolic Execution 2
+```java
+							// symbolic state                         failure condition
+void foo(int a, int b) {    // (a->U, b->V)
+    int x = a;              // (a->U, b->V, x->U)
+    int y = b;              // (a->U, b->V, x->U, y->V)
+    int z = 0;              // (a->U, b->V, x->U, y->V, z->0)
+    z = 2                   // (a->U, b->V, x->U, y->V, z->2)
+    z = z + y;              // (a->U, b->V, x->U, y->V, z->V)
+    assert x != z;          // (a->U, b->V, x->U, y->V, z->V)     U == V + 2
+}
+```
+- satisfiable, depends on initial values of `a` and `b`
+### Larger Example with branches
+```java
+						// symbolic state                  path conds      failure conds
+void foo(int a, int b) {// (a->U, b->V)  
+	int x = a;          // (a->U, b->V, x->U)
+	int y = b;          // (a->U, b->V, x->U, y->V
+	int z = 0;          // (a->U, b->V, x->U, y->V, z->0)
+	
+	if (y > x) {        // (a->U, b->V, x->U, y->V, z->0)     {V>U}
+		z = 2;          // (a->U, b->V, x->U, y->V, z->2)     {V>U}
+	} else {            // (a->U, b->V, x->U, y->V, z->0)     {V<=U}
+		y = y + 3;      // (a->U, b->V, x->U, y->V+3, z->0)   {V<=U}
+		z = -2;         // (a->U, b->V, x->U, y->V+3, z->-2)  {V<=U}
+	}
+
+	if (y >= x) {
+		z = z + y;
+		assert x != z;
+	}
 }
