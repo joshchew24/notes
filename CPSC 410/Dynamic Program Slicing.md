@@ -41,14 +41,14 @@
 - choose an initial value for `a`
 	- e.g. 1
 ```java
-void foo (int a) {  // TD                         CFD
+void foo (int a) {  // TD                                    CFD
 1   int x = 42;     // (x->{1})  
 2   int y = a;      // (x->{1}, y->{2})
 3   int z = 4;      // (x->{1}, y->{2}, z->{3})
-4   int w = 14;     // (x->{1}, y->{2}, )
+4   int w = 14;     // (x->{1}, y->{2}, z->{3}, w->{4})
 
-5   if (y > 0) {
-6       y = z;
+5   if (y > 0) {    // (x->{1}, y->{2}, z->{3}, w->{4}),    [{2}]
+6       y = z;      // (x->{1}, y->{2,3}, z->{3}, w->{4}),    [{2}]
 7       x = x + w;
 8   } else {
 9   }
