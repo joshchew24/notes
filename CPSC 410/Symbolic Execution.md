@@ -61,6 +61,7 @@ void foo(int a, int b) {    // (a->U, b->V)
 ```
 - satisfiable, depends on initial values of `a` and `b`
 ### Larger Example with branches
+#### Branches 1,1
 ```java
 						// symbolic state                  path conds      failure conds
 void foo(int a, int b) {// (a->U, b->V)  
@@ -70,13 +71,35 @@ void foo(int a, int b) {// (a->U, b->V)
 	
 	if (y > x) {        // (a->U, b->V, x->U, y->V, z->0)     {V>U}
 		z = 2;          // (a->U, b->V, x->U, y->V, z->2)     {V>U}
+	} else {
+		y = y + 3;
+		z = -2;
+	}
+
+	if (y >= x) {       // (a->U, b->V, x->U, y->V, z->2)     {V>U, V>=U}
+		z = z + y;      // (a->U, b->V, x->U, y->V, z->V+2)   {V>U, V>=U}
+		assert x != z;  // (a->U, b->V, x->U, y->V, z->V+2)   {V>U, V>=U}   {U == V+2}
+	}
+}
+```
+#### Branches 2,1
+```java
+						// symbolic state                  path conds      failure conds
+void foo(int a, int b) {// (a->U, b->V)  
+	int x = a;          // (a->U, b->V, x->U)
+	int y = b;          // (a->U, b->V, x->U, y->V
+	int z = 0;          // (a->U, b->V, x->U, y->V, z->0)
+	
+	if (y > x) {
+		z = 2;
 	} else {            // (a->U, b->V, x->U, y->V, z->0)     {V<=U}
 		y = y + 3;      // (a->U, b->V, x->U, y->V+3, z->0)   {V<=U}
 		z = -2;         // (a->U, b->V, x->U, y->V+3, z->-2)  {V<=U}
 	}
 
-	if (y >= x) {
+	if (y >= x) {       // (a->U, b->V, x->U, y->V+3, z->-2)  {V<=U, }
 		z = z + y;
 		assert x != z;
 	}
 }
+```
