@@ -169,11 +169,11 @@ void test_me(int x, int y) { // (x->49,y->7)       (x->U,y->V)           {}
 - inputs: `z=2`, `n=2`
 #### Iteration 1
 ```java
-                    //   Concrete State   Symbolic State  Path
-void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
-	while(n > 0) {    // (z->2, n->2)     (z->U, n->V)    {V>0}
-		z = z + 2;    // (z->4, n->2)     (z->U+2, n->V)  {V>0}
-		n = n - 1;    // (z->4, n->1)     (z->U+2, n->V-1){V>0}
+                    //   Concrete State   Symbolic State   Path
+void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)     {}
+	while(n > 0) {    // (z->2, n->2)     (z->U, n->V)     {V>0}
+		z = z + 2;    // (z->4, n->2)     (z->U+2, n->V)   {V>0}
+		n = n - 1;    // (z->4, n->1)     (z->U+2, n->V-1) {V>0}
 	}
 	if (z > 14) {
 		assert false;
@@ -182,11 +182,11 @@ void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
 ```
 #### Iteration 2
 ```java
-                    //   Concrete State   Symbolic State  Path
-void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
-	while(n > 0) {    // (z->4, n->1)     (z->U+2, n->V-1){V>0, V-1>0}
-		z = z + 2;    // (z->6, n->1)     (z->U+4, n->V-1){V>0}
-		n = n - 1;    // (z->6, n->0)     (z->U+4, n->V-2){V>0}
+                    //   Concrete State   Symbolic State   Path
+void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)     {}
+	while(n > 0) {    // (z->4, n->1)     (z->U+2, n->V-1) {V>0, V-1>0}
+		z = z + 2;    // (z->6, n->1)     (z->U+4, n->V-1) {V>0, V-1>0}
+		n = n - 1;    // (z->6, n->0)     (z->U+4, n->V-2) {V>0}
 	}
 	if (z > 14) {
 		assert false;
@@ -195,14 +195,31 @@ void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
 ```
 #### Iteration 3 (exit)
 ```java
-                    //   Concrete State   Symbolic State  Path
-void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)    {}
-	while(n > 0) {    // (z->6, n->0)     (z->U+4, n->V-2){V>0}
+                    //   Concrete State   Symbolic State   Path
+void foo(int z, int n) {// (z->2, n->2)   (z->U, n->V)     {}
+	while(n > 0) {    // (z->6, n->0)     (z->U+4, n->V-2) {V>0,V-1>0,V-2<=0}
 		z = z + 2;
 		n = n - 1;
 	}
-	if (z > 14) {
+	if (z > 14) {    // (z->6, n->0)      (z->U+4, n->V-2) {V>0,V-1>0,V-2<=0, U+4<=14}
 		assert false;
+	}                // (z->6, n->0)      (z->U+4, n->V-2) {V>0,V-1>0,V-2<=0, U+4<=14}
+}
+```
+- flip last condition: `U+4<=14` becomes `U+4 > 14`
+	- total: `(V > 0) & (V-1 > 0) & (V-2 <= 0) & (U+4 > 14)`
+	- satisfiable? yes
+		- `U=11` and `V=2`
+#### Next Run with new inputs (skipped to iteration 3)
+```java
+                    //   Concrete State   Symbolic State   Path
+void foo(int z, int n) {// (z->11, n->2)   (z->U, n->V)     {}
+	while(n > 0) {    // (z->15, n->0)     (z->U+4, n->V-2) {V>0,V-1>0,V-2<=0}
+		z = z + 2;
+		n = n - 1;
+	}
+	if (z > 14) {    // (z->15, n->0)      (z->U+4, n->V-2) {V>0,V-1>0,V-2<=0, U+4<=14}
+		assert false; !! ASSERTION ERROR
 	}
 }
 ```
