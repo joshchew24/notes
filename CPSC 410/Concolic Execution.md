@@ -12,8 +12,22 @@
 3. solve new path condition: if satisfiable, get solution + return to step 1
 	- if not, go back to step 2 and try flipping next-last unexplored condition
 ## Examples
-### Step by Step
-#### Step 1
+### Example 1
+```java
+int double(int v) {
+	return 2*v;
+}
+void test_me(int x, int y) {
+	int z = double(y);
+	if (z == x) {
+		if (x > y+10) {
+			assert false;
+		}
+	}
+}
+```
+#### Branch 1 Step by Step
+##### Step 1
 - given concrete input, execute program concretely and symbolically
 - inputs: `x=3` and `y=7`
 ```java
@@ -25,11 +39,11 @@ void test_me(int x, int y) { // (x->3, y->7)          (x->U, y->V)         {}
 	if (z == x) {            // (x->3, y->7, z->14)   (x->U, y->V, z->2*V) {2*V!=U}
 		if (x > y+10) {
 			assert false;
-		}                    // (x->3, y->7, z->14)   (x->U, y->V, z->2*V) {2*V!=U}
-	}
+		}
+	}                        // (x->3, y->7, z->14)   (x->U, y->V, z->2*V) {2*V!=U}           
 }
 ```
-#### Step 2
+##### Step 2
 - flip last unexplored path condition to get input covering new path
 ```java
 int double(int v) {          // Concrete                Symbolic             Path
@@ -40,11 +54,18 @@ void test_me(int x, int y) { // (x->3, y->7)          (x->U, y->V)         {}
 	if (z == x) {            // (x->3, y->7, z->14)   (x->U, y->V, z->2*V) {2*V!=U}
 		if (x > y+10) {
 			assert false;
-		}                    // (x->3, y->7, z->14)   (x->U, y->V, z->2*V) {2*V!=U}
-	}
+		}
+	}                        // (x->3, y->7, z->14)   (x->U, y->V, z->2*V) {2*V==U} 
 }
 ```
-### asdf
+- flipped condition: `2*V !=U` became `2*V == U`
+##### Step 3
+- solve new path condition
+	- if satisfiable, get a solution and return to step 1
+- new path condition: `2*V == U`
+	- satisfiable: `V = 2`, `U = 1`
+
+#### Branch 2
 ```java
 int double(int v) {          // Concrete                Symbolic             Path
 	return 2*v;
