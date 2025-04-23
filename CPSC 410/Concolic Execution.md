@@ -11,7 +11,13 @@
 1. Given a concrete input, execute the program concretely and symbolically at the same time, gathering path conditions over the symbolic state.
 2. flip last unexplored path condition to get input covering new path
 3. solve new path condition: if satisfiable, get solution + return to step 1
+	- use solution as inputs for next run
 	- if not, go back to step 2 and try flipping next-last unexplored condition
+## Advantages of Concretization
+- concretization can get us **unstuck** from **operations unsupported** by symbolic execution
+	- rely on SMT solver (symbolic execution) for solutions/solve path conditions
+		- doesn't support **all logic**
+			- e.g. modulo, external calls
 ## Examples
 ### Example 1
 ```java
@@ -28,6 +34,7 @@ void test_me(int x, int y) {
 }
 ```
 #### Branch 1 Step by Step
+![[Pasted image 20250422222954.png]]
 ##### Step 1
 - given concrete input, execute program concretely and symbolically
 - inputs: `x=3` and `y=7`
@@ -66,6 +73,7 @@ void test_me(int x, int y) { // (x->3, y->7)          (x->U, y->V)         {}
 - new path condition: `2*V == U`
 	- satisfiable: `V = 2`, `U = 1`
 #### Branch 2
+![[Pasted image 20250422223003.png]]
 - inputs: `x=2`, `y=1`
 ```java
 int double(int v) {          // Concrete             Symbolic             Path
@@ -84,6 +92,8 @@ void test_me(int x, int y) { // (x->2, y->1)         (x->U, y->V)         {}
 	- is it satisfiable? yes
 		-  `U = 22` , `V = 11`
 #### Branch 3
+![[Pasted image 20250422223008.png]]
+- inputs: `x=22`, `y=11`
 ```java
 int double(int v) {          // Concrete                Symbolic             Path
 	return 2*v;
@@ -92,8 +102,21 @@ void test_me(int x, int y) { // (x->22, y->11)          (x->U, y->V)         {}
 	int z = double(y);       // (x->22, y->11, z->22)   (x->U, y->V, z->2*V) {}
 	if (z == x) {            // (x->22, y->11, z->22)   (x->U, y->V, z->2*V) {2*V==U}
 		if (x > y+10) {      // (x->22, y->11, z->22)   (x->U, y->V, z->2*V) {2*V==U, U>V+10}
-			assert false;
+			assert false;    !! ASSERTION ERROR
 		}
 	} 
 }
 ```
+### Advantages of Concretization
+```java
+int foo(int v) {             // Concrete                Symbolic                  Path
+	return v*v%(50);
+}
+void test_me(int x, int y) { // (x->22, y->7)           (x->U, y->V)              {}
+	int z = foo(y);          // (x->22, y->7, z->49)    (x->U, y->V, z-> V*V%50)  {}
+	if (z == x) {            // (x->22, y->7, z->49)    (x->U, y->V, z-> V*V%50)  {V*V%50 != U}
+		if (x > y+10) {
+			assert false;  
+		}                    // (x->22, y->7, z->49)    (x->U, y->V, z-> V*V%50)  {}
+	}
+}
