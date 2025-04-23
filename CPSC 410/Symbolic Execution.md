@@ -33,6 +33,18 @@
 	- symbolic state: `(a->U, b->U+2)`
 	- symbolic evaluation: `U + (U + 2) + 7`
 		- simplified: `2*U + 9`
+## Advantages
+- **never** need to **approximate** when handling if-then-else
+- can optimise using **path conditions**
+	- for new branch, if path conditions are not satisfiable, just skip
+## Disadvantages
+- requires **exponentially** many symbolic executions of paths through the program (in number of branches)
+	- i.e. number of combinations grows exponentially
+- **cannot** be simply extended to **handle loops**
+	- treating loop-heads like conditions creates infinite branches
+	- need to **approximate**
+## Loop-handling
+
 ## Examples
 ### Simple Symbolic Execution
 ```java
@@ -97,9 +109,11 @@ void foo(int a, int b) {// (a->U, b->V)
 		z = -2;         // (a->U, b->V, x->U, y->V+3, z->-2)  {V<=U}
 	}
 
-	if (y >= x) {       // (a->U, b->V, x->U, y->V+3, z->-2)  {V<=U, }
-		z = z + y;
-		assert x != z;
+	if (y >= x) {       // (a->U, b->V, x->U, y->V+3, z->-2)  {V<=U, V+3>=U}
+		z = z + y;      // (a->U, b->V, x->U, y->V+3, z->V+1) {V<=U, V+3>=U}
+		assert x != z;  // (a->U, b->V, x->U, y->V+3, z->V+1) {V<=U, V+3>=U}  {U == V+1}
 	}
 }
 ```
+- set of constraints: `V <= U`, `V + 3 >= U`, `V + 1 != U`
+	- is this violatable? (i.e. can our correctness property by violated)
