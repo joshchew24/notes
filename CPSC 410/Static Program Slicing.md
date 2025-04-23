@@ -18,6 +18,7 @@ aliases:
 ### Total Dependency Map (TD Map)
 - tracks lines which have affected values of variables
 	- **overestimates** conditionals
+- data dependencies **and** control-flow dependencies
 - a map from variable names to sets of integers (relevant statement/line numbers)
 ## Analysis Rules
 ### If-then-else branches
@@ -36,7 +37,7 @@ Iterate 1. and 2. until nothing changes. Copy the resulting map (at loop head) t
 and pop the head off the stack
 
 ## Examples
-### Simple If
+### If, no Else
 ```java
 /*CFD*/		void foo(int a) {      // TD
 			1	int x = 42;        // (x -> {1})
@@ -51,9 +52,37 @@ and pop the head off the stack
 /*[]*/      9	}                  // (x -> {1,2,4,7}, y -> {2,3,6}, z -> {3}, w -> {4})
 			}
 ```
-### Variant
-| CFD                | Program | TD  |
-| ------------------ | ------- | --- |
-| ```java<br><br>``` |         |     |
-|                    |         |     |
+### If, Else
 ```java
+/*CFD*/		void foo(int a) {      // TD
+			1	int x = 42;        // (x -> {1})
+/*[]*/	    2	int y = a;         // (x -> {1}, y -> {2})
+/*[]*/      3	int z = 4;         // (x -> {1}, y -> {2}, z -> {3})
+/*[]*/      4	int w = 14;        // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+
+/*[{2}]*/   5	if (y > 0) {       // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+/*[{2}]*/   6		y = z;         // (x -> {1}, y -> {2,3,6}, z -> {3}, w -> {4})
+/*[{2}]*/   7		x = x + w;     // (x -> {1,2,4,7}, y -> {2,3,6}, z -> {3}, w -> {4})
+/*[{2}]*/   8	} else { //empty   // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+/*[{2}]*/   9       y = x;         // (x -> {1}, y -> {1,2,9}, z -> {3}, w -> {4})
+/*[]*/      10	}                  // (x -> {1,2,4,7}, y -> {1,2,3,6,9}, z -> {3}, w -> {4})
+			}
+```
+### If, Else, If
+```java
+/*CFD*/		    void foo(int a) {      // TD
+			    1	int x = 42;        // (x -> {1})
+/*[]*/	        2	int y = a;         // (x -> {1}, y -> {2})
+/*[]*/          3	int z = 4;         // (x -> {1}, y -> {2}, z -> {3})
+/*[]*/          4	int w = 14;        // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+
+/*[{2}]*/       5	if (y > 0) {       // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+/*[{2}]*/       6		y = z;         // (x -> {1}, y -> {2,3,6}, z -> {3}, w -> {4})
+/*[{2}]*/       7		x = x + w;     // (x -> {1,2,4,7}, y -> {2,3,6}, z -> {3}, w -> {4})
+/*[{2}]*/       8	} else { //empty   // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+/*[{2}, {4}]*/  9       if (w < 4) {   // (x -> {1}, y -> {2}, z -> {3}, w -> {4})
+/*[{2}, {4}]*/  10          y = x;     // (x -> {1}, y -> {1,2,4,10}, z -> {3}, w -> {4})
+/*[{2}]*/       11    	}
+/*[]*/          12	}               // (x -> {1,2,4,7}, y -> {1,2,3,6,9}, z -> {3}, w -> {4})
+				}
+```
