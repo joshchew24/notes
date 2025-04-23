@@ -1,5 +1,6 @@
 # Concolic Execution
 - combination of [[Symbolic Execution]] and [[Dynamic Program Slicing|Dynamic Program Analysis]]
+- **specifically aimed at test-case generations**
 - concolic = **conc**rete + symb**olic**
 - **during** concrete execution, also **calculate and record symbolic states** and **path conditions**
 	- analysis state contains
@@ -64,8 +65,25 @@ void test_me(int x, int y) { // (x->3, y->7)          (x->U, y->V)         {}
 	- if satisfiable, get a solution and return to step 1
 - new path condition: `2*V == U`
 	- satisfiable: `V = 2`, `U = 1`
-
 #### Branch 2
+- inputs: `x=2`, `y=1`
+```java
+int double(int v) {          // Concrete             Symbolic             Path
+	return 2*v;
+}
+void test_me(int x, int y) { // (x->2, y->1)         (x->U, y->V)         {}
+	int z = double(y);       // (x->2, y->1, z->2)   (x->U, y->V, z->2*V) {}
+	if (z == x) {            // (x->2, y->1, z->2)   (x->U, y->V, z->2*V) {2*V==U}
+		if (x > y+10) {      // (x->2, y->1, z->2)   (x->U, y->V, z->2*V) {2*V==U, U<=V+10}
+			assert false;
+		}
+	}                        // (x->2, y->1, z->2)   (x->U, y->V, z->2*V) {2*V==U, U>V+10}            
+}
+```
+- after flip, conditions are `2*V == U` and `U > V + 10`
+	- is it satisfiable? yes
+		-  `U = 22` , `V = 11`
+#### Branch 3
 ```java
 int double(int v) {          // Concrete                Symbolic             Path
 	return 2*v;
@@ -76,6 +94,6 @@ void test_me(int x, int y) { // (x->22, y->11)          (x->U, y->V)         {}
 		if (x > y+10) {      // (x->22, y->11, z->22)   (x->U, y->V, z->2*V) {2*V==U, U>V+10}
 			assert false;
 		}
-	}
+	} 
 }
 ```
