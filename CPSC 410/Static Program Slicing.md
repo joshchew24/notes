@@ -8,6 +8,8 @@ aliases:
 	- i.e. keep track of what statements affect each variable
 - can create **program slices**
 	- slice of the program in which all **irrelevant statements have been deleted**
+		- for variable delcarations, **delete only the initialiser**
+			- idky why #todo 
 	- helps answer **queries**
 		- e.g. "what gets printed on the last line of a program?"
 		- i.e. can tell us values of variables at specific program points
@@ -176,7 +178,7 @@ and pop the head off the stack
 1   int n = 4;
 2   int z = 42;
 3   int y = 7;
-4   int x;          // #todo idk why this isn't just removed based on the TD map
+4   int x;
 5   for (int i = 1; i != n; i++)
 6   {
 
@@ -187,15 +189,25 @@ and pop the head off the stack
 ```
 ##### Line 12 slice
 ```java
-1   int n = 4;
+1   int n;
 2   int z = 42;
-3   int y = 7;
-4   int x = 0;
-5   for (int i = 1; i != n; i++)
-6   {
-7   	x = x + y;
-8   	y = z;
-9   }
+3   int y;
+4   int x;
 
 12  print z;
 ```
+### Lecture Example
+- `N` is a **parameter**
+```java
+															
+// CFD
+/*[]*/  1   int i = 0;
+/*[]*/  2   int sum = 0;
+/*[]*/  3   int product = 1;
+/*[]*/  4   int w = 7;
+/*[]*/  5   for (i = 1; i < N; ++i)
+/*[]*/  6   {
+/*[]*/  7   sum = sum + i + w;
+/*[]*/  8   product = product * i;
+/*[]*/  
+}
