@@ -39,7 +39,7 @@
 		- TD: `(n->{1}, z->{2}, y->{1,2,5,8}, x->{1,2,3,4,5,7,8}, i->{1,5})`
 ### Lecture Exercise
 - choose an initial value for `a`
-	- e.g. 1
+#### Initial Value: `a=1`
 ```java
 void foo (int a) {  // TD                                    CFD
 1   int x = 42;     // (x->{1})  
@@ -53,10 +53,68 @@ void foo (int a) {  // TD                                    CFD
 8   } else {        // (x->{1}, y->{2}, z->{3}, w->{4}),            [{2}]
 9   }               // (x->{1,2,4,7}, y->{2,3,6}, z->{3}, w->{4}),
 
+10  if (y < 0) {    // (x->{1,2,4,7}, y->{2,3,6}, z->{3}, w->{4}),
+11      x = y;      // won't happen
+12  }
+
+13  print(x);
+}
+```
+- even though `y`'s final value does not have a data dependency on line 2, it still has a control flow dependency because of line 5
+#### Initial Value: `a=-1`
+```java
+void foo (int a) {  // TD                                    CFD
+1   int x = 42;     // (x->{1})  
+2   int y = a;      // (x->{1}, y->{2})
+3   int z = 4;      // (x->{1}, y->{2}, z->{3})
+4   int w = 14;     // (x->{1}, y->{2}, z->{3}, w->{4})
+
+5   if (y > 0) {    // (x->{1}, y->{2}, z->{3}, w->{4}),            [{2}]
+6       y = z;    
+7       x = x + w;
+8   } else {        // (x->{1}, y->{2}, z->{3}, w->{4}),            [{2}]
+9   }               // (x->{1}, y->{2}, z->{3}, w->{4}),
+
+10  if (y < 0) {    // (x->{1}, y->{2}, z->{3}, w->{4}),            [{2}]
+11      x = y;      // (x->{2,11}, y->{2}, z->{3}, w->{4})
+12  }
+
+13  print(x);
+}
+```
+##### Program Slice: line 13
+```java
+void foo(int a) {
+1   int x;
+2   int y = a;
+3   int z;
+4   int w;
+
 10  if (y < 0) {
 11      x = y;
 12  }
 
 13  print(x);
+}
+```
+#### Initial Value: `a=0`
+```java
+void foo (int a) {  // TD                                    CFD
+1   int x = 42;     // (x->{1})  
+2   int y = a;      // (x->{1}, y->{2})
+3   int z = 4;      // (x->{1}, y->{2}, z->{3})
+4   int w = 14;     // (x->{1}, y->{2}, z->{3}, w->{4})
+
+5   if (y > 0) {    // (x->{1}, y->{2}, z->{3}, w->{4}),            [{2}]
+6       y = z;    
+7       x = x + w;
+8   } else {        // (x->{1}, y->{2}, z->{3}, w->{4}),            [{2}]
+9   }
+
+10  if (y < 0) {    // (x->{1}, y->{2}, z->{3}, w->{4}),            [{2}]
+11      x = y;
+12  }
+
+13  print(x);       // (x->{1}, y->{2}, z->{3}, w->{4})
 }
 ```
