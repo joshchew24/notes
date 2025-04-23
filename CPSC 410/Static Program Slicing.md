@@ -8,8 +8,8 @@ aliases:
 	- i.e. keep track of what statements affect each variable
 - can create **program slices**
 	- slice of the program in which all **irrelevant statements have been deleted**
-		- for variable delcarations, **delete only the initialiser**
-			- idky why #todo 
+		- for variable declarations, **delete only the initialiser**
+			- initialised value might be ignored, but variable could be used later, so need to keep declaration
 	- helps answer **queries**
 		- e.g. "what gets printed on the last line of a program?"
 		- i.e. can tell us values of variables at specific program points
@@ -206,10 +206,40 @@ and pop the head off the stack
 /*[]*/      3   int product = 1;            // (i->{1}, s->{2}, p->{3})
 /*[]*/      4   int w = 7;                  // (i->{1}, s->{2}, p->{3}, w->{4})
 /*[{5}]*/   5   for (i = 1; i < N; ++i)     
-/*[{5}]*/   6   {                           // (i->{5}, s->{2}, p->{3}, w->{4})
+/*[{5}]*/   6   {                           // (i->{5}, s->{2,4,5,7}, p->{3,5,8}, w->{4})
 /*[{5}]*/   7       sum = sum + i + w;      // (i->{5}, s->{2,4,5,7}, p->{3}, w->{4})
 /*[{5}]*/   8       product = product * i;  // (i->{5}, s->{2,4,5,7}, p->{3,5,8}, w->{4})
 /*[]*/      9   }                           // (i->{5}, s->{2,4,5,7}, p->{3,5,8}, w->{4})
 /*[]*/      10  print(product);
 /*[]*/      11  print(sum);
+```
+- final dependency analysis:
+	- TD: `(i->{5}, s->{2,4,5,7}, p->{3,5,8}, w->{4})`
+	- CFD: `[]`
+#### `prod` slice
+```java
+1   int i;
+2   int sum;
+3   int product = 1;
+4   int w;
+5   for (i = 1; i < N; ++i)
+6   {
+
+8       product = product * i;
+9   }
+10  print(product);
+```
+#### `sum` slice
+```java
+1   int i;
+2   int sum = 0;
+3   int product;
+4   int w = 7;
+5   for (i = 1; i < N; ++i)
+6   {
+7       sum = sum + i + w;
+
+9   }
+
+11  print(sum);
 ```
