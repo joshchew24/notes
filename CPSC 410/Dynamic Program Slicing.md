@@ -1,3 +1,7 @@
+---
+aliases:
+  - Dynamic Program Analysis
+---
 # Dynamic Program Slicing
 - different from [[Static Program Slicing]]
 	- all **dynamically-bound** attributes are available for analysis

@@ -1,6 +1,7 @@
 ---
 aliases:
   - Value-Agnostic Program Slicing
+  - Static Program Analysis
 ---
 # Static Program Slicing
 - no tracking of variable values in the analysis itself
