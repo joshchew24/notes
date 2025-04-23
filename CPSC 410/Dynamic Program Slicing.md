@@ -2,6 +2,9 @@
 - different from [[Static Program Slicing]]
 	- all **dynamically-bound** attributes are available for analysis
 	- can only **analyse a single execution** at a time
+		- **cannot generalize** to an all-execution question
+		- **cannot** just keep generating more and more slices with different inputs
+			- input space can be arbitrarily large
 ## Examples
 ### Loop and Implicit Dependencies
 #### First Loop Iteration
