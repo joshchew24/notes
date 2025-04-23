@@ -44,8 +44,11 @@
 	- treating loop-heads like conditions creates infinite branches
 	- need to **approximate**
 ## Loop-handling
-1. Find the set of variables assigned to in the loop body
-2. Copy symbolic state before the loop, updating each assigned-to variable to map to a fresh symbolic value
+- not enough to **analyse** loop body for a **finite number of input states**
+	- we want **all states that can be reached** at the start of a loop iteration
+- **after** the loop, we want an **abstract state** for **all the states in which it can terminate**
+1. Find the set of variables **assigned to in the loop body**
+2. Copy symbolic state before the loop, updating each assigned-to variable to map to a **fresh symbolic value**
 3. Add to the path conditions the symbolic evaluation of the loop condition in this new symbolic state
 4. Use this as the abstract state for start of loop body; analyse the loop body just once and then stop
 5. Repeat steps 2-3 but this time symbolically evaluating the negation of the loop condition
