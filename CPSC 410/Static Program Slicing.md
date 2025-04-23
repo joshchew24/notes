@@ -112,14 +112,44 @@ and pop the head off the stack
 ### Loops and Implicit Dependencies
 ```java
 															
-/*CFD*/ 
-/*[]*/	1	int n = 4;
-/*[]*/	2	int z = 42;
-/*[]*/	3	int y = z;
-/*[]*/	4	int x = 0;
-		5	for (int i = 1; i != n; i++) 
-		6   {
-		7		x = x + y;
-		8		y = z;
-		9	}
+/*CFD*/                     // TD
+/*[]*/	    1	int n = 4;      // (n -> {1})
+/*[]*/	    2	int z = 42;     // (n -> {1}, z -> {2})
+/*[]*/	    3	int y = 7;      // (n -> {1}, z -> {2}, y -> {3})
+/*[]*/	    4	int x = 0;      // (n -> {1}, z -> {2}, y -> {3}, x -> {4})
+	        5	for (int i = 1; i != n; i++) 
+/*[{1,5}]*/ 6   {               // (n -> {1}, z -> {2}, y -> {3}, x -> {4}, i->{5})
+/*[{1,5}]*/ 7		x = x + y;  // (n -> {1}, z -> {2}, y -> {3}, x -> {1,2,3,4,5,7,8}, i->{5})
+/*[{1,5}]*/ 8		y = z;  // (n -> {1}, z -> {2}, y -> {1,2,5,8}, x -> {1,2,3,4,5,7,8}, i->{5})
+/*[]*/      9	}           // (n -> {1}, z -> {2}, y -> {1,2,3,5,8}, x -> {1,3,4,5,7,8}, i->{5})
+```
+#### Program Slices
+```java
+1   int n = 4;
+2   int z = 42;
+3   int y = 7;
+4   int x = 0;
+5   for (int i = 1; i != n; i++)
+6   {
+7   	x = x + y;
+8   	y = z;
+9   }
+10  print x;
+11  print y;
+12  print z;
+```
+- Our final dependency analysis gave:
+	- TD: `(n -> {1}, z -> {2}, y -> {1,2,3,5,8}, x -> {1,3,4,5,7}, i->{5})`
+	- CFD: `[]`
+##### Line 10 slice
+```java
+1   int n = 4;
+2  
+3   int y = 7;
+4   int x = 0;
+5   for (int i = 1; i != n; i++)
+6   {
+7   	x = x + y;
+8   	y = z;
+9   }
 ```
