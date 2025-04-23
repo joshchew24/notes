@@ -8,7 +8,8 @@
 		- path conditions
 		- concretization conditions
 ## Steps
-1. Given a concrete input, execute the program concretely and symbolically at the same time, gathering path conditions over the symbolic state.
+1. Given a **concrete input**, execute the program **concretely** and **symbolically** at the **same time**, gathering path conditions over the symbolic state.
+	- if symbolic state contains **unsupported expression**, **concretize** the relevant variables and add concretization condition
 2. flip last unexplored path condition to get input covering new path
 3. solve new path condition: if satisfiable, get solution + return to step 1
 	- use solution as inputs for next run
@@ -18,6 +19,7 @@
 	- rely on SMT solver (symbolic execution) for solutions/solve path conditions
 		- doesn't support **all logic**
 			- e.g. modulo, external calls
+- do bounded exploration
 ## Examples
 ### Example 1
 ```java
@@ -108,6 +110,7 @@ void test_me(int x, int y) { // (x->22, y->11)          (x->U, y->V)         {}
 }
 ```
 ### Advantages of Concretization
+#### Initial
 ```java
 int foo(int v) {             // Concrete                Symbolic                  Path
 	return v*v%(50);
@@ -117,6 +120,43 @@ void test_me(int x, int y) { // (x->22, y->7)           (x->U, y->V)            
 	if (z == x) {            // (x->22, y->7, z->49)    (x->U, y->V, z-> V*V%50)  {V*V%50 != U}
 		if (x > y+10) {
 			assert false;  
-		}                    // (x->22, y->7, z->49)    (x->U, y->V, z-> V*V%50)  {}
+		}                    // (x->22, y->7, z->49)    (x->U, y->V, z-> V*V%50)  {V*V%50 != U}
 	}
 }
+```
+- flip last condition: `V*V % 50 == U`
+	- satisfiable? cannot solve
+	- stuck? **concretize**
+		- replace `V` with `7`
+#### Concretized
+```java
+int foo(int v) {             // Concrete           Symbolic              Path      concr. conds
+	return v*v%(50);
+}
+void test_me(int x, int y) { // (x->22,y->7)       (x->U,y->V)           {}       
+	int z = foo(y);          // (x->22,y->7,z->49) (x->U,y->V,z->V*V%50) {}          {V==7}
+	if (z == x) {            // (x->22,y->7,z->49) (x->U,y->V,z->V*V%50) {V*V%50!=U} {V==7}
+		if (x > y+10) {
+			assert false;  
+		}                    // (x->22,y->7,z->49) (x->U,y->V,z->V*V%50) {V*V%50!=U} {V==7}
+	}
+}
+```
+- last condition: `49%50 !=U`
+- flipped: `49 == U`
+	- satisfiable? yes
+	- solution: `U = 49`, `V = 7`
+#### Retry with New Inputs from last run
+```java
+int foo(int v) {             // Concrete           Symbolic              Path      concr. conds
+	return v*v%(50);
+}
+void test_me(int x, int y) { // (x->49,y->7)       (x->U,y->V)           {}       
+	int z = foo(y);          // (x->49,y->7,z->49) (x->U,y->V,z->V*V%50) {}          {V==7}
+	if (z == x) {            // (x->49,y->7,z->49) (x->U,y->V,z->V*V%50) {49==U}     {V==7}
+		if (x > y+10) {      // (x->49,y->7,z->49) (x->U,y->V,z->V*V%50) {49==U,U>V+10} {V==7}
+			assert false;    !! assertion error
+		}
+	}
+}
+```
